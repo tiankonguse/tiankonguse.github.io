@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:*.show-hide-weixin$
+Disallow:/project/template.html

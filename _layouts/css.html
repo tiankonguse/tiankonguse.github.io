@@ -1,0 +1,38 @@
+---
+layout: doc
+isPost: false
+comment: true
+---
+
+<link type="text/css" rel="stylesheet" href="stylesheets/style.css"  />
+
+<style type="text/css">
+.ad-page-footer {
+    margin-left: 218px;
+}
+</style>
+
+<div id='left' class='dtree'>
+  <p style="text-align:center">
+    <input type="text" name="query" id="query" placeholder="请输入关键字"/>
+   </p>
+  <p style="margin:7px 0; text-align:center"><a href="javascript:void(0)" id="openAll">全部展开</a> | <a href="javascript:void(0)" id="closeAll">全部折叠 </a> | <a href="index.html">速查表</a></p>
+	<div id="menu">
+    </div>
+</div>
+
+{{ content }}
+
+<script type="text/javascript" src="javascripts/dtree.js"></script>
+
+<script>
+    $(function () {
+	    $("#menu").load("ex_left.html");
+    });
+    jQuery(document).ready(function(){
+        tk.ad.loadGoogleJs(true);
+        $(".ad-page-footer").show();
+	    tk.ad.showPageFoot("ad-page-footer","auto" ,true);
+    });
+</script>
+

@@ -1,0 +1,44 @@
+  
+- title: 关于我 - aboutme
+  url: /about.html
+  content: 关于tiankonguse的简单介绍
+  
+- title: 标签 - tags
+  url: /tags.html
+  content: 按关键词来管理记录
+  
+- title: 归档 - archives
+  url: /archives.html
+  content: 按时间来管理记录
+  
+- title: 分类 - categories
+  url: /categories.html
+  content: 按分类来管理记录
+  
+- title: 项目 - project
+  url: /project/
+  content: 一些好玩的小作品
+  
+
+- title: 文档 - doc
+  url: /doc/
+  content: 一些常用的在线文档
+  
+- title: 一些算法
+  url: /algorithm.html
+  content: 
+ 
+- title: 资源收集
+  url: /resources.html
+  content: 
+  
+- title: cracking-the-coding-interview
+  url: /cracking-the-coding-interview.html
+  content: 
+  
+  
+  
+
+  
+  
+  

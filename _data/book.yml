@@ -1,0 +1,237 @@
+-   name: 阅读过的书籍
+    list:
+        -   bookName: 《算法导论》
+            bookLink: 
+            readTime: 2011-02 ~ 2013-10(前三遍)
+            readLink:
+            
+        -   bookName: 《浪潮之巅》 
+            bookLink: 
+            readTime: 2014-09-15 ~ 2014-10-22 
+            readLink: http://github.tiankonguse.com/blog/2014/10/22/On-Top-of-Tides/
+            
+        -   bookName: 《重构~改善既有代码的设计》
+            bookLink: 
+            readTime: 2014-10-05 ~ 2014-10-24 
+            readLink:
+            
+        -   bookName: 《编程之道》
+            bookLink: 
+            readTime: 2014-10-1 ~ 2014-10-26
+            readLink: http://github.tiankonguse.com/blog/2014/10/29/the-tao-of-programming/
+                        
+        -   bookName: 《编程之禅》
+            bookLink: 
+            readTime: 2014-10-1 ~ 2014-10-26 
+            readLink: http://github.tiankonguse.com/blog/2014/10/31/the-ten-of-programming/
+                        
+        -   bookName: 《计算机寓言-信息时代的启示》 
+            bookLink: 
+            readTime: 2014-10-1 ~ 2014-10-26
+            readLink: http://github.tiankonguse.com/blog/2014/11/01/Computer-Parables-Enlightenment-in-the-Information-Age/
+                        
+        -   bookName: 《人月神话》 
+            bookLink: 
+            readTime: 2014-11-02 ~ 2014-11-11
+            readLink:
+                        
+        -   bookName: 《自己动手写搜索引擎》 
+            bookLink: 
+            readTime: 2014-11-02 ~ 2014-11-03 全是JAVA代码(2/3),只看文字说明
+            readLink:
+                        
+        -   bookName: 《深入搜索引擎》
+            bookLink: 
+            readTime: 2014-11-21 ~ 2014-12-04
+            readLink:
+                        
+        -   bookName: 《代码的未来》
+            bookLink: 
+            readTime: 2014-12-23 ~ 2015-01-12
+            readLink:
+                        
+        -   bookName: 《计算机程序的构造和解释》
+            bookLink: 
+            readTime: 2015-01-23 ~ 2015-03-14
+            readLink:
+                        
+        -   bookName: 《write clean code》
+            bookLink: 
+            readTime: 2015-02-03 ~ 2015-03-25
+            readLink:
+                        
+        -   bookName: 《编程之美》 
+            bookLink: 
+            readTime: 2014-10-05 ~ 断看
+            readLink:
+                        
+        -   bookName: 《机器学习导论》
+            bookLink: 
+            readTime: 2014-11-11 ~ 断看
+            readLink:
+                        
+        -   bookName: 《Programming Ruby》
+            bookLink: 
+            readTime: 2014-11-18 ~ 断看
+            readLink:
+        
+        -   bookName: 《高性能mysql 3rd》
+            bookLink: http://book.douban.com/subject/23008813/
+            readTime: 2015-02-25 ~ 2015-04-17
+            readLink:
+            
+        -   bookName: 《UNIX环境高级编程》
+            bookLink: 
+            readTime: 2015-02-19 ~ 2015-05-04
+            readLink:
+            
+-   name: 正在阅读的书籍
+    list:
+                        
+        -   bookName: 《黑客与画家-en》
+            bookLink: 
+            readTime: 2015-03-25 ~ 今
+            readLink:
+
+        -   bookName: 《编程高手箴言》
+            bookLink: http://book.douban.com/subject/1139244/
+            readTime: 2015-04-05 ~ 今
+            readLink:
+                        
+                        
+-   name: 计划阅读的书籍
+    list:
+        -   bookName: 《高可用MySQL》
+            bookLink: http://book.douban.com/subject/6847455/
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《SQL学习指南》
+            bookLink: http://book.douban.com/subject/4872454/
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《六顶思考帽》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《软件设计架构模式》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《程序员修炼之道》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《深入理解计算机系统》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《罗素的故事》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《大道至简》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《linux/unix设计思想》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《暗时间》
+            bookLink: 
+            readTime: 
+            readLink:
+            
+        -   bookName: 《UNIX操作系统》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《UNIX网络编程》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《UNIX系统V网络编程》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《TCP/IP详解》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《从0到1》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《SQL反模式》
+            bookLink: http://book.douban.com/subject/6800774/
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《MySQL性能调优与架构设计》 
+            bookLink: http://book.douban.com/subject/3729677/
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《松本行弘的程序世界》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《科技想要什么》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《失控》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《在难搞的人资笑出声来》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《计算机程序设计艺术》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《编码：隐匿在计算机软硬件背后的语言》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《修改代码的艺术》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《人件集：人性化的软件开发》
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《构建web高性能架构》 
+            bookLink: 
+            readTime: 
+            readLink:
+                        
+        -   bookName: 《构建高可用linux服务器》
+            bookLink: 
+            readTime: 
+            readLink:

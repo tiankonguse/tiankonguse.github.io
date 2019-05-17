@@ -1,0 +1,35 @@
+github_tiankonguse_BashStudy: https://github.com/tiankonguse/BashStudy
+github_tiankonguse_bash_study: https://github.com/tiankonguse/bash-study
+google_styleguide_cppguide: http://google-styleguide.googlecode.com/svn/trunk/cppguide.html
+github_tiankonguse_do_while: /blog/2014/09/30/do-while.html
+github_tiankonguse_projrct_IEEE_754: /project/IEEE/754
+tiankonguse_cloudLink_cover: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3642778518.jpg
+
+v8_intro: /doc/v8/intro.html
+v8_build: /doc/v8/build.html
+v8_under_the_hood: /doc/v8/under_the_hood.html
+v8_get_started: /doc/v8/get_started.html
+octane_benchmark: http://octane-benchmark.googlecode.com/svn/latest/index.html
+v8_videos: https://developers.google.com/v8/videos#video0a
+v8_io12: http://v8-io12.appspot.com/  
+dev_chromium: http://dev.chromium.org/
+v8_design: /doc/v8/design.html
+v8_wiki: /doc/v8/wiki.html
+v8_using_git: /doc/v8/using_git.html
+v8_chromium_googlesource: https://chromium.googlesource.com/v8/v8/
+v8_building_with_gyp: /doc/v8/building_with_gyp.html
+v8_d8_on_android: /doc/v8/d8_on_android.html
+v8_install_depot_tools: /doc/v8/install_depot_tools.html
+android_apktool: https://github.com/iBotPeaches/Apktool
+android_dex2jar: https://github.com/pxb1988/dex2jar
+java_jd_gui: https://github.com/java-decompiler/jd-gui
+java_jd_eclipse: https://github.com/java-decompiler/jd-eclipse
+google_forum_unix_programmer_futex_cpu: "https://groups.google.com/forum/#!topic/comp.unix.programmer/5RAMxJJnRcE"
+
+github_tiankonguse_redis_doc: "/doc/redis/"
+github_tiankonguse_git_redis_zmalloc: "https://github.com/tiankonguse/redis/blob/unstable/src/zmalloc.h"
+github_tiankonguse_git_redis_endinconv: "https://github.com/tiankonguse/redis/tree/unstable/src/comlib/endinconv"
+github_tiankonguse_record_redis_allocated_memory: "/blog/2016/04/03/redis-allocated-memory.html"
+github_tiankonguse_record_redis_endinconv: "/blog/2016/04/03/redis-endinconv.html"
+github_tiankonguse_record_redis_doubly_linked_list: "/blog/2016/04/04/redis-doubly-linked-list.html"
+

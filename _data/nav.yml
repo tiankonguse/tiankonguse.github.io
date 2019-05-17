@@ -1,0 +1,6 @@
+-   text: Home
+    url: /index.html
+    style: text-align:left
+-   text: Me
+    url: /about.html
+    style: text-align:center

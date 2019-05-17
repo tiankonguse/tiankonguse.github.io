@@ -1,0 +1,157 @@
+---
+layout: default
+isPost: true
+comment: true
+---
+
+{% assign publishData =  page.date|date:"%Y-%m-%d %H:%M:%S" %}
+
+{% if page.updateData %}
+{% assign lastData =  page.updateData|date:"%Y-%m-%d %H:%M:%S" %}
+{% else %}
+{% assign lastData =  page.date|date:"%Y-%m-%d %H:%M:%S" %}
+{% endif %}
+
+{% if page.previous %}
+    <link rel="prev" title="{{ page.previous.title }}" href="{{ site.url }}{{ page.previous.url }}">
+{% endif %}
+{% if page.next %}
+    <link rel="next" title="{{ page.next.title }}" href="{{ site.url }}{{ page.next.url }}">
+{% endif %}
+
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:author" content="{{ site.author }}"/>
+<meta property="og:release_date" content="{{ lastData }}"/>
+<link rel="stylesheet" href="{{ site.url }}/javascripts/prettify/prettify.min.css" />
+
+<style type="text/css">
+    body { background:#e8e8e8; }
+    @media screen and (max-width: 750px){
+        body { background:#fff; }
+    }
+    @media screen and (max-width: 1020px){
+        body { background:#fff; }
+    }
+</style>
+<div id="content" class="clearfix">
+    <div class="entry-header">
+        <div class="index-content">
+            {% include nav.md %}
+        </div>
+    </div>
+    <div class="entry">
+        <h1 class="entry-title">{{ page.title }}</h1>
+        <p class="entry-attr">作者: <span  class="entry-author">{{ site.author }}</span> | 更新日期: <time  class="entry-date">{{ lastData }}</time></p>
+        <blockquote>{{ page.description }}</blockquote>
+            
+        <p>
+            <strong>本文首发于公众号：天空的代码世界，微信号：tiankonguse</strong>
+{% if page.wxurl %}
+            <br/>
+            <strong>原文地址：<a href="{{ page.wxurl }}" title="{{ page.title }}">{{ page.wxurl  }}</a></strong>
+{% endif %}
+        </p>
+        
+        <div class="entry-content">
+        {{ content }}
+        </div>
+        <p>
+            <strong>本文首发于公众号：天空的代码世界，微信号：tiankonguse</strong>
+            <br/>
+            <strong>如果你想留言，可以在微信里面打开下面的地址进行留言。如果下面没有地址，可以关注公众号留言。 </strong>
+{% if page.wxurl %}
+            <br/>
+            <strong>原文地址：<a href="{{ page.wxurl }}" title="{{ page.title }}">{{ page.wxurl  }}</a></strong>
+{% endif %}
+        </p>
+		
+        <div class="ad-content-footer"></div>
+
+        
+        <footer class="unit-foot">
+            <section>
+            {% unless page.categories == empty %}
+                <ul class="tag-box inline">
+                    <li>分类:</li>
+                    {% assign categories_list = page.categories %}
+                    {% include categories_list.md %}
+                </ul>
+            {% endunless %}
+            </section>
+            <section>
+            {% unless page.tags == empty %}
+                <ul class="tag-box inline">
+                    <li>标签:</li>
+                    {% assign tags_list = page.tags %}
+                    {% include tags_list.md %}
+                </ul>
+            {% endunless %}
+            </section>
+            <div class="footer-post-info clearfix">
+                <ul>
+                    <li>
+                        作者「<a href="/about.html" rel="author">tiankonguse</a>」于 
+                        <time>{{ lastData }}</time> 更新本文」于 
+                        <time>{{ publishData }}</time> 发布本文</li>
+                    <li>文章声明：自由转载-非商用-非衍生-保持署名  |  <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank" rel="nofollow">BY-NC-SA</a></li>
+                    <li>如果你觉得这篇文章对你有帮助，欢迎支持作者：<a class="internal" href="{{ site.url }}/support.html" title="支持作者">&laquo; 大力支持</a></li>
+                </ul>
+            </div>
+            <div class="unit-inner unit-foot-inner">
+                <nav class="pagination">
+                    <ul>
+                        {% if page.previous %}
+                        <li class="prev"><a class="internal" rel="prev"  href="{{ site.url }}{{ page.previous.url }}" title="View {{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
+                        {% endif %}
+                        {% if page.previous and page.next %}
+                        <li class="pipe"> | </li>
+                        {% endif %}
+                        {% if page.next %}
+                        <li class="next"><a class="internal" rel="next"  href="{{ site.url }}{{ page.next.url }}" title="View {{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
+                        {% endif %}
+                    </ul>
+                </nav>
+                <p class="gotop">
+                    <a href="#">Back to Top</a>
+                </p>
+            </div>
+        </footer>
+
+        <div id="disqus_container">
+            <a href="#" class="comment" onclick="return false;">点击查看评论</a>
+            <script type="text/javascript">var disqus_shortname = 'tiankonguse-record'; var duoshuoQuery = {short_name:"tiankonguse"};</script>
+            <div id="disqus_thread"></div>
+            <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
+            <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+            <script>
+              var cloudTieConfig = {
+                url: document.location.href, 
+                sourceId: "{{ page.id }}",
+                productKey: "1cb0b08870384b08a97d3e08c258391b",
+                target: "cloud-tie-wrapper"
+              };
+            </script>
+        </div>
+    </div>
+    <div class="sidenav-frame">
+        {% include sidenav.md %}
+    </div>
+</div>
+
+<script src="{{ site.url }}/javascripts/post.js" type="text/javascript"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
