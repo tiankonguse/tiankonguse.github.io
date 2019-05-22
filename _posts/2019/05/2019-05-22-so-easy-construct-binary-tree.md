@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title:  由前中后序的任意两个得到二叉树？
+title:  前序、中序、后续构造二叉树？
 description: 二叉树是一个很基础的数据结构，这里面有不少学问。   
 keywords: 算法  
 tags: [算法]    
