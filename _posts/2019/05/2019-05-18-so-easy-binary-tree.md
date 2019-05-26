@@ -53,7 +53,7 @@ wxurl: https://mp.weixin.qq.com/s/WyU9lAzilCDF6t-037cGtw
 代码如下。  
 
 
-![](/http://res.tiankonguse.com/images/2019/05/18/001.png)  
+![](http://res.tiankonguse.com/images/2019/05/18/001.png)  
 
 
 而对于中序和后续遍历，则存在一个问题：当前树的根节点怎么保存。  
