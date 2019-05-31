@@ -1,10 +1,10 @@
 ---   
 layout:     post  
-title:  递归就是这么简单(原理篇)
-description: 递归，很多人都学不会的基础，我尝试讲解一下。   
-keywords: 算法  
-tags: [算法]    
-categories: [算法]  
+title:  读曾国藩的四点感悟  
+description: 曾国藩，程序员必读的一本书，分享几点感悟给大家。   
+keywords: 读书  
+tags: [读书]    
+categories: [读书]  
 updateData: 2019-05-28 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/WyU9lAzilCDF6t-037cGtw  
