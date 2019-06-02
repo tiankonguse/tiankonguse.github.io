@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title:  三个问答远程帮助别人定位问题  
+title:  万能的方法远程也可以定位问题  
 description: 再分享一下我的处理问题的方法，虽然很抽象，但是很万能。  
 keywords: 程序人生  
 tags: [程序人生]    
