@@ -9,6 +9,7 @@ title : postlist
         {% assign second = 0 %}{% for post in site.posts %}{% if second == 1 %},{% endif %}{
         "title":"{{ post.title }}",
         "url":"{{ post.url }}",
+        "date":"{{ post.date | date: '%Y-%m-%d' }}",
         "categories":
             [
             {% assign first = 0 %}{% for category in post.categories %}{% if first == 1 %},{% endif %}"{{ category }}"{% assign first = 1 %}{% endfor %}
