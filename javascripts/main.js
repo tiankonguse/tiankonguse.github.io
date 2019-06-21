@@ -95,7 +95,7 @@ function loadSidebar(){
             var post;
             for (var i in posts){
                 post = posts[i];
-                $toc.append('<a class="toc-link sidebar-social-icon" data-tags="'+post.categories.join(" ")+'" href="'+post.url+'">'+post.title+'</a>');
+                $toc.append('<a class="toc-link sidebar-social-icon" data-tags="'+post.categories.join(" ")+'" href="'+post.url+'">'+post.title + ' ' + post.date +  '</a>');
             }
             
             $allLink = $(".toc-link");
