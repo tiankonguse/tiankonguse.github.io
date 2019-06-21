@@ -66,6 +66,7 @@ function loadSidebar(){
     var $allLink;
     var $filterLink = {};
     var $searchInput = $('#search-input');
+    var $postListLoad = false;
     //
     $("#sidebar-close,.close-icon").click(function(){
         $("body").removeClass("sidebar-visible");
@@ -80,8 +81,35 @@ function loadSidebar(){
         return true;
     });
     $(".js-menu-trigger").hide();
-    $(".home-menu-ex").bind("click", function(e){ 
-    
+    function loadPostList(callback){
+        $.get("/postlist.json", function(data){
+            var categories = data.categories;
+            var posts = data.posts;
+            
+            var $sidebarTags = $("#sidebar-tags");
+            for (var i in categories){
+                $sidebarTags.append('<li class="sidebar-tag" data-filter="'+categories[i]+'">'+categories[i]+'</li>');
+            }
+            
+            var $toc = $("#toc");
+            var post;
+            for (var i in posts){
+                post = posts[i];
+                $toc.append('<a class="toc-link sidebar-social-icon" data-tags="'+post.categories.join(" ")+'" href="'+post.url+'">'+post.title+'</a>');
+            }
+            
+            $allLink = $(".toc-link");
+            
+            for (var i in categories){
+                $filterLink[categories[i]] = $('.toc-link[data-tags~=' + categories[i] + ']');
+            }
+            $postListLoad = true;
+            if(callback){
+                callback();
+            }
+        });
+    }
+    function loadPostCallback(){
         $("body").toggleClass("sidebar-visible");
         $(".js-menu").addClass("is-visible");
         $(".menu-screen").addClass("is-visible");
@@ -93,6 +121,14 @@ function loadSidebar(){
             $searchInput.focus();
         },3);
         e.preventDefault();
+    }
+    $(".home-menu-ex").bind("click", function(e){ 
+        if(!$postListLoad){
+            loadPostList(loadPostCallback);
+        }else{
+            loadPostCallback();
+        }
+    
     });
     
     $(".js-menu-trigger").bind("click", function(e) {
@@ -133,28 +169,6 @@ function loadSidebar(){
         }
     });
 
-    $.get("/postlist.json", function(data){
-        var categories = data.categories;
-        var posts = data.posts;
-        
-        var $sidebarTags = $("#sidebar-tags");
-        for (var i in categories){
-            $sidebarTags.append('<li class="sidebar-tag" data-filter="'+categories[i]+'">'+categories[i]+'</li>');
-        }
-        
-        var $toc = $("#toc");
-        var post;
-        for (var i in posts){
-            post = posts[i];
-            $toc.append('<a class="toc-link sidebar-social-icon" data-tags="'+post.categories.join(" ")+'" href="'+post.url+'">'+post.title+'</a>');
-        }
-        
-        $allLink = $(".toc-link");
-        
-        for (var i in categories){
-            $filterLink[categories[i]] = $('.toc-link[data-tags~=' + categories[i] + ']');
-        }
-    });
     
     /* scroll top down */
     //tk.scroll.bind();
