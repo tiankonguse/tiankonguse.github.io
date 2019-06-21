@@ -1,10 +1,10 @@
 ---
-layout : post
-description : 看了阮一峰的《数据库的最简单实现》，原来自己想多了。 
-title : 浅谈数据库
-keywords: , 索引, NOSQL
-tags: [数据库, 索引, NOSQL]
-categories: [程序人生]
+title : 浅谈数据库  
+layout : post  
+description : 看了阮一峰的《数据库的最简单实现》，原来自己想多了。  
+keywords: , 索引, NOSQL  
+tags: [数据库, 索引, NOSQL]  
+categories: [程序人生]  
 ---
 
 
