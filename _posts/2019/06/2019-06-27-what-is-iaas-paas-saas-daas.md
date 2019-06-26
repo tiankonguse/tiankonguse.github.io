@@ -1,7 +1,7 @@
 ---   
 layout:     post  
 title:  IasS、PasS、SaaS都是啥？  
-description: 
+description: 总的来看，这些 XaaS 服务之间是有关系的。  
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
