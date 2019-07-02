@@ -1,7 +1,7 @@
 ---   
 layout:     post  
 title:  初级算法实践之链表、树、排序  
-description: 介绍。  
+description: 介绍三类常见又简单的题型。  
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
