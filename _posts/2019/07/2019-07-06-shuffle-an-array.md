@@ -115,6 +115,9 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 每次可能有`n`种结果，进行了`n`次，那最终就是有`n^n`种结果。  
 
 
+![](http://res.tiankonguse.com/images/2019/07/06/001.png)
+
+
 而`n^n`种结果不是平均分布的，因为对于`n!`中排列，不是均匀的。  
 根据上图可以看出，`132`多了一次，`213`结果多了两次，所以这个算法不是完全随机的。
 
