@@ -11,7 +11,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2018/07/20180719003444.jpg) 
+![](http://res2018.tiankonguse.com/images/2018/07/20180719003444.jpg) 
 
 
 ## 零、背景
