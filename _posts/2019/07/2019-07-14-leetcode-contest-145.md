@@ -18,7 +18,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 于是只好停止比赛，处理工作上的事情。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/14/001.png)
+![](http://res2019.tiankonguse.com/images/2019/07/14/001.png)
 
 
 看看未来这两个月，发现我都挺忙的。  
@@ -49,7 +49,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 提示：`map`的`key`是按升序排列的。   
 
 
-![](http://res.tiankonguse.com/images/2019/07/14/002.png)
+![](http://res2019.tiankonguse.com/images/2019/07/14/002.png)
 
 
 ## 二、二叉树最深叶子节点的公共祖先  
@@ -64,7 +64,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 当前树根据两个子树的返回值，聚合达到当前树的返回值。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/14/003.png)
+![](http://res2019.tiankonguse.com/images/2019/07/14/003.png)
 
 
 ## 三、最大的工作良好天数  
@@ -121,7 +121,7 @@ PS：对于反正法的题目，其实不是好题目。
 其实使用逻辑推理也能得到启发式算法，但是这个就需要很强大的分析问题能力了。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/14/004.png)
+![](http://res2019.tiankonguse.com/images/2019/07/14/004.png)
 
 
 ## 四、最少人组成全能团  

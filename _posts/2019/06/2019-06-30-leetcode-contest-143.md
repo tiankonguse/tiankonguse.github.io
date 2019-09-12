@@ -14,7 +14,7 @@ wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ
 ## 零、背景  
 
 
-![](http://res.tiankonguse.com/images/2019/06/30/001.png)
+![](http://res2019.tiankonguse.com/images/2019/06/30/001.png)
 
 
 这次比赛的题目相对比较简单，我在一个小时左右全部做完了。  
@@ -78,7 +78,7 @@ wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ
 而剩余的糖果，可以在`m`人内分完，所以模拟即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/06/30/002.png)
+![](http://res2019.tiankonguse.com/images/2019/06/30/002.png)
 
 
 赛后，看别人解题报告，发现很多人直接暴力做的。  
@@ -93,7 +93,7 @@ wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ
 给一个数字，求输出这个数字到根的路径。  
 
 
-![](http://res.tiankonguse.com/images/2019/06/30/003.png)
+![](http://res2019.tiankonguse.com/images/2019/06/30/003.png)
 
 
 思路：可以计算出对应层的数字范围，根据当前层数以及第几个，就可以根据奇偶性计算出对应的值。  
@@ -106,7 +106,7 @@ wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ
 
 
 
-![](http://res.tiankonguse.com/images/2019/06/30/004.png)
+![](http://res2019.tiankonguse.com/images/2019/06/30/004.png)
 
 
 ## 三、填充书架  
@@ -127,7 +127,7 @@ wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ
 对于这些选择，取最小值。  
 
 
-![](http://res.tiankonguse.com/images/2019/06/30/005.png)
+![](http://res2019.tiankonguse.com/images/2019/06/30/005.png)
 
 
 当然，这个思路使用递归实现就是`DFS`加记忆化搜索了。  
@@ -170,7 +170,7 @@ wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ
 当然，实际比赛的时候，我直接计算出括号表达式里面的结果了。
 
 
-![](http://res.tiankonguse.com/images/2019/06/30/006.png)
+![](http://res2019.tiankonguse.com/images/2019/06/30/006.png)
 
 
 赛后，看到一种解决方案：使用简单的替换转化为某种解释性语言的表达式，然后使用`eval`运算出结果来。  

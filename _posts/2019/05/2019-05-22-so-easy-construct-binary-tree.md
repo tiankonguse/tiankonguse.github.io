@@ -36,7 +36,7 @@ wxurl: https://mp.weixin.qq.com/s/HEsqxzUcAiLlJ4DLMCPsyQ
 ```
 
 
-![](http://res.tiankonguse.com/images/2019/05/22/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/05/22/001.png)  
 
 
 
@@ -54,7 +54,7 @@ wxurl: https://mp.weixin.qq.com/s/HEsqxzUcAiLlJ4DLMCPsyQ
 第三步：递归函数自身，分别得到左子树和右子树。  
 
 
-![](http://res.tiankonguse.com/images/2019/05/22/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/05/22/002.png)  
 
 
 注意事项：这里有个特殊处理：如果序列为空，则返回空二叉树。  

@@ -18,7 +18,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 可惜有个地方敲错了没有测试直接提交，`RE`了一次。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/07/001.png)
+![](http://res2019.tiankonguse.com/images/2019/07/07/001.png)
 
 
 这次比赛时间就比较合理了，时间分别是`2分、5分、14分、15分`。  
@@ -37,7 +37,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：扫描一遍判断即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/07/002.png)
+![](http://res2019.tiankonguse.com/images/2019/07/07/002.png)
 
 
 ## 二、航班预订统计  
@@ -54,7 +54,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 然后从左到右累加即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/07/003.png)
+![](http://res2019.tiankonguse.com/images/2019/07/07/003.png)
 
 
 
@@ -73,7 +73,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 如果是树根的话，需要加入答案。不是树根的话，直接递归即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/07/004.png)
+![](http://res2019.tiankonguse.com/images/2019/07/07/004.png)
 
 
 当然，比赛的时候，我是使用队列加递归实现的。  
@@ -82,7 +82,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 之后递归处理每一颗树，判断是否有子节点被删除，从而拆分出两颗树。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/07/005.png)
+![](http://res2019.tiankonguse.com/images/2019/07/07/005.png)
 
 
 
@@ -117,7 +117,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 具体可以看代码  
 
 
-![](http://res.tiankonguse.com/images/2019/07/07/006.png)
+![](http://res2019.tiankonguse.com/images/2019/07/07/006.png)
 
 
 ## 五、最后  

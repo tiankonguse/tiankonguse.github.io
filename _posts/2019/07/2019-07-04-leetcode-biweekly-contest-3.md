@@ -18,7 +18,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 当时我也是第一时间发到我的 QQ 算法群里。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/04/001.png)
+![](http://res2019.tiankonguse.com/images/2019/07/04/001.png)
 
 
 不过看时间，不是很好。  
@@ -76,7 +76,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 这样我们在从上一个字串转移到下一个字串时，可以`O(1)`的转移，并且可以`O(1)`的判断是否有重复字符。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/04/002.png)
+![](http://res2019.tiankonguse.com/images/2019/07/04/002.png)
 
 
 ## 三、彼此熟识的最早时间  
@@ -91,7 +91,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 按照时间不断的合并联通图，当全联通的时候，输出时间即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/04/003.png)
+![](http://res2019.tiankonguse.com/images/2019/07/04/003.png)
 
 
 ## 四、得分最高的路径  
@@ -111,7 +111,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](http://res.tiankonguse.com/images/2019/07/04/004.png)
+![](http://res2019.tiankonguse.com/images/2019/07/04/004.png)
 
 
 其实，我们可以发现，在搜索的时候做了很多无用功。  

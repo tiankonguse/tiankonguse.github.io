@@ -53,7 +53,7 @@ wxurl: https://mp.weixin.qq.com/s/Q0MgdrnJE4-U4PaPCrn5MQ
 代码如下。  
 
 
-![](http://res.tiankonguse.com/images/2019/05/18/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/05/18/001.png)  
 
 
 而对于中序和后续遍历，则存在一个问题：当前树的根节点怎么保存。  
@@ -66,7 +66,7 @@ wxurl: https://mp.weixin.qq.com/s/Q0MgdrnJE4-U4PaPCrn5MQ
 例如中序遍历的代码如下：  
 
 
-![](http://res.tiankonguse.com/images/2019/05/18/002.png)
+![](http://res2019.tiankonguse.com/images/2019/05/18/002.png)
 
 
 后续的代码和中序很类似，这里就不上代码了。  
@@ -88,19 +88,19 @@ wxurl: https://mp.weixin.qq.com/s/Q0MgdrnJE4-U4PaPCrn5MQ
 比如树的最大深度，两种方法都可以。  
 
 
-![](http://res/tiankonguse.com/images/2019/05/18/003.png)
+![](http://res2019.tiankonguse.com/images/2019/05/18/003.png)
 
 
 对于判断树是否树对称二叉树，则只能使用第二种方法。  
 
 
-![](http://res.tiankonguse.com/images/2019/05/18/004.png)
+![](http://res2019.tiankonguse.com/images/2019/05/18/004.png)
 
 
 而对于是否存在一条根到叶子节点的路径和等于指定数字的问题，则使用第一种方法。  
 
 
-![](http://res.tiankonguse.com/images/2019/05/18/005.png)
+![](http://res2019.tiankonguse.com/images/2019/05/18/005.png)
 
 
 ## 五、最后  

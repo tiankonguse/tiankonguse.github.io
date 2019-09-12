@@ -32,7 +32,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 先看代码，下面就是全部的代码。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/10/001.png)
+![](http://res2019.tiankonguse.com/images/2019/07/10/001.png)
 
 
 是不是感觉不可思议，这个代码的语法全部都懂，但是合在一起我们就看不懂了。  
@@ -69,14 +69,14 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 这个使用概率公式来表示，就是这样的代码。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/10/002.png)
+![](http://res2019.tiankonguse.com/images/2019/07/10/002.png)
 
 
 关于这个算法直接看可能还是看不懂。  
 所以需要使用实际数据模拟一下，见下图。  
 
 
-![](http://res.tiankonguse.com/images/2019/07/10/003.png)
+![](http://res2019.tiankonguse.com/images/2019/07/10/003.png)
 
 
 关键在于`n=2`到`n=3`的过程，每个数字的概率从`1/2`转化到了`1/3`。  
@@ -117,7 +117,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](http://res.tiankonguse.com/images/2019/07/10/004.png)
+![](http://res2019.tiankonguse.com/images/2019/07/10/004.png)
 
 
 

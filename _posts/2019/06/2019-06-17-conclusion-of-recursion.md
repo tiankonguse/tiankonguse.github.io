@@ -71,7 +71,7 @@ Whenever possible, apply memoization.
 
 
 
-![](http://res.tiankonguse.com/images/2019/06/17/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/06/17/001.png)  
 
 
 
@@ -93,7 +93,7 @@ Whenever possible, apply memoization.
 而一个区间构造的子树有多个，左子树和右子树相交，即可得到所有根为`i`的二叉搜索树了。  
 
 
-![](http://res.tiankonguse.com/images/2019/06/17/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/06/17/002.png)  
 
 
 
@@ -112,7 +112,7 @@ Whenever possible, apply memoization.
 简单的实现递归代码后，发现`n`比较大的时候，数据要很久才能跑出来。  
 
 
-![](http://res.tiankonguse.com/images/2019/06/17/003.png)  
+![](http://res2019.tiankonguse.com/images/2019/06/17/003.png)  
 
 
 
@@ -140,7 +140,7 @@ f(8) = f(7) + f(6)
 而我们将计算过的结果保存下来后，每个数字只需要计算一次，复杂度将是`O(n)`的了。  
 
 
-![](http://res.tiankonguse.com/images/2019/06/17/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/06/17/004.png)  
 
 
 ## 六、最后  

@@ -42,7 +42,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 所以解决方法也就出来了，求所有数字出现次数的最大公约数，如果大于`1`就有答案了。  
 
 
-![](http://res.tiankonguse.com/images/2019/08/30/000.png)  
+![](http://res2019.tiankonguse.com/images/2019/08/30/000.png)  
 
 
 ## 三、分割数组  
@@ -68,7 +68,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 当然，实际上我们只需要计算出一个最值，另外一个在枚举位置的时候，便可以顺便求出来。  
 
 
-![](http://res.tiankonguse.com/images/2019/08/30/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/08/30/001.png)  
 
 
 ## 四、单词子集  
@@ -126,7 +126,7 @@ B: 1个1,1个e,2个e,1个o
 合并`B`之后，剩下的就一个个判断即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/08/30/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/08/30/002.png)  
 
 
 ## 五、猫和老鼠  
@@ -169,7 +169,7 @@ B: 1个1,1个e,2个e,1个o
 这里贴一下老鼠博弈选择的代码，猫是类似的。  
 
 
-![](http://res.tiankonguse.com/images/2019/08/30/003.png)  
+![](http://res2019.tiankonguse.com/images/2019/08/30/003.png)  
 
 
 
@@ -182,7 +182,7 @@ B: 1个1,1个e,2个e,1个o
 由于有记忆化，实际上也不会超时。  
 
 
-![](http://res.tiankonguse.com/images/2019/08/30/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/08/30/004.png)  
 
 
 当然，后面我维护了一个队列，把新增的状态保持下来，进行展开计算。  
