@@ -96,7 +96,7 @@ categories: [程序人生]
 
 看看这个图片
 
-![B树样例](http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/B-tree.svg/400px-B-tree.svg.png)
+![B树样例](http://res2014.tiankonguse.com/images/2014/07/10/001.png)
 
 这样，每个节点储存100个值，３层可以储存100W个值了，但是我们只需要读取3次硬盘，换成二叉查找树的话是20层左右,这效率是刚刚的。
 
@@ -128,7 +128,7 @@ categories: [程序人生]
 
 实际上是想展示一张图片，看了之后大概就可以明白索引工作的原理了。
 
-![二叉树索引](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3515762700.png)
+![二叉树索引](http://res2014.tiankonguse.com/images/2014/07/10/002.png)
 
 
 看完这张图应该有很多想法了吧。

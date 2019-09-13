@@ -96,8 +96,7 @@ published: true
 其实在第一小节举得例子已经大概可以看出三个方向了：物品特征，用户特征，用户与物品的关系特征。  
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2539463629.jpg)
-
+![](http://res2017.tiankonguse.com/images/2017/09/03/001.jpg)
 
 当一个问题有多个解决方案时，那每个方案肯定有自己的优点与缺点。  
 所以上面的三个方向肯定都有自己的局限性的。  
@@ -111,7 +110,7 @@ published: true
 基于物品特征推荐的原理是根据之前你看过或者买过一件物品这个信息，推送给你类似的物品。  
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2492713195.jpg)
+![](http://res2017.tiankonguse.com/images/2017/09/03/002.jpg)
 
 
 根据上面的描述，我们可以看出来需要三个个信息：你之前的行为，每个物品的信息特征，物品之间的关系。  
@@ -158,7 +157,7 @@ published: true
 原理是根据用户的信息计算出和你信息类似的人看了什么，你没看，就推给你。  
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2965669692.jpg)
+![](http://res2017.tiankonguse.com/images/2017/09/03/003.jpg)
 
 
 基于用户特征也需要计算用户之间的相似度以及对用户进行特征提取。  
@@ -189,8 +188,7 @@ published: true
 这两个关系和前两点的思想类似，不过使用关系代替特征了，所以这里就不多说了。  
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/1208751833.jpg)  
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3304231856.jpg)  
+![](http://res2017.tiankonguse.com/images/2017/09/03/004.jpg)
 
 由于协同过滤推荐和基于用户或者物品特征推荐类似，所以面临的问题也是类似的。  
 新用户和新物品没有关系而不能得到较好的推荐效果。  
