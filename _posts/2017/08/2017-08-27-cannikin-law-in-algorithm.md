@@ -33,12 +33,12 @@ published: true
 
 有两道对应的题， 一个是二维的，一个是三维的。  
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3459824774.png)  
+![](http://res2017.tiankonguse.com/images/2017/08/27/001.jpg)
 
 二维： Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.    
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2839854213.png)
+![](http://res2017.tiankonguse.com/images/2017/08/27/002.jpg)
 
 三维： Given an m x n matrix of positive integers representing the height of each unit cell in a 2D elevation map, compute the volume of water it is able to trap after raining.    
 
@@ -77,7 +77,7 @@ published: true
 复杂度`O(n)`.  
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/463237324.png)
+![](http://res2017.tiankonguse.com/images/2017/08/27/003.png)
 
 
 
@@ -122,9 +122,8 @@ published: true
 
 复杂度：`O(n*m)`  
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/635159701.png)   
- 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3123647160.png)
+![](http://res2017.tiankonguse.com/images/2017/08/27/004.png)
+![](http://res2017.tiankonguse.com/images/2017/08/27/005.png)
 
 
 ## 四、二维上的木桶原理
@@ -132,7 +131,7 @@ published: true
 我们使用木桶原理解决了三维积水问题，现在回过头来发现二维也可以使用这个原理在`O(n)`的复杂度解决问题。  
 
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2728666386.png)
+![](http://res2017.tiankonguse.com/images/2017/08/27/006.png)
 
 
 

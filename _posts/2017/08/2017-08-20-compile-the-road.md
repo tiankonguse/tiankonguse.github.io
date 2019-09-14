@@ -144,8 +144,7 @@ aclocal有一个输入文件，叫做`configure.ac`。
 好了，到现在为止我知道大家都分不清谁是谁了。  
 但是看看下面的图，大家应该就清楚了。  
 
-![](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2272327214.png)
-
+![](http://res2017.tiankonguse.com/images/2017/08/20/001.png)
   
 
 本来我们只是为了编译一个小项目，现在为了跨平台，却越搞越复杂了。  
