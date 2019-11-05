@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title:  难忘的沙美岛之旅（作文版）  
+title:  难忘的沙美岛之旅  
 description: 今天上了一门课，决定按照中学作文的方式重写这个游记。  
 keywords: 生活  
 tags: [生活]    
