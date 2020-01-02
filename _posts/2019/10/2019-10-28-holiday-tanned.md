@@ -11,7 +11,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 ---  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/001.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/001.jpg)
 
 
 ## 一、背景  
@@ -52,7 +52,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 原因是空姐们正在收饭盒，三个车同时收，这样整个飞机道都被堵死了。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/002.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/002.jpg)
 
 
 飞机最后几排都是空的，我便做在最后一排拍了上面这张照片。  
@@ -77,13 +77,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 这个结果莫大欢喜，不过因此也花费了不少时间。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/003.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/003.jpg)
 
 
 之后就是三个小时的航程，从机场开到前往沙美岛对岸码头。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/005.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/005.jpg)
 
 
 下车后，大家都很饿了，便去 7 eleven 买点吃的。  
@@ -122,7 +122,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 很幸运，我们平安到达小岛的码头。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/004.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/004.jpg)
 
 
 码头使用漂浮的大橡胶泡沫串联起来，站在上面一晃一晃的。  
@@ -134,7 +134,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 而且说岛上要随身携带，意思就是突击检查了，没票时需要补票。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/006.png)
+![](http://res2019.tiankonguse.com/images/2019/10/28/006.png)
 
 
 经过一路奔波，终于到达了酒店门口。  
@@ -178,7 +178,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 之后大家就去海里游泳了。
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/007.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/007.jpg)
 
 
 晚上一部分人去城里找“马杀鸡”按摩去了，剩下的几个人聚在一起吃了个饭。  
@@ -202,19 +202,19 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 等到 6 点多的时候，太阳缓缓升起，看着还是颇为壮观。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/008.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/008.jpg)
 
 
 看完日出在回酒店的路上，发现退潮的海滩上，有好多螃蟹。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/009.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/009.jpg)
 
 
 也有好多贝壳，我走遍整个海岸，捡了几个看起来不错的海螺。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/010.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/010.jpg)
 
 
 不过，那时候太阳已经升起了。  
@@ -225,7 +225,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 海水很凉，本以为这样就不会被晒伤了，谁知出来后，发现全身还是惨不忍睹。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/011.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/011.jpg)
 
 
 实际上，海里游泳是穿着小内裤的。  
@@ -241,7 +241,7 @@ PS：对全身晒伤图感兴趣的朋友可以在公众号回复“晒伤”来
 两张照片放在一起就很明显了。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/012.png)
+![](http://res2019.tiankonguse.com/images/2019/10/28/012.png)
 
 
 所以，如果上天再给我一次机会，我一定说：我不会再去太阳下玩耍了。  
@@ -264,14 +264,14 @@ PS：对全身晒伤图感兴趣的朋友可以在公众号回复“晒伤”来
 不知道公众号图片压缩的能不能看清。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/013.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/013.jpg)
 
 
 后来，船长带我们去一个很多鱼的地方，问我们是否浮潜。  
 鱼确实很多，但是对于浮潜这么危险的行为，我们还是拒绝了。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/014.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/014.jpg)
 
 
 在之后，我们去钓鱼。  
@@ -279,7 +279,7 @@ PS：对全身晒伤图感兴趣的朋友可以在公众号回复“晒伤”来
 最终我们钓到了很多鱼，回到岸上后还分给船长了一半鱼。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/015.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/015.jpg)
 
 
 我们钓的鱼肯定是晚餐的一部分了，最终选择了油炸鱼。  
@@ -292,7 +292,7 @@ PS：对全身晒伤图感兴趣的朋友可以在公众号回复“晒伤”来
 10 月 27 号周日，早上八点就退房要离开小岛了。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/016.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/016.jpg)
 
 
 我们通过小船作为中转，登上了上图那艘客船。  
@@ -302,7 +302,7 @@ PS：对全身晒伤图感兴趣的朋友可以在公众号回复“晒伤”来
 我买了鱿鱼干、芒果干、榴莲干、海苔等。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/017.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/017.jpg)
 
 
 说实话，机场的东西还是比较贵的，算下来可能比国内便宜不了多少。  
@@ -316,7 +316,7 @@ PS：对全身晒伤图感兴趣的朋友可以在公众号回复“晒伤”来
 代价是我们的飞机晚点了三四个小时，最终到家时几乎凌晨四点了。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/28/017.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/28/017.jpg)
 
 
 皮肤晒伤后，我才意识到护理皮肤的重要性。  

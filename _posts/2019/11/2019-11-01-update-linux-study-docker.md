@@ -96,7 +96,7 @@ docker search centos
 ```
 
 
-[](http://res.tiankonguse.com/images/2019/01/001.png)  
+[](http://res2019.tiankonguse.com/images/2019/01/001.png)  
 
 
 2）拉取镜像    

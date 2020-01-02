@@ -39,7 +39,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 没有胜出者时判断棋盘是否满了即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/01/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/01/001.png)  
 
 
 ##二、汉堡分配  
@@ -74,7 +74,7 @@ y = (4b - a)/2
 当 x 和 y 都大于等于 0 时，就代表合法，否则就是不合法。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/01/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/01/002.png)  
 
 
 ## 三、全为1的正方形个数  
@@ -96,7 +96,7 @@ y = (4b - a)/2
 
 
 
-![](http://res.tiankonguse.com/images/2019/12/01/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/01/004.png)  
 
 
 大概如上图，假设我们已经确定当前左上角存在一个`n*n`的正方形，判断是否存在`n+1`为边的正方形时，只需要判断新增加的行和列即可。  
@@ -111,7 +111,7 @@ y = (4b - a)/2
 
 
 
-![](http://res.tiankonguse.com/images/2019/12/01/003.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/01/003.png)  
 
 
 那这个能不能继续优化呢？  
@@ -149,7 +149,7 @@ f(k, b, e) = min(firstString(b, i) + f(k-1, i+1, e))
 
 
 
-![](http://res.tiankonguse.com/images/2019/12/01/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/01/004.png)  
 
 
 

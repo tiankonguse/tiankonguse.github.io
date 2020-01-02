@@ -27,7 +27,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：循环计算即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/001.png)  
 
 
 ## 二、有序数字  
@@ -54,7 +54,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 我们枚举所有有序数字，看是否在输入的区间即可。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/002.png)  
 
 
 ## 三、正方形和小于目标数
@@ -73,7 +73,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 由于数据比较小，这个方法也可以通过。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/003.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/003.png)  
 
 
 这道题其实在之前的比赛中出现过。  
@@ -83,14 +83,14 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 比如我们已经计算出每个定点到左上角的矩阵和了， 那一个顶点为右下角的正方形也可以通过矩阵和的加加减减计算出来。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/004.png)  
 
 
 而对于遍历边长，可以改成二分查找。  
 这样复杂度就是`O(n^2 log(n))`的了。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/005.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/005.png)  
 
 
 ## 四、有障碍物的最短路  
@@ -111,7 +111,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：`k n^2`  
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/006.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/006.png)  
 
 
 优化：分析后，可以发现，有些状态是显然不会更优的。  
@@ -128,7 +128,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：均摊是 `n^2`    
 
 
-![](http://res.tiankonguse.com/images/2019/12/19/007.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/19/007.png)  
 
 
 ## 五、最后  

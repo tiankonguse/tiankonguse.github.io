@@ -44,7 +44,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 据说 vscode 远程开发和本地开发体验完全一致，没有延迟、不需要同步代码、支持语法分析、依赖远程环境来进行智能代码提示语补全等等。  
 
 
-![](http://res.tiankonguse.com/images/2019/11/04/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/11/04/001.png)  
 
 
 当时的时候，我和另外一个同事都搭建了环境，后来不知什么原因，我们又迁回了 vim。  
@@ -85,16 +85,16 @@ AllowTcpForwarding yes
 搜索并安装 remote-ssh插件 ，安装后修改下该插件的设置，允许 ssh 访问。  
 
 
-![](http://res.tiankonguse.com/images/2019/11/04/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/11/04/002.png)  
 
 
 第五步：添加远程机器信息  
 
 
-![](http://res.tiankonguse.com/images/2019/11/04/003.png)  
+![](http://res2019.tiankonguse.com/images/2019/11/04/003.png)  
 
 
-![](http://res.tiankonguse.com/images/2019/11/04/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/11/04/004.png)  
 
 
 按上图配置好，直接保存，如下图操作，按提示输入几次登录密码，就连上远端机了。  
@@ -109,7 +109,7 @@ AllowTcpForwarding yes
 直接在扩展这里安装插件，可以选择将插件安装到远端。  
 
 
-![](http://res.tiankonguse.com/images/2019/11/04/005.png)  
+![](http://res2019.tiankonguse.com/images/2019/11/04/005.png)  
 
 
 ## 四、插件安装失败  
@@ -156,7 +156,7 @@ AllowTcpForwarding yes
 第二张，我发起了抽奖，大家可以参与抽奖。  
 
 
-![](http://res.tiankonguse.com/images/2019/11/04/006.png)  
+![](http://res2019.tiankonguse.com/images/2019/11/04/006.png)  
 
 
 第三张，我送给朋友圈的朋友吧。  

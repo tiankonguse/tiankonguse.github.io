@@ -17,7 +17,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 上周有一个数据库磁盘快满了，一直在告警。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/31/001.jpg)
+![](http://res2019.tiankonguse.com/images/2019/10/31/001.jpg)
 
 
 当时比较忙，我一看磁盘使用率，还能撑一个月，便没处理。  
@@ -43,7 +43,7 @@ order by DATA_LENGTH desc;
 ```
 
 
-![](http://res.tiankonguse.com/images/2019/10/31/002.png)
+![](http://res2019.tiankonguse.com/images/2019/10/31/002.png)
 
 
 原来第一个表太大了，足足有`1.4T`的大小。  
@@ -90,7 +90,7 @@ order by DATA_LENGTH desc;
 我便是使用第三个方法来操作的，这么大的表，十几秒就删完数据了。  
 
 
-![](http://res.tiankonguse.com/images/2019/10/31/003.png)
+![](http://res2019.tiankonguse.com/images/2019/10/31/003.png)
 
 
 

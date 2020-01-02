@@ -26,7 +26,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 周末我看到一本不错的小说，加入书架的时候，提示书架的书籍到达上限。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/09/001.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/09/001.png)  
 
 
 面对这个限制，我也可以接受，找时间清理下不感兴趣的书便是了。  
@@ -36,7 +36,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 但是这个想法可苦了我，因为微信读书是单页面的瀑布流，我向下滑了好久才翻到底部，看到总个数。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/09/002.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/09/002.png)  
 
 
 于是我对现在移动端各种瀑布流式的设计产生了疑问：体验这么差，为什么要这样设计呢？  
@@ -48,7 +48,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 面对上面的疑问，我看看微信读书，想到了微信，于是赶紧看看微信的通讯录。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/09/003.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/09/003.png)  
 
 
 原来微信也是这样设计的，不过右侧有一个字母索引。  
@@ -58,7 +58,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 再一想，业界产品被吹的最牛逼的是乔布斯，那乔布斯的通讯录怎么设计呢？  
 
 
-![](http://res.tiankonguse.com/images/2019/12/09/004.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/09/004.png)  
 
 
 原来乔布斯也是抄袭微信的，或者微信抄袭乔布斯的。  
@@ -70,7 +70,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 看完通讯录，我又想到朋友圈的信息流。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/09/005.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/09/005.png)  
 
 
 微信虽然是业界产品的代名词，但是查看个人朋友圈的体验差到了极点。  
@@ -82,7 +82,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 而看看 QQ 空间，个人的状态则比较友好，有一个时间来快速滑动。  
 
 
-![](http://res.tiankonguse.com/images/2019/12/09/006.png)  
+![](http://res2019.tiankonguse.com/images/2019/12/09/006.png)  
 
 
 面对这种产品差异，其实 QQ 空间做的更好，但是工作后，不知怎么，大家都不用 QQ 了。  
