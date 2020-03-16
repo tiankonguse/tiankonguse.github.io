@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title:  leetcode 第180场算法比赛  
+title:  赠送你一份阅读清单
 description: 可以当做面试题，考查基础知识的时候到了。  
 keywords: 程序人生  
 tags: [程序人生]    
