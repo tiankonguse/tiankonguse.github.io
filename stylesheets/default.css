@@ -1800,3 +1800,11 @@ ins{
     background-color: rgba(236, 236, 236, 0.490196);
     color: rgb(123, 123, 123);
 }
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+    letter-spacing: 2px;
+    line-height: 1.75em;
+    color: rgb(89, 89, 89);
+    font-size: 17px;
+}
