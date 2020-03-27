@@ -1738,8 +1738,8 @@ ins{
 
 
 .entry p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     min-height: 1em;
     box-sizing: border-box !important;
     word-wrap: break-word !important;
@@ -1788,8 +1788,21 @@ ins{
 	margin-left: 6px;
 }
 .entry h2 {
-    background-color: rgba(206, 206, 206, 0.490196);
+    background-color: rgba(206, 206, 206, 0.17);
     color: rgb(73, 73, 73);
+    text-align: start;
+    white-space: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+    font-size: 1.1em;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: rgba(255, 191, 0, 0.68);
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .entry h3 {
     background-color: rgba(236, 236, 236, 0.490196);
@@ -1798,8 +1811,8 @@ ins{
 p {
     margin-left: 1em;
     margin-right: 1em;
-    letter-spacing: 2px;
-    line-height: 1.75em;
+    letter-spacing: 1.5px;
+    line-height: 1.6em;
     color: rgb(89, 89, 89);
-    font-size: 17px;
+    font-size: 15px;
 }
