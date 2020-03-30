@@ -1,7 +1,7 @@
 ---   
 layout:     post  
 title:  我看大量印钱刺激经济  
-description: 。  
+description: 金钱会通货膨胀贬值吗。  
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
