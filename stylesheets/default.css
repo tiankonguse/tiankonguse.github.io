@@ -195,6 +195,7 @@ pre ol {
     margin: 90px auto 10px auto;
     min-height: 400px;
     height: auto !important;
+    filter: grayscale(100%);
 }
 .ad-page-footer {
     width: 1260px;
@@ -1815,4 +1816,15 @@ p {
     line-height: 1.7em;
     color: rgb(89, 89, 89);
     font-size: 16px;
+}
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+
+    filter: grayscale(100%);
+    filter: url(/images/gray.svg#grayscale);
+
+    filter: gray;
 }
