@@ -195,7 +195,8 @@ pre ol {
     margin: 90px auto 10px auto;
     min-height: 400px;
     height: auto !important;
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
+
 }
 .ad-page-footer {
     width: 1260px;
