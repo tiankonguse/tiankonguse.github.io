@@ -66,6 +66,8 @@ published: true
 合在一起就是每堆除2向上取整，然后求和。  
 
 
+![](http://res.tiankonguse.com/images/2020/04/18/003.png)  
+
 
 ## 二、传递信息  
 
@@ -95,6 +97,8 @@ published: true
 
 
 
+![](http://res.tiankonguse.com/images/2020/04/18/004.png)  
+
 
 
 ## 三、剧情触发时间  
@@ -118,6 +122,9 @@ published: true
 复杂度：O(m log(n))  
 
 
+![](http://res.tiankonguse.com/images/2020/04/18/005.png)  
+![](http://res.tiankonguse.com/images/2020/04/18/006.png)  
+
 
 ## 四、最小跳跃次数  
 
@@ -136,6 +143,9 @@ published: true
 不可以了则把左边未跳的位置加入队里，右边的i+arr[i]加入队列即可。  
 复杂度：O(n)  
 
+
+
+![](http://res.tiankonguse.com/images/2020/04/18/007.png)  
 
 
 
@@ -178,7 +188,7 @@ published: true
 一个树的独立时间和并发时间计算出来之后，答案就是独立时间加上并发时间的一半。  
 
 
-
+![](http://res.tiankonguse.com/images/2020/04/18/008.png)  
 
 
 
