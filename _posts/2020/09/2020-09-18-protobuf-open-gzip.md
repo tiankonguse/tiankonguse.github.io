@@ -146,6 +146,9 @@ scene1->ParseFromZeroCopyStream(&GzipInputStream)
 
 
 ```
+#include <google/protobuf/io/gzip_stream.h>
+#include <google/protobuf/io/zero_copy_stream_impl.h>
+
 std::string output;
 
 // 压缩序列化
