@@ -1,7 +1,7 @@
 ---   
 layout:     post  
 title: leetcode 第 211 场算法比赛  
-description: 今天有道题昨天TCP的时候遇到了  
+description: 毕业生和实习生太厉害了  
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
