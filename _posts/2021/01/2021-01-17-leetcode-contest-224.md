@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title: leetcode 第 223 场算法比赛  
+title: leetcode 第 224 场算法比赛  
 description: 方向想错了，时间就不足了。   
 keywords: 程序人生  
 tags: [程序人生]    
