@@ -113,7 +113,7 @@ dp(i,j) = val(i,j) ^ dp(i-1, j) ^ dp(i,j-1) ^ dp(i-1,j-1)
 
 
 
-![](http://res.tiankonguse.com/images/2021/01/24/001.png) 
+![](http://res.tiankonguse.com/images/2021/01/24/002.png) 
 
 
 如上图，显然，需要一侧需要新增一行，个数为 1 。  
