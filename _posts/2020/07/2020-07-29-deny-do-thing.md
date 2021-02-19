@@ -52,7 +52,7 @@ published: true
 这样的事情很多，比如公交外的挡车柱。
 
 
-![](http://res.tiankonguse.com/images/2020/07/29/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/07/29/001.png)  
 
 
 这个柱子的最初目的是为了防止车冲到站台撞到人。  

@@ -37,7 +37,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/05/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/001.png)  
 
 
 ## 二、二进制变成1的步长  
@@ -77,7 +77,7 @@ published: true
 这样代码只需要循环判断出于哪种状态即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/002.png)  
 
 
 当然，我分析了一下这几种状态，发现存在一个规律。  
@@ -95,7 +95,7 @@ published: true
 所以我们只需要统计中间0的个数以及是不是有多个1即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/003.png)  
 
 
 
@@ -125,7 +125,7 @@ published: true
 我比赛的时候是排序，严格保证三个数字的大小关系，分四种情况构造出了答案。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/005.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/005.png)  
 
 
 赛后看其他人的代码，发现可以直接贪心，哪个数字大就放哪个字母。  
@@ -133,7 +133,7 @@ published: true
 但是严格的证明推理我没能描述出来，大家自己想想吧。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/004.png)  
 
 
 ## 四、石子游戏 III  
@@ -159,8 +159,8 @@ published: true
 PS：原先使用的dfs递归，后来怕爆栈，改成了递推。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/006.png)  
-![](http://res.tiankonguse.com/images/2020/05/007.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/006.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/007.png)  
 
 
 ## 五、最后  

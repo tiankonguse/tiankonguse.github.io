@@ -36,7 +36,7 @@ published: true
 如果 n 是偶数，前面 n-1 的字母一样，最后一个不一样。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/08/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/08/001.png)  
 
 
 ## 二、灯泡开关 III  
@@ -57,7 +57,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/03/08/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/08/002.png)  
 
 
 ## 三、通知所有人的时间  
@@ -72,7 +72,7 @@ published: true
 再加上老板自身的花费时间，就是当前老板需要的最短时间。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/08/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/08/003.png)  
 
 
 ## 四、T 秒后青蛙的位置  
@@ -99,7 +99,7 @@ PS：求路径有两种求法，一种是正向路径，一种是逆向路径，
 
 
 
-![](http://res.tiankonguse.com/images/2020/03/08/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/08/004.png)  
 
 
 ## 五、最后  

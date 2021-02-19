@@ -10,7 +10,7 @@ published: true
 ---  
 
 
-![](http://res.tiankonguse.com/images/2020/03/30/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/30/001.png)  
 
 
 

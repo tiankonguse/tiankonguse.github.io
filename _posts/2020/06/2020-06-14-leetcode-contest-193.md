@@ -26,7 +26,7 @@ published: true
 思路：循环累加即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/14/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/14/001.png)  
 
 
 ## 二、不同整数的最少数目  
@@ -44,7 +44,7 @@ published: true
 3、从前到后删除即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/14/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/14/002.png)  
 
 
 ## 三、制作 m 束花所需的最少天数  
@@ -143,7 +143,7 @@ int getLeft(int pos){ //并查集
 最后把`map`换成`unordered_map`，然后就过了。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/14/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/14/003.png)  
 
 
 ## 四、树节点的第 K 个祖先  
@@ -153,7 +153,7 @@ int getLeft(int pos){ //并查集
 问某个节点第 k 个祖先节点是什么，如果不存在输出 -1。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/14/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/14/004.png)  
 
 
 如上图，3 的第一个祖先节点是 1，第二个祖先节点是 0，第三个祖先节点不存在。  
@@ -197,7 +197,7 @@ PS：这里又被卡超时了，`map` 换成`unordered_map`就过了。
 
 
 
-![](http://res.tiankonguse.com/images/2020/06/14/005.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/14/005.png)  
 
 
 ## 五、最后  

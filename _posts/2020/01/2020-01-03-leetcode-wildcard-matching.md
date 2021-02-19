@@ -57,7 +57,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 8、否则当前函数不匹配。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/03/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/03/001.png)  
 
 
 复杂度：`O(nm)`  
@@ -117,7 +117,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 代码如下。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/03/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/03/001.png)  
 
 
 ## 五、最后  

@@ -34,7 +34,7 @@ published: true
 当听到这个新闻后，我决定看一下《鼠疫》这本书。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/24/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/24/001.png)  
 
 
 

@@ -10,7 +10,7 @@ published: true
 ---  
 
 
-![](http://res.tiankonguse.com/images/2020/03/28/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/28/001.png)  
 
 
 ## 零、背景  
@@ -31,7 +31,7 @@ published: true
 某天下午，吃晚饭的时候，一个美女加了我的微信。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/28/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/28/002.png)  
 
 
 
@@ -41,7 +41,7 @@ published: true
 只是这个美女的朋友圈看着和普通人的不一样，看着明显过于妖艳。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/28/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/28/003.png)  
 
 
 
@@ -57,7 +57,7 @@ published: true
 这里没有任何前戏，一上来就露出了画皮后的真面目。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/28/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/28/004.png)  
 
 
 语音我也上传上来了，你们可以听听。  
@@ -69,7 +69,7 @@ published: true
 微信的处理速度很快，10分钟就说永久封号。  
 
 
-![](http://res.tiankonguse.com/images/2020/03/28/005.png)  
+![](http://res2020.tiankonguse.com/images/2020/03/28/005.png)  
 
 
 

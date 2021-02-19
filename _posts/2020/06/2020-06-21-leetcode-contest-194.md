@@ -46,7 +46,7 @@ published: true
 复杂度：`O(n)`  
 
 
-![](http://res.tiankonguse.com/images/2020/06/21/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/21/001.png)  
 
 
 
@@ -133,7 +133,7 @@ published: true
 方法一：按照题意暴力模拟即可，复杂度`O(n^2)`。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/21/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/21/002.png)  
 
 
 
@@ -214,7 +214,7 @@ preName => 7,4
 所以这里需要找到大于上次下雨之后的第一个旱天，使用`lower_bound`即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/21/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/21/003.png)  
 
 
 ## 四、最小生成树的关键边和伪关键边  
@@ -242,8 +242,8 @@ preName => 7,4
 
 
 
-![](http://res.tiankonguse.com/images/2020/06/21/004.png)  
-![](http://res.tiankonguse.com/images/2020/06/21/005.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/21/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/21/005.png)  
 
 
 

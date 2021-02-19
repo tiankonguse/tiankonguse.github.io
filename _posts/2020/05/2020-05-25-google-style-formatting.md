@@ -77,7 +77,7 @@ published: true
 原则上，尽可能精简行数，比如把多个参数适当地放在同一行里。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/25/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/25/001.png)  
 
 
 

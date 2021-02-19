@@ -30,14 +30,14 @@ leetcode 在 2020-08-06 的每日一题是 336 回文对。
 此时判断那段字符串在前缀还是后者，然后调整游标边界继续比较即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/08.06/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/08.06/001.png)  
 
 
 点评：由于是暴力方法，复杂度为`O(n^2 * L)`，所以耗时较长。  
 不过没有使用内存，内存排名比较靠前。  
 
 
-![](http://res.tiankonguse.com/images/2020/08.06/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/08.06/002.png)  
 
 
 优化：暴力是枚举所有组合。  

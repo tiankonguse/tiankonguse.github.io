@@ -54,13 +54,13 @@ B 服务计算 7 ms。
 A 服务拉倒 A 的数据后计算 1ms。  
 
 
-![](http://res.tiankonguse.com/images/2020/07/02/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/07/02/001.png)  
 
 
 时序图如下，A 需要花费 10ms 才能处理一次完整的流程。  
 
 
-![](http://res.tiankonguse.com/images/2020/07/02/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/07/02/002.png)  
 
 
 对于 A 服务，如果同步调用B服务的话，一秒最多可以调用 B 服务 100 次。  
@@ -89,7 +89,7 @@ A 服务拉倒 A 的数据后计算 1ms。
 这里的其他事情是发起其他请求。  
 
 
-![](http://res.tiankonguse.com/images/2020/07/02/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/07/02/003.png)  
 
 
 这里依旧假设请求的均匀分布的，即每1ms发出一个请求。  
@@ -136,7 +136,7 @@ CPU 利用率也提高到 100%。
 假设 A 服务已经做到了异步化，每次是在一秒的同一时刻发出所有请求。  
 
 
-![](http://res.tiankonguse.com/images/2020/07/02/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/07/02/004.png)  
 
 
 假设 B 服务很强悍，依旧是 7ms 返回了数据，也就是所有请求在同一时间都返回给了 A 服务。  

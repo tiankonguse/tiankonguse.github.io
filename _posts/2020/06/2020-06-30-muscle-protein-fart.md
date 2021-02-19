@@ -63,7 +63,7 @@ published: true
 外源蛋白不能直接被吸收，需降解为氨基酸才能被吸收利用。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/30/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/30/001.png)  
 
 
 蛋白质的消化吸收主要在小肠。  

@@ -43,7 +43,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/05/24/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/24/001.png)  
 
 
 ## 二、子串中元音最大数目  
@@ -55,7 +55,7 @@ published: true
 思路：滑动窗口即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/24/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/24/002.png)  
 
 
 ## 三、二叉树中的伪回文路径  
@@ -75,7 +75,7 @@ published: true
 所以我们只需要递归二叉树求出所有的路径，顺便统计出现奇数次的个数即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/24/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/24/003.png)  
 
 
 ## 四、两个子序列的最大点积  
@@ -112,7 +112,7 @@ published: true
 注意事项：由于最优值可能为负，不存在答案时，可以返回一个负无穷。  
 
 
-![](http://res.tiankonguse.com/images/2020/05/24/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/24/004.png)  
 
 
 当然，比赛的时候是使用的递归实现方式，由于解题报告写完了，比赛还没结束，就又改成递推的模式了。  
@@ -127,7 +127,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/05/24/005.png)  
+![](http://res2020.tiankonguse.com/images/2020/05/24/005.png)  
 
 
 ## 五、最后  

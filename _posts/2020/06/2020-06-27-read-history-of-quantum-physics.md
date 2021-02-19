@@ -29,7 +29,7 @@ published: true
 大概从5月份开始，历时两个月，我断断续续的读完了另外一本相关的书《量子物理史话》。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/27/001.png)
+![](http://res2020.tiankonguse.com/images/2020/06/27/001.png)
 
 
 
@@ -171,7 +171,7 @@ The beauty and clearness of the dynamical theory, whichasserts heat and light to
 1911年10月30日，第一届索尔维会议在比利时布鲁塞尔召开，称为“巫师盛会”。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/27/002.png)
+![](http://res2020.tiankonguse.com/images/2020/06/27/002.png)
 
 
 
@@ -206,7 +206,7 @@ The beauty and clearness of the dynamical theory, whichasserts heat and light to
 1927年10月24日到29日，为期6天第五届索尔维会议开始了，主题是“电子和光子”。   
 
 
-![](http://res.tiankonguse.com/images/2020/06/27/003.png)
+![](http://res2020.tiankonguse.com/images/2020/06/27/003.png)
 
 
 波尔说：量子理论是随机的。  
@@ -262,7 +262,7 @@ The beauty and clearness of the dynamical theory, whichasserts heat and light to
 后来，人们有提出了隐变量理论、系综解释理论、GRW自发定域理论、退相干理论来解释量子力学。
 
 
-![](http://res.tiankonguse.com/images/2020/06/27/004.png)
+![](http://res2020.tiankonguse.com/images/2020/06/27/004.png)
 
 
 ## 六、大统一理论  
@@ -285,7 +285,7 @@ The beauty and clearness of the dynamical theory, whichasserts heat and light to
 
 
 
-![](http://res.tiankonguse.com/images/2020/06/27/005.png)
+![](http://res2020.tiankonguse.com/images/2020/06/27/005.png)
 
 
 ## 七、最后  

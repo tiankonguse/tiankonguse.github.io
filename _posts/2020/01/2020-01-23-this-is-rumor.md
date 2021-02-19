@@ -28,7 +28,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 于是，我给周围的朋友说出了我的建议：马上禁止进出武汉，甚至是湖北。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/23/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/23/001.png)  
 
 
 后来想了想，发现背后的逻辑也没有自己想象的那么简单。  

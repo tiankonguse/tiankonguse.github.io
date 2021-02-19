@@ -53,7 +53,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 对比数据如下， 可以看到，自己实现平均需要 0.027us， 而 `to_string`则需要 0.14us，相差五倍之多。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/19/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/19/001.png)  
 
 
 ## 三、最后  

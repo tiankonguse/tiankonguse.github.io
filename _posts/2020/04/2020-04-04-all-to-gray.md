@@ -61,7 +61,7 @@ grayscale 的含义是将颜色变灰，100% 的意思是全部变灰。
 网站变灰色的效果如下：  
 
 
-![](http://res.tiankonguse.com/images/2020/04/04/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/04/04/002.png)  
 
 
 
@@ -78,7 +78,7 @@ grayscale 的含义是将颜色变灰，100% 的意思是全部变灰。
 
 
 
-![](http://res.tiankonguse.com/images/2020/04/04/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/04/04/001.png)  
 
 
 

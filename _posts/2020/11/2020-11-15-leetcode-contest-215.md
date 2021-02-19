@@ -37,7 +37,7 @@ published: true
 源代码： https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/016/01656-design-an-ordered-stream/design-an-ordered-stream.cc  
 
 
-![](http://res.tiankonguse.com/images/2020/11/15/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/11/15/001.png)  
 
 
 ## 二、确定两个字符串是否接近。
@@ -66,7 +66,7 @@ published: true
 源代码： https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/016/01657-determine-if-two-strings-are-close/determine-if-two-strings-are-close.cc  
 
 
-![](http://res.tiankonguse.com/images/2020/11/15/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/11/15/002.png)  
 
 
 ## 三、将 x 减到 0 的最小操作数。
@@ -148,7 +148,7 @@ published: true
 如下图，只需要储存浅绿色的状态即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/11/15/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/11/15/003.png)  
 
 
 此时，定义状态`f(p,a,b,k)` 代表前 p 个数字放 a 个白球、b 个黑球，且最后 m 个状态是 k 的最优答案。  

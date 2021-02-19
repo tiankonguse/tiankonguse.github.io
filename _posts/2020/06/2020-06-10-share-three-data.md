@@ -25,7 +25,7 @@ published: true
 所以，即使很多人不能接受这种话题，他们还是点进来吸收获取相关健康知识。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/10/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/10/001.png)  
 
 
 ## 二、分享量暴增  
@@ -47,7 +47,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/06/10/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/10/002.png)  
 
 
 
@@ -70,7 +70,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/06/10/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/10/003.png)  
 
 
 

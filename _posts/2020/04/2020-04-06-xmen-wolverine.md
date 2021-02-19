@@ -79,7 +79,7 @@ X教授、万磁王、凤凰女激战，X教授死亡、凤凰女死亡、万磁
 2013年，金刚狼来到日本被色诱套路，一番恶战后逃回美国，知道了黑暗势力的哨兵计划。  
 
 
-![](http://res.tiankonguse.com/images/2020/04/06/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/04/06/001.png)  
 
 
 ## 五、X战警：逆转未来  
@@ -104,7 +104,7 @@ X教授、万磁王、凤凰女激战，X教授死亡、凤凰女死亡、万磁
 天启用自己力量，笼络暴风女、灵碟、天使、万磁王，欲图消灭地球，最终被X战警阻止。
 
 
-![](http://res.tiankonguse.com/images/2020/04/06/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/04/06/002.png)  
 
 
 
@@ -144,7 +144,7 @@ X教授、万磁王、凤凰女激战，X教授死亡、凤凰女死亡、万磁
 
 
 
-![](http://res.tiankonguse.com/images/2020/04/06/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/04/06/003.png)  
 
 
 

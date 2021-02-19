@@ -54,7 +54,7 @@ published: true
 于是我就把刷新频率设置的很大很大，一下就全好了。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/11/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/11/001.png)  
 
 
 
@@ -62,7 +62,7 @@ published: true
 另一个集群是个大杂烩，热点非常不集中，直接触发频率上限，用来好久才恢复。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/11/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/11/002.png)  
 
 
 ## 三、不信任配置  
@@ -76,7 +76,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/06/11/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/11/003.png)  
 
 
 
@@ -134,7 +134,7 @@ published: true
 以前的时候，我们的重点都集中在了数据变更时，各集群是否一致。  
 
 
-![](http://res.tiankonguse.com/images/2020/06/11/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/06/11/004.png)  
 
 
 也就是底层 CMS 把数据写入 NOSQL 后，我们会通过机制刷新所有缓存集群的数据。  

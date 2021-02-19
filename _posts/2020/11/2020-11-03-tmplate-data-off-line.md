@@ -87,7 +87,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2020/11/03/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/11/03/001.png)  
 
 
 这样需要对大数据离散化的时候，创建一个对象即可。  

@@ -37,14 +37,14 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 客户端：没有连接（已经是root用户了）。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/07/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/07/002.png)  
 
 
 对于服务端，由于只有一个进程，于是我使用`lsof`来精确查看进程的连接。  
 确认这个进程存在四个长连接（`netstat`一样的，这里为了更精确）。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/07/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/07/001.png)  
 
 
 然后我就疑惑了，不科学呀，怎么可能这样呢？  

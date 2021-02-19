@@ -33,7 +33,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：数据范围只有一万，暴力枚举即可。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/001.png)  
 
 
 那能不能直接使用`O(1)`的方法构造呢？  
@@ -46,7 +46,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 对于最高位，如果是`1`的话，只拆分给一个数字。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/002.png)  
 
 
 
@@ -67,7 +67,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 目标位数是`0`，那说明两个数字的位数至少有一个`1`，全部修改为`0`才行。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/003.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/003.png)  
 
 
 ## 三、最小修改使得网络连通  
@@ -97,7 +97,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 怎么求联调分支的个数呢，一个`DFS`或`BFS`或者并查集都可以。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/004.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/004.png)  
 
 
 ## 四、两指的最小移动距离  
@@ -115,7 +115,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 最终取最低的代价。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/005.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/005.png)  
 
 
 全部做完之后，我突然意识到，优先队列其实没啥用。  
@@ -162,7 +162,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/006.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/006.png)  
 
 
 这个思路没错，但是会发现复杂度是`O(n^3)`的，直接超时了。  
@@ -178,7 +178,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 所以就可以将单调性提取为一个函数，将计算过的数据缓存起来，复杂度就降为`O(n^2)`了。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/12/007.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/12/007.png)  
 
 
 ## 五、最后  

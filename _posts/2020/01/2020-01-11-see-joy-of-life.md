@@ -57,7 +57,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 他们之间发生不少事，其中一个人最逗，但是这个人就莫名其妙的死了。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/11/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/11/001.png)  
 
 
 再之后，终于找到这一切的幕后凶手，年轻人完成了目标，打败了幕后凶手。  
@@ -69,7 +69,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 出国过程中，有一个人雇了几个杀手，本来以为是搞笑的，结果也惨遭毒手。  
 
 
-![](http://res.tiankonguse.com/images/2020/01/11/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/01/11/002.png)  
 
 
 再之后，就是在国外把那个国家最厉害的人绊倒了。  

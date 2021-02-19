@@ -35,7 +35,7 @@ published: true
 ## 二、几年后出问题了  
 
 
-![](http://res.tiankonguse.com/images/2020/02/11/001.png)  
+![](http://res2020.tiankonguse.com/images/2020/02/11/001.png)  
 
 
 还是上面的数据平台，基础数据通过内部设计的一套通知机制，几乎做到数据完全一致。  
@@ -100,7 +100,7 @@ published: true
 如下图  
 
 
-![](http://res.tiankonguse.com/images/2020/02/11/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/02/11/002.png)  
 
 
 数据输入模块一般是从消息队列接收消息。  
@@ -208,7 +208,7 @@ published: true
 将算法封装在一个对象内后，实现还算简单，很快我就上线了。  
 
 
-![](http://res.tiankonguse.com/images/2020/02/11/002.png)  
+![](http://res2020.tiankonguse.com/images/2020/02/11/002.png)  
 
 
 当我增加了一些日志流水来分析策略的正确性时，我惊呆了。  
