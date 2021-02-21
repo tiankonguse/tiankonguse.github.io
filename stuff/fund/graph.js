@@ -119,6 +119,22 @@ Graph.Renderer.Raphael.prototype = {
         var fillOpacity = 0;
         var strokeWidth = 1;
         var fontSize = 9;
+        var colorGrid = [
+            "#DCDCDC", // 0
+            "#C0C0C0", // 1
+            "#D8BFD8", // 2
+            "#FFB6C1", // 3
+            "#DA70D6", // 4
+            "#FF7F50", // 5
+            "#FFA500", // 6
+            "#FFD700", // 7
+            "#00FA9A", // 8
+            "#00CED1", // 9
+            "#FF00FF", // 10
+        ];
+        
+
+        var color = Raphael.getColor(node.content.degree/13);
 
         if(node.content["fill-opacity"]){
             fillOpacity = 1;
@@ -128,13 +144,18 @@ Graph.Renderer.Raphael.prototype = {
         }else{
             w += node.content.degree * node.content.degree;
             h += node.content.degree * node.content.degree;
-            strokeWidth += node.content.degree * 3;
+            strokeWidth += node.content.degree * 4;
             fontSize += node.content.degree * 2;
+            if(node.content.degree >= colorGrid.length){
+                color = colorGrid[colorGrid.length - 1];
+            }else{
+                color = colorGrid[node.content.degree];
+            }
         }
 
         shape = this.r.ellipse(point[0], point[1], w, h);
-        var color = Raphael.getColor(node.content.degree/13);
 
+        
 
         shape.attr({
             fill: color,
@@ -145,7 +166,7 @@ Graph.Renderer.Raphael.prototype = {
 
         shape.mousedown(this.dragger);
         shape.node.style.cursor = "move";
-        shape.label = this.r.text(point[0], point[1] + h/3+ strokeWidth/3, node.content.label || node.id);
+        shape.label = this.r.text(point[0], point[1] + h/2 - fontSize/2, node.content.label || node.id);
         shape.label.attr({
             "font-size": fontSize
         });
