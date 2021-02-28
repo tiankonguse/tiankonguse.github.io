@@ -41,7 +41,7 @@ https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/2/230
 
 ```
 int ans = 0;
-map<string, int> m = {{"type", 0},{"color", 1},{"name", 2}};
+map<string, int> m = { {"type", 0}, {"color", 1}, {"name", 2} };
 for(auto& v: items){
     if(v[m[ruleKey]] == ruleValue){
         ans++;
