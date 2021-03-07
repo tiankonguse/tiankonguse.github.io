@@ -1,0 +1,52 @@
+<header>
+    <script type="text/javascript" src="../javascript/raphael.1.3.2.js"></script>
+    <script type="text/javascript" src="../javascript/graffle.js"></script>
+    <script type="text/javascript" src="../javascript/graph.js"></script>
+    <script type="text/javascript">
+        // 参考 https://www.graphdracula.net/
+
+
+        var redraw;
+        var height = 1000*1.5;
+        var width = 2000*1.5;
+
+
+
+        /* only do all this when document has finished loading (needed for RaphaelJS */
+        window.onload = function () {
+
+            var g = new Graph();
+            function BingFund(pre, childs) {
+                if (childs.length > 0) {
+                    g.addNode(pre, { "fill-opacity": 1 });
+                }
+                for (index in childs) {
+                    g.addEdge(pre, childs[index]);
+                }
+            }
+
+BingFund("上证50", ["浦发银行","上海机场","民生银行","中国石化","中信证券","三一重工","招商银行","保利地产","中国联通","上汽集团","复星医药","恒瑞医药","万华化学","贵州茅台","山东黄金","恒生电子","海螺水泥","用友网络","海尔智家","三安光电","闻泰科技","海通证券","伊利股份","中泰证券","隆基股份","中信建投","中国神华","工业富联","兴业银行","中国铁建","国泰君安","红塔证券","农业银行","中国平安","中国人保","新华保险","工商银行","中国太保","中国人寿","中国建筑","华泰证券","京沪高铁","光大银行","中国石油","中国中免","汇顶科技","药明康德","海天味业","韦尔股份","兆易创新"]);
+BingFund("中证100", ["浦发银行","上海机场","华夏银行","民生银行","上港集团","宝钢股份","中国石化","中信证券","三一重工","招商银行","保利地产","中国联通","上汽集团","恒瑞医药","万华化学","恒力石化","国电南瑞","贵州茅台","海螺水泥","用友网络","绿地控股","海尔智家","闻泰科技","山西汾酒","海通证券","伊利股份","长江电力","中泰证券","招商证券","大秦铁路","隆基股份","中信建投","中国神华","工业富联","兴业银行","北京银行","中国铁建","国泰君安","陕西煤业","上海银行","农业银行","中国平安","中国人保","交通银行","新华保险","三六零","中国中铁","工商银行","中国太保","中国人寿","邮储银行","中国建筑","华泰证券","中国中车","中国交建","京沪高铁","光大银行","中国石油","中国中免","紫金矿业","永辉超市","中国银行","中国重工","中信银行","汇顶科技","药明康德","海天味业","韦尔股份","平安银行","万科A","中兴通讯","申万宏源","美的集团","云南白药","泸州老窖","格力电器","长春高新","京东方A","广发证券","五 粮 液","新 希 望","双汇发展","招商蛇口","苏宁易购","分众传媒","宁波银行","洋河股份","顺丰控股","海康威视","立讯精密","比亚迪","中公教育","牧原股份","国信证券","鹏鼎控股","中国广核","爱尔眼科","东方财富","智飞生物","温氏股份"]);
+BingFund("", []);
+
+            /* layout the graph using the Spring layout implementation */
+            var layouter = new Graph.Layout.Spring(g);
+            layouter.layout();
+
+            /* draw the graph using the RaphaelJS draw implementation */
+            var renderer = new Graph.Renderer.Raphael('canvas', g, width, height);
+            renderer.draw();
+
+            redraw = function () {
+                layouter.layout();
+                renderer.draw();
+            };
+        };
+
+    </script>
+</header>
+
+<body>
+    <div id="canvas"></div>
+    <button id="redraw" onclick="redraw();">redraw</button>
+</body>
