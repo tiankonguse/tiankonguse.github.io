@@ -34,7 +34,7 @@ https://leetcode-cn.com/contest/season/2021-spring/ranking/solo/
 https://github.com/tiankonguse/leetcode-solutions/tree/master/season/2021-spring/person  
 
 
-一、采购方案  
+## 一、采购方案  
 
 
 题意：给 N 个零件的价钱，只能购买两个零件。  
