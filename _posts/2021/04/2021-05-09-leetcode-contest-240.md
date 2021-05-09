@@ -272,7 +272,6 @@ int maxSumMinProduct(vector<int>& nums) {
 
   return ans % mod;
 }
-};
 ```
 
 
