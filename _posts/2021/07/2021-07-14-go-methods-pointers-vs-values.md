@@ -16,7 +16,7 @@ published: true
 在 CodeReview 同事的 go 语言代码时，发现有个方法的接收器写的是值，而不是指针。  
 
 
-于是，在群里抛出这个问题，是否应该改成指针。  
+我写的 go 代码不多，于是，在群里抛出这个问题，是否应该改成指针。  
 
 
 群里探讨起来，说有时候应该应该应该使用指针，有时候可以使用值。  
@@ -32,10 +32,10 @@ published: true
 https://github.com/golang/go/wiki/CodeReviewComments#receiver-type  
 
 
-这里主要介绍，给接收器定义方法时，什么时候应该使用值，什么时候应该使用指针。 
+文中主要介绍，给接收器定义方法时，什么时候应该使用值，什么时候应该使用指针。 
 
 
-下面是一些 9 条指导手册。  
+下面是官方给的 9 条指导手册。  
 
 
 1）如果接收器是 `map`、`func`、`chan`，不要使用指针。 
@@ -68,9 +68,14 @@ https://github.com/golang/go/wiki/CodeReviewComments#receiver-type
 
 
 
-总结下就是，`map`、`func`、`chan`类型的接收器必须使用指针，修改接收器或元素、同步字段必须使用指针。  
+可以看到上面的 9 条有一半都是重复的。  
+
+
+所以去重总结下就是，`map`、`func`、`chan`类型的接收器必须使用指针，修改接收器或元素、同步字段必须使用指针。  
 只有较小的类型且不修改时，才能使用值接收器。  
-有疑问，使用指针就对了。  
+
+
+或者说，有疑问，使用指针就对了。  
 
 
 
@@ -78,7 +83,7 @@ https://github.com/golang/go/wiki/CodeReviewComments#receiver-type
 ## 三、Pointers vs Values  
 
 
-还查到另外一个官方文档。  
+还有另外一个官方文档。  
 https://golang.org/doc/effective_go#pointers_vs_values    
 
 
@@ -108,13 +113,26 @@ When the value is addressable, the language takes care of the common case of inv
 ```
 
 然而，go 原因提供了一个方便的例外。  
-当一个值是可寻址的，有使用值的方式调用了指针方法时，go 语言会自动转化为指针调用的方式。  
+当一个值是可寻址的，go 语言会自动转化为指针调用的方式。  
 
 
 例如：`a.set` 会自动转化为 `(&a).set`。  
 
 
+有了自动转化这个逻辑，我们调用 go 语言的函数时，就不需要关心是 值还是指针了，全部使用 `.` 就行了。  
+
+
 ## 四、最后  
+
+
+虽然 go 官方给出了一些建议，某些时候可以使用值接收器的方法。  
+
+
+但是当接收器被 `type` 自定义为自定义类型时，我们 CR 别人的代码就无法区分这个写法是否正确了。  
+每次看到值接收器，还需要去找接收器的真实类型，然后才能确定写的对不对。  
+
+
+不知道大家 CR 代码时有没有这个困扰，或者有什么工具可以做这样的检查吗？  
 
 
 《完》  
