@@ -1,6 +1,0 @@
----
-title : sitemap post
----
-
-{% for post in site.posts %} {{site.url}}{{ post.url }} 
-{% endfor %}
