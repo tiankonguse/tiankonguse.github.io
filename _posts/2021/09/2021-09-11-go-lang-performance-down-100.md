@@ -59,7 +59,7 @@ class FastWriter {
 
 
 另一种是通用实现。  
-即先得到 json 的 utf8 编码的字符串，再通过一个函数转化为 unicode 编码即可。
+即先得到 json 的 utf8 编码的字符串，再通过一个函数转化为 unicode 编码即可。  
 
 
 于是我去网上搜了这样一个函数。  
@@ -130,7 +130,7 @@ class FastWriter {
 
 
 ```
-cap :=  escapeUnicodeLen(rs)
+cap := escapeUnicodeLen(rs)
 ret := make([]byte, 0, cap)
 ```
 
@@ -155,7 +155,7 @@ ret := make([]byte, 0, cap)
 
 
 于是一起定位了下，发现标准的 unicode 字符串是4个十六进制，即有前缀0。  
-所以那行代码需要修改为下面的样子
+所以那行代码需要修改为下面的样子  
 
 
 ```
