@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title: leetcode 第 267 场算法比赛  
+title: leetcode 第 266 场算法比赛  
 description: 这题出的，该通过的算法被卡超时，暴力的方法直接过了。     
 keywords: 程序人生  
 tags: [程序人生]    
