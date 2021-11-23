@@ -238,9 +238,9 @@ jQuery(document).ready(function(){
     })();
 
     $.getScript('/javascripts/prettify/prettify.js',function(){
-        $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
         prettyPrint();
     });
+    $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
    if(tk.isMobile.any()){
         //tk.ad.showPageFoot("ad-content-footer","300-250" ,true);
