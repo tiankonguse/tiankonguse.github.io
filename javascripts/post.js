@@ -240,7 +240,6 @@ jQuery(document).ready(function(){
     $.getScript('/javascripts/prettify/prettify.js',function(){
         prettyPrint();
     });
-    $('pre').addClass('prettyprint linenums'); //添加Google code Hight需要的class
 
    if(tk.isMobile.any()){
         //tk.ad.showPageFoot("ad-content-footer","300-250" ,true);
@@ -249,6 +248,8 @@ jQuery(document).ready(function(){
          //tk.ad.showPageFoot("ad-content-footer","728-90" ,true);
          tk.ad.showPageFoot("ad-content-footer","auto" ,true);
     }
+
+    $('pre').addClass('prettyprint linenums code-snippet__fix'); //添加Google code Hight需要的class
 
     $('.entry a').each(function(index,element){
         var that = $(this);
