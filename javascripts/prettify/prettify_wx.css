@@ -14,7 +14,21 @@
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
-	line-height: 26px
+    line-height: 26px;
+	white-space: pre;
+	font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace
+}
+
+.code-snippet__fix code {
+	text-align: left;
+	font-size: 14px;
+	display: block;
+	white-space: pre;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace
 }
 
  /* token style for a string literal */
@@ -85,7 +99,7 @@ li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;} */
 	/* text-align: right */
 }
 
-.code-snippet__fix ol li::before {
+.wx_fix .code-snippet__fix ol li::before {
 	min-width: 1.5em;
 	text-align: right;
 	left: -2.5em;
