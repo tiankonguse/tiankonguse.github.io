@@ -68,13 +68,13 @@ li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;} */
 	-webkit-flex-shrink: 0;
 	flex-shrink: 0;
 	height: 100%;
-	padding: 1em;
+	/* padding: 1em; */
 	list-style-type: none
 }
 
 .code-snippet__fix ol li {
 	list-style-type: none;
-	text-align: right
+	/* text-align: right */
 }
 
 .code-snippet__fix ol li::before {
