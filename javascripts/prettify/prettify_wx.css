@@ -83,7 +83,8 @@ li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;} */
 	left: -2.5em;
 	counter-increment: line;
 	content: counter(line);
-	display: inline;
+    display: inline;
+    padding: 1em;
 	color: rgba(0,0,0,0.15)
 }
 
