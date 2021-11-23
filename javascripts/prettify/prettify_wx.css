@@ -17,46 +17,54 @@
 	line-height: 26px
 }
 
- /* 字符串 string, 对应  */
+ /* token style for a string literal */
 /* .str{color: #EC7600;} */
 .str,.code-snippet__string,.code-snippet__doctag {
 	color: #d14
 }
 
- /* 关键字 keyword, 对应  */
+ /* token style for a keyword  */
 /* .kwd{color: #ca7d37} */
 .kwd,.code-snippet__keyword,.code-snippet__selector-tag,.code-snippet__subst {
 	color: #ca7d37
 }
 
 
- /* 注释 comment 对应  */
+ /* token style for a comment  */
 /* .com{color:#66747B;} */
 .com,.code-snippet__comment,.code-snippet__quote {
 	color: #afafaf;
 	font-style: italic
 }
 
- /* 类型 type 对应  */
+ /* token style for a type  */
 .typ{color:#678CB1;}
 
-/* 数字 */
+/* token style for a literal value.  e.g. 1, null, true. */
 /* .lit{color:#FACD22;} */
 .lit,.code-snippet__number,.code-snippet__literal,.code-snippet__variable,.code-snippet__template-variable,.code-snippet__tag .code-snippet__attr {
 	color: #0e9ce5
 }
 
-/* 冒号，逗号，{} */
+/* token style for a punctuation string. */
 /* .pun{color:#F1F2F3;} */
 
-/* Plain Text */
+/* token style for plain text. */
 /* .pln{color:#F1F2F3;} */
 
 
-/* .tag{color:#8AC763;}
-.atn{color:#E0E2E4;}
-.atv{color:#EC7600;}
-.dec{color:purple;} */
+/* token style for an sgml tag. */
+/* .tag{color:#8AC763;} */
+
+/* token style for an sgml attribute name. */
+/* .atn{color:#E0E2E4;} */
+
+/* token style for an sgml attribute value. */
+/* .atv{color:#EC7600;} */
+
+/* token style for embedded source. */
+/* .dec{color:purple;} */
+
 /* pre.prettyprint {border:0px solid #888;} */
 ol.linenums{margin-top:0;margin-bottom:0;}
 /* .prettyprint{background:#000;} */
