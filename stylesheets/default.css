@@ -1803,7 +1803,7 @@ ins{
 }
 
 .entry .highlighter-rouge pre.prettyprint ol.linenums{
-	margin-left: 6px;
+	/* margin-left: 6px; */
 }
 .entry h2 {
     background-color: rgba(206, 206, 206, 0.17);
