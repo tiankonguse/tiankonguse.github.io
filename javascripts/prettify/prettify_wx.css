@@ -5,15 +5,15 @@
  .code-snippet__fix {
 	font-size: 14px;
 	margin: 10px 0;
-	display: block;
+	/* display: block; */
 	color: #333;
-	position: relative;
+	/* position: relative; */
 	background-color: rgba(0,0,0,0.03);
 	border: 1px solid #f0f0f0;
 	border-radius: 2px;
-	display: -webkit-box;
+	/* display: -webkit-box;
 	display: -webkit-flex;
-	display: flex;
+	display: flex; */
     line-height: 26px;
 	white-space: pre;
 	font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace
@@ -22,12 +22,12 @@
 .code-snippet__fix code {
 	text-align: left;
 	font-size: 14px;
-	display: block;
-	white-space: pre;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	position: relative;
+	/* display: block; */
+	/* white-space: pre; */
+	/* display: -webkit-box; */
+	/* display: -webkit-flex; */
+	/* display: flex; */
+	/* position: relative; */
 	font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace
 }
 
@@ -85,17 +85,19 @@ ol.linenums{margin-top:0;margin-bottom:0;}
 /* li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{color:#555;}
 li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;} */
 
-.code-snippet__fix ol {
-	counter-reset: line;
-	-webkit-flex-shrink: 0;
-	flex-shrink: 0;
-	height: 100%;
+.wx_fix .code-snippet__fix ol {
+	/* counter-reset: line; */
+	/* -webkit-flex-shrink: 0; */
+	/* flex-shrink: 0; */
+	/* height: 100%; */
 	/* padding: 1em; */
 	list-style-type: none
 }
 
+
+
 .code-snippet__fix ol li {
-	list-style-type: none;
+	/* list-style-type: none; */
 	/* text-align: right */
 }
 
@@ -104,7 +106,7 @@ li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;} */
 	text-align: right;
 	left: -2.5em;
 	counter-increment: line;
-	/* content: counter(line); */
+	content: counter(line);
     display: inline;
     padding: 1em;
 	color: rgba(0,0,0,0.15)
