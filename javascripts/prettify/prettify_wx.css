@@ -54,7 +54,10 @@
 }
 
  /* token style for a type  */
-.typ{color:#678CB1;}
+/* .typ{color:#678CB1;} */
+.typ,.code-snippet__type,.code-snippet__class .code-snippet__title {
+	color: #0e9ce5
+}
 
 /* token style for a literal value.  e.g. 1, null, true. */
 /* .lit{color:#FACD22;} */
