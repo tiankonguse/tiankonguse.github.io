@@ -237,9 +237,9 @@ jQuery(document).ready(function(){
         }
     })();
 
-    $.getScript('/javascripts/prettify/prettify.js',function(){
-        prettyPrint();
-    });
+    // $.getScript('/javascripts/prettify/prettify.js',function(){
+    //     prettyPrint();
+    // });
 
    if(tk.isMobile.any()){
         //tk.ad.showPageFoot("ad-content-footer","300-250" ,true);
