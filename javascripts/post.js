@@ -249,7 +249,7 @@ jQuery(document).ready(function(){
          tk.ad.showPageFoot("ad-content-footer","auto" ,true);
     }
 
-    $('pre').addClass('prettyprint code-snippet__fix'); //添加Google code Hight需要的class
+    $('pre').addClass('prettyprint linenums code-snippet__fix'); //添加Google code Hight需要的class
 
     $('.entry a').each(function(index,element){
         var that = $(this);
