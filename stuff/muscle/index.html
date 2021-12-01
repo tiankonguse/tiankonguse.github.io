@@ -1,0 +1,63 @@
+<header>
+    <script type="text/javascript" src="../javascript/raphael.1.3.2.js"></script>
+    <script type="text/javascript" src="../javascript/graffle.js"></script>
+    <script type="text/javascript" src="../javascript/graph_muscle.js"></script>
+    <script type="text/javascript">
+        // 参考 https://www.graphdracula.net/
+
+
+        var redraw;
+        var height = window.innerHeight;
+        var width = window.innerWidth;
+
+        function LoadData(BingFund) {
+            BingFund("身体", { "level": 1 }, ["手臂", "背", "肩", "胸", "腹", "腿"]);
+            BingFund("手臂", { "level": 2 }, ["肱三头肌", "肱二头肌", "肱肌", "肱桡肌"]);
+            BingFund("肱三头肌", { "level": 3 }, ["长头"]);
+            BingFund("背", { "level": 2 }, ["冈上肌", "冈下肌", "小圆肌", "大圆肌", "背阔肌", "竖脊肌"]);
+            BingFund("肩", { "level": 2 }, ["三角肌", "斜方肌", "菱形肌"]);
+            BingFund("三角肌", { "level": 3 }, ["三角肌前束", "三角肌中束", "三角肌后束"]);
+            BingFund("斜方肌", { "level": 3 }, ["上斜方肌", "中斜方肌", "下斜方肌"]);
+            BingFund("胸", { "level": 2 }, ["胸小肌", "胸大肌", "前锯肌"]);
+            BingFund("腹", { "level": 2 }, ["腹直肌", "腹外斜肌"]);
+            BingFund("腿", { "level": 2 }, ["臀中肌", "臀小肌", "臀大肌", "股直肌", "股二头肌"]);
+            BingFund("引体向上", { "level": 5 }, ["背阔肌", "大圆肌", "中斜方肌", "菱形肌", "三角肌后束", "肱三头肌", "肱二头肌"]);
+            BingFund("高位下拉", { "level": 5 }, ["背阔肌", "下斜方肌", "三角肌后束", "胸大肌", "肱二头肌", "肱肌"]);
+        }
+
+        /* only do all this when document has finished loading (needed for RaphaelJS */
+        window.onload = function () {
+            var g = new Graph();
+            function BingFund(pre, preAttr, childs) {
+                var node = g.addNode(pre, preAttr);
+
+                for (var index in childs) {
+                    var childContent = { "level": node.content["level"] + 1 };
+                    g.addNode(childs[index], childContent);
+                    g.addEdge(pre, childs[index]);
+                }
+            }
+
+            LoadData(BingFund);
+
+            /* layout the graph using the Spring layout implementation */
+            var layouter = new Graph.Layout.Spring(g);
+            layouter.layout();
+
+            /* draw the graph using the RaphaelJS draw implementation */
+            var renderer = new Graph.Renderer.Raphael('canvas', g, width, height);
+            renderer.draw();
+
+            redraw = function () {
+                layouter.layout();
+                renderer.draw();
+            };
+        };
+
+    </script>
+</header>
+
+<body>
+    <div id="canvas"></div>
+    <button id="redraw" onclick="redraw();">redraw</button>
+</body>

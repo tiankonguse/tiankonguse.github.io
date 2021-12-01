@@ -2,7 +2,15 @@ Raphael.fn.connection = function (obj1, obj2, style) {
     var selfRef = this;
     var color = style.fg || "#000";
     var edge = {
-        draw: function () {
+        draw: function (newStyle) {
+            newStyle = newStyle || {}
+            for (var key in style) {
+                if (!(key in newStyle)) {
+                    newStyle[key] = style[key];
+                }
+            }
+            var newColor = newStyle.fg || color;
+
             var bb1 = obj1.getBBox();
             var bb2 = obj2.getBBox();
             bb1.height = bb1.height + 15;
@@ -58,7 +66,7 @@ Raphael.fn.connection = function (obj1, obj2, style) {
                 x3 = [0, 0, 0, 0, x4, x4, x4 - dx, x4 + dx][res[1]].toFixed(3),
                 y3 = [0, 0, 0, 0, y1 + dy, y1 - dy, y4, y4][res[1]].toFixed(3);
             var path = ["M", x1.toFixed(3), y1.toFixed(3), "C", x2, y2, x3, y3, x4.toFixed(3), y4.toFixed(3)].join(",");
-            if (style && style.directed) {
+            if (newStyle.directed) {
                 var mag = Math.sqrt((y4 - y3) * (y4 - y3) + (x4 - x3) * (x4 - x3));
                 var norm = function (x, l) {
                     return (-x * (l || 5) / mag);
@@ -72,21 +80,41 @@ Raphael.fn.connection = function (obj1, obj2, style) {
                 }];
                 path = path + ",M" + arr[0].x + "," + arr[0].y + ",L" + x4 + "," + y4 + ",L" + arr[1].x + "," + arr[1].y;
             }
-            edge.fg && edge.fg.attr({
-                path: path
-            }) || (edge.fg = selfRef.path(path).attr({
-                stroke: color,
-                fill: "none"
-            }).toBack());
-            edge.bg && edge.bg.attr({
-                path: path
-            }) || style && style.bg && (edge.bg = style.bg.split && selfRef.path(path).attr({
-                stroke: style.bg.split("|")[0],
-                fill: "none",
-                "stroke-width": style.bg.split("|")[1] || 3
-            }).toBack());
+
+            if (edge.fg) {
+                edge.fg.attr({
+                    path: path,
+                    stroke: newColor,
+                    fill: "none"
+                });
+            } else {
+                edge.fg = selfRef.path(path).attr({
+                    stroke: newColor,
+                    fill: "none"
+                }).toBack();
+
+            }
+
+            newStyle.bg = newStyle.bg || "";
+            if (edge.bg) {
+                edge.bg.attr({
+                    path: path,
+                    stroke: newStyle.bg.split("|")[0],
+                    fill: "none",
+                    "stroke-width": newStyle.bg.split("|")[1] || 3
+                });
+            } else if (newStyle.bg) {
+                edge.bg = selfRef.path(path).attr({
+                    stroke: newStyle.bg.split("|")[0],
+                    fill: "none",
+                    "stroke-width": newStyle.bg.split("|")[1] || 3
+                }).toBack();
+            }
         }
     }
+    edge.from = obj1;
+    edge.to = obj2;
+    edge.style = style;
     edge.draw();
     return edge;
 };
