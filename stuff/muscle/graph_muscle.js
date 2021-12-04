@@ -348,7 +348,14 @@ Graph.Layout.Spring.prototype = {
         for (var i = 0; i < this.graph.nodes.length; i++) {
             var node = this.graph.nodes[i];
             node.layoutPosX = node.layoutForceX = node.rowIndex / this.rowMax[node.level] * width;
-            node.layoutPosY = node.layoutForceY = node.level / 7 * height;
+            if(node.level == 1){
+                node.layoutPosY = node.layoutForceY = node.level / (1 + this.graph.kMaxLevel) * height - 20;
+            } else if(node.level == 3){
+                node.layoutPosY = node.layoutForceY = (node.level - 1 - 0.3) / this.graph.kMaxLevel * height;
+            }else{
+                node.layoutPosY = node.layoutForceY = (node.level - 1) / this.graph.kMaxLevel * height + 20;
+            }
+            
             // console.log(node, node.level, node.rowIndex, this.rowMax[node.level]);
             // console.log(node.layoutForceX, node.layoutForceY);
         }
