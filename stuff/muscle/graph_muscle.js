@@ -209,8 +209,8 @@ Graph.Renderer.Raphael.prototype = {
         var color = Raphael.getColor(node.content.degree / 13);
 
         var level = node.content["level"] || 0;
-        level = 5 - level;
-        if (level <= 0 || level > 3) {
+        level = this.graph.kMaxLevel - level;
+        if (level <= 0 || level > 2) {
             level = 3;
         }
         // node.content.degree += level;
@@ -293,21 +293,22 @@ Graph.Layout.Spring.prototype = {
             var child = node.edges[i];
             if (child.level < node.level) continue; //pre
             // if (child.rowIndex > 0) continue;
-            if (child.level == 6) {
+            if (child.level > this.graph.kMaxLevel) {
                 console.log("异常节点：", child);
+                continue;
             }
             child.rowNum++;
             child.rowSum += this.rowMax[child.level]++;
             child.rowIndex = child.rowSum / child.rowNum;
             this.calRowIndex(child);
-            if (child.level < 5) {
+            if (child.level < this.graph.kMaxLevel - 1) {
                 node.childNum += child.childNum;
             }
         }
         this.rowMax[1] = 2;
     }, calLastRow: function () {
         var list = [];
-        var level = 5;
+        var level = this.graph.kMaxLevel;
         for (var i = 0; i < this.graph.nodes.length; i++) {
             var node = this.graph.nodes[i];
             if (node.level != level) continue;

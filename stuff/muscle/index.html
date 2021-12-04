@@ -7,17 +7,27 @@
 
         var hideNode = {};
         var baseGraph ;
+        const kMaxLevel = 4;
 
         function BingFund(g, pre, preAttr, childs) {
-            var node = g.addNode(pre, preAttr);
+            g.addNode(pre, preAttr);
+
             for (var index in childs) {
                 var child = childs[index];
-                if(preAttr.level == 5 && !(child in g.nodes)) {
+                if(preAttr.level == kMaxLevel && !(child in g.nodes)) {
                     console.log("肌肉未注册：", pre,  child);
                 } else {
-                    var childContent = { "level": node.content["level"] + 1 };
-                    g.addNode(child, childContent);
-                    g.addEdge(pre, childs[index]);
+                    var childContent = { "level": preAttr.level + 1 };
+                    var childNode = g.addNode(child, childContent);
+                    // if(preAttr.level == 2) {
+                    //     BingFund(g, child, childContent, [child + "-"]);
+                    // }
+
+                    // if(preAttr.level == 5 && childNode.level ==3) {
+                    //     BingFund(g, pre, preAttr, [child + "-"]);
+                    // }else{
+                    // }
+                    g.addEdge(pre, child); 
                 }
             }
         }
@@ -25,22 +35,21 @@
         function LoadData(g) {
             BingFund(g, "身体", { "level": 1 }, ["手臂", "背", "肩", "胸", "腹", "腿"]);
             BingFund(g, "手臂", { "level": 2 }, ["肱三头肌", "肱二头肌", "肱肌", "肱桡肌"]);
-            BingFund(g, "肱三头肌", { "level": 3 }, ["长头"]);
             BingFund(g, "背", { "level": 2 }, ["冈上肌", "冈下肌", "小圆肌", "大圆肌", "背阔肌", "竖脊肌"]);
             BingFund(g, "肩", { "level": 2 }, ["三角肌", "斜方肌", "菱形肌"]);
-            BingFund(g, "三角肌", { "level": 3 }, ["三角肌前束", "三角肌中束", "三角肌后束"]);
-            BingFund(g, "斜方肌", { "level": 3 }, ["上斜方肌", "中斜方肌", "下斜方肌"]);
             BingFund(g, "胸", { "level": 2 }, ["胸小肌", "胸大肌", "前锯肌"]);
             BingFund(g, "腹", { "level": 2 }, ["腹直肌", "腹外斜肌"]);
             BingFund(g, "腿", { "level": 2 }, ["臀中肌", "臀小肌", "臀大肌", "股直肌", "股二头肌", "腓肠肌"]);
-            BingFund(g, "引体向上", { "level": 5 }, ["背阔肌", "大圆肌", "中斜方肌", "菱形肌", "三角肌后束", "肱三头肌", "肱二头肌"]);
-            BingFund(g, "高位下拉", { "level": 5 }, ["背阔肌", "下斜方肌", "三角肌后束", "胸大肌", "肱二头肌", "肱肌"]);
-            BingFund(g, "俯卧撑", { "level": 5 }, ["胸大肌", "肱三头肌", "三角肌前束", "前锯肌", "喙肱肌"]);
-            BingFund(g, "仰卧推举", { "level": 5 }, ["胸大肌", "三角肌前束", "前锯肌", "啄肱肌", "斜方肌", "肱三头肌"]);
-            BingFund(g, "卷腹", { "level": 5 }, ["腹直肌", "斜方肌"]);
-            BingFund(g, "平板支撑", { "level": 5 }, ["竖脊肌", "腹直肌", "斜方肌", "菱形肌"]);
-            BingFund(g, "腿部弯举", { "level": 5 }, ["股二头肌", "臀大肌"]);
-            BingFund(g, "腿部推举", { "level": 5 }, ["股直肌", "臀大肌", "腓肠肌"]);
+
+            // 运动项目
+            BingFund(g, "引体向上", { "level": kMaxLevel }, ["背阔肌", "大圆肌", "斜方肌", "菱形肌", "三角肌", "肱三头肌", "肱二头肌"]);
+            BingFund(g, "高位下拉", { "level": kMaxLevel }, ["背阔肌", "斜方肌", "三角肌", "胸大肌", "肱二头肌", "肱肌"]);
+            BingFund(g, "俯卧撑", { "level": kMaxLevel }, ["胸大肌", "肱三头肌", "三角肌", "前锯肌", "喙肱肌"]);
+            BingFund(g, "仰卧推举", { "level": kMaxLevel }, ["胸大肌", "三角肌", "前锯肌", "啄肱肌", "斜方肌", "肱三头肌"]);
+            BingFund(g, "卷腹", { "level": kMaxLevel }, ["腹直肌", "斜方肌"]);
+            BingFund(g, "平板支撑", { "level": kMaxLevel }, ["竖脊肌", "腹直肌", "斜方肌", "菱形肌"]);
+            BingFund(g, "腿部弯举", { "level": kMaxLevel }, ["股二头肌", "臀大肌"]);
+            BingFund(g, "腿部推举", { "level": kMaxLevel }, ["股直肌", "臀大肌", "腓肠肌"]);
         }
 
         function DfsBingFund(g, root){
@@ -48,7 +57,8 @@
                 return;
             }
 
-            var node = g.addNode(root.id, root.content);
+            g.addNode(root.id, root.content);
+
             var childs = root.edges;
             for(var index in childs) {
                 var child = childs[index];
@@ -59,6 +69,7 @@
                     continue;
                 }
                 g.addNode(child.id, child.content);
+                
                 g.addEdge(root.id, child.id);
                 DfsBingFund(g, child);
             }
@@ -66,7 +77,7 @@
         }
 
         function DfsHide(root){
-            if(root.level == 5) {
+            if(root.level == kMaxLevel) {
                 return;
             }
             hideNode[root.id] = 1;
@@ -77,6 +88,22 @@
                     continue;
                 }
                 DfsHide(child);
+            }
+        }
+        function DfsHideEmpty(root){
+            if(root.level < kMaxLevel - 1) {
+                var childs = root.edges;
+                for(var index in childs) {
+                    var child = childs[index];
+                    if(child.level < root.level) {
+                        continue;
+                    }
+                    DfsHideEmpty(child);
+                }
+            }else {
+                if(root.edges.length == 1) {
+                    hideNode[root.id] = 1;
+                }
             }
         }
 
@@ -93,6 +120,7 @@
 
         function ReInitGraph(){
             var g = new Graph();
+            g.kMaxLevel = kMaxLevel;
             ReLoadData(g);
             return g;
         }
@@ -117,6 +145,10 @@
             DfsHide(baseGraph.nodes[id]);
             Redraw();
         }
+        function HideEmpty(){
+            DfsHideEmpty(baseGraph.nodes["身体"]);
+            Redraw();
+        }
 
         function Redraw() {
             document.getElementById('canvas').innerHTML = "";
@@ -139,7 +171,9 @@
 
 <body>
     <button onclick="RedrawAll();">全部重画</button>
+    <button onclick="HideEmpty();">隐藏空肌肉</button>
     <button onclick="HideBody('背');">隐藏背</button>
+    <button onclick="HideBody('手臂');">隐藏手臂</button>
     <button onclick="HideBody('肩');">隐藏肩</button>
     <button onclick="HideBody('胸');">隐藏胸</button>
     <button onclick="HideBody('腹');">隐藏腹</button>
