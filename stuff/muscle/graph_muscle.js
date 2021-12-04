@@ -11,7 +11,13 @@ Graph.prototype = {
                 content["id"] = id;
             }
 
-            new_node = new Graph.Node(id, content);
+            new_node = new Graph.Node(id, {});
+            for (var k in content) {
+                if (!(k in new_node.content)) {
+                    new_node.content[k] = content[k]
+                }
+            }
+
             new_node.content["degree"] = 0;
             new_node.level = content.level;
             new_node.edges = [];
@@ -51,9 +57,13 @@ Graph.prototype = {
 Graph.Node = function (id, value) {
     this.id = id;
     this.content = value;
+    this.left = 0;
+    this.right = 0;
 };
 Graph.Node.prototype = {};
 Graph.Renderer = {};
+
+//  raphael 是一套创建的矢量图形和动画的javascript库，它使用SVG W3C推荐标准和VML作为创建图形的基础。
 Graph.Renderer.Raphael = function (element, graph, width, height) {
     this.width = width || 400;
     this.height = height || 400;
@@ -113,12 +123,10 @@ Graph.Renderer.Raphael = function (element, graph, width, height) {
             return;
         }
 
-
-
         for (var i in selfRef.graph.edges) {
             var edge = selfRef.graph.edges[i];
             var id = selfRef.isDrag.nodeData.id;
-            console.log(edge);
+            // console.log(edge);
             if (edge.source.id == id || edge.target.id == id) {
                 selfRef.HighlightNode(edge.source.shape);
                 selfRef.HighlightNode(edge.target.shape);
@@ -160,8 +168,8 @@ Graph.Renderer.Raphael.prototype = {
         var dy = length * Math.sin(angle);
         return [point[0] + dx, point[1] + dy];
     }, draw: function () {
-        this.factorX = (width - 2 * this.radius) / (this.graph.layoutMaxX - this.graph.layoutMinX);
-        this.factorY = (height - 2 * this.radius) / (this.graph.layoutMaxY - this.graph.layoutMinY);
+        this.factorX = (this.width - 2 * this.radius) / (this.graph.layoutMaxX - this.graph.layoutMinX);
+        this.factorY = (this.height - 2 * this.radius) / (this.graph.layoutMaxY - this.graph.layoutMinY);
         for (var i = 0; i < this.graph.nodes.length; i++) {
             this.drawNode(this.graph.nodes[i]);
         }
@@ -202,8 +210,8 @@ Graph.Renderer.Raphael.prototype = {
 
         var level = node.content["level"] || 0;
         level = 5 - level;
-        if (level <= 0) {
-            level = 5;
+        if (level <= 0 || level > 3) {
+            level = 3;
         }
         // node.content.degree += level;
         // w += level;
@@ -286,7 +294,7 @@ Graph.Layout.Spring.prototype = {
             if (child.level < node.level) continue; //pre
             // if (child.rowIndex > 0) continue;
             if (child.level == 6) {
-                console.log(child);
+                console.log("异常节点：", child);
             }
             child.rowNum++;
             child.rowSum += this.rowMax[child.level]++;
