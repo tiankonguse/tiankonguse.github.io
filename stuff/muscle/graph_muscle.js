@@ -57,8 +57,8 @@ Graph.prototype = {
 Graph.Node = function (id, value) {
     this.id = id;
     this.content = value;
-    this.left = 0;
-    this.right = 0;
+    this.left = -1;
+    this.right = -1;
 };
 Graph.Node.prototype = {};
 Graph.Renderer = {};
@@ -301,6 +301,14 @@ Graph.Layout.Spring.prototype = {
             child.rowSum += this.rowMax[child.level]++;
             child.rowIndex = child.rowSum / child.rowNum;
             this.calRowIndex(child);
+            if(node.level == 2) {
+                if(node.left == -1) {
+                    node.left = node.right = child.rowIndex;
+                } else {
+                    node.left = Math.min(node.left, child.rowIndex);
+                    node.right = Math.max(node.right, child.rowIndex);
+                }
+            }
             if (child.level < this.graph.kMaxLevel - 1) {
                 node.childNum += child.childNum;
             }
@@ -329,7 +337,6 @@ Graph.Layout.Spring.prototype = {
             node.rowIndex = result[node.id];
         }
         this.rowMax[level] = list.length + 1;
-
     }, layoutPrepare: function () {
         for (var i = 0; i < this.graph.nodes.length; i++) {
             var node = this.graph.nodes[i];
@@ -347,7 +354,11 @@ Graph.Layout.Spring.prototype = {
         var width = window.innerWidth;
         for (var i = 0; i < this.graph.nodes.length; i++) {
             var node = this.graph.nodes[i];
-            node.layoutPosX = node.layoutForceX = node.rowIndex / this.rowMax[node.level] * width;
+            if(node.level == 2) {
+                node.layoutPosX = node.layoutForceX = (node.left + node.right) / 2 / this.rowMax[node.level + 1] * width;
+            } else {
+                node.layoutPosX = node.layoutForceX = node.rowIndex / this.rowMax[node.level] * width;
+            }
             if(node.level == 1){
                 node.layoutPosY = node.layoutForceY = node.level / (1 + this.graph.kMaxLevel) * height - 20;
             } else if(node.level == 3){
