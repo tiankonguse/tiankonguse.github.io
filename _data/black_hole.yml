@@ -1,20 +1,13 @@
-- name: 动态主页
-  link: /project/dynamic-index/
 
-- name: 照片墙
-  link: /project/photowall/
+- name: 时间戳转换工具
+  link: /project/unixtime/
   
-- name: 技能关系图
-  link: /project/skill/
+- name: JSONLint
+  link: /project/jsonlint/
   
-- name: 堆方块游戏
-  link: /project/tetris/
+- name: 肌肉与运动关系图
+  link: /stuff/muscle/
+    
+- name: 基金股票关系图
+  link: /stuff/fund/
   
-- name: 绚丽的图片动画
-  link: /project/animate/
-  
-- name: 移动端水平相册
-  link: /project/photowall/slide_horizontally.html
-  
-- name:  移动端水平相册2
-  link: /project/photowall/islide_horizontally.html
