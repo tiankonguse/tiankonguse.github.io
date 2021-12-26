@@ -180,7 +180,7 @@ wait 是 turtle 库需要的，否则程序一闪就关了。
 于是我就简单封装了一下，代码如下：  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/009.png)  
+![](http://res.tiankonguse.com/images/2021/12/26/010.png)  
 
 
 
