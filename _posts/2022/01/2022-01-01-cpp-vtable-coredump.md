@@ -1,7 +1,7 @@
 ---
 layout:     post
-title: 2021年个人总结
-description: cpp 的 vtable 上面 coredump 了，如何分析定位?
+title: cpp 的 vtable 上面 coredump 了，如何分析定位?
+description: 同事反馈的问题，最终发现是框架的设计问题。  
 keywords: 程序人生
 tags: [程序人生]
 categories: [程序人生]
