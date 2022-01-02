@@ -95,6 +95,7 @@ defaults: []
 
 # site info
 author : tiankonguse
+email : i@tiankonguse.com
 title: tiankonguse blog
 description : 这是 tiankonguse 基于 Jekyll 和 github 创建的博客，是 tiankonguse 在学习上，工作上，生活上的记录。
 feed: /atom.xml
