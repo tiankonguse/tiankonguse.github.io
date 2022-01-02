@@ -5,7 +5,7 @@ description: 被 leetcode 坑了，暴力反而通过，优化后超时。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-02-18 21:30:00  
+updateData:  2021-09-25 21:30:00  
 published: true  
 ---  
 

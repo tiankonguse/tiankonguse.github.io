@@ -2,10 +2,10 @@
 layout:     post  
 title: 读《大国大城：当代中国的统一、发展与平衡》  
 description: 思路不顺，第一题写了十几分钟，排名依旧是一百名外摇摆。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
-updateData:  2020-02-18 21:30:00  
+keywords: 读书,政治,宏观经济  
+tags: [读书,政治,宏观经济]    
+categories: [读书]  
+updateData:  2021-02-01 21:30:00  
 published: true  
 ---  
 

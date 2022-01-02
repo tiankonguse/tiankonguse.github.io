@@ -2,10 +2,10 @@
 layout:     post  
 title:   锻炼肌肉的收益最大化 
 description: 开始练背部肌肉。     
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
-updateData:  2020-02-18 21:30:00  
+keywords: 生活,运动,健康,肌肉  
+tags: [生活,运动,健康,肌肉]    
+categories: [生活]  
+updateData:  2021-02-02 21:30:00  
 published: true  
 ---  
 

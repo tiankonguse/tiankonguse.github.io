@@ -5,7 +5,7 @@ description: 专制与独裁导致思想禁锢，会阻碍科学的发展
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-02-18 21:30:00  
+updateData:  2020-07-13 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 暴力与动态规划才是王道
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-02-18 21:30:00  
+updateData:  2020-09-20 21:30:00  
 published: true  
 ---  
 
