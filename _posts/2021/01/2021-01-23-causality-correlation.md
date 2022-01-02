@@ -2,9 +2,9 @@
 layout:     post  
 title: 因果性与相关性  
 description: 经验有时候并不代表正确。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,理性逻辑,因果分析  
+tags: [生活,理性逻辑,因果分析]    
+categories: [生活]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

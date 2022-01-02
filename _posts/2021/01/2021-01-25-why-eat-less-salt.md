@@ -2,9 +2,9 @@
 layout:     post  
 title: 为什么要少吃盐   
 description: 吃盐原来会长“胖”，皮肤更干燥。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,营养学,监控,盐,皮肤  
+tags: [生活,营养学,监控,盐,皮肤]    
+categories: [生活]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

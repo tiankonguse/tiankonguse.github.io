@@ -2,8 +2,8 @@
 layout:     post
 title: cpp 的 vtable 上面 coredump 了，如何分析定位?
 description: 同事反馈的问题，最终发现是框架的设计问题。  
-keywords: 程序人生
-tags: [程序人生]
+keywords: 程序人生,coredump,问题定位,项目实战
+tags: [程序人生,coredump,问题定位,项目实战]
 categories: [程序人生]
 updateData:  2020-02-18 21:30:00
 published: true

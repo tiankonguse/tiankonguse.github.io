@@ -2,9 +2,9 @@
 layout:     post  
 title: 这里一年可以节省1.8万股票手续费  
 description: 很多人一顿操作，利润全部被券商拿走了。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,股票  
+tags: [理财,股票]    
+categories: [理财]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

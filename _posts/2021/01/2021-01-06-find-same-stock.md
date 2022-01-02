@@ -2,9 +2,9 @@
 layout:     post  
 title: 特斯拉在涨，怎么找到关联公司
 description: 大家应该都知道怎么找吧。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,数据分析,特斯拉  
+tags: [理财,数据分析]    
+categories: [理财]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

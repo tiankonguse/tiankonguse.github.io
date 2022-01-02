@@ -2,9 +2,9 @@
 layout:     post  
 title: 有用、没用、有害的经验   
 description: 不要照搬硬套。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,营养学,讲道理,理性逻辑
+tags: [生活,营养学,讲道理,理性逻辑]    
+categories: [生活]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

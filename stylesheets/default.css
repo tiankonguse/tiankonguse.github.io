@@ -780,6 +780,12 @@ hr {
     background: #f6f6f6;
 }
 
+.main-article .article-year li:hover {
+    background: #e7e7e7;
+    border-color: brown;
+    font-size: 17px;
+}
+
 .main-article .article-year li span {
     display: block;
     color: #6d6d6d;

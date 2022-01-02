@@ -2,9 +2,9 @@
 layout:     post  
 title: 看《心灵奇旅》，并没有那么好看
 description: 这次状态不好，最后一题没思路。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 电影  
+tags: [电影]    
+categories: [电影]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

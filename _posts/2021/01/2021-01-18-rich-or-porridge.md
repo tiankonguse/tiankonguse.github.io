@@ -2,9 +2,9 @@
 layout:     post  
 title: 吃米饭还是喝粥？ 
 description: 需要明白背后的为什么。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,健康,营养学  
+tags: [生活,健康,营养学]    
+categories: [生活]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  
