@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 第 226 场算法比赛  
 description: 思路不顺，第一题写了十几分钟，排名依旧是一百名外摇摆。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

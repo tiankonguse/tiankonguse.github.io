@@ -2,8 +2,8 @@
 layout:     post  
 title: leetcode 第 274 场算法比赛  
 description: 前三题几分钟做完，最后一题有点意思，你是怎么做的呢。       
-keywords: 程序人生  
-tags: [程序人生]    
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  

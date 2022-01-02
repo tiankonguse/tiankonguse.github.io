@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 第 201 算法比赛
 description: 第一题搞了五十分钟，脑子不行了    
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

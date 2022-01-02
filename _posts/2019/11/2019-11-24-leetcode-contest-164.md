@@ -2,9 +2,9 @@
 layout:     post  
 title:  Leetcode 第 164 场比赛回顾 
 description: 从双十一之后，leetcode 就开始大放水了，难道美帝那边跳槽季开始了吗？
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2019-11-24 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  

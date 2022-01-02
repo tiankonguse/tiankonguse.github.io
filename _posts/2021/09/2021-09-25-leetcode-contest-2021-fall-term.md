@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 秋季编程大赛（2021团队赛）  
 description: 被 leetcode 坑了，暴力反而通过，优化后超时。     
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

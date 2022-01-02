@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 第 240 场算法比赛  
 description: 四道题，背后涉及 11个不同的算法，可以学到不少知识点。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

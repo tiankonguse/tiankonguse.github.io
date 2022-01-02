@@ -2,9 +2,9 @@
 layout:     post  
 title: 初级树状数组 leetcode 练习题  
 description: 分享几个简单的树状数组练习题。  
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

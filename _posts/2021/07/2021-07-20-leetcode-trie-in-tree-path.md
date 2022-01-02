@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 1938：树上路径的 trie 字典树  
 description: 动态维护字典树，原来这么简单。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

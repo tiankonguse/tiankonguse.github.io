@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 第 262 场算法比赛  
 description: 这次比赛各种不顺，第一题做了十几分钟，最后一分钟四道题才AK掉。     
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  

@@ -2,9 +2,9 @@
 layout:     post  
 title: leetcode 第 248 场算法比赛  
 description: 后缀数组我还不会，有必要学习一下了。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,leetcode,算法比赛  
+tags: [算法,leetcode,算法比赛]    
+categories: [算法]  
 updateData:  2020-02-18 21:30:00  
 published: true  
 ---  
