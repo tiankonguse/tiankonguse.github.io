@@ -4,7 +4,7 @@
           <img id="sidebar-avatar-img" alt="" src="/images/logo.ico">
         </a>
         <div id="sidebar-social">
-            <a href="/sitemap.txt" target="_blank" class="sidebar-social-icon ">
+            <a href="/atom.xml" target="_blank" class="sidebar-social-icon ">
                 <span class="fa-stack fa">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
