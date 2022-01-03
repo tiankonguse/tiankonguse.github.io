@@ -9,7 +9,7 @@ categories: [程序人生]
 
 ## 背景
 
-上篇文章记录了《[stl 源码阅读之allocator配置器](http://github.tiankonguse.com/blog/2016/11/07/stl-allocator.html)》, 有了这个基础，就可以快速记录容器了。  
+上篇文章记录了《[stl 源码阅读之allocator配置器](//github.tiankonguse.com/blog/2016/11/07/stl-allocator.html)》, 有了这个基础，就可以快速记录容器了。  
 这里简单记录一下容器vertor的实现。  
 
 
@@ -141,7 +141,7 @@ void push_back(const value_type& __x){
 这个函数代码很简洁，当预留的buf还足够时，　就直接对下一个空间调用构造函数，　然后finish指针偏移即可。  
 如果预留的空间不够了，　就调用insert方法，在最后插入一个值。  
 
-关于调用构造函数的知识点，上篇文章《[stl 源码阅读之allocator配置器](http://github.tiankonguse.com/blog/2016/11/07/stl-allocator.html)》已经记录了，　这里就不多说了。  
+关于调用构造函数的知识点，上篇文章《[stl 源码阅读之allocator配置器](//github.tiankonguse.com/blog/2016/11/07/stl-allocator.html)》已经记录了，　这里就不多说了。  
 
 那我们就需要来看看插入函数的实现了。  
 

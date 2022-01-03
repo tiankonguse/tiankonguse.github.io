@@ -10,7 +10,7 @@ categories: [前端技术]
 
 ## 目前代码运行环境
 
-代码文件地址为 我的网站的js代码地址[http://github.tiankonguse.com/javascripts/main.js][main-js]
+代码文件地址为 我的网站的js代码地址[//github.tiankonguse.com/javascripts/main.js][main-js]
 
 文件里封装的功能可能会比文章中多，文章一般周末更新。
 
@@ -526,4 +526,4 @@ tk.Composition(TK, {
 
 ```
 
-[main-js]: http://github.tiankonguse.com/javascripts/main.js
+[main-js]: //github.tiankonguse.com/javascripts/main.js

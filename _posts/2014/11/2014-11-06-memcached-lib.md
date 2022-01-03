@@ -407,4 +407,4 @@ get an environment variable
 char *getenv(const char *name);
 ```
 
-[memcached-code]: http://github.tiankonguse.com/blog/2014/11/06/memcached-code/
+[memcached-code]: //github.tiankonguse.com/blog/2014/11/06/memcached-code/

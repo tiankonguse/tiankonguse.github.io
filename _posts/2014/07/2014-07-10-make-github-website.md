@@ -95,12 +95,12 @@ github.map.fastly.net.  13      IN      A       103.245.222.133
 
 
 
-[jekyll-base-record]: http://github.tiankonguse.com/blog/2014/09/26/jekyll-base-record/
+[jekyll-base-record]: //github.tiankonguse.com/blog/2014/09/26/jekyll-base-record/
 [github-tiankonguse-page-prj]: https://github.com/tiankonguse/tiankonguse.github.io
 [setting]: https://github.com/tiankonguse/tiankonguse.github.io/settings
 [github-home]: https://github.com/tiankonguse
 [tiankonguse-page]: http://tiankonguse.github.io
 [tiankonguse]: http://tiankonguse.com
-[github-tiankonguse]: http://github.tiankonguse.com/
+[github-tiankonguse]: //github.tiankonguse.com/
 [github-page]: http://pages.github.com/
 [github]: https://github.com/

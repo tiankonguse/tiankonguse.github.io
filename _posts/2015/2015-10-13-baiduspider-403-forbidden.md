@@ -11,7 +11,7 @@ updateData:   23:54 2015/10/13
 
 ## 背景
 
-很早之前曾在百度的站长平台提交了 [sitemap](http://github.tiankonguse.com/sitemap.txt), 之后就不管它了.  
+很早之前曾在百度的站长平台提交了 [sitemap](//github.tiankonguse.com/sitemap.txt), 之后就不管它了.  
 今天无意见发现百度几乎搜不到自己的记录集, 于是进入百度的站长平台, 发现百度没收录我的几篇记录, 后来找到原因了.  
 github 直接把百度蜘蛛的请求拒绝掉了.  
 
@@ -19,8 +19,8 @@ github 直接把百度蜘蛛的请求拒绝掉了.
 
 ```
 以下是百度Spider抓取结果及页面信息：
-提交网址：	http://github.tiankonguse.com/
-抓取网址：	http://github.tiankonguse.com/
+提交网址：	[github.tiankonguse.com](//github.tiankonguse.com/)
+抓取网址：	[github.tiankonguse.com](//github.tiankonguse.com/)
 抓取UA：	Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
 抓取时间：	2015-10-13 14:19:13
 网站IP：	185.31.18.133 已反馈，预计几分钟内完成更新

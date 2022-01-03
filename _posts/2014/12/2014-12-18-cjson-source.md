@@ -976,9 +976,9 @@ static char *print_object(cJSON *item,int depth,int fmt) {
 
 
 [number-gif]: http://www.json.org/number.gif
-[sphinx-json-conf]: http://github.tiankonguse.com/blog/2014/11/28/sphinx-json-conf/
-[hash-table]: http://github.tiankonguse.com/blog/2014/11/04/hash-table/
-[memcached-hash-table]: http://github.tiankonguse.com/blog/2014/11/07/memcached-hash-table/
+[sphinx-json-conf]: //github.tiankonguse.com/blog/2014/11/28/sphinx-json-conf/
+[hash-table]: //github.tiankonguse.com/blog/2014/11/04/hash-table/
+[memcached-hash-table]: //github.tiankonguse.com/blog/2014/11/07/memcached-hash-table/
 [cjson]: http://sourceforge.net/projects/cjson/
 [json-org]: http://www.json.org/
 [json-org-zh]: http://www.json.org/json-zh.html

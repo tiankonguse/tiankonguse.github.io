@@ -14,7 +14,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 ## 零、背景  
 
 
-上篇文章《[TCP服务端主动断开连接问题](http://github.tiankonguse.com/blog/2020/01/06/tcp-server-auto-close.html)》介绍了我工作中遇到的一个 TCP 相关的问题。  
+上篇文章《[TCP服务端主动断开连接问题](//github.tiankonguse.com/blog/2020/01/06/tcp-server-auto-close.html)》介绍了我工作中遇到的一个 TCP 相关的问题。  
 
 
 而在文末，我提到：  

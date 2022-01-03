@@ -1,5 +1,5 @@
--   url: http://github.tiankonguse.com/atom.xml
-    img: http://github.tiankonguse.com/images/rss_24x24.png
+-   url: //github.tiankonguse.com/atom.xml
+    img: //github.tiankonguse.com/images/rss_24x24.png
     name: rss
     showImg: 0 
     class: fa-rss
@@ -18,31 +18,31 @@
 
 
 -   url: http://weixin.qq.com/
-    img: http://github.tiankonguse.com/images/weixin_24x24.png
+    img: //github.tiankonguse.com/images/weixin_24x24.png
     name: weixin
     showImg: 0
     class: fa-weixin
 
 -   url: https://plus.google.com/103623040770219910018?rel=author
-    img: http://github.tiankonguse.com/images/google.ico
+    img: //github.tiankonguse.com/images/google.ico
     name: google plus
     showImg: 0
     class: fa-google-plus
 
 -   url: https://twitter.com/tiankonguse
-    img: http://github.tiankonguse.com/images/twitter.ico
+    img: //github.tiankonguse.com/images/twitter.ico
     name: twitter
     showImg: 0 
     class: fa-twitter
 
 -   url: https://www.facebook.com/tiankonguse
-    img: http://github.tiankonguse.com/images/facebook.ico
+    img: //github.tiankonguse.com/images/facebook.ico
     name: facebook
     showImg: 0
     class: fa-facebook
 
 -   url: http://www.linkedin.com/pub/sky-yuan/87/723/776
-    img: http://github.tiankonguse.com/images/linkedin.png
+    img: //github.tiankonguse.com/images/linkedin.png
     name: linkedin
     showImg: 0
     class: fa-linkedin

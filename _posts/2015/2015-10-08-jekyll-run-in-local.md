@@ -10,13 +10,13 @@ updateData:   23:54 2015/10/08
 
 ## 前言
 
-最近一年多, 一直使用[github](https://github.com/tiankonguse/tiankonguse.github.io) 来当作自己的 [记录集](http://github.tiankonguse.com/),俗称博客.  
+最近一年多, 一直使用[github](https://github.com/tiankonguse/tiankonguse.github.io) 来当作自己的 [记录集](//github.tiankonguse.com/),俗称博客.  
 使用github当作记录集有一个问题就是:网站有任何改动, 只有提交了才能看到效果.  
 如果发现有问题了, 需要修改后再次提交.  
 这也是为什么我的提交次数很高的缘故. [1](https://github.com/tiankonguse/tiankonguse.github.io/commits/master).  
 
 
-实际上刚开始搭建 自己的 [记录集](http://github.tiankonguse.com/)时, 我在我的电脑上搭建了一个本地的jekyll环境, 然是后来换电脑了, 就再也没搭建了.  
+实际上刚开始搭建 自己的 [记录集](//github.tiankonguse.com/)时, 我在我的电脑上搭建了一个本地的jekyll环境, 然是后来换电脑了, 就再也没搭建了.  
 现在重新搭建一下, 顺便记录一下.  
 
 
@@ -36,9 +36,9 @@ sudo apt-get install jekyll
 
 之前我有[三篇很水的记录](https://www.google.com/search?&q=site%3Atiankonguse.com+jekyll), 大家可以简单的看一下.  
 
-* [Jekyll 模板 简单语法 笔记](http://github.tiankonguse.com/blog/2014/09/26/jekyll-base-record/)  
-* [在github上制作一个轻量级免费的静态网站](http://github.tiankonguse.com/blog/2014/07/10/make-github-website/)  
-* [Jekyll 语法简单笔记](http://github.tiankonguse.com/blog/2014/11/10/jekyll-study/)  
+* [Jekyll 模板 简单语法 笔记](//github.tiankonguse.com/blog/2014/09/26/jekyll-base-record/)  
+* [在github上制作一个轻量级免费的静态网站](//github.tiankonguse.com/blog/2014/07/10/make-github-website/)  
+* [Jekyll 语法简单笔记](//github.tiankonguse.com/blog/2014/11/10/jekyll-study/)  
 
 
 
@@ -75,7 +75,7 @@ Configuration file: _config_dev.yml
 
 ### 本地与正式环境的配置不一样
 
-比如我的配置中, 有个 url 字段, 在正式环境中配置的是 [http://github.tiankonguse.com/](http://github.tiankonguse.com/) , 但是在本地, 应该配置成 [http://127.0.0.1](http://github.tiankonguse.com/) .  
+比如我的配置中, 有个 url 字段, 在正式环境中配置的是 [github.tiankonguse.com/](//github.tiankonguse.com/) , 但是在本地, 应该配置成 [http://127.0.0.1](//github.tiankonguse.com/) .  
 有时候本地测试完了, 就直接提交github了, 结果正式环境悲剧了, 很多文件404了.  
 
 现在找到一个解决方案: 测试版本的配置文件

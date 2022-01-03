@@ -1240,5 +1240,5 @@ select t2.Name, t2.Pay, t3.CompanyName  as Company, t3.Rank from  Programmer t2 
 
 对于那些索引，内存缓存表，磁盘缓存表等复杂度的数量级也相差很大，所以这里就不说那些了。  
 
-[sql-top]: http://github.tiankonguse.com/blog/2015/04/02/sql-top/
+[sql-top]: //github.tiankonguse.com/blog/2015/04/02/sql-top/
 [department-top-three-salaries]: https://github.com/tiankonguse/leetcode-solutions/tree/master/department-top-three-salaries

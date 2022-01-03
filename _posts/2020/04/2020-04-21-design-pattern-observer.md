@@ -36,7 +36,7 @@ published: true
 
 
 在以前，我都是在自己的网站上写文章的。  
-地址是这里： http://github.tiankonguse.com/  
+地址是这里： [//github.tiankonguse.com](github.tiankonguse.com/)  
 
 
 如果你意外遇到我的博客，发现我的文章对你有帮助。  

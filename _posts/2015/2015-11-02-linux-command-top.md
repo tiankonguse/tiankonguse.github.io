@@ -10,7 +10,7 @@ updateData:   8:49 2015/11/2
 
 ## 前言
 
-之前有一篇记录《[Linux 命令记录(持续更新中)](http://github.tiankonguse.com/blog/2014/09/30/linux-command/)》.  
+之前有一篇记录《[Linux 命令记录(持续更新中)](//github.tiankonguse.com/blog/2014/09/30/linux-command/)》.  
 那篇文章命令比较多, 只能简单的记录罗列出命令的基本功能以及常见用法, 并不能详细的讲解每一个命令.  
 
 于是这里针对每一个命令, 在单独开一个记录来详细的讲解命令的功能以及用法.  

@@ -204,4 +204,4 @@ tiankonguse .
 [bash-study]: https://github.com/tiankonguse/bash-study
 [honghuzhilangzixin-7073312]: http://blog.csdn.net/honghuzhilangzixin/article/details/7073312
 [prayer-85884]: http://www.cppblog.com/prayer/archive/2009/05/27/85884.html
-[book]: http://github.tiankonguse.com/book.html
+[book]: //github.tiankonguse.com/book.html

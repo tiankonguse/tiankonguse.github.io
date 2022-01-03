@@ -237,7 +237,7 @@ jQuery(document).ready(function(){
         }
     })();
 
-    $.getScript('/javascripts/prettify/prettify.js',function(){
+    $.getScript('/javascripts/prettify/prettify.min.js',function(){
         prettyPrint();
     });
 

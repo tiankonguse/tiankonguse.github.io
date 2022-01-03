@@ -11,7 +11,7 @@ categories: [程序人生]
 
 http协议是一种文本协议, 文本协议有一个先天优势: 容易理解,容易阅读.  
 之前使用http协议的时候, 收到的包都有`Conent-Length`, 所以判断包是否收完直接判断长度即可.  
-今天同事说自己http包解包后有问题, 于是帮忙看了一下, 发现是chunked包, [tcpdump](http://github.tiankonguse.com/blog/2016/08/13/tcpdump.html)抓包之后发现包被分片了.  
+今天同事说自己http包解包后有问题, 于是帮忙看了一下, 发现是chunked包, [tcpdump](//github.tiankonguse.com/blog/2016/08/13/tcpdump.html)抓包之后发现包被分片了.  
 这里了解一下chunked包, 顺便记录下业务该怎么处理chunked包.  
 
 

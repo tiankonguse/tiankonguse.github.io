@@ -36,8 +36,8 @@ Disallow 常用于那些404的网址或确实不想让搜索引擎抓的网址�
 ser-agent: *
 Disallow:/
 Disallow:/blog/2014/10/20/python-update-invalid/
-Disallow:http://github.tiankonguse.com/blog/2014/10/20/2014-acm-anshan-h/
-Disallow:http://github.tiankonguse.com/blog/2014/10/18/javascript-note-lib/
-Disallow:http://github.tiankonguse.com/blog/2014/10/15/javascript-refactor/
+Disallow://github.tiankonguse.com/blog/2014/10/20/2014-acm-anshan-h/
+Disallow://github.tiankonguse.com/blog/2014/10/18/javascript-note-lib/
+Disallow://github.tiankonguse.com/blog/2014/10/15/javascript-refactor/
 ```
 

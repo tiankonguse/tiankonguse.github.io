@@ -27,14 +27,14 @@ published: true
 ## 一、大学初期
 
 初期是学习技术的快速成长期。  
-自己使用lamp 搭建了[自己的博客](http://github.tiankonguse.com/firstblog.html)，博客系统是自己无网环境下自己裸写出来的。  
+自己使用lamp 搭建了[自己的博客](//github.tiankonguse.com/firstblog.html)，博客系统是自己无网环境下自己裸写出来的。  
 文章共181篇。  
 
 
 ##  二、大学后期
 
 
-大学后期自己重写了[博客系统](http://github.tiankonguse.com/record.html)。   
+大学后期自己重写了[博客系统](//github.tiankonguse.com/record.html)。   
 然后把自己的日记，博客园，CSDN ，QQ空间的内容都补上去了，共707篇文章。  
 当然没有补第一个博客的内容。   
 
