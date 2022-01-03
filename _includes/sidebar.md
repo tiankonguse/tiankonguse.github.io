@@ -30,7 +30,7 @@
             </a>
         </div>
         <ul id="sidebar-tags">
-          <li class="sidebar-tag active" data-filter="all">全部文章</li>
+          <li class="sidebar-tag active" data-filter="all">全部文章<span class="sidebar-tag-num"></span></li>
         </ul>
     </div>
     <div id="sidebar-right">
