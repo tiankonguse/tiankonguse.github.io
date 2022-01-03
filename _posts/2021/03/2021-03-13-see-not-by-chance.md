@@ -19,9 +19,9 @@ published: true
 全程下来，走了一万多步，十几公里。  
 
 
-![](http://res.tiankonguse.com/images/2021/03/13/001.png)
+![](//res.tiankonguse.com/images/2021/03/13/001.png)
 
-![](http://res.tiankonguse.com/images/2021/03/13/002.png)
+![](//res.tiankonguse.com/images/2021/03/13/002.png)
 
 
 
@@ -95,7 +95,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/03/13/003.png)
+![](//res.tiankonguse.com/images/2021/03/13/003.png)
 
 
 

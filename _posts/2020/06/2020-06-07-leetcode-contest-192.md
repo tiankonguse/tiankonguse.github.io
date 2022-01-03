@@ -36,7 +36,7 @@ published: true
 思路：一层循环搞定。  
 
 
-![](http://res.tiankonguse.com/images/2002/06/07/001.png)  
+![](//res.tiankonguse.com/images/2002/06/07/001.png)  
 
 
 ## 二、数组中的 k 个最强值  
@@ -59,7 +59,7 @@ published: true
 PS：赛后验证了下，确实`reserve`之后就过了。  
 
 
-![](http://res.tiankonguse.com/images/2002/06/07/002.png)  
+![](//res.tiankonguse.com/images/2002/06/07/002.png)  
 
 
 那我们能不能不另外开辟一个`vector<pair<差值，值>>`呢？  
@@ -76,7 +76,7 @@ PS：赛后验证了下，确实`reserve`之后就过了。
 
 
 
-![](http://res.tiankonguse.com/images/2002/06/07/003.png)  
+![](//res.tiankonguse.com/images/2002/06/07/003.png)  
 
 
 
@@ -103,7 +103,7 @@ leetcode 的原题是先介绍功能4，再介绍前进和后退，这就导致�
 
 
 
-![](http://res.tiankonguse.com/images/2002/06/07/004.png)  
+![](//res.tiankonguse.com/images/2002/06/07/004.png)  
 
 
 ## 四、给房子涂色 III  
@@ -129,7 +129,7 @@ leetcode 的原题是先介绍功能4，再介绍前进和后退，这就导致�
 注意事项：对于有些房子已经涂色，编号是从 1 开始的，注意减一转换。  
 
 
-![](http://res.tiankonguse.com/images/2002/06/07/005.png)  
+![](//res.tiankonguse.com/images/2002/06/07/005.png)  
 
 
 ## 五、最后  

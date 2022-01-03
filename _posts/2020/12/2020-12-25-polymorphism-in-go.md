@@ -42,7 +42,7 @@ published: true
 既然是 DB 表的数据同步，很容易可以想到架构是下面的样子。  
 
 
-![](http://res.tiankonguse.com/images/2020/2020/12/25/001.png)  
+![](//res.tiankonguse.com/images/2020/2020/12/25/001.png)  
 
 
 定义一个接口和父类，父类只需要实现通用逻辑，以及最重要的核心调度逻辑。  

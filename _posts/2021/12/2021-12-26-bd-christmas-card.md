@@ -16,7 +16,7 @@ published: true
 圣诞节这一天，网红毕导分享了一个动图。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/001.gif)
+![](//res.tiankonguse.com/images/2021/12/26/001.gif)
 
 
 看到动图的背景就是源码，我突然想去研究下这些动画都是怎么画的。  
@@ -34,7 +34,7 @@ published: true
 背景中的源码其实非常模糊，但是使用 ipad 截图并放大，还是大概看清楚了。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/002.png)
+![](//res.tiankonguse.com/images/2021/12/26/002.png)
 
 
 可以得到三个信息。  
@@ -64,7 +64,7 @@ published: true
 由于代码不全，运行结果是这样。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/003.png)
+![](//res.tiankonguse.com/images/2021/12/26/003.png)
 
 
 所以剩余的部分，需要我们自己脑补出来。  
@@ -79,7 +79,7 @@ published: true
 官网地址： https://docs.python.org/zh-cn/3/library/turtle.html  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/004.png)
+![](//res.tiankonguse.com/images/2021/12/26/004.png)
 
 
 简单看了文档，再看一遍毕导的代码，给每个函数补充了注释说明。  
@@ -88,13 +88,13 @@ published: true
 注释写了一遍，turtle 库我经已经完全掌握了。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/005.png)  
+![](//res.tiankonguse.com/images/2021/12/26/005.png)  
 
 
 然后就脑补除了所有代码，画出了毕导的水饺。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/006.png)  
+![](//res.tiankonguse.com/images/2021/12/26/006.png)  
 
 
 ## 四、优化：函数封装
@@ -109,7 +109,7 @@ published: true
 所以第一步是进行简单的封装，避免重复代码。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/007.png)  
+![](//res.tiankonguse.com/images/2021/12/26/007.png)  
 
 
 封装后，逻辑就清晰多了。  
@@ -132,7 +132,7 @@ wait 是 turtle 库需要的，否则程序一闪就关了。
 最后 5 根直线也都是人工微调出来的。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/008.png)  
+![](//res.tiankonguse.com/images/2021/12/26/008.png)  
 
 
 简单的理解，所有参数都是微调出来的，不具备复用性。  
@@ -151,7 +151,7 @@ wait 是 turtle 库需要的，否则程序一闪就关了。
 第二：5 个直线的坐标聪哥小弧形自动推导出来，而不是微调出坐标与方向。  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/009.png)  
+![](//res.tiankonguse.com/images/2021/12/26/009.png)  
 
 
 自动推导的原理如上图，小弧形与上部轮廓线都是半圆，两个圆心画个直线，两个交点画出的直线就比较好看。  
@@ -180,7 +180,7 @@ wait 是 turtle 库需要的，否则程序一闪就关了。
 于是我就简单封装了一下，代码如下：  
 
 
-![](http://res.tiankonguse.com/images/2021/12/26/010.png)  
+![](//res.tiankonguse.com/images/2021/12/26/010.png)  
 
 
 

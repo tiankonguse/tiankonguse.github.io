@@ -32,7 +32,7 @@ published: true
 这样下来，发的红包总金额大概一千多。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/23/001.png)  
+![](//res.tiankonguse.com/images/2021/02/23/001.png)  
 
 
 ## 二、开工利是  
@@ -53,7 +53,7 @@ published: true
 于是，我便领导了今年开工的第一个红包。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/23/002.png)  
+![](//res.tiankonguse.com/images/2021/02/23/002.png)  
 
 
 
@@ -69,7 +69,7 @@ published: true
 扫描下面的小程序码，或者点击下面的小程序链接，按照指引参与即可。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/23/003.png)  
+![](//res.tiankonguse.com/images/2021/02/23/003.png)  
 
 
 ## 四、最后  

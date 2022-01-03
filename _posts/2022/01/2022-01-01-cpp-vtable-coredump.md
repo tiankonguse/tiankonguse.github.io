@@ -44,14 +44,14 @@ published: true
 大概像下面的样子。  
 
 
-![](http://res.tiankonguse.com/images/2022/01/01/001.png)  
+![](//res.tiankonguse.com/images/2022/01/01/001.png)  
 
 
 不要业务的 RPC 函数与协议往往不同，所以通用 RPC 网络对象往往使用模板进行封装。  
 每个具体服务都会根据 protobuf 的 RPC 配置自动生成一个具体的 RPC 对象，这个对象可以自定义 RPC 函数名与协议参数。  
 
 
-![](http://res.tiankonguse.com/images/2022/01/01/002.png)  
+![](//res.tiankonguse.com/images/2022/01/01/002.png)  
 
 
 
@@ -253,7 +253,7 @@ ret = proxy->invoke(ctx, req, rsp);
 
 
 
-![](http://res.tiankonguse.com/images/2022/01/01/002.png)  
+![](//res.tiankonguse.com/images/2022/01/01/002.png)  
 
 
 
@@ -346,7 +346,7 @@ AServiceProxy 是 RPCProxy 的子类，而同事写代码的时候，传了一�
 回答7：大概长这样子。  
 
 
-![](http://res.tiankonguse.com/images/2022/01/01/003.png)  
+![](//res.tiankonguse.com/images/2022/01/01/003.png)  
 
 
 问题8：此时业务该如何使用?
@@ -388,7 +388,7 @@ ret = proxy->invoke(ctx, req, rsp);
 比如这样一个虚函数。  
 
 
-![](http://res.tiankonguse.com/images/2022/01/01/007.png)  
+![](//res.tiankonguse.com/images/2022/01/01/007.png)  
 
 
 内存布局长这个样子。  
@@ -396,7 +396,7 @@ ret = proxy->invoke(ctx, req, rsp);
 
 
 
-![](http://res.tiankonguse.com/images/2022/01/01/008.png)  
+![](//res.tiankonguse.com/images/2022/01/01/008.png)  
 
 
 使用 GDB 就可以通过地址计算，以及`info symbol`查到符号的名字了。  

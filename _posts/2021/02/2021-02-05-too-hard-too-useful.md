@@ -18,7 +18,7 @@ published: true
 初次体验之后，发现上举完全用不上力，举不动。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/05/001.png)  
+![](//res.tiankonguse.com/images/2021/02/05/001.png)  
 
 
 然后，我想到一个道理：越是感觉困难的动作，越说明自己对应的肌肉薄弱。  
@@ -34,7 +34,7 @@ published: true
 去年十月份时候，洗完澡，照镜子的时候，突然发现一个奇怪的现象。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/05/002.png)  
+![](//res.tiankonguse.com/images/2021/02/05/002.png)  
 
 
 可以从图中看到，我练的不是腹肌，不是胸肌，不是胳膊，是不知名肌肉。  
@@ -45,7 +45,7 @@ published: true
 发现肌肉没白练，肌肉涨到肩膀上是合理的。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/05/003.png)  
+![](//res.tiankonguse.com/images/2021/02/05/003.png)  
 
 
 可以从图中看到，器械上的肌肉部位，恰好是我肩膀上的肌肉。  
@@ -61,7 +61,7 @@ published: true
 在一月底的时候，我又拍了一张照片，肩膀上的肌肉更大了。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/05/004.png)  
+![](//res.tiankonguse.com/images/2021/02/05/004.png)  
 
 
 

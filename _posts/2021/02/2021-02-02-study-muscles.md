@@ -107,7 +107,7 @@ published: true
 平常最常听说的肌肉是：胸肌（胸大肌）、腹肌（腹直肌）、胳膊上的肌肉（肱二头肌）。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/001.jpg)  
+![](//res.tiankonguse.com/images/2021/02/02/001.jpg)  
 
 
 ## 四、收益最大化的肌肉  
@@ -132,7 +132,7 @@ published: true
 -）呼吸：到达顶部时呼气，下降时吸气。  
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/002.png)  
+![](//res.tiankonguse.com/images/2021/02/02/002.png)  
 
 
 2、高位下拉（pull down）  
@@ -146,7 +146,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/003.png)  
+![](//res.tiankonguse.com/images/2021/02/02/003.png)  
 
 
 3、直臂下拉（Straight Arm Pull-down）  
@@ -160,7 +160,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/004.png)  
+![](//res.tiankonguse.com/images/2021/02/02/004.png)  
 
 
 
@@ -175,7 +175,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/005.png)  
+![](//res.tiankonguse.com/images/2021/02/02/005.png)  
 
 
 5、坐姿划船（Seated row）  
@@ -190,14 +190,14 @@ published: true
 6、屈腿硬拉（Deadlift）  
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/006.png)  
+![](//res.tiankonguse.com/images/2021/02/02/006.png)  
 
 
 
 7、山羊挺身（Back Extension）  
 
 
-![](http://res.tiankonguse.com/images/2021/02/02/007.png)  
+![](//res.tiankonguse.com/images/2021/02/02/007.png)  
 
 
 ## 五、最后  

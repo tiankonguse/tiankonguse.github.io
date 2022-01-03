@@ -30,7 +30,7 @@ published: true
 看一下日历，从 4 月 13 号开始攀岩，到现在才不到两个月，我已经去攀岩 15 次了。  
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/001.png)  
+![](//res.tiankonguse.com/images/2021/06/05/001.png)  
 
 
 在这些日子里，希望每天都去攀岩。  
@@ -64,7 +64,7 @@ published: true
 后来，在攀岩馆和教练聊天的过程中，发现教练那可以带货，便从教练那里买了一个安全帽。  
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/002.png)  
+![](//res.tiankonguse.com/images/2021/06/05/002.png)  
 
 
 
@@ -74,7 +74,7 @@ published: true
 效果图如下：  
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/003.png)  
+![](//res.tiankonguse.com/images/2021/06/05/003.png)  
 
 
 ## 四、其他设备  
@@ -86,7 +86,7 @@ published: true
 比如镁粉和镁粉袋。  
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/004.png)  
+![](//res.tiankonguse.com/images/2021/06/05/004.png)  
 
 
 
@@ -94,7 +94,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/005.png)  
+![](//res.tiankonguse.com/images/2021/06/05/005.png)  
 
 
 
@@ -112,7 +112,7 @@ published: true
 而我同一个地方缺连续受伤两次，胳膊上摩擦出一个很大的伤口。  
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/006.png)  
+![](//res.tiankonguse.com/images/2021/06/05/006.png)  
 
 
 现在已经过去三周了，伤口的结疤早就掉了。  
@@ -122,7 +122,7 @@ published: true
 另外，手背也偶尔被摩擦出一个伤疤来，不过也快好了。  
 
 
-![](http://res.tiankonguse.com/images/2021/06/05/007.png)  
+![](//res.tiankonguse.com/images/2021/06/05/007.png)  
 
 
 

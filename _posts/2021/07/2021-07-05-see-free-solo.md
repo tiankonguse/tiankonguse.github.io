@@ -10,7 +10,7 @@ published: true
 ---  
 
 
-![](http://res.tiankonguse.com/images/2021/07/05/001.png)  
+![](//res.tiankonguse.com/images/2021/07/05/001.png)  
 
 
 ## 一、背景  
@@ -50,7 +50,7 @@ published: true
 可以从剧照中看到，山峰是完全垂直的，
 
 
-![](http://res.tiankonguse.com/images/2021/07/05/002.png)  
+![](//res.tiankonguse.com/images/2021/07/05/002.png)  
 
 
 
@@ -63,7 +63,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/07/05/003.png)  
+![](//res.tiankonguse.com/images/2021/07/05/003.png)  
 
 
 
@@ -85,7 +85,7 @@ published: true
 无保护攀岩更让人感到，死亡近在咫尺。  
 
 
-![](http://res.tiankonguse.com/images/2021/07/05/004.png)  
+![](//res.tiankonguse.com/images/2021/07/05/004.png)  
 
 
 
@@ -103,7 +103,7 @@ published: true
 而且摄影师还不能影响到攀岩者，这就对摄影师的挑战更大了。  
 
 
-![](http://res.tiankonguse.com/images/2021/07/05/005.png)  
+![](//res.tiankonguse.com/images/2021/07/05/005.png)  
 
 
 

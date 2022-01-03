@@ -23,7 +23,7 @@ published: true
 看来不少人卡壳。   
 
 
-![](http://res.tiankonguse.com/images/2021/01/31/001.png)  
+![](//res.tiankonguse.com/images/2021/01/31/001.png)  
 
 
 源代码：

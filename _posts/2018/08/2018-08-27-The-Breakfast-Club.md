@@ -80,7 +80,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/tiankonguse-support.png) 
+![](//res.tiankonguse.com/images/tiankonguse-support.png) 
 
 
 

@@ -65,7 +65,7 @@ class FastWriter {
 于是我去网上搜了这样一个函数。  
 
 
-![](http://res.tiankonguse.com/images/2021/09/11/001.png)  
+![](//res.tiankonguse.com/images/2021/09/11/001.png)  
 
 
 找了一个有中文的链接，经过测试，发现输出和旧接口一模一样了。  

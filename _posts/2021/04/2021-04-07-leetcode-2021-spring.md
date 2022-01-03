@@ -114,7 +114,7 @@ for (int j=n-1,i=0;i<n;i++) {
 求指定下标的数字。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/07/001.png)
+![](//res.tiankonguse.com/images/2021/04/07/001.png)
 
 
 思路：  
@@ -310,14 +310,14 @@ int magicTower(vector<int>& nums) {
 大概像下面的样子。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/07/002.png)  
+![](//res.tiankonguse.com/images/2021/04/07/002.png)  
 
 
 把这个特殊的算盘，顶部朝下，最顶部的珠子那一个任务就是需要贪心运行的。  
 如下图，可以找到贪心的起始时刻。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/07/003.png)  
+![](//res.tiankonguse.com/images/2021/04/07/003.png)  
 
 
 找到贪心任务后，电脑运行时刻也确定了。  
@@ -327,7 +327,7 @@ int magicTower(vector<int>& nums) {
 贪心的任务确定底线时间和上限时间。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/07/003.png)
+![](//res.tiankonguse.com/images/2021/04/07/003.png)
 
 
 

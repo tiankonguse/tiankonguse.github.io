@@ -33,7 +33,7 @@ published: true
 而当我们去搜索一个指数的时候，比如沪深300，会发现会出来无数个指数来，眼花缭乱的。  
 
 
-![](http://res.tiankonguse.com/images/20221/03/01/001.jpeg)  
+![](//res.tiankonguse.com/images/20221/03/01/001.jpeg)  
 
 
 如上图，前面带 沪指 和 深指 的就是我们常说的指数。  
@@ -73,7 +73,7 @@ published: true
 还是上面搜索沪深 300，沪指和深指随便点击一个进去。  
 
 
-![](http://res.tiankonguse.com/images/20221/03/01/002.png)  
+![](//res.tiankonguse.com/images/20221/03/01/002.png)  
 
 
 
@@ -87,13 +87,13 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/20221/03/01/003.jpeg)  
+![](//res.tiankonguse.com/images/20221/03/01/003.jpeg)  
 
 
 点击场外基金也可以看到场外的最优基金。  
 
 
-![](http://res.tiankonguse.com/images/20221/03/01/004.jpeg)  
+![](//res.tiankonguse.com/images/20221/03/01/004.jpeg)  
 
 
 这里软件推荐的是体量最大的基金。  
@@ -122,7 +122,7 @@ published: true
 我们打开自己的 ETF，可以看到有一个成交排名。  
 
 
-![](http://res.tiankonguse.com/images/20221/03/01/005.png)  
+![](//res.tiankonguse.com/images/20221/03/01/005.png)  
 
 
 成交排名后面有一个`>`代表可以点进去。  
@@ -131,7 +131,7 @@ published: true
 点进去就可以看到完整的排名列表了。  
 
 
-![](http://res.tiankonguse.com/images/20221/03/01/006.jpeg)  
+![](//res.tiankonguse.com/images/20221/03/01/006.jpeg)  
 
 
 

@@ -22,7 +22,7 @@ published: true
 ## 二、计划  
 
 
-![](http://res.tiankonguse.com/iamges/2021/03/23/001.png)  
+![](//res.tiankonguse.com/iamges/2021/03/23/001.png)  
 
 
 图中可以看到，买了两大瓶，还赠送了一小瓶。  

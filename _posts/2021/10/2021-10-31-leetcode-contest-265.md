@@ -91,7 +91,7 @@ published: true
 由于状态是四维的，逻辑分析起来比较复杂，我画了一个思维导图。  
 
 
-![](http://res.tiankonguse.com/images/2021/10/31/001.png)
+![](//res.tiankonguse.com/images/2021/10/31/001.png)
 
 
 

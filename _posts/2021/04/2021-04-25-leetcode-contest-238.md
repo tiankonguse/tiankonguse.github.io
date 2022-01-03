@@ -166,7 +166,7 @@ int longestBeautifulSubstring(string word) {
 简单来说，单调队列里维护的是一个合法建筑物的最大高度列表。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/25/001.png)  
+![](//res.tiankonguse.com/images/2021/04/25/001.png)  
 
 
 
@@ -182,7 +182,7 @@ int longestBeautifulSubstring(string word) {
 这个冗余可以让我们向上多走几步，使得中间有个尖尖的建筑物。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/25/002.png)  
+![](//res.tiankonguse.com/images/2021/04/25/002.png)  
 
 
 当然，简单计算一下，发现存在奇偶性问题，即有时候得到的尖是平的。  

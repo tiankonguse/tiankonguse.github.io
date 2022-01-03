@@ -362,7 +362,7 @@ return unsafe.Pointer(&zeroVal[0])
 
 
 
-![](http://res.tiankonguse.com/images/2021/11/22/001.png)  
+![](//res.tiankonguse.com/images/2021/11/22/001.png)  
 
 
 

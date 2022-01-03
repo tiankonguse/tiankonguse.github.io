@@ -77,7 +77,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/04/26/002.png)  
+![](//res.tiankonguse.com/images/2021/04/26/002.png)  
 
 
 
@@ -85,7 +85,7 @@ published: true
 这样就知道了自己的牙齿了。  
 
 
-![](http://res.tiankonguse.com/images/2021/04/26/001.png)  
+![](//res.tiankonguse.com/images/2021/04/26/001.png)  
 
 
 
@@ -136,7 +136,7 @@ published: true
 
 
 
-![](http://res.tiankonguse.com/images/2021/04/26/003.png)  
+![](//res.tiankonguse.com/images/2021/04/26/003.png)  
 
 
 
@@ -153,7 +153,7 @@ PS：这里吐槽下医院领药的单子。
 
 
 
-![](http://res.tiankonguse.com/images/2021/04/26/004.png)  
+![](//res.tiankonguse.com/images/2021/04/26/004.png)  
 
 
 
@@ -264,7 +264,7 @@ PS：如今我突然意识到，困、浑身无力、睡觉出汗难道是牙疼
 
 
 
-![](http://res.tiankonguse.com/images/2021/04/26/001.png)  
+![](//res.tiankonguse.com/images/2021/04/26/001.png)  
 
 
 看着自己的牙片子，可以明显发现下侧的门牙有问题。  

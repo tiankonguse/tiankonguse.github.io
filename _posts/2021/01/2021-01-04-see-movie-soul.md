@@ -46,7 +46,7 @@ published: true
 主角是一个底层小人物，是一个普普通通的以中小学音乐老师。  
 
 
-![](http://res.tiankonguse.com/images/2021/01/04.png)  
+![](//res.tiankonguse.com/images/2021/01/04.png)  
 
 
 他不甘于目前的普通生活，梦想是当一个音乐家，去公开场所演出。  
@@ -108,20 +108,20 @@ published: true
 陶醉的灵魂在天上飞，是翱翔的感觉。  
 
 
-![](http://res.tiankonguse.com/images/2021/01/04/002.png)  
+![](//res.tiankonguse.com/images/2021/01/04/002.png)  
 
 
 
 沉迷困扰的灵魂则在地上自我怀疑，纠结，会变成怪兽恶魔。  
 
 
-![](http://res.tiankonguse.com/images/2021/01/04/003.png)  
+![](//res.tiankonguse.com/images/2021/01/04/003.png)  
 
 
 而有几个地球人，暂且称为通灵者吧，能够穿越到这里，来拯救那些沉迷困扰的人们，让他们醒悟过来。  
 
 
-![](http://res.tiankonguse.com/images/2021/01/04/004.png)  
+![](//res.tiankonguse.com/images/2021/01/04/004.png)  
 
 
 通灵者还帮助主角和 22 回到了地球。  
@@ -148,7 +148,7 @@ published: true
 主角询问老板明天干什么时，老板说明天重复做今天一模一样的事情。  
 
 
-![](http://res.tiankonguse.com/images/2021/01/04/005.png)  
+![](//res.tiankonguse.com/images/2021/01/04/005.png)  
 
 
 
@@ -169,7 +169,7 @@ published: true
 原来，所谓的 spark 并不是一个目标，而是正常的生活，just regular old living。
 
 
-![](http://res.tiankonguse.com/images/2021/01/04/006.png)  
+![](//res.tiankonguse.com/images/2021/01/04/006.png)  
 
 
 

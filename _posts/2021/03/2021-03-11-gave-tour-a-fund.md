@@ -75,7 +75,7 @@ published: true
 使用文字可能不够清晰，我画了一个表格。  
 
 
-![](http://res.tiankonguse.com/images/2021/03/11/001.png)  
+![](//res.tiankonguse.com/images/2021/03/11/001.png)  
 
 
 
@@ -97,7 +97,7 @@ published: true
 最近感觉跌的差不多了，我买回来了。  
 
 
-![](http://res.tiankonguse.com/images/2021/03/11/001.png)  
+![](//res.tiankonguse.com/images/2021/03/11/001.png)  
 
 
 

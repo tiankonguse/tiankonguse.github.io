@@ -113,7 +113,7 @@ public:
 其实我之前自己也使用非后缀数组做过这类题。  
 
 
-![](http://res.tiankonguse.com/images/2021/07/04/001.png)
+![](//res.tiankonguse.com/images/2021/07/04/001.png)
 
 
 不过现在我一看题型就想到后缀数组。  

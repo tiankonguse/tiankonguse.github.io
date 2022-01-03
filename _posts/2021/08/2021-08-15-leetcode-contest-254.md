@@ -16,7 +16,7 @@ published: true
 这次题目比较简单，但是昨晚腿疼没睡好，发呆了好久，用了一个小时才做完所有题，排名100之外了。  
 
 
-![](http://res.tiankonguse.com/images/2021/08/15/001.png)
+![](//res.tiankonguse.com/images/2021/08/15/001.png)
 
 
 ## 一、作为子字符串出现在单词中的字符串数目  
