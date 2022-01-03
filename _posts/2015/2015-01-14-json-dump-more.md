@@ -71,5 +71,5 @@ json.dumps(item, separators=(',',':'), ensure_ascii=False)
 ```
 
 
-[python-json]: //github.tiankonguse.com/blog/2014/09/29/python-json/
-[python-problem]: //github.tiankonguse.com/blog/2014/10/29/python-problem/#content-h2-%E5%AD%97%E7%AC%A6%E4%B8%B2%20%E4%B8%8E%20json%20%E8%BD%AC%E5%8C%96
+[python-json]: //github.tiankonguse.com/blog/2014/09/29/python-json.html
+[python-problem]: //github.tiankonguse.com/blog/2014/10/29/python-problem.html#content-h2-%E5%AD%97%E7%AC%A6%E4%B8%B2%20%E4%B8%8E%20json%20%E8%BD%AC%E5%8C%96

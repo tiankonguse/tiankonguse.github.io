@@ -460,4 +460,4 @@ ub4 zobrist( char *key, ub4 len, ub4 mask, ub4 tab[MAXBYTES][256]){
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3100784970.png
 [murmur3_hash]: https://github.com/tiankonguse/memcached/blob/master/murmur3_hash.c
 [jenkins_hash]: https://github.com/tiankonguse/memcached/blob/master/jenkins_hash.c
-[memcached-hash-table]: //github.tiankonguse.com/blog/2014/11/07/memcached-hash-table/
+[memcached-hash-table]: //github.tiankonguse.com/blog/2014/11/07/memcached-hash-table.html

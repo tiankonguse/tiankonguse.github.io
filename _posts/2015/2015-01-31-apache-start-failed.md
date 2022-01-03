@@ -175,4 +175,4 @@ PHP Fatal error:  Class 'DOMDocument' not found in XXX on line 110
 
 
 [bluechilli-1786480]: http://www.cnblogs.com/bluechilli/archive/2010/07/27/1786480.html  
-[tiankonguse-php-zmq-protobuf]: //github.tiankonguse.com/blog/2014/12/28/php-zmq-protobuf/#content-h2-%E9%81%97%E7%95%99%E9%97%AE%E9%A2%98  
+[tiankonguse-php-zmq-protobuf]: //github.tiankonguse.com/blog/2014/12/28/php-zmq-protobuf.html#content-h2-%E9%81%97%E7%95%99%E9%97%AE%E9%A2%98  

@@ -439,10 +439,10 @@ static void assoc_expand(void) {
 《完》
 
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3064550786.png
-[memcached-code-server]: //github.tiankonguse.com/blog/2014/11/06/memcached-code/#content-h3-迟迟到来的原理
+[memcached-code-server]: //github.tiankonguse.com/blog/2014/11/06/memcached-code.html#content-h3-迟迟到来的原理
 [segmentfault-1010000000741529]: http://segmentfault.com/q/1010000000741529/a-1020000000741540
 [memcached-assoc-h]: https://github.com/tiankonguse/memcached/blob/master/assoc.h
 [memcached-assoc-c]: https://github.com/tiankonguse/memcached/blob/master/assoc.c
-[hash-table]: //github.tiankonguse.com/blog/2014/11/04/hash-table/
-[memcached-code]: //github.tiankonguse.com/blog/2014/11/06/memcached-code/
-[memcached-lib]: //github.tiankonguse.com/blog/2014/11/06/memcached-lib/
+[hash-table]: //github.tiankonguse.com/blog/2014/11/04/hash-table.html
+[memcached-code]: //github.tiankonguse.com/blog/2014/11/06/memcached-code.html
+[memcached-lib]: //github.tiankonguse.com/blog/2014/11/06/memcached-lib.html

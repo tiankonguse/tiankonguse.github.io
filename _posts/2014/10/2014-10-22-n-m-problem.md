@@ -195,4 +195,4 @@ two= two ^ (a & ~one2)
 
 
 
-[bit-operation]: //github.tiankonguse.com/blog/2014/10/10/bit-operation/
+[bit-operation]: //github.tiankonguse.com/blog/2014/10/10/bit-operation.html

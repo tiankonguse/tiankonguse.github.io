@@ -149,5 +149,5 @@ timerfd_settime(timer_id, 0, &ptime_internal, NULL);
 
 
 
-[linux-file-io-content-h3-fcntl]: //github.tiankonguse.com/blog/2015/03/03/linux-file-io/#content-h3-fcntl 函数
-[epoll-base-study-one]: //github.tiankonguse.com/blog/2015/04/14/epoll-base-study-one/
+[linux-file-io-content-h3-fcntl]: //github.tiankonguse.com/blog/2015/03/03/linux-file-io.html#content-h3-fcntl 函数
+[epoll-base-study-one]: //github.tiankonguse.com/blog/2015/04/14/epoll-base-study-one.html

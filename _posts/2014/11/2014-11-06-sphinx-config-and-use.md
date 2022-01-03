@@ -211,6 +211,6 @@ echo "</pre> ";
 
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3071317700.png
 [matching-modes]: http://www.tapy.org/articles/sphinx1.0/sphinxManual.html#matching-modes
-[sphinx-learn]: //github.tiankonguse.com/blog/2014/10/30/sphinx-learn/
-[coreseek-install-log]: //github.tiankonguse.com/blog/2014/11/03/coreseek-install-log/
-[sphinx-use]: //github.tiankonguse.com/blog/2014/11/06/sphinx-config-and-use/
+[sphinx-learn]: //github.tiankonguse.com/blog/2014/10/30/sphinx-learn.html
+[coreseek-install-log]: //github.tiankonguse.com/blog/2014/11/03/coreseek-install-log.html
+[sphinx-use]: //github.tiankonguse.com/blog/2014/11/06/sphinx-config-and-use.html

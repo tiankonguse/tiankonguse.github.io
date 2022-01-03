@@ -117,4 +117,4 @@ make install
 [gmplib-2014-March-000042]: https://gmplib.org/list-archives/gmp-announce/2014-March/000042.html
 [gmp6-0]: https://gmplib.org/gmp6.0.html
 [gmplib]: https://gmplib.org/
-[content-h3-php]: //github.tiankonguse.com/blog/2014/10/30/sphinx-learn/#content-h3-php 源码安装
+[content-h3-php]: //github.tiankonguse.com/blog/2014/10/30/sphinx-learn.html#content-h3-php 源码安装

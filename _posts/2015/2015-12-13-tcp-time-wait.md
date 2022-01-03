@@ -31,7 +31,7 @@ netstat 一看, 好多 TIME_WAIT 状态.
 
 ## netstat/ss 命令
 
-我[这里](//github.tiankonguse.com/blog/2014/09/30/linux-command/#menuIndex22)曾说过, `netstat 已经被ss命令和ip命令所取代.`.  
+我[这里](//github.tiankonguse.com/blog/2014/09/30/linux-command.html#menuIndex22)曾说过, `netstat 已经被ss命令和ip命令所取代.`.  
 那这里就使用 ss 命令了, 等价于 netstat 命令的.  
 我们可以只是简单的统计一下 TIME-WAIT 状态, 也可以统计所有状态的数量.  
 

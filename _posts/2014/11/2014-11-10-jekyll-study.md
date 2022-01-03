@@ -429,5 +429,5 @@ remove 可以删除变量中的指定内容
 [textile]: http://redcloth.org/textile
 [markdown]: http://daringfireball.net/projects/markdown/
 [jekyllrb-docs]: http://jekyllrb.com/docs/home/
-[make-github-website]: //github.tiankonguse.com/blog/2014/07/10/make-github-website/
-[jekyll-base-record]: //github.tiankonguse.com/blog/2014/09/26/jekyll-base-record/
+[make-github-website]: //github.tiankonguse.com/blog/2014/07/10/make-github-website.html
+[jekyll-base-record]: //github.tiankonguse.com/blog/2014/09/26/jekyll-base-record.html

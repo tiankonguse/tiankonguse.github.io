@@ -633,6 +633,6 @@ uint countbits(ULL x) {
 [Data-Type-Ranges]: http://msdn.microsoft.com/en-us/library/s3f49ktz.aspx
 [cpp-Keywords]: http://msdn.microsoft.com/en-us/library/2e6a4at9.aspx
 [hakmem]: http://home.pipeline.com/~hbaker1/hakmem/hakmem.html
-[codeforces-472G]: //github.tiankonguse.com/blog/2014/10/04/codeforces-472G/
-[bit-count]: //github.tiankonguse.com/blog/2014/11/14/bit-count/
+[codeforces-472G]: //github.tiankonguse.com/blog/2014/10/04/codeforces-472G.html
+[bit-count]: //github.tiankonguse.com/blog/2014/11/14/bit-count.html
 [mit-hackmem-count]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/4129966690.png

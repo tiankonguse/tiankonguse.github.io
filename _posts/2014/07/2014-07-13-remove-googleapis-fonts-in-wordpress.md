@@ -92,4 +92,4 @@ $disable_google_fonts = new Disable_Google_Fonts;
 
 (完)
 
-[make-yourself-wordpress-themes]: //github.tiankonguse.com/blog/2014/07/10/make-yourself-wordpress-themes/
+[make-yourself-wordpress-themes]: //github.tiankonguse.com/blog/2014/07/10/make-yourself-wordpress-themes.html

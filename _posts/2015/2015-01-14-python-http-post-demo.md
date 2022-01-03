@@ -63,6 +63,6 @@ urllib.urlencode(postdata)
 第二个就是 postdata 数据需要进行 urlencode， ，否则 value 如果有 `&`  的话，将会是一个难以发现的 bug.  
 
 
-[json-dump-more]: //github.tiankonguse.com/blog/2015/01/14/json-dump-more/
-[python-problem]: //github.tiankonguse.com/blog/2014/10/29/python-problem/
-[python-http-post]: //github.tiankonguse.com/blog/2014/10/29/python-problem/#content-h2-http%20%E8%AF%B7%E6%B1%82
+[json-dump-more]: //github.tiankonguse.com/blog/2015/01/14/json-dump-more.html
+[python-problem]: //github.tiankonguse.com/blog/2014/10/29/python-problem.html
+[python-http-post]: //github.tiankonguse.com/blog/2014/10/29/python-problem.html#content-h2-http%20%E8%AF%B7%E6%B1%82

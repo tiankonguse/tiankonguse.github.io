@@ -679,5 +679,5 @@ categories: [读书]
 > 他已经超越了技术。也超越了机器。"    
 
 
-[the-ten-of-programming-menuIndex2]: //github.tiankonguse.com/blog/2014/10/31/the-ten-of-programming/#content-h2-西藏拉萨 引言
+[the-ten-of-programming-menuIndex2]: //github.tiankonguse.com/blog/2014/10/31/the-ten-of-programming.html#content-h2-西藏拉萨 引言
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3641265478.jpg

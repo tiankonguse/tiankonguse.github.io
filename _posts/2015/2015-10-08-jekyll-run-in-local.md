@@ -36,9 +36,9 @@ sudo apt-get install jekyll
 
 之前我有[三篇很水的记录](https://www.google.com/search?&q=site%3Atiankonguse.com+jekyll), 大家可以简单的看一下.  
 
-* [Jekyll 模板 简单语法 笔记](//github.tiankonguse.com/blog/2014/09/26/jekyll-base-record/)  
-* [在github上制作一个轻量级免费的静态网站](//github.tiankonguse.com/blog/2014/07/10/make-github-website/)  
-* [Jekyll 语法简单笔记](//github.tiankonguse.com/blog/2014/11/10/jekyll-study/)  
+* [Jekyll 模板 简单语法 笔记](//github.tiankonguse.com/blog/2014/09/26/jekyll-base-record.html)  
+* [在github上制作一个轻量级免费的静态网站](//github.tiankonguse.com/blog/2014/07/10/make-github-website.html)  
+* [Jekyll 语法简单笔记](//github.tiankonguse.com/blog/2014/11/10/jekyll-study.html)  
 
 
 
