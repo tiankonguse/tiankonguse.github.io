@@ -26,7 +26,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：从右到左循环找到当前后缀的最大值即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/02/001.png)  
+![](//res2020.tiankonguse.com/images/2020/01/02/001.png)  
 
 
 ## 二、使修改的数组和最接近目标  
@@ -79,7 +79,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：`O(n)`  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/02/002.png)  
+![](//res2020.tiankonguse.com/images/2020/01/02/002.png)  
 
 
 方法四：  
@@ -115,7 +115,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 遇到相同的高度了，累加叶子和。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/02/003.png)  
+![](//res2020.tiankonguse.com/images/2020/01/02/003.png)  
 
 
 ## 四、最优路径的数量  
@@ -150,7 +150,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 计算方法上面的题遇到过，先看是不是更优，更优了则更新，相等了了相加，其他情况忽略。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/02/004.png)  
+![](//res2020.tiankonguse.com/images/2020/01/02/004.png)  
 
 
 ## 五、最后  

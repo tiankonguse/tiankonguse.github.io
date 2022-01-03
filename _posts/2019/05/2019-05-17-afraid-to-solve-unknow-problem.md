@@ -26,7 +26,7 @@ wxurl: https://mp.weixin.qq.com/s/3RXfkmoU3JQ14o15EzqRUQ
 我负责一个服务，如下图。所有业务都是从我的服务读数据的，其他服务都是其他同事负责。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/17/001.png)  
+![](//res2019.tiankonguse.com/images/2019/05/17/001.png)  
 
 
 这个流程大概是：  
@@ -86,7 +86,7 @@ wxurl: https://mp.weixin.qq.com/s/3RXfkmoU3JQ14o15EzqRUQ
 于是我只好使用第四个杀手锏方案：打扰一个离职一两年的朋友，之前 B 服务和 C 服务他曾负责过一段时间。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/17/002.png)  
+![](//res2019.tiankonguse.com/images/2019/05/17/002.png)  
 
 
 于是我根据要到的解决方法，申请 C 服务所有机器的权限，开始操作了。  
@@ -102,7 +102,7 @@ wxurl: https://mp.weixin.qq.com/s/3RXfkmoU3JQ14o15EzqRUQ
 此时我想起了一句话决与择的哲学话题。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/17/003.png)  
+![](//res2019.tiankonguse.com/images/2019/05/17/003.png)  
 
 
 最后我还是决定勇敢的试一试，于是操作了一台，等了一分钟，看我的储存服务的监控：调用量确实降了。  
@@ -171,7 +171,7 @@ wxurl: https://mp.weixin.qq.com/s/3RXfkmoU3JQ14o15EzqRUQ
 
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/17/004.png)  
+![](//res2019.tiankonguse.com/images/2019/05/17/004.png)  
 
 
 

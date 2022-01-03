@@ -63,7 +63,7 @@ published: true
 这样我更新新文章的时候，公众号会自动给订阅的你们发送消息通知  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/21/001.png)
+![](//res2020.tiankonguse.com/images/2020/04/21/001.png)
 
 
 这种通过订阅公众号，更新时自动通知所有订阅的人的方式，就是观察者模式。  
@@ -116,7 +116,7 @@ published: true
 画出关系图大概就像下面的样子。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/21/002.png)
+![](//res2020.tiankonguse.com/images/2020/04/21/002.png)
 
 
 
@@ -138,7 +138,7 @@ published: true
 Observer 类其实只有一个接口函数，相当简单。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/21/004.png)
+![](//res2020.tiankonguse.com/images/2020/04/21/004.png)
 
 
 子类继承 Observer 时实现 Update 函数即可。  
@@ -148,13 +148,13 @@ Observer 类其实只有一个接口函数，相当简单。
 通知的时候，用来遍历调用 Update。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/21/003.png)
+![](//res2020.tiankonguse.com/images/2020/04/21/003.png)
 
 
 最后一步最关键，在运行程序的时候，消费者进行主题订阅。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/21/005.png)
+![](//res2020.tiankonguse.com/images/2020/04/21/005.png)
 
 
 这样，有消息的时候调用`s.Notify()`就会通知所有的观察者了。  
@@ -237,7 +237,7 @@ Observer 类其实只有一个接口函数，相当简单。
 找到了当时的 js 代码，也分享给大家。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/21/006.png)
+![](//res2020.tiankonguse.com/images/2020/04/21/006.png)
 
 
 思考题：你用过观察者模式吗？  

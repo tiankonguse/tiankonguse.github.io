@@ -64,7 +64,7 @@ PS：在最前面先说一个事，上次发起了一个樊登读书VIP的抽奖
 复杂度：`O(n)`  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/10/001.png)  
+![](//res2019.tiankonguse.com/images/2019/11/10/001.png)  
 
 
 
@@ -108,7 +108,7 @@ PS：在最前面先说一个事，上次发起了一个樊登读书VIP的抽奖
 贪心的做法就是优先分配第一行，第一行分配完了再分配第二行。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/10/002.png)  
+![](//res2019.tiankonguse.com/images/2019/11/10/002.png)  
 
 
 ## 三、封闭岛屿的数目  
@@ -128,7 +128,7 @@ PS：在最前面先说一个事，上次发起了一个樊登读书VIP的抽奖
 复杂度：`O(n^2)`  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/10/003.png)  
+![](//res2019.tiankonguse.com/images/2019/11/10/003.png)  
 
 
 ## 四、得分最高的单词集合  
@@ -181,7 +181,7 @@ PS：在最前面先说一个事，上次发起了一个樊登读书VIP的抽奖
 不过我更喜欢递归实现。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/10/004.png)  
+![](//res2019.tiankonguse.com/images/2019/11/10/004.png)  
 
 
 

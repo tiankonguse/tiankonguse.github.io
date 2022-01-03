@@ -11,7 +11,7 @@ wxurl: https://mp.weixin.qq.com/s/V1IeDxJibC30wyK9nJwp_w
 ---  
 
 
-![](http://res2019.tiankonguse.com/images/2019/04/28/20190428230001.jpg)  
+![](//res2019.tiankonguse.com/images/2019/04/28/20190428230001.jpg)  
 
 
 ## 一、背景  
@@ -165,7 +165,7 @@ wxurl: https://mp.weixin.qq.com/s/V1IeDxJibC30wyK9nJwp_w
 再看一下这张图：  
 
 
-![](http://res2019.tiankonguse.com/images/2019/04/28/20190428230001.jpg)  
+![](//res2019.tiankonguse.com/images/2019/04/28/20190428230001.jpg)  
 
 
 -EOF-  

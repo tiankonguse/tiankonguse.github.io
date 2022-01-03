@@ -16,7 +16,7 @@ published: true
 今天上午意外收到微信个人公众号的内侧认证邀请。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/001.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/001.png)  
 
 
 中午吃完饭后，我便按照指引开始了微信公众号的认证流程。  
@@ -28,7 +28,7 @@ published: true
 首先电脑登陆公众号，可以看到有一个内侧要求通知。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/002.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/002.png)  
 
 
 按照指引去认证。
@@ -40,13 +40,13 @@ published: true
 打开认证页面，会弹出一个条款，相信大家和我都一样，没看条款，直接点击了同意按钮。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/003.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/003.png)  
 
 
 然后可以看到有 5 个地方可以输出。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/004.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/004.png)  
 
 
 第一项是个人称呼，公众称谓看要求好需要审核，挺麻烦的，我就选择了主体名称，填入自己的名字。  
@@ -67,7 +67,7 @@ published: true
 然后点击提交即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/005.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/005.png)  
 
 
 ## 四、审核  
@@ -76,13 +76,13 @@ published: true
 提交资料后，会提醒需要 1~3 个工作日，可能还需要补充资料。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/006.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/006.png)  
 
 
 同时，微信也会收到一个审核中的通知。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/007.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/007.png)  
 
 
 之后就是漫长的等待，工作时间会收到一个审核电话，电话中帮我们编写一个认证描述，然后就是继续等待了。  
@@ -91,7 +91,7 @@ published: true
 大概等半个小时，就微信收到认证成功的通知。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/011.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/011.png)  
 
 
 ## 五、特点  
@@ -106,13 +106,13 @@ published: true
 第一个是搜索公众号的时候，有个认证的对号。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/013.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/013.png)  
 
 
 第二个是公众号详情里面账号主体是认证的，还有个认证描述。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/06/04/012.png)  
+![](//res2020.tiankonguse.com/images/2020/06/04/012.png)  
 
 
 ## 六、最后  

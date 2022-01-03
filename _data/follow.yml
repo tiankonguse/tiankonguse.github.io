@@ -10,15 +10,15 @@
     showImg: 0 
     class: fa-github
 
--   url: http://weibo.com/tiankonguse/
-    img: http://www.weibo.com/favicon.ico
+-   url: https://weibo.com/tiankonguse/
+    img: https://www.weibo.com/favicon.ico
     name: weibo
     showImg: 0
     class: fa-weibo
 
 
--   url: http://weixin.qq.com/
-    img: //github.tiankonguse.com/images/weixin_24x24.png
+-   url: https://weixin.qq.com/
+    img: https://github.tiankonguse.com/images/weixin_24x24.png
     name: weixin
     showImg: 0
     class: fa-weixin
@@ -40,11 +40,5 @@
     name: facebook
     showImg: 0
     class: fa-facebook
-
--   url: http://www.linkedin.com/pub/sky-yuan/87/723/776
-    img: //github.tiankonguse.com/images/linkedin.png
-    name: linkedin
-    showImg: 0
-    class: fa-linkedin
 
 

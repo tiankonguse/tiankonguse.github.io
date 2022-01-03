@@ -29,7 +29,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/22/001.png)  
+![](//res2020.tiankonguse.com/images/2020/03/22/001.png)  
 
 
 ## 二、四因数  
@@ -74,7 +74,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/22/002.png)  
+![](//res2020.tiankonguse.com/images/2020/03/22/002.png)  
 
 
 ## 三、有效路径  
@@ -84,7 +84,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/22/003.png)  
+![](//res2020.tiankonguse.com/images/2020/03/22/003.png)  
 
 
 这道题虽然是搜索题，但在 ACM 中也属于模拟题，因为代码量巨大。  
@@ -122,8 +122,8 @@ BFS 需要使用 队列来储存需要遍历的点，还需要一个 set/map 来
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/22/004.png)  
-![](http://res2020.tiankonguse.com/images/2020/03/22/005.png)  
+![](//res2020.tiankonguse.com/images/2020/03/22/004.png)  
+![](//res2020.tiankonguse.com/images/2020/03/22/005.png)  
 
 
 ## 四、最长快乐前缀  
@@ -151,7 +151,7 @@ BFS 需要使用 队列来储存需要遍历的点，还需要一个 set/map 来
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/22/006.png)  
+![](//res2020.tiankonguse.com/images/2020/03/22/006.png)  
 
 
 ## 五、最后  

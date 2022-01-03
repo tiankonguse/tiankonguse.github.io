@@ -19,7 +19,7 @@ Leetcode 第 141 场比赛的题目难度其实属于中等，但是比赛的时
 
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/23/001.png)
+![](//res2019.tiankonguse.com/images/2019/06/23/001.png)
 
 
 ## 一、大样本统计  
@@ -74,7 +74,7 @@ Leetcode 第 141 场比赛的题目难度其实属于中等，但是比赛的时
 然后依次遍历订单，优先判断是否可以下车，可以了则下车，然后判断是否可以上车，不可以就代表不存在答案。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/23/002.png)
+![](//res2019.tiankonguse.com/images/2019/06/23/002.png)
 
 
 第二个方法是枚举模拟法。  
@@ -82,7 +82,7 @@ Leetcode 第 141 场比赛的题目难度其实属于中等，但是比赛的时
 然后枚举所有路程，判断是否要下车，是否要上车，是否可以上车等等。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/23/003.png)
+![](//res2019.tiankonguse.com/images/2019/06/23/003.png)
 
 
 ## 三、山脉数组中查找目标值  
@@ -104,7 +104,7 @@ Leetcode 第 141 场比赛的题目难度其实属于中等，但是比赛的时
 而递增二分查找与递减二分查找是对称的，所以两个代码也可以合并为一个代码，使用flag标记即可。
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/23/004.png)
+![](//res2019.tiankonguse.com/images/2019/06/23/004.png)
 
 
 ## 四、花括号展开 II  
@@ -140,7 +140,7 @@ Leetcode 第 141 场比赛的题目难度其实属于中等，但是比赛的时
 由此，我们可以写出对应的递归方程来。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/23/005.png)
+![](//res2019.tiankonguse.com/images/2019/06/23/005.png)
 
 
 ## 五、最后  

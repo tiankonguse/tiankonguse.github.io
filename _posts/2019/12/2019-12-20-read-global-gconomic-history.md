@@ -26,7 +26,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 我花了四五个小时读完了这本书，经济学感觉没什么，但是全球的历史倒是学了不少知识。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/20/001.png)  
+![](//res2019.tiankonguse.com/images/2019/12/20/001.png)  
 
 
 ## 一、书评  

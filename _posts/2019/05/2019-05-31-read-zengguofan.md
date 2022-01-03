@@ -24,7 +24,7 @@ wxurl: https://mp.weixin.qq.com/s/ODE1wbTOxMcG2Euv1RAIMw
 此时项目负责人正确的做法应该是用去了解实际问题与困难，提供对应的资源。如果实际问题短时间内无法解决，就需要及时调整项目规划，正所谓计划赶不上变化。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/31/001.png)  
+![](//res2019.tiankonguse.com/images/2019/05/31/001.png)  
 
 
 二、免费与交换  
@@ -53,7 +53,7 @@ wxurl: https://mp.weixin.qq.com/s/ODE1wbTOxMcG2Euv1RAIMw
 曾国藩笑着都答应了，于是曾国藩顺利从弟弟手上接过了这个项目的总指挥权。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/31/002.png)  
+![](//res2019.tiankonguse.com/images/2019/05/31/002.png)  
 
 
 三、打工还是创业  
@@ -81,7 +81,7 @@ wxurl: https://mp.weixin.qq.com/s/ODE1wbTOxMcG2Euv1RAIMw
 心存善意，一生不论长短～后来我们选的路不一样，生存的环境不一样了，形成的思想不一样，我们不必劝对方放弃现在的生活，不论艰辛、困苦，那都是我们良心的抉择～  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/31/003.png)  
+![](//res2019.tiankonguse.com/images/2019/05/31/003.png)  
 
 
 四、明智的邀功  
@@ -98,7 +98,7 @@ wxurl: https://mp.weixin.qq.com/s/ODE1wbTOxMcG2Euv1RAIMw
 所以只能来一出皇帝的新装，这个胜利主要是拉拉队给力，不是我曾国藩厉害。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/31/004.png)  
+![](//res2019.tiankonguse.com/images/2019/05/31/004.png)  
 
 
 

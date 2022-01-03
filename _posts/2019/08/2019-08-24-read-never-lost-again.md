@@ -18,7 +18,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 最近花了一个月大概是 11 个小时陆陆续续的看完了《谷歌方法》这本书。  
 这里分享一下读这本数的一些想法。  
 
-![](http://res2019.tiankonguse.com/images/2019/08/24/001.png)
+![](//res2019.tiankonguse.com/images/2019/08/24/001.png)
 
 ## 二、故事  
 

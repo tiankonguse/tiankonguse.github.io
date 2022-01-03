@@ -48,7 +48,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 具体如下面的表格。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/30/001.png)  
+![](//res2019.tiankonguse.com/images/2019/12/30/001.png)  
 
 
 PS1：如果表格不清晰，文末有获取表格链接的方法。  

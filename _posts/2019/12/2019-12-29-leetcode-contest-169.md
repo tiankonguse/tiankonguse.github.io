@@ -24,7 +24,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 因此有幸进入全球前 100 名了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/001.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/001.png)  
 
 
 下面来看看这四道大水题吧。  
@@ -39,7 +39,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：前`n-1`个数字随便给一个正数（比如递增），最后一个数字补负数即可。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/002.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/002.png)  
 
 
 ## 二、二叉树所有元素  
@@ -51,7 +51,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：先分别递归获取两个二叉树的值，排序即可。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/003.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/003.png)  
 
 
 ## 三、跳一跳游戏  
@@ -65,7 +65,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：搜索即可，`DFS`和`BFS`都可以。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/004.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/004.png)  
 
 
 ## 四、字母与数字之间的难题  
@@ -85,14 +85,14 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 这样肯定会超时，所以需要剪枝。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/005.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/005.png)  
 
 
 考虑到不允许有前缀零，我便想到从高位到低位枚举，然后检查是否有前缀零。  
 有了直接减掉，可惜最后一组样例超时了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/006.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/006.png)  
 
 
 已经从高位到低位枚举，顺势可以想到，预先判断当前状态是不是肯定不存在答案。  
@@ -105,7 +105,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 可惜样例还是超时。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/007.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/007.png)  
 
 
 然后大部分人到这里就没办法了。  
@@ -117,7 +117,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 然后我就做完题了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/29/008.png)  
+![](//res2019.tiankonguse.com/images/2019/12/29/008.png)  
 
 
 由于这个做了大量的预处理，代码量比较大，就不贴出来了。  

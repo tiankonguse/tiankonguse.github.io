@@ -17,7 +17,7 @@ published: true
 不过现在已经都读了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/10/001.png)  
+![](//res2020.tiankonguse.com/images/2020/08/10/001.png)  
 
 
 
@@ -169,7 +169,7 @@ PS：中国的神话故事天上一天地上一年从哪来的？
 另一种是马鞍面，即负曲率。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/10/002.png)  
+![](//res2020.tiankonguse.com/images/2020/08/10/002.png)  
 
 
 通过研究空间的曲率，我们就可以判断宇宙是有限的还是无限的了。  
@@ -245,7 +245,7 @@ PS：中国的神话故事天上一天地上一年从哪来的？
 温度到达几亿度时，原子也会破裂。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/10/003.png)  
+![](//res2020.tiankonguse.com/images/2020/08/10/003.png)  
 
 
 原子的运动也是有规律的。  
@@ -309,7 +309,7 @@ PS：中国的神话故事天上一天地上一年从哪来的？
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/10/004.png)  
+![](//res2020.tiankonguse.com/images/2020/08/10/004.png)  
 
 
 
@@ -325,7 +325,7 @@ PS：中国的神话故事天上一天地上一年从哪来的？
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/10/005.png)  
+![](//res2020.tiankonguse.com/images/2020/08/10/005.png)  
 
 
 根据观察，所有星云都在远离我们。  

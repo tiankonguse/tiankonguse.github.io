@@ -30,7 +30,7 @@ wxurl: https://mp.weixin.qq.com/s/EUK7AW3nJQDpFERPWKcy4g
 节点`4`和节点`6`的最近公共祖先是节点`5`。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/24/001.png)  
+![](//res2019.tiankonguse.com/images/2019/05/24/001.png)  
 
 
 那该如何实现一个算法，找到两个节点的最近公共祖先呢？  
@@ -79,7 +79,7 @@ wxurl: https://mp.weixin.qq.com/s/EUK7AW3nJQDpFERPWKcy4g
 对于每个子树，都进行了判断根是不是祖先，这样就相当于双层循环，复杂度是`O(n^2)`。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/24/002.png)  
+![](//res2019.tiankonguse.com/images/2019/05/24/002.png)  
 
 
 所以我们需要继续思考，有没有更简单的方法。  
@@ -98,7 +98,7 @@ wxurl: https://mp.weixin.qq.com/s/EUK7AW3nJQDpFERPWKcy4g
 递归的时候，如果能服用这个信息，则可以将复杂度降低到`O(n)`。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/24/003.png)  
+![](//res2019.tiankonguse.com/images/2019/05/24/003.png)  
 
 
 上面的递归代码需要返回三个值。  
@@ -139,7 +139,7 @@ qCncestor = q == root || leftQCncestor || rightQCncestor; //if find q in root
 否则说明这棵树只有一个节点，是谁就返回谁。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/24/004.png)  
+![](//res2019.tiankonguse.com/images/2019/05/24/004.png)  
 
 
 ## 六、最后  

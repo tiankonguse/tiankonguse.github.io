@@ -18,7 +18,7 @@ wxurl: https://mp.weixin.qq.com/s/Xrhp6zPHjxVH2p4Ma5k2hA
 里面也介绍了整理架构的数据流转流程。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/17/001.png)  
+![](//res2019.tiankonguse.com/images/2019/05/17/001.png)  
 
 
 这周六，又出现问题了。  
@@ -32,13 +32,13 @@ wxurl: https://mp.weixin.qq.com/s/Xrhp6zPHjxVH2p4Ma5k2hA
 大概十二点的时候，我被拉近一个微信群，他们怀疑是 UNION 系统的问题。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/03/001.png)  
+![](//res2019.tiankonguse.com/images/2019/06/03/001.png)  
 
 
 而我看到他们发的截图后，果断的下了一个结论：还是上次出问题的那个同步程序出问题了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/03/002.png)  
+![](//res2019.tiankonguse.com/images/2019/06/03/002.png)  
 
 
 不过这里也可以看到，服务正常，数据没有挤压，手动修改数据的变更时间，结果数据没按照预期的写进来。  
@@ -61,7 +61,7 @@ wxurl: https://mp.weixin.qq.com/s/Xrhp6zPHjxVH2p4Ma5k2hA
 于是我问了第二个问题：UNION 的播放set是否正常？  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/03/003.png)  
+![](//res2019.tiankonguse.com/images/2019/06/03/003.png)  
 
 
 之所以问这个问题，是因为对于我的系统，只有一种可能发生问题，那就是主从 REDIS 不一致。  
@@ -88,7 +88,7 @@ wxurl: https://mp.weixin.qq.com/s/Xrhp6zPHjxVH2p4Ma5k2hA
 所以我问出了第三个问题：看看是不是 同步程序读的 MYSQL 主从不一致。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/03/004.png)  
+![](//res2019.tiankonguse.com/images/2019/06/03/004.png)  
 
 
 当然，此时他们在确认信息之前就回答了我的问题。  
@@ -107,7 +107,7 @@ UNION中数据有变更吗？没有。
 自此，找到问题的原因。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/03/005.png)  
+![](//res2019.tiankonguse.com/images/2019/06/03/005.png)  
 
 
 ## 五、逻辑能力很重要  
@@ -136,7 +136,7 @@ UNION中数据有变更吗？没有。
 需要分几步来做，大概如下。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/03/005.png)  
+![](//res2019.tiankonguse.com/images/2019/06/03/005.png)  
 
 
 当然，那天我有点事情，只是远程的通过问答来辅助他们定位问题。  

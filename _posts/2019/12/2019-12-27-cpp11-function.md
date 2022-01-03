@@ -32,7 +32,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 比如根据指定的参数调用对应的函数来创建对象或者执行一些操作。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/27/001.png)  
+![](//res2019.tiankonguse.com/images/2019/12/27/001.png)  
 
 
 一种不错的方法是记录参数与回调函数指针的对应关系。  
@@ -41,7 +41,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 于是大家都是使用 `typedef` 来对函数指针重命名。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/27/002.png)  
+![](//res2019.tiankonguse.com/images/2019/12/27/002.png)  
 
 
 但是由于函数指针的的特殊性，这样写依旧很复杂。  
@@ -66,7 +66,7 @@ std::function<返回类型(参数列表)> 函数名称
 这样，我们就不需要纠结怎么函数指针了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/27/003.png)  
+![](//res2019.tiankonguse.com/images/2019/12/27/003.png)  
 
 
 function 函数对象可以直接储存全局函数、匿名函数、仿函数、类的静态函数。  
@@ -129,7 +129,7 @@ void test(){
 这样就可以在恰当的时机，回调业务写的一段代码块，俗称匿名函数。
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/27/004.png)  
+![](//res2019.tiankonguse.com/images/2019/12/27/004.png)  
 
 
 ## 四、最后  

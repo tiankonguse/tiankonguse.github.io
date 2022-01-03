@@ -30,7 +30,7 @@ published: true
 思路：数组大小 100， 字符串长度 30，直接暴力做即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/15/001.png)  
+![](//res2020.tiankonguse.com/images/2020/04/15/001.png)  
 
 
 ## 二、查询带键的排列  
@@ -44,7 +44,7 @@ published: true
 思路：最简单的是暴力查找与移动，复杂度 O(n^2)。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/15/002.png)  
+![](//res2020.tiankonguse.com/images/2020/04/15/002.png)  
 
 
 
@@ -81,8 +81,8 @@ published: true
 PS：至于什么是线段树和树状数组，这里不做介绍了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/15/003.png)  
-![](http://res2020.tiankonguse.com/images/2020/04/15/004.png)  
+![](//res2020.tiankonguse.com/images/2020/04/15/003.png)  
+![](//res2020.tiankonguse.com/images/2020/04/15/004.png)  
 
 
 
@@ -95,7 +95,7 @@ PS：至于什么是线段树和树状数组，这里不做介绍了。
 思路：按题意模拟即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/15/005.png)  
+![](//res2020.tiankonguse.com/images/2020/04/15/005.png)  
 
 
 
@@ -127,7 +127,7 @@ PS：至于什么是线段树和树状数组，这里不做介绍了。
 当然，由于状态转移方程太简单了，我直接递推循环来敲代码了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/15/006.png)  
+![](//res2020.tiankonguse.com/images/2020/04/15/006.png)  
 
 
 另外，这种题型之前我已经分享无数遍了。  

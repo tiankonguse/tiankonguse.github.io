@@ -54,7 +54,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 由此就可以得出结论：最优解是垂直距离和水平距离的最大值。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/24/001.png)  
+![](//res2019.tiankonguse.com/images/2019/11/24/001.png)  
 
 
 ## 二、统计可以通信的服务器
@@ -80,7 +80,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：n^2  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/24/002.png)  
+![](//res2019.tiankonguse.com/images/2019/11/24/002.png)  
 
 
 
@@ -97,7 +97,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 其实这个是典型的字典树，之前我曾在三个比赛中介绍过了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/24/003.png)  
+![](//res2019.tiankonguse.com/images/2019/11/24/003.png)  
 
 
 
@@ -147,7 +147,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/24/004.png)  
+![](//res2019.tiankonguse.com/images/2019/11/24/004.png)  
 
 
 方法五：暴力二分查找  
@@ -178,7 +178,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 这次比赛我就是这样实现的。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/24/005.png)  
+![](//res2019.tiankonguse.com/images/2019/11/24/005.png)  
 
 
 递推复杂度：n*m  

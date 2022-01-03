@@ -29,7 +29,7 @@ published: true
 下面来看看这次比赛的四道题吧。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/05/17/001.png)  
+![](//res2020.tiankonguse.com/images/2020/05/17/001.png)  
 
 
 ## 一、此刻在做作业的人数  
@@ -44,7 +44,7 @@ published: true
 复杂度：`O(n)`  
 
 
-![](http://res2020.tiankonguse.com/images/2020/05/17/002.png)  
+![](//res2020.tiankonguse.com/images/2020/05/17/002.png)  
 
 
 ## 二、重新排列句子中的单词  
@@ -64,14 +64,14 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/05/17/003.png)  
+![](//res2020.tiankonguse.com/images/2020/05/17/003.png)  
 
 
 
 当然，之前我没使用过有序排序函数 `stable_sort`，所以我使用 map 来实现有序排序的功能了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/05/17/004.png)  
+![](//res2020.tiankonguse.com/images/2020/05/17/004.png)  
 
 
 
@@ -113,7 +113,7 @@ k 为公司名称的个数
 计算复杂度：`O(n^2 * m * log(m))`  
 
 
-![](http://res2020.tiankonguse.com/images/2020/05/17/005.png)  
+![](//res2020.tiankonguse.com/images/2020/05/17/005.png)  
 
 
 
@@ -149,7 +149,7 @@ k 为公司名称的个数
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/05/17/006.png)  
+![](//res2020.tiankonguse.com/images/2020/05/17/006.png)  
 
 
 ## 五、最后  

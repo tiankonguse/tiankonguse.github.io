@@ -31,15 +31,15 @@ published: true
 
 
 （北京地铁）
-![](http://res2018.tiankonguse.com/images/2018/05/Beijing-Subway.png)
+![](//res2018.tiankonguse.com/images/2018/05/Beijing-Subway.png)
 
 
 （上海地铁）
-![](http://res2018.tiankonguse.com/images/2018/05/SHM_evolution_mid.gif)
+![](//res2018.tiankonguse.com/images/2018/05/SHM_evolution_mid.gif)
 
 
 （深圳地铁）
-![](http://res2018.tiankonguse.com/images/2018/05/Shenzhen_metro_Evo.gif)
+![](//res2018.tiankonguse.com/images/2018/05/Shenzhen_metro_Evo.gif)
 
 
 我根据路标找到地铁站，买了地铁票等地铁。  

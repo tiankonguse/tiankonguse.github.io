@@ -21,7 +21,7 @@ published: true
 于是花了两周时间，大概12小时30分钟阅读完了这本书。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/13/001.png)  
+![](//res2020.tiankonguse.com/images/2020/07/13/001.png)  
 
 
 

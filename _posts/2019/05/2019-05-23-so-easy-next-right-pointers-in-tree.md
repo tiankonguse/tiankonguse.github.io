@@ -27,13 +27,13 @@ wxurl: https://mp.weixin.qq.com/s/knzEK8Xiwf21p8W-2QYl2A
 可以看下图，是一个标准的二叉树。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/001.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/001.png)  
 
 
 每个节点有一个指向下一个右侧的节点指针，如果没有下一个，这个指针的值就为`NULL`。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/002.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/002.png)  
 
 
 看了这个图，大家应该就明白这篇文章的问题是什么了。  
@@ -51,7 +51,7 @@ wxurl: https://mp.weixin.qq.com/s/knzEK8Xiwf21p8W-2QYl2A
 所以我们实现两个函数即可：一个是对一个树进行构造，一个是左子树和右子树进行构造。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/003.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/003.png)  
 
 
 ## 四、普通二叉树  
@@ -64,14 +64,14 @@ wxurl: https://mp.weixin.qq.com/s/knzEK8Xiwf21p8W-2QYl2A
 比如对于下面的二叉树，我们不知道左子树的某一层最右边是哪个了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/004.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/004.png)  
 
 
 实际应该这样连接。  
 而且，有一个更打击人的提示是：二叉树某一层的最左边也不是很容易确定。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/005.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/005.png)  
 
 
 面对这个问题，可以想到的第一个方法是 `BFS`。  
@@ -79,7 +79,7 @@ wxurl: https://mp.weixin.qq.com/s/knzEK8Xiwf21p8W-2QYl2A
 这样就能一层层的来进行构造下一个节点了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/006.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/006.png)  
 
 
 但是，我们看下题的要求，会发现要求使用常数的额外空间。  
@@ -95,7 +95,7 @@ wxurl: https://mp.weixin.qq.com/s/knzEK8Xiwf21p8W-2QYl2A
 之后继续遍历`next`，就可以找到下一个第`n+1`层的节点，然后串起来即可。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/23/007.png)  
+![](//res2019.tiankonguse.com/images/2019/05/23/007.png)  
 
 
 ## 五、最后  

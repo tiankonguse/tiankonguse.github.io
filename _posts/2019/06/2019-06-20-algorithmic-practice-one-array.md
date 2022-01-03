@@ -37,7 +37,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/001.png)
+![](//res2019.tiankonguse.com/images/2019/06/001.png)
 
 
 比如上面这张图，肯定是在局部最低点买入，在局部最高点卖出。  
@@ -54,7 +54,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 不断的这样操作，就可以获得最多的钱。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/002.png)
+![](//res2019.tiankonguse.com/images/2019/06/002.png)
 
 
 ## 三、两数之和  
@@ -83,7 +83,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/003.png)
+![](//res2019.tiankonguse.com/images/2019/06/003.png)
 
 
 ## 四、有效的数独  
@@ -116,7 +116,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 具体见代码吧。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/004.png)
+![](//res2019.tiankonguse.com/images/2019/06/004.png)
 
 
 ## 五、最后  

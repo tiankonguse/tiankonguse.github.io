@@ -123,7 +123,7 @@ published: true
 接着在图上画一下看心中了哪些边，加起来，就可以找到一个`O(n)`的公式来。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/27/001.png)  
+![](//res2020.tiankonguse.com/images/2020/11/27/001.png)  
 
 
 ## F. Array Partition  

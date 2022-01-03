@@ -50,7 +50,7 @@ wxurl: https://mp.weixin.qq.com/s/0QyCtcnn3wE9m2Bq3VHpiA
 PS：如果你还年轻，换个工作也是一个机会。趁着还有激情，遇到新同事也很容易组成一队的。入职久了就算了吧，天天在一起就是姐妹哥弟了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/03/how-to-find-girl-frend.png)  
+![](//res2019.tiankonguse.com/images/2019/03/how-to-find-girl-frend.png)  
 
 
 原文地址： https://t.zsxq.com/rZFqRNj  

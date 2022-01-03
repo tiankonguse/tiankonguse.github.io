@@ -126,7 +126,7 @@ mysql  -e "select field1,field2 from table" > data_001.txt
 由此，就只剩最后一步：下载所有图。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/08/21/001.png)
+![](//res2019.tiankonguse.com/images/2019/08/21/001.png)
 
 
 下载后，windows 文件夹调整为 中等图标，就可以预览所有图标了。  
@@ -138,7 +138,7 @@ PS：同事又问怎么根据数字图片名找到图片地址呢？我只说了
 后来，我发现也可以不下载图片，于是我就生成了一个包含所有图片的 HTML， 浏览器打开就可以看到所有图片了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/08/21/002.png)
+![](//res2019.tiankonguse.com/images/2019/08/21/002.png)
 
 
 ## 五、最后  

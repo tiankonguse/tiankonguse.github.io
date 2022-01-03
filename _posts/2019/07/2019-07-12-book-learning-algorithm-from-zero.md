@@ -86,7 +86,7 @@ init 命令用来创建一个电子书项目。
 目录结构如下：  
 
 
-![](http://res2019.tiankonguse.com/images/2019/07/12/001.png)
+![](//res2019.tiankonguse.com/images/2019/07/12/001.png)
 
 
 之后，我们就是写书了，使用 markdown 的语法编写各个章节的文字。  
@@ -126,7 +126,7 @@ npm install gitbook-pdf -g
 电子书效果如下。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/07/12/002.png)
+![](//res2019.tiankonguse.com/images/2019/07/12/002.png)
 
 
 世上没有免费的午餐，所以这本书准备收费了。  

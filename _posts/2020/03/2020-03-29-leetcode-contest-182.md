@@ -22,7 +22,7 @@ published: true
 七八年前，我非常热衷于DFA算法题，还整理了几个模板，感兴趣的可以后台回复“ACM模板”获取。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/29/001.png)  
+![](//res2020.tiankonguse.com/images/2020/03/29/001.png)  
 
 
 ## 一、幸运数字  
@@ -35,7 +35,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/29/002.png)  
+![](//res2020.tiankonguse.com/images/2020/03/29/002.png)  
 
 
 
@@ -49,7 +49,7 @@ published: true
 思路：数据量只有200，直接三层循环即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/29/003.png)  
+![](//res2020.tiankonguse.com/images/2020/03/29/003.png)  
 
 
 优化：预处理后可以两次循环计算出答案。  
@@ -83,7 +83,7 @@ published: true
 这道题出的非常不好，不想说啥了，你们看代码就知道了，几行搞定。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/29/004.png)  
+![](//res2020.tiankonguse.com/images/2020/03/29/004.png)  
 
 
 ## 四、good字符串  
@@ -177,7 +177,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/29/005.png)  
+![](//res2020.tiankonguse.com/images/2020/03/29/005.png)  
 
 
 ## 五、最后  

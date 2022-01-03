@@ -65,7 +65,7 @@ published: true
 具体原理上，按照 bit 位拆分子问题的。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/02/001.png)  
+![](//res2020.tiankonguse.com/images/2020/11/02/001.png)  
 
 
 更新的时候，复杂度之所以是 `log` 级别的，就是需要更新所有的父问题。  
@@ -82,7 +82,7 @@ published: true
 树状数组可以封装为一个对象，提供初始化、更新、查询三个方法。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/02/002.png)  
+![](//res2020.tiankonguse.com/images/2020/11/02/002.png)  
 
 
 这样，你需要使用树状数组的时候，创建一个对象即可。  

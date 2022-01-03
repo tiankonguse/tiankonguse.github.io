@@ -59,13 +59,13 @@ auto it = m.find("one")
 其实，关于这个问题我在四年前已经测试过了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/09/002.png)
+![](//res2020.tiankonguse.com/images/2020/01/09/002.png)
 
 
 当时我对所有常用的语法全部进行了压测。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/09/001.png)
+![](//res2020.tiankonguse.com/images/2020/01/09/001.png)
 
 
 今天，我再次运行了这个测试程序，性能差异之大已经令我不敢置信。  
@@ -77,14 +77,14 @@ auto it = m.find("one")
 `avgFun`是运行次数，这里运行5轮求平均值。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/09/004.png)
+![](//res2020.tiankonguse.com/images/2020/01/09/004.png)
 
 
 这个压测程序接受两个参数，第一个是压测次数，第二个是`map`的大小。  
 可以看到，`map`比较小时，性能差异非常大；而`map`较大时，性能差异有`22%`左右。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/09/003.png)
+![](//res2020.tiankonguse.com/images/2020/01/09/003.png)
 
 
 ## 三、最后  

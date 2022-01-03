@@ -28,7 +28,7 @@ wxurl: https://mp.weixin.qq.com/s/oZv91wxxryXoISXbqAgiKw
 访问量大了的时候，就进行拆分DB、读写分离、硬件升级等等短期优化。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/001.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/001.png)
 
 
 此时数据的一致性由 MYSQL 内部保障（主从之间的一致性），我们不需要关心数据一致性问题。   
@@ -42,7 +42,7 @@ wxurl: https://mp.weixin.qq.com/s/oZv91wxxryXoISXbqAgiKw
 引入了 NOSQL 后，储存的数据就有两份，从而面临数据一致性问题。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/002.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/002.png)
 
 
 如果 NOSQL 是 REDIS 集群这样的成熟组件，写操作只写 MYSQL。然后有专门的组件将数据同步到 REDIS ，REDIS 储存全量的数据，则业务也不会涉及数据一致性问题。  
@@ -56,7 +56,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 服务为了抗量，计算服务之上也需要加一层缓存。此时就再次遇到数据一致性问题了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/003.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/003.png)
 
 
 此时，可能会有人问：难道就不能讲所有数据计算好写入 REDIS 吗？  
@@ -101,7 +101,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 而且为了简单实现，缓存也是靠过期时间定时回源的，比如每一分钟回源一次。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/004.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/004.png)
 
 
 这时，就有数据一致性问题了。  
@@ -116,7 +116,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
   
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/005.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/005.png)
 
 
 关于数据更新时对缓存的操作，业界已经有很多讨论了。  
@@ -157,7 +157,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 于是我们内部想了第五种方法：更新序列号 seq。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/006.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/006.png)
 
 
 如上图，写数据的时候会写入一个递增的 seq，然后会把这个 seq 通知到各个单机缓存系统。  
@@ -184,7 +184,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 第一种是小 set 的方式，即多个独立的一致性HASH环。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/007.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/007.png)
 
 
 这样做的好处是容量容易评估，一个小set 目前支持了多少量，未来要涨多少量，一换算需要扩容几个小 set 就很清楚了。  
@@ -201,7 +201,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 第二种是一个一致性HASH环，环下是路由节点。  
   
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/008.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/008.png)
 
 
 这种设计的好处上篇文章也提到了，天然优势，按需扩容。    
@@ -215,7 +215,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/009.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/009.png)
 
 
 对于小业务，本来需要 N 台机器组成一个一致性 HASH 环，现在需要申请 N 个路由表，维护成本很大。  
@@ -230,7 +230,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 第三种一致性 HASH，一个环多个备份。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/010.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/010.png)
 
 
 所有的 cache 机依旧在在一个路由表下，路由层对每个请求 Key 进行一致性 hash 的时候，追加一个后缀编号。  
@@ -273,7 +273,7 @@ RDIES 集群内的数据一致性由 REDIS 集群自己保障（多copy实例之
 如果你细心的话，会发现介绍前两种架构的时候，写操作都会对单机进行更新通知seq。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/06/25/011.png)
+![](//res2019.tiankonguse.com/images/2019/06/25/011.png)
 
 
 这个更新通知seq是单机全量更新的。  

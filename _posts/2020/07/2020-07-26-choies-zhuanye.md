@@ -31,7 +31,7 @@ published: true
 那一年的一本线在当时看来，是历年来最低的吧。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/26/001.png)  
+![](//res2020.tiankonguse.com/images/2020/07/26/001.png)  
 
 
 
@@ -57,7 +57,7 @@ published: true
 下面是我的高考成绩单。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/26/002.png)  
+![](//res2020.tiankonguse.com/images/2020/07/26/002.png)  
 
 
 可以看到，总分 150 分的语文，我只考了 89 分，90分才是及格线。  
@@ -86,7 +86,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/26/003.jpg)  
+![](//res2020.tiankonguse.com/images/2020/07/26/003.jpg)  
 
 
 PS1：为啥选了那么多名字带理工的学校？  
@@ -108,7 +108,7 @@ PS2：为啥选择了计算机科学与技术专业？
 很多人应该和我一样，上大学前从来没出过自己所属的小县城吧。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/26/004.jpg)  
+![](//res2020.tiankonguse.com/images/2020/07/26/004.jpg)  
 
 
 

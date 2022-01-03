@@ -25,13 +25,13 @@ published: true
 由于晚上弹窗内容过于少儿不宜，打上了码。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/14/001.png)  
+![](//res2020.tiankonguse.com/images/2020/03/14/001.png)  
 
 
 而更多的弹窗，我们完全看不出是哪个软件的，也关不了，就这样不断的骚扰我们。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/14/002.png)  
+![](//res2020.tiankonguse.com/images/2020/03/14/002.png)  
 
 
 于是我研究了下，怎么找到这些弹窗是哪些软件的，分享给大家。  
@@ -47,19 +47,19 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/14/003.png)  
+![](//res2020.tiankonguse.com/images/2020/03/14/003.png)  
 
 
 此时，我们可以打开任务管理器，找到弹窗的进程。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/14/004.png)  
+![](//res2020.tiankonguse.com/images/2020/03/14/004.png)  
 
 
 然后根据进程找到软件的位置。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/14/005.png)  
+![](//res2020.tiankonguse.com/images/2020/03/14/005.png)  
 
 
 就这样，就可以找到弹窗是哪个软件的了。  
@@ -83,7 +83,7 @@ published: true
 首先是点击工具的定位按钮，看起来很像瞄准镜，左键点一下长按，拖到弹窗上。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/03/14/006.png)  
+![](//res2020.tiankonguse.com/images/2020/03/14/006.png)  
 
 
 然后就可以看到自动定位到弹窗软件的进程。  

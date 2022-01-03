@@ -65,7 +65,7 @@ wxurl: https://mp.weixin.qq.com/s/6LkG-e1zq8q4pLI8UnxSCw
 大概流程如下：  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/25/001.png)  
+![](//res2019.tiankonguse.com/images/2019/05/25/001.png)  
 
 
 ## 四、非标准二叉树  
@@ -86,7 +86,7 @@ wxurl: https://mp.weixin.qq.com/s/6LkG-e1zq8q4pLI8UnxSCw
 大概流程如下：  
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/25/002.png)  
+![](//res2019.tiankonguse.com/images/2019/05/25/002.png)  
 
 
 按照这样的理论，我们就可以实现对应的序列转二叉树了。  
@@ -99,13 +99,13 @@ wxurl: https://mp.weixin.qq.com/s/6LkG-e1zq8q4pLI8UnxSCw
 这样使用先序遍历生成的序列就可以唯一的表示一个二叉树了，从而能够还原二叉树。
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/25/003.png)  
+![](//res2019.tiankonguse.com/images/2019/05/25/003.png)  
 
 
 而对于二叉树生成序列，而按照定义BFS生成即可。
 
 
-![](http://res2019.tiankonguse.com/images/2019/05/25/004.png)  
+![](//res2019.tiankonguse.com/images/2019/05/25/004.png)  
 
 
 ## 六、最后  

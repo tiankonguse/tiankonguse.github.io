@@ -132,7 +132,7 @@ scene1->ParseFromZeroCopyStream(&GzipInputStream)
 一搜到，在注释里找到了解释，原来要使用 ArrayInputStream。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/09/18/001.png)
+![](//res2020.tiankonguse.com/images/2020/09/18/001.png)
 
 
 就这样，我使用 string 写出了压缩序列化与反序列化 protbuf 的代码。  
@@ -174,7 +174,7 @@ person.ParseFromZeroCopyStream(&gzipStream)
 这里有一个坑就是，压缩序列化的时候，必须进行 Close 或者 Flush 操作。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/09/18/002.png)
+![](//res2020.tiankonguse.com/images/2020/09/18/002.png)
 
 
 压缩效果可看出来，我随便构造了一个数据，ZLIB 压缩算法比 GZIP 压缩算法稍微好一些。  

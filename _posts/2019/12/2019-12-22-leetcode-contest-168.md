@@ -47,7 +47,7 @@ leetcode 的工作人员看见了，可以优化一下。
 思路：一个个求十进制长度，然后判断即可。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/22/001.png)  
+![](//res2019.tiankonguse.com/images/2019/12/22/001.png)  
 
 
 ## 二、数组划分为连续K个数字  
@@ -64,7 +64,7 @@ leetcode 的工作人员看见了，可以优化一下。
 可以使用 map 来进行数字统计，这样 map 的 key 是天然有序的，就直接迭代即可找到后面的 k 个数字了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/22/002.png)  
+![](//res2019.tiankonguse.com/images/2019/12/22/002.png)  
 
 
 ## 三、出现次数最多的次数  
@@ -92,7 +92,7 @@ leetcode 的工作人员看见了，可以优化一下。
 具体来说，就是相同起始位置的子串，一旦某个长度不满足最大长度了，那后面的都不满足。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/22/003.png)  
+![](//res2019.tiankonguse.com/images/2019/12/22/003.png)  
 
 
 ## 四、最多的糖果  
@@ -120,7 +120,7 @@ leetcode 的工作人员看见了，可以优化一下。
 其他情况就把新盒子和新钥匙保存起来。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/12/22/004.png)  
+![](//res2019.tiankonguse.com/images/2019/12/22/004.png)  
 
 
 ## 五、最后  

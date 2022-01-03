@@ -35,7 +35,7 @@ published: true
 第一次打卡不知道说什么，就简单的分享了体脂称的分数以及报一下肌肉重量。 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/001.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/001.png)  
 
 
 ## 二、平常的一天
@@ -52,7 +52,7 @@ published: true
 只有文字，则不知道写什么，只好写了平常的一天。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/002.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/002.png)  
 
 
 ## 三、facebook 与 黑天鹅
@@ -61,7 +61,7 @@ published: true
 那几天 facebook 被卷进了种族歧视运动，我预测 facebook 股价会暴跌。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/003.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/003.png)  
 
 
 
@@ -69,7 +69,7 @@ published: true
 结果后来一查新闻，新闻是几天前的，已经暴跌过了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/004.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/004.png)  
 
 
 现在已经在快速回涨，涨了 25% 了。  
@@ -92,7 +92,7 @@ published: true
 不知道什么原因，我这样一个短内容，访问量到达 1144 次。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/005.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/005.png)  
 
 
 ## 五、招财大牛猫的直播  
@@ -112,7 +112,7 @@ published: true
 可能蹭了招财大牛猫的热点，访问量到达 3804 次。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/006.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/006.png)  
 
 
 ## 六、力量训练补水
@@ -124,7 +124,7 @@ published: true
 周三晚上力量训练的时候带了一个水杯。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/007.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/007.png)  
 
 
 ## 七、股票
@@ -142,7 +142,7 @@ published: true
 我这种小户不知道他们是怎么发现我的。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/11/008.png)  
+![](//res2020.tiankonguse.com/images/2020/07/11/008.png)  
 
 
 ## 八、最后  

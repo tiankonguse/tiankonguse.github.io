@@ -36,7 +36,7 @@ published: true
 ## 二、算法题  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/25/001.png)  
+![](//res2020.tiankonguse.com/images/2020/04/25/001.png)  
 
 
 题目如上图，给一个数组，求每个位置前面小于该数字的值之和。  
@@ -99,7 +99,7 @@ published: true
 假设这道题每个值都在 1W 以内，那就是裸的树状数字题了。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/04/25/002.png)  
+![](//res2020.tiankonguse.com/images/2020/04/25/002.png)  
 
 
 上图就是树状数组的全部代码，而我们要做的也很简单，伪代码如下。  

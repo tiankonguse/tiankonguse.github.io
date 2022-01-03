@@ -38,7 +38,7 @@ published: true
 具体方法可以贪心，即从左到右循环寻找最小的满足条件字母。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/09/06/001.png)
+![](//res2020.tiankonguse.com/images/2020/09/06/001.png)
 
 
 ## 二、数的平方等于两数乘积的方法数  
@@ -54,7 +54,7 @@ published: true
 注意事项：数字可能大于 int ，请使用 long long。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/09/06/002.png)
+![](//res2020.tiankonguse.com/images/2020/09/06/002.png)
 
 
 ## 三、避免重复字母的最小删除成本  
@@ -79,7 +79,7 @@ published: true
 空间优化：由于第 k 个字符只与第 `k-1` 个字符有关系，可以使用滚动数组来储存状态。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/09/06/003.png)
+![](//res2020.tiankonguse.com/images/2020/09/06/003.png)
 
 
 ## 四、保证图可完全遍历  
@@ -110,7 +110,7 @@ published: true
 之后类型2和类型3的边完全没关系，单独进行并查集即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/09/06/004.png)
+![](//res2020.tiankonguse.com/images/2020/09/06/004.png)
 
 
 ## 五、最后  

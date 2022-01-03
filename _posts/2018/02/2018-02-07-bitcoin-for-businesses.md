@@ -49,7 +49,7 @@ published: true
 了解区块链一周了，目前我在自己心中逐渐建立了自己对区块链的认知，这里先分享大家。  
 
 
-![](http://res2018.tiankonguse.com/images/2018/02/20180207005152.png)  
+![](//res2018.tiankonguse.com/images/2018/02/20180207005152.png)  
 
 
 

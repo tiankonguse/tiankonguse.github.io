@@ -27,7 +27,7 @@ published: true
 我读错题了，计算的是每个字母的总按键时长。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/10/25/001.png)
+![](//res2020.tiankonguse.com/images/2020/10/25/001.png)
 
 
 ##  二、等差子数组  
@@ -40,7 +40,7 @@ published: true
 思路：按照题意对子区间排序，判断是不是等差数组即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/10/25/002.png)
+![](//res2020.tiankonguse.com/images/2020/10/25/002.png)
 
 
 ## 三、最小体力消耗路径  
@@ -59,7 +59,7 @@ published: true
 由于求最优值，需要使用最小堆维护队列。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/10/25/003.png)
+![](//res2020.tiankonguse.com/images/2020/10/25/003.png)
 
 
 ## 四、矩阵转换后的秩  
@@ -96,10 +96,10 @@ published: true
 我选择的是十字链表。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/10/25/004.png)
+![](//res2020.tiankonguse.com/images/2020/10/25/004.png)
 
 
-![](http://res2020.tiankonguse.com/images/2020/10/25/005.png)
+![](//res2020.tiankonguse.com/images/2020/10/25/005.png)
 
 
 赛后，突然发现储存一个图会更简单，即每个坐标四个方向第一个相等的坐标。  

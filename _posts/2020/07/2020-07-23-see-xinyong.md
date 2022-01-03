@@ -40,19 +40,19 @@ published: true
 打开中国人民银行征信中心网站 https://ipcrs.pbccrc.org.cn/ 。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/001.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/001.png)  
 
 
 点击如上图的马上开始四个字，可以看到一个登录页面。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/002.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/002.png)  
 
 
 如果你第一次访问这个网站，可以点击“新用户注册”。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/003.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/003.png)  
 
 
 由于我之前注册过，我需要做的是找回登录名和密码。  
@@ -62,14 +62,14 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/004.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/004.png)  
 
 
 
 点击下一步的时候，手机会收到短信，用户名在短信中。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/005.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/005.png)  
 
 
 接下来是找回密码。  
@@ -79,14 +79,14 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/006.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/006.png)  
 
 
 看到直接重置密码，有点惊喜，这么简单。  
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/007.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/007.png)  
 
 
 可是，实际情况并没有这么简单。  
@@ -99,7 +99,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/008.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/008.png)  
 
 
 
@@ -113,7 +113,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/009.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/009.png)  
 
 
 银联验证页面会根据输入的卡号自动显示对应的输入框。  
@@ -122,7 +122,7 @@ published: true
 比如我输入信用卡号后，下面就展示了信用卡的有效期和卡背面三位数字的输入框，银行卡是没有这一项的。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/010.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/010.png)  
 
 
 就这样，我们就成功重置密码了。  
@@ -134,7 +134,7 @@ published: true
 由于之前我已经查询了一次，所以你们看到的主页和我看到的会有点不一样。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/011.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/011.png)  
 
 
 要查询征信的话，点击左侧的申请征信信息，全部勾选即可。  
@@ -146,7 +146,7 @@ published: true
 当然，实际上第二天早上就出来了。
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/012.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/012.png)  
 
 
 等一天后，点击左侧的获取信用信息，点击未收到身份验证码，手机就可以收到对应的验证码了。  
@@ -154,7 +154,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/012.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/012.png)  
 
 
 
@@ -163,19 +163,19 @@ published: true
 第一个信息是信用提示，是简单的一句话，有没有贷款记录和逾期记录。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/013.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/013.png)  
 
 
 第二个信息是概要，有几笔贷款，几个信用卡，以及是否逾期。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/014.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/014.png)  
 
 
 第三个是详细的信用报告。
 
 
-![](http://res2020.tiankonguse.com/images/2020/07/23/015.png)  
+![](//res2020.tiankonguse.com/images/2020/07/23/015.png)  
 
 
 ## 四、最后  

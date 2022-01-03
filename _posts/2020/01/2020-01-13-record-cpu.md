@@ -172,7 +172,7 @@ echo "SUM[$sum] num[$num] avg[$avg]"
 这样，我就采集完数据了。 
 
 
-![](http://res2020.tiankonguse.com/images/2020/01/13/001.png)  
+![](//res2020.tiankonguse.com/images/2020/01/13/001.png)  
 
 
 ## 三、最后  

@@ -17,14 +17,14 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 上周的时候，我看到一张“众生皆有病”的图片。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/001.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/001.png)
 
 
 去网上了解细节后，发现这张图来自《我们与恶的距离》这部电视剧。  
 当我打开豆瓣时，不敢相信自己的眼睛。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/002.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/002.png)
 
 
 这部电视剧竟然有 9.5 分。
@@ -72,13 +72,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 因此，律师称为了受害人。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/003.gif)
+![](//res2019.tiankonguse.com/images/2019/11/08/003.gif)
 
 
 由于媒体为了抢热点、抢流量各种标题党无事实的报道内容，大众网民作为乌合之众无脑键盘侠，使得每个人都是罪恶之人。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/004.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/004.png)
 
 
 在后续处理中，受害者家属、大众网民、媒体成为了加害人，律师和凶手家人则成为受害者。  
@@ -93,7 +93,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 第一类人是凶手，也是大家最不能理解的一类人。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/005.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/005.png)
 
 
 李晓文的哥哥为什么要在电影院随机杀人？    
@@ -115,13 +115,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 没人知道原因。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/006.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/006.png)
 
 
 面对这个问题，律师想借此弄清，一个普通人，是怎么一步步变成穷凶极恶的杀人犯。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/007.gif)
+![](//res2019.tiankonguse.com/images/2019/11/08/007.gif)
 
 
 律师相信，没有人生来就是罪犯，每个人都有成为暴徒的可能，因为自己离成为一个杀人犯也是仅一步之遥。  
@@ -130,7 +130,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 律师相信，单单依靠死刑，是不能阻止类似案件发生的。只有了解了杀人心理的成因，才能防患于未然。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/008.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/008.png)
 
 
 这让律师十分坚定地想去探索：是哪些因素的影响，让一个人从遵纪守法的公民，变成丧心病狂的暴徒。  
@@ -142,7 +142,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 律师给了一个看起来很“合理”的解释：如果说我希望我的孩子，可以平安快乐的长大，不要再遇到有人再做出类似你犯过的罪，这个答案你满意吗？  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/009.gif)
+![](//res2019.tiankonguse.com/images/2019/11/08/009.gif)
 
 
 但在大众眼中，他们理解不了律师的行为，认为律师只是一个没有良心的坏律师。  
@@ -173,7 +173,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 后面两种受害人，则是“人性”导致的。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/010.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/010.png)
 
 
 这里面的细节就不展开说了，感兴趣的建议看电视剧，腾讯视频已经上线了。  
@@ -188,19 +188,19 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 第一个是大脑有分裂症导演的姐姐，自始至终都正能量。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/011.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/011.png)
 
 
 第二个是律师的老婆，理解包容律师。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/012.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/012.png)
 
 
 第三个是医生的老婆，莫名其妙就被圈粉了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/013.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/013.png)
 
 
 ## 六、理性的人  
@@ -212,19 +212,19 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 第一个人是律师，正义人士，但也被看电视剧的人给与“圣母”的称号。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/014.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/014.png)
 
 
 第二个是精神科的男医生，总是与世无争的样子，却又显得大智若愚。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/015.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/015.png)
 
   
 第三个是男律师老婆的父母。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/11/08/016.png)
+![](//res2019.tiankonguse.com/images/2019/11/08/016.png)
 
 
 ## 七、最后

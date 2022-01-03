@@ -39,13 +39,13 @@ wxurl: https://mp.weixin.qq.com/s/lxlKKzsawV8lVp5jKvalkw
 恰好我有一个朋友，还在读博，方向是材料方向。据说他们学的理论都可以造火箭激光了。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/01/44eb5b77196568b5a0917c869e04e61d.jpg)  
+![](//res2019.tiankonguse.com/images/2019/01/44eb5b77196568b5a0917c869e04e61d.jpg)  
 
 
-![](http://res2019.tiankonguse.com/images/2019/01/f079e0134b234bfa067e6fb08da623a7.jpg)  
+![](//res2019.tiankonguse.com/images/2019/01/f079e0134b234bfa067e6fb08da623a7.jpg)  
 
 
-![](http://res2019.tiankonguse.com/images/2019/01/16a1468c68fe4c7e14569207d234a880.jpg)  
+![](//res2019.tiankonguse.com/images/2019/01/16a1468c68fe4c7e14569207d234a880.jpg)  
 
 
 通过对话就很清楚了。  

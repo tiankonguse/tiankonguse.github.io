@@ -31,7 +31,7 @@ published: true
 代码：https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/003/00307-range-sum-query-mutable/range-sum-query-mutable.cc  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/04/001.png)  
+![](//res2020.tiankonguse.com/images/2020/11/04/001.png)  
 
 
 ## 三、计算右侧小于当前元素的个数  
@@ -50,7 +50,7 @@ published: true
 代码：https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/003/00315-count-of-smaller-numbers-after-self/count-of-smaller-numbers-after-self.cc  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/04/002.png)  
+![](//res2020.tiankonguse.com/images/2020/11/04/002.png)  
 
 
 ## 四、翻转对  
@@ -70,7 +70,7 @@ published: true
 代码：https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/004/00493-reverse-pairs/reverse-pairs.cc  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/04/003.png)  
+![](//res2020.tiankonguse.com/images/2020/11/04/003.png)  
 
 
 ## 五、区间和的个数  
@@ -146,7 +146,7 @@ sum[j  , j] + nums[j+1]
 代码：https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/003/00327-count-of-range-sum/count-of-range-sum.cc  
 
 
-![](http://res2020.tiankonguse.com/images/2020/11/04/004.png)  
+![](//res2020.tiankonguse.com/images/2020/11/04/004.png)  
 
 
 

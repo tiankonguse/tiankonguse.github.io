@@ -34,7 +34,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 注意事项：一定要转化为`64`位变量，不然会越界的。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/07/01/001.png)
+![](//res2019.tiankonguse.com/images/2019/07/01/001.png)
 
 
 ## 三、验证回文字符串  
@@ -49,13 +49,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 第一种方法是：先预处理这个字符串，删除无关的符号，然后双指针比较。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/07/01/002.png)
+![](//res2019.tiankonguse.com/images/2019/07/01/002.png)
 
 
 第二种方法是：预处理字符串后，反转字符串，判断反转后的字符串是否和原字符串相等。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/07/01/003.png)
+![](//res2019.tiankonguse.com/images/2019/07/01/003.png)
 
 
 第三种是先反转字符串，然后依次找到有效字符，进行判断。  
@@ -66,7 +66,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 所以第四个方法就是直接处理。  
 
  
-![](http://res2019.tiankonguse.com/images/2019/07/01/004.png)
+![](//res2019.tiankonguse.com/images/2019/07/01/004.png)
 
 
 ## 四、字符串转换整数  
@@ -92,7 +92,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 最后返回答案。  
 
 
-![](http://res2019.tiankonguse.com/images/2019/07/01/005.png)
+![](//res2019.tiankonguse.com/images/2019/07/01/005.png)
 
 
 

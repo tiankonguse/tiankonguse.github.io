@@ -22,7 +22,7 @@ published: true
 题意：给一个字符串进行整理，整理好的字符串需要满足，相邻的字母不是一个大写一个小写的相等字母。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/001.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/001.png)  
 
 
 就这样一个问题，我硬是没看懂，研究了五十分钟。  
@@ -34,7 +34,7 @@ published: true
 思路：按照题意模拟即可，连续两个不满足要求，删除即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/002.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/002.png)  
 
 
 ## 二、找出第 N 个二进制字符串中的第 K 位  
@@ -46,7 +46,7 @@ published: true
 构造规则如下图：  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/003.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/003.png)  
 
 
 思路：通过分析可以得到三个结论。  
@@ -69,7 +69,7 @@ published: true
 3、如果 k 在字符串的后半段，则答案与第 N 个字符串的镜像位置相反。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/004.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/004.png)  
 
 
 ## 三、和为目标值的最大数目不重叠非空子数组数目  
@@ -93,7 +93,7 @@ published: true
 可以看到，代码非常简洁，初始化，dfs 递归计算即可。  
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/005.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/005.png)  
 
 
 那如何找到以`i`为后缀且和为目标数的最短子数组呢？  
@@ -114,7 +114,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/006.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/006.png)  
 
 
 ## 四、切棍子的最小成本  
@@ -146,7 +146,7 @@ published: true
 
 
 
-![](http://res2020.tiankonguse.com/images/2020/08/09/007.png)  
+![](//res2020.tiankonguse.com/images/2020/08/09/007.png)  
 
 
 ## 五、最后  
