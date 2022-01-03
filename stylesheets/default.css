@@ -1498,6 +1498,14 @@ ins{
     color: #000000;
     box-shadow: inset 300px 0 0 rgb(255, 255, 255);
 }
+.sidebar-tag-num {
+    vertical-align: super;
+    font-size: 0.8em;
+    padding-left: 5px;
+    color: #fb6e89;
+}
+
+
 #sidebar-right {
     float: left;
     width: calc(100% - 300px);

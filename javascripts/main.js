@@ -81,20 +81,35 @@ function loadSidebar(){
         return true;
     });
     $(".js-menu-trigger").hide();
+    function CalCategoryNum(categories, posts){
+        var categoryPostNum = {}
+        for (var i in categories){
+            categoryPostNum[categories[i]] = 0;
+        }
+        for (var i in posts){
+            var post = posts[i];
+            for(var j in post.categories){
+                categoryPostNum[post.categories[j]]++;
+            }
+        }
+        return categoryPostNum;
+    }
     function loadPostList(callback){
         $.get("/postlist.json", function(data){
             var categories = data.categories;
             var posts = data.posts;
+            var categoryPostNum = CalCategoryNum(categories, posts);
             
             var $sidebarTags = $("#sidebar-tags");
             for (var i in categories){
-                $sidebarTags.append('<li class="sidebar-tag" data-filter="'+categories[i]+'">'+categories[i]+'</li>');
+                var category = categories[i];
+                var num = categoryPostNum[category];
+                $sidebarTags.append('<li class="sidebar-tag" data-filter="'+category+'">'+category+'<span class="sidebar-tag-num">' + num + '</span></li>');
             }
-            
+
             var $toc = $("#toc");
-            var post;
             for (var i in posts){
-                post = posts[i];
+                var post = posts[i];
                 $toc.append('<a class="toc-link sidebar-social-icon" data-tags="'+post.categories.join(" ")+'" href="'+post.url+'">'+post.title + ' ' + post.date +  '</a>');
             }
             
@@ -109,7 +124,7 @@ function loadSidebar(){
             }
         });
     }
-    function loadPostCallback(){
+    function loadPostCallback(e){
         $("body").toggleClass("sidebar-visible");
         $(".js-menu").addClass("is-visible");
         $(".menu-screen").addClass("is-visible");
@@ -120,13 +135,15 @@ function loadSidebar(){
         hand = setTimeout(function(){
             $searchInput.focus();
         },3);
-        e.preventDefault();
+        e && e.preventDefault();
     }
     $(".home-menu-ex").bind("click", function(e){ 
         if(!$postListLoad){
-            loadPostList(loadPostCallback);
+            loadPostList(function(){
+                loadPostCallback(e);
+            });
         }else{
-            loadPostCallback();
+            loadPostCallback(e);
         }
     
     });
