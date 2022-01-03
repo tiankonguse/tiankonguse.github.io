@@ -70,17 +70,17 @@ Chrome 88 以及之后的版本，就对png、Mp3等图片、视频、音频、�
 
 
 假设 github.tiankonguse.com 网站依赖 res.tiankonguse.com 网站的一个 1.png 图片。  
-这是 github.tiankonguse.com 网站的页面就会有这样一个链接 `res.tiankonguse.com/images/tiankonguse-code.gif`。  
+这是 github.tiankonguse.com 网站的页面就会有这样一个链接 `res.tiankonguse.com/images/2022/01/03/001.png`。  
 
 
 自适应的意思就是我们不指定 http 这个前缀。  
-改为 `//res.tiankonguse.com/images/images/tiankonguse-code.gif`。  
+改为 `//res.tiankonguse.com/images/images/2022/01/03/001.png`。  
 
 
-此时，如果 a.com 网站以 http 协议的方式对外提供页面服务，浏览器就会使用 `http://res.tiankonguse.com/images/tiankonguse-code.gif` 的方式去打开图片。  
+此时，如果 github.tiankonguse.com  网站以 http 协议的方式对外提供页面服务，浏览器就会使用 `http://res.tiankonguse.com` 的方式去打开图片。  
 
 
-如果 a.con 网站以 https 协议的方式对外服务，浏览器就会使用 `https://res.tiankonguse.com/images/tiankonguse-code.gif` 的方式去打开图片。  
+如果 github.tiankonguse.com  网站以 https 协议的方式对外服务，浏览器就会使用 `https://res.tiankonguse.com` 的方式去打开图片。  
 
 
 是不是很神奇，这样就做到了自适配。  
