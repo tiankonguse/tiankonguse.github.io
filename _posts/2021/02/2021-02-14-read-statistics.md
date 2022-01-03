@@ -2,9 +2,9 @@
 layout:     post  
 title:   读《统计学关我什么事》
 description: 贝叶斯是什么。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 读书,数学,统计学,概率  
+tags: [读书,数学,统计学,概率]    
+categories: [读书]  
 updateData:  2021-02-14 21:30:00  
 published: true  
 ---  

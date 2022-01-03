@@ -2,9 +2,9 @@
 layout:     post  
 title:   大部分人都有的12种偏见
 description: 你可能都有这些偏见。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,逻辑  
+tags: [生活,逻辑]    
+categories: [生活]  
 updateData:  2021-02-15 21:30:00  
 published: true  
 ---  

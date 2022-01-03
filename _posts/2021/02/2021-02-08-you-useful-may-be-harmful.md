@@ -2,9 +2,9 @@
 layout:     post  
 title:   亲测有效的秘方可能对你的身体有害
 description: 秘方最可怕。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,中医,逻辑  
+tags: [生活,中医,逻辑]    
+categories: [生活]  
 updateData:  2021-02-08 21:30:00  
 published: true  
 ---  

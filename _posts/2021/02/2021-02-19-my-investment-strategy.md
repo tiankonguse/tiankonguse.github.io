@@ -2,9 +2,9 @@
 layout:     post  
 title:   重新梳理我的投资策略  
 description: 以后要做的是严格执行策略。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,投资策略,股票  
+tags: [理财,投资策略,股票]    
+categories: [理财]  
 updateData:  2021-02-19 21:30:00  
 published: true  
 ---  

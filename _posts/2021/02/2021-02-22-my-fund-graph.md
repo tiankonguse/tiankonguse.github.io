@@ -2,9 +2,9 @@
 layout:     post  
 title: 分析了基金间股票关系，发现优质股票    
 description: 好股票会吸引好基金来购买。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,股票,投资策略  
+tags: [理财,股票,投资策略]    
+categories: [理财]  
 updateData:  2021-02-22 21:30:00  
 published: true  
 ---  

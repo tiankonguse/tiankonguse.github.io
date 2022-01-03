@@ -2,9 +2,9 @@
 layout:     post  
 title:   不追求肌肉，但要高效健身 
 description: 生活中处处存在矛盾。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,健康,肌肉,运动  
+tags: [生活,健康,肌肉,运动]    
+categories: [生活]  
 updateData:  2021-02-04 21:30:00  
 published: true  
 ---  

@@ -2,9 +2,9 @@
 layout:     post  
 title:   肌肉：感觉越困难，效果会越好
 description: 意外锻炼出一个大肌肉。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,运动,健康,肌肉  
+tags: [生活,运动,健康,肌肉]    
+categories: [生活]]  
 updateData:  2021-02-05 21:30:00  
 published: true  
 ---  

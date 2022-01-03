@@ -2,9 +2,9 @@
 layout:     post  
 title:   春晚的败笔：核桃补脑、黑芝麻黑发？
 description: 一句话不同人理解的意思不一样。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,中医,逻辑  
+tags: [生活,中医,逻辑]    
+categories: [生活]  
 updateData:  2021-02-13 21:30:00  
 published: true  
 ---  

@@ -2,9 +2,9 @@
 layout:     post  
 title:   送你一个家庭必备《应急物资清单》
 description: 紧急时候可以帮上大忙。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,家庭  
+tags: [生活,家庭]    
+categories: [生活]  
 updateData:  2021-02-16 21:30:00  
 published: true  
 ---  
