@@ -2,9 +2,9 @@
 layout:     post  
 title: 看漫画《炎拳》人为什么活着  
 description: 活着是一件很辛苦的事情，甚至它的存在本身就是一种痛苦。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,漫画  
+tags: [生活,漫画]    
+categories: [生活]  
 updateData:  2021-04-19 21:30:00  
 published: true  
 ---  

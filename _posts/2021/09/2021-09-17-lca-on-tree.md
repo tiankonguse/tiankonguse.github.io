@@ -2,9 +2,9 @@
 layout:     post  
 title:  RMQ LCA 解决 MEX 子树问题
 description: LCA 算法学会了，又可以解决一批问题。     
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,RMQ,LCA,MEX,leetcode  
+tags: [算法,RMQ,LCA,MEX,leetcode]    
+categories: [算法]  
 updateData:  2021-09-17 21:30:00  
 published: true  
 ---  

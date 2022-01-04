@@ -2,9 +2,9 @@
 layout:     post  
 title: 看《土拨鼠之日》与《一日囚》  
 description: 听说是高分电影。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 电影  
+tags: [电影]    
+categories: [电影]  
 updateData:  2021-04-20 21:30:00  
 published: true  
 ---  

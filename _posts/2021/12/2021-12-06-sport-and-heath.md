@@ -2,9 +2,9 @@
 layout:     post  
 title: 日记236. 运动是如何让身体健康的？  
 description: 这是一个值得思考的问题。       
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,运动,健康  
+tags: [生活,运动,健康]    
+categories: [生活]  
 updateData:  2021-12-06 21:30:00  
 published: true  
 ---  

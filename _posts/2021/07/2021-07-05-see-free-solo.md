@@ -2,9 +2,9 @@
 layout:     post  
 title: 看《徒手攀岩》  
 description: 攀岩的两个月的我，有资格看这部电影了。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 电影,攀岩  
+tags: [电影,攀岩]    
+categories: [电影]  
 updateData:  2021-07-05 21:30:00  
 published: true  
 ---  

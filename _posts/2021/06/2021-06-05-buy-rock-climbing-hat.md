@@ -2,9 +2,9 @@
 layout:     post  
 title: 攀岩两个月后，我买了一个帽子   
 description: 装备差不多都买齐了。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,攀岩,运动  
+tags: [生活,攀岩,运动]    
+categories: [生活]  
 updateData:  2021-06-05 21:30:00  
 published: true  
 ---  

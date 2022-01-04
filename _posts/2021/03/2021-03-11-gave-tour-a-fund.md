@@ -2,9 +2,9 @@
 layout:     post  
 title: 买茅20？同事告诉我一个基金  
 description: 我赶紧加入了定投基金名单   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,基金,股票  
+tags: [理财,基金,股票]    
+categories: [理财]  
 updateData:  2021-03-11 21:30:00  
 published: true  
 ---  

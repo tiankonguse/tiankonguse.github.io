@@ -2,9 +2,9 @@
 layout:     post  
 title:  线段树：权值？合并？动态开点？都没听说过
 description: 线段树的三个高端算法，动态开点，储存权值，还可以合并。     
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 算法,线段树,权值线段树,合并线段树,动态开点线段树  
+tags: [算法,线段树]    
+categories: [算法]  
 updateData:  2021-09-20 21:30:00  
 published: true  
 ---  

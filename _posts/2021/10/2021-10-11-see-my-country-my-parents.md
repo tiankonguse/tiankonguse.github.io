@@ -2,9 +2,9 @@
 layout:     post  
 title: 看《我与我的父辈》  
 description: 好评，推荐。     
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 电影  
+tags: [电影]    
+categories: [电影]  
 updateData:  2021-10-11 21:30:00  
 published: true  
 ---  

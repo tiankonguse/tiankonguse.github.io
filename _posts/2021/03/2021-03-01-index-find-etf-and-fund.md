@@ -2,9 +2,9 @@
 layout:     post  
 title: 通过指数找到最优 ETF 基金    
 description: 再给你推荐一个好功能。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,基金,ETF,指数  
+tags: [理财,基金,ETF,指数]    
+categories: [理财]  
 updateData:  2021-03-01 21:30:00  
 published: true  
 ---  

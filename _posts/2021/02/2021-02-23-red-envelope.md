@@ -2,9 +2,9 @@
 layout:     post  
 title: 唯一的开工新年红包，抽奖送给你了    
 description: 你开工领了多少个红包？   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,红包  
+tags: [生活,红包]    
+categories: [生活]  
 updateData:  2021-02-23 21:30:00  
 published: true  
 ---  

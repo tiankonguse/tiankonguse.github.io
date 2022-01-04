@@ -2,9 +2,9 @@
 layout:     post  
 title: 攀岩几次后，我决定买双攀岩鞋   
 description: 大家都说买双自己的鞋比较好，便买了。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,攀岩,运动  
+tags: [生活,攀岩,运动]    
+categories: [生活]  
 updateData:  2021-05-11 21:30:00  
 published: true  
 ---  

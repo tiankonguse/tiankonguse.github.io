@@ -2,9 +2,9 @@
 layout:     post  
 title: 读《时间的玫瑰》  
 description: 关于价值投资，这本书聊了很多。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 读书,理财  
+tags: [读书,理财]    
+categories: [读书]  
 updateData:  2021-07-09 21:30:00  
 published: true  
 ---  
