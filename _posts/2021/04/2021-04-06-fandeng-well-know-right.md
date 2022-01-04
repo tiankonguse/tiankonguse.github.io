@@ -2,9 +2,9 @@
 layout:     post  
 title: 樊登，知名人物就一定正确吗？  
 description: 大部分正确，但是不要盲目相信。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,逻辑,理性  
+tags: [生活,逻辑,理性]    
+categories: [生活]  
 updateData:  2021-04-06 21:30:00  
 published: true  
 ---  

@@ -2,9 +2,9 @@
 layout: post  
 title: 2021，申报个人所得税      
 description: 发钱了，你申报了吗         
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活  
+tags: [生活]    
+categories: [生活]  
 updateData:  2021-03-30 21:30:00  
 published: true  
 ---  

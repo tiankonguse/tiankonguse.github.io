@@ -2,9 +2,9 @@
 layout:     post  
 title: 第一次攀岩    
 description: 热身赛都这么难，希望。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,运动,健康  
+tags: [生活,运动,健康]    
+categories: [生活]  
 updateData:  2021-04-13 21:30:00  
 published: true  
 ---  

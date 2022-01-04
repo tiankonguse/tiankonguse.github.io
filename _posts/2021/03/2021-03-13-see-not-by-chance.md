@@ -2,9 +2,9 @@
 layout:     post  
 title: 爬山，崇拜，绝非偶然  
 description: 了解别人的人生，思考自己的人生   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,运动,团建  
+tags: [生活,运动,团建]    
+categories: [生活]]  
 updateData:  2021-03-13 21:30:00  
 published: true  
 ---  

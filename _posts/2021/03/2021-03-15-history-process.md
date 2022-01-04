@@ -2,9 +2,9 @@
 layout:     post  
 title: 历史的进程，生存的规则  
 description: 。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,逻辑  
+tags: [生活,逻辑 ]    
+categories: [生活]  
 updateData:  2021-03-15 21:30:00  
 published: true  
 ---  

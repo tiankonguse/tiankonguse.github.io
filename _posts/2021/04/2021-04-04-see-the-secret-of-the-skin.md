@@ -2,9 +2,9 @@
 layout: post  
 title: 读《皮肤的秘密》            
 description:  学到不少皮肤的知识，但也不能全信，很多内容不科学。              
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 读书,健康,皮肤  
+tags: [读书,健康,皮肤]    
+categories: [读书]  
 updateData:  2021-04-04 21:30:00  
 published: true  
 ---  

@@ -2,9 +2,9 @@
 layout: post  
 title: 投资于未来：解释我近两年的行为      
 description: 很简单的逻辑与道理，但是因为人性，大家都忘记了。   
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 理财,投资策略  
+tags: [理财,投资策略]    
+categories: [理财]  
 updateData:  2021-03-22 21:30:00  
 published: true  
 ---  

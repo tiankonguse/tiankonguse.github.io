@@ -2,9 +2,9 @@
 layout: post  
 title: 鼓起勇气去看了皮肤科   
 description:  又学到一个新技能          
-keywords: 程序人生  
-tags: [程序人生]    
-categories: [程序人生]  
+keywords: 生活,健康,皮肤科  
+tags: [生活,健康]    
+categories: [生活]  
 updateData:  2021-04-01 21:30:00  
 published: true  
 ---  
