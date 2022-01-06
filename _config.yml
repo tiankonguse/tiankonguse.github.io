@@ -89,7 +89,7 @@ paginate_path: page:num
 paginate: 10
 prelinkpath : ""
 production_url : //github.tiankonguse.com
-timezone:      null
+timezone:  Asia/Shanghai
 #quiet:    false
 defaults: []
 
