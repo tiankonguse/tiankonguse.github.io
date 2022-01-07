@@ -63,7 +63,7 @@ published: true
 具体什么油可以补充什么脂肪酸，大家可以参考下图。  
 
 
-![](//res.tiankonguse.com/images/2021/01/26/001.png)  
+![](https://res.tiankonguse.com/images/2021/01/26/001.png)  
 
 
 
@@ -275,7 +275,7 @@ published: true
 最后整理了一个思维导图，分享给大家。  
 
 
-![](//res.tiankonguse.com/images/2021/01/26/002.png)  
+![](https://res.tiankonguse.com/images/2021/01/26/002.png)  
 
 
 

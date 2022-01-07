@@ -26,7 +26,7 @@ published: true
 看完那本书后，微信读书推荐了《性生活常识必读全书》这本书，我便阅读了一下。  
 
 
-![](//res2020.tiankonguse.com/images/2020/05/18/001.png)
+![](https://res2020.tiankonguse.com/images/2020/05/18/001.png)
 
 
 这本书介绍了很多性方面的知识，快速阅读一下可以学到不少常识，我也收获良多，这里分享给大家。  
@@ -125,7 +125,7 @@ published: true
 后来她写了一个三千字的书评，感兴趣的可以去看看。  
 
 
-![](//res2020.tiankonguse.com/images/2020/05/18/002.png)
+![](https://res2020.tiankonguse.com/images/2020/05/18/002.png)
 
 
 思考题：你有什么书要推荐给大家吗？  

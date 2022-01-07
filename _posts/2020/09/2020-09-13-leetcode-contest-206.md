@@ -43,7 +43,7 @@ published: true
 复杂度：`O(n^2)`  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/13/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/13/001.png)  
 
 
 ## 二、统计不开心的朋友  
@@ -72,7 +72,7 @@ published: true
 优化：亲密程度可以预处理得到是第几个亲密的，然后`O(1)`比较即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/13/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/13/002.png)  
 
 
 ## 三、连接所有点的最小费用  
@@ -95,13 +95,13 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/09/13/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/13/003.png)  
 
 
 代码如下，标准的并查集：  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/13/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/13/004.png)  
 
 
 ## 四、字符串局部排序  
@@ -148,7 +148,7 @@ published: true
 复杂度：`O(10 n)`  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/13/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/13/005.png)  
 
 
 ## 五、最后  
@@ -167,7 +167,7 @@ published: true
 再来看下耗时对比，C 数组果然是最快的：  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/13/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/13/003.png)  
 
 
 思考题：这些题你都是怎么做的呢？  

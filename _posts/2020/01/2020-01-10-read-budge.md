@@ -17,7 +17,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 《助推》这本书花了十几个小时读完了。  
 
 
-![](//res.tiankonguse.com/images/2019/01/10/001.png)  
+![](https://res.tiankonguse.com/images/2019/01/10/001.png)  
 
 
 读这本书的过程中，最大的感受是经济学无处不在，如果运用的好的话，完全可以控制一个国家甚至世界的走势。  

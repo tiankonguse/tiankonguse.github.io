@@ -17,7 +17,7 @@ published: true
 问自己的算法为啥超时了。  
 
 
-![](//res.tiankonguse.com/images/2021/04/03/001.png)  
+![](https://res.tiankonguse.com/images/2021/04/03/001.png)  
 
 
 我当初略读了了下题，发现是标准的线段树题。  
@@ -25,7 +25,7 @@ published: true
   
 
 
-![](//res.tiankonguse.com/images/2021/04/03/002.png)  
+![](https://res.tiankonguse.com/images/2021/04/03/002.png)  
 
 
 
@@ -39,7 +39,7 @@ published: true
 PS：后台回复关键字“线段树”获取模板代码。  
 
 
-![](//res.tiankonguse.com/images/2021/04/03/003.png)  
+![](https://res.tiankonguse.com/images/2021/04/03/003.png)  
 
 
 既然理论没问题，那肯定是代码写的有问题了。  
@@ -98,7 +98,7 @@ PS：《统计的力量》这个资料我上传到微云网盘。
 
 
 
-![](//res.tiankonguse.com/images/2021/04/03/004.png) 
+![](https://res.tiankonguse.com/images/2021/04/03/004.png) 
 
 
 
@@ -108,7 +108,7 @@ PS：《统计的力量》这个资料我上传到微云网盘。
 拳师只看到了一点点信息“山西家乡小城、月入五万、二本教书、小胖子自拍照”，就开始疯狂嘲讽张昆玮。  
 
 
-![](//res.tiankonguse.com/images/2021/04/03/005.png) 
+![](https://res.tiankonguse.com/images/2021/04/03/005.png) 
 
 
 

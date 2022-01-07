@@ -41,7 +41,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 空间复杂度：`O(1)`  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/13/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/13/001.png)  
 
 
 ## 二、皇后攻击国王  
@@ -63,7 +63,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2019.tiankonguse.com/images/2019/10/13/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/13/002.png)  
 
 
 
@@ -118,7 +118,7 @@ PS：大家不要纠结这是动态规划还是记忆化搜索了，两个都是
 动态规划是一种拆分子问题的思想，记忆化搜索是这种思想的递归实现。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/13/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/13/003.png)  
 
 
 ## 四、最大相等频率  

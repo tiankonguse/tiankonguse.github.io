@@ -96,13 +96,13 @@ wxurl: https://mp.weixin.qq.com/s/Mi8KTEw5NTdpy1EmIQ_UIg
 
 
 
-![](//res2019.tiankonguse.com/images/2019/06/22/001.png)
+![](https://res2019.tiankonguse.com/images/2019/06/22/001.png)
 
 
 也有蓝牙耳机像传统的耳暖耳机，如下图。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/22/002.png)
+![](https://res2019.tiankonguse.com/images/2019/06/22/002.png)
 
 
 
@@ -110,7 +110,7 @@ wxurl: https://mp.weixin.qq.com/s/Mi8KTEw5NTdpy1EmIQ_UIg
 
 
 
-![](//res2019.tiankonguse.com/images/2019/06/22/003.png)
+![](https://res2019.tiankonguse.com/images/2019/06/22/003.png)
 
 
 
@@ -126,7 +126,7 @@ wxurl: https://mp.weixin.qq.com/s/Mi8KTEw5NTdpy1EmIQ_UIg
 大概长这个样子。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/22/004.png)
+![](https://res2019.tiankonguse.com/images/2019/06/22/004.png)
 
 
 

@@ -164,7 +164,7 @@ dp(n, a, b) = min(dp(n/2, ai, bi))
 
 
 
-![](//res.tiankonguse.com/images/2021/06/13/001.png)
+![](https://res.tiankonguse.com/images/2021/06/13/001.png)
 
 
 0、两个天才在相同位置（直接得到答案）
@@ -181,7 +181,7 @@ dp(n, a, b) = min(dp(n/2, ai, bi))
 这里以第二种情况两个天才都在左区间为例来理解。  
 
 
-![](//res.tiankonguse.com/images/2021/06/13/002.png)
+![](https://res.tiankonguse.com/images/2021/06/13/002.png)
 
 左部：第一个天才昨天有一对选手。  
 中间：两个天才中间有两对选手。  

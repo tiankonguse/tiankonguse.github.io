@@ -40,7 +40,7 @@ published: true
 后面会放自我介绍、星球入口、视频号入口、B站入口吧。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/001.png)  
 
 
 ## 二、我的世界  
@@ -49,34 +49,34 @@ published: true
 我的世界主要是个人的读书笔记、电影观后感、健康与常识知识、个人生活，疫情相关的单独放在一个合集里。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/002.png)  
 
 
 
 读书笔记也按照几个分类进行了划分，比如理财、认知、小说、其他。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/003.png)  
 
 
 电影没有进行分类，直接是一个列表，比如《一出好戏》、《西红柿首富》等。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/004.png)  
 
 
 健康与常识其实最重要，介绍了营养、补钙、皮肤、刷牙、洗头等。  
 
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/005.png)  
 
 
 
 对于疫情，我主要记录了自己的所见、所闻、所思、所想。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/006.png)  
 
 
 ## 三、文章归类  
@@ -89,19 +89,19 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/007.png)  
 
 
 而理财我也写了不少文章，分为初级理财、理财实践、股票知识。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/008.png)  
 
 
 最后一个就是我吃饭的文章了，技术，分享了高性能、缓存、协议、基础知识、实践问题等。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/16/009.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/16/009.png)  
 
 
 

@@ -122,7 +122,7 @@ f(1, index, n) = all[n-1] - sum[n-1][index]
 空间复杂度：`O(2*6*16)`  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/15/001.png)
+![](https://res2019.tiankonguse.com/images/2019/10/15/001.png)
 
 
 ## 四、最后  

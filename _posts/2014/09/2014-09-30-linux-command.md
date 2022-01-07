@@ -689,7 +689,7 @@ sudo tcpdump -ieth1 -Xlpns0 port 5555
 sudo tcpdump -ilo -Xlpns0 port 5555
 ```
 
-关于tcpdump的详细讲解请阅读[tcpdump命令详解](//github.tiankonguse.com/blog/2016/08/13/tcpdump.html).  
+关于tcpdump的详细讲解请阅读[tcpdump命令详解](https://github.tiankonguse.com/blog/2016/08/13/tcpdump.html).  
 
 
 ### pmap
@@ -758,7 +758,7 @@ TOP是一个动态显示过程,即可以通过用户按键来不断刷新当前�
 
 而且该命令的很多特性都可以通过交互式命令或者在个人定制文件中进行设定.
 
-top的具体介绍请参考[这里](//github.tiankonguse.com/blog/2015/11/02/linux-command-top.html).  
+top的具体介绍请参考[这里](https://github.tiankonguse.com/blog/2015/11/02/linux-command-top.html).  
 
 #### 详细说明
 

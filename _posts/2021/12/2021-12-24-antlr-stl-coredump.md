@@ -61,7 +61,7 @@ published: true
 大概看了业务逻辑调用 antrl 的入口，发现一个很奇怪的方式，大家这种方式一般怎么写的呢？  
 
 
-![](//res.tiankonguse.com/images/2021/12/24/001.png)  
+![](https://res.tiankonguse.com/images/2021/12/24/001.png)  
 
 
 看了业务的代码，发现确实都是局部变量，不同请求之间没有复用的资源。  
@@ -70,7 +70,7 @@ published: true
 然后一层层去看 antrl 的代码，结果看到 core 的那一行代码时，一眼就发现了问题。  
 
 
-![](//res.tiankonguse.com/images/2021/12/24/002.png)  
+![](https://res.tiankonguse.com/images/2021/12/24/002.png)  
 
 
 如图，getPrecedenceStartState 函数读没有加锁，setPrecedenceStartState 函数写的时候加锁了。  
@@ -91,7 +91,7 @@ published: true
 于是我给 核心主力 A 两个建议：要么设计保持一致，锁传进来。要么外面加锁。  
 
 
-![](//res.tiankonguse.com/images/2021/12/24/003.png)  
+![](https://res.tiankonguse.com/images/2021/12/24/003.png)  
 
 
 

@@ -75,7 +75,7 @@ published: true
 两种情况分别如下图。  
 
 
-![](//res.tiankonguse.com/images/2022/01/02/001.png)  
+![](https://res.tiankonguse.com/images/2022/01/02/001.png)  
 
 
 

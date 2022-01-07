@@ -39,7 +39,7 @@ published: true
 先来看看 Protobuf 压缩序列化 与 解压缩反序列化的代码。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/001.png)  
 
 
 压缩序列化需要四个步骤，解压缩反序列化需要三步个步骤。  
@@ -55,7 +55,7 @@ published: true
 压缩对象 GzipOutputStream 代码如下，可以看到这个对象是闭环的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/002.png)  
 
 
 可以看到，初始化指定 Option参数。  
@@ -86,7 +86,7 @@ GzipOutputStream 析构函数也是调用了 Close 方法。
 先来看看这个对象对外提供的函数。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/003.png)  
 
 
 可以看到，与 Gzip 相比，只有 流压缩的函数，而没有了 Flush 函数。  
@@ -96,21 +96,21 @@ GzipOutputStream 析构函数也是调用了 Close 方法。
 网上的使用样例都是这样子，实际上都是不能正确运行的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/004.png)  
 
 
 找找 protobuf 内部是怎么使用这个 Ostream，果然与自己预期的一致。  
 需要加一个大括号，提前释放 Ostream 的资源，从而能够触发 Flush 把数据写到 流里面。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/005.png)  
 
 
 看看 Ostream 的单元测试，也是一样的蹩脚。  
 所有地方用到 Ostream  都需要加个大括号。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/006.png)  
 
 
 ## 五、其他对象  
@@ -150,25 +150,25 @@ ZeroCopyOutputStream 基类流
 当时我给朋友的介绍是把文件流 ofstream 换成内存流就行了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/007.png)  
 
 
 然后我还提供了具体使用那个内存流对象，以及对应的文档地址。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/008.png)  
 
 
 从相关文档中可以看到，ostream 有三种实现，我们要使用的就是  ostringstream。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/009.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/009.png)  
 
 
 其实与 ostringstream 相比，还有一个万能的内存流 stringstream，用着特别爽。  
 
 
-![](//res2020.tiankonguse.com/images/2020/09/19/010.png)  
+![](https://res2020.tiankonguse.com/images/2020/09/19/010.png)  
 
 
 那为啥昨天我的文章没介绍这个方法呢？  

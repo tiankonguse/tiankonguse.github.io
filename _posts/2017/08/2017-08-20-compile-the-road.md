@@ -144,7 +144,7 @@ aclocal有一个输入文件，叫做`configure.ac`。
 好了，到现在为止我知道大家都分不清谁是谁了。  
 但是看看下面的图，大家应该就清楚了。  
 
-![](//res2017.tiankonguse.com/images/2017/08/20/001.png)
+![](https://res2017.tiankonguse.com/images/2017/08/20/001.png)
   
 
 本来我们只是为了编译一个小项目，现在为了跨平台，却越搞越复杂了。  
@@ -156,11 +156,11 @@ aclocal有一个输入文件，叫做`configure.ac`。
 比较好玩的算法放在[小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=281548515451&secret=r0krqw9fw0at24vxjxo1uo4k0h4lfe47&extra=d67ce0c25ec91252b3af846a10154c9e9d4cb50c763fee178acd68cd2c2e09ee)发布。  
 欢迎大家加入看各种算法的思路。  
 
-![](//res.tiankonguse.com/images/suanfa_xiaomiquan.jpg)  
+![](https://res.tiankonguse.com/images/suanfa_xiaomiquan.jpg)  
   
   
 长按图片关注公众号，阅读不一样的技术文章。   
   
-![](//res.tiankonguse.com/images/weixin-50cm.jpg)  
+![](https://res.tiankonguse.com/images/weixin-50cm.jpg)  
   
   

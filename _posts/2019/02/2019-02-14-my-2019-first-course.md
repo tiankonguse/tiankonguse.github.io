@@ -11,7 +11,7 @@ wxurl: https://mp.weixin.qq.com/s/dWm_rdSxo3K2sApAzfwWVw
 ---  
 
 
-![](//res2019.tiankonguse.com/images/2019/02/6979179fbd3996243ee1ba2dfb3d088e.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/02/6979179fbd3996243ee1ba2dfb3d088e.jpg)  
 
 
 ## 一、背景
@@ -45,7 +45,7 @@ wxurl: https://mp.weixin.qq.com/s/dWm_rdSxo3K2sApAzfwWVw
 新的一年到来了，我毫不犹豫的买了他的课程。  
 
 
-![](//res2019.tiankonguse.com/images/2019/02/20190214212534.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/02/20190214212534.jpg)  
 
 
 ## 三、最后

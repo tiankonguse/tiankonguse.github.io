@@ -44,7 +44,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2020.tiankonguse.com/images/2020/01/05/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/05/001.png)  
 
 
 ## 二、数组的区间异或查询  
@@ -71,7 +71,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2020.tiankonguse.com/images/2020/01/05/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/05/002.png)  
 
 
 ## 三、朋友在看哪些小视频  
@@ -91,8 +91,8 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2020.tiankonguse.com/images/2020/01/05/003.png)  
-![](//res2020.tiankonguse.com/images/2020/01/05/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/05/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/05/004.png)  
 
 
 
@@ -109,7 +109,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 证明略。  
 
 
-![](//res2020.tiankonguse.com/images/2020/01/05/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/05/005.png)  
 
 
 

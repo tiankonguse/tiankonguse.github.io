@@ -33,12 +33,12 @@ published: true
 
 有两道对应的题， 一个是二维的，一个是三维的。  
 
-![](//res2017.tiankonguse.com/images/2017/08/27/001.jpg)
+![](https://res2017.tiankonguse.com/images/2017/08/27/001.jpg)
 
 二维： Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.    
 
 
-![](//res2017.tiankonguse.com/images/2017/08/27/002.jpg)
+![](https://res2017.tiankonguse.com/images/2017/08/27/002.jpg)
 
 三维： Given an m x n matrix of positive integers representing the height of each unit cell in a 2D elevation map, compute the volume of water it is able to trap after raining.    
 
@@ -77,7 +77,7 @@ published: true
 复杂度`O(n)`.  
 
 
-![](//res2017.tiankonguse.com/images/2017/08/27/003.png)
+![](https://res2017.tiankonguse.com/images/2017/08/27/003.png)
 
 
 
@@ -122,8 +122,8 @@ published: true
 
 复杂度：`O(n*m)`  
 
-![](//res2017.tiankonguse.com/images/2017/08/27/004.png)
-![](//res2017.tiankonguse.com/images/2017/08/27/005.png)
+![](https://res2017.tiankonguse.com/images/2017/08/27/004.png)
+![](https://res2017.tiankonguse.com/images/2017/08/27/005.png)
 
 
 ## 四、二维上的木桶原理
@@ -131,7 +131,7 @@ published: true
 我们使用木桶原理解决了三维积水问题，现在回过头来发现二维也可以使用这个原理在`O(n)`的复杂度解决问题。  
 
 
-![](//res2017.tiankonguse.com/images/2017/08/27/006.png)
+![](https://res2017.tiankonguse.com/images/2017/08/27/006.png)
 
 
 
@@ -147,11 +147,11 @@ published: true
 比较好玩的算法放在[小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=281548515451&secret=r0krqw9fw0at24vxjxo1uo4k0h4lfe47&extra=d67ce0c25ec91252b3af846a10154c9e9d4cb50c763fee178acd68cd2c2e09ee)发布。  
 欢迎大家加入看各种算法的思路。  
 
-![](//res.tiankonguse.com/images/tiankonguse-algorithms.png)  
+![](https://res.tiankonguse.com/images/tiankonguse-algorithms.png)  
   
   
 长按图片关注公众号，阅读不一样的技术文章。   
   
-![](//res.tiankonguse.com/images/tiankonguse-code.gif)  
+![](https://res.tiankonguse.com/images/tiankonguse-code.gif)  
   
   

@@ -28,7 +28,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 所以问题就转化为了求出现次数最多的那个数字。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/18/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/18/001.png)  
 
 
 ## 二、删除被覆盖的区间  
@@ -62,7 +62,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 排完序后，我们就可以从前到后比较，把能删除的都标记删除。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/18/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/18/002.png)  
 
 
 ## 三、迭代组合  
@@ -78,7 +78,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：挑选`m`个字母，可以想象为有`m`个滚动时的字母转盘。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/18/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/18/003.png)  
 
 
 从左到右的字母必须是升序，每次从最右边的转盘加一。  
@@ -89,7 +89,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 当某一个转盘没有触发最大值转最小值的情况时，这个转盘右边的转盘需要递增重置。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/18/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/18/004.png)  
 
 
 ## 四、最小矩阵和  
@@ -112,7 +112,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：`O(n^3)`  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/18/005.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/18/005.png)  
 
 
 优化：可以通过预处理，快速找到最小值。  
@@ -126,7 +126,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：和输入数据一样，是`O(n^2)`。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/18/006.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/18/006.png)  
 
 
 ## 五、最后  

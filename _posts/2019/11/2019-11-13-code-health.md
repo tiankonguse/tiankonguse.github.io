@@ -17,7 +17,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 认识我的人都知道，我常年不管到哪里都是穿着拖鞋、短裤、短袖。  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/13/001.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/11/13/001.jpg)  
 
 
 也因为如此，我成为了一个活体温度计。  
@@ -50,7 +50,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 简单搜索一下，发现差不多去年一月份的时候我研究过《[什么是感冒](https://mp.weixin.qq.com/s/IkLThwn90MdaGX0blRUtkg)》。  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/13/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/11/13/002.png)  
 
 
 时间如梭，没想到已经过了两年了。  

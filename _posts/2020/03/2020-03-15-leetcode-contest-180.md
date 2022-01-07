@@ -46,7 +46,7 @@ published: true
 综合复杂度： O(n^2)  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/15/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/15/001.png)  
 
 
 ## 二、设计支持增量操作的栈  
@@ -72,7 +72,7 @@ published: true
 所以这道题也可以使用线段树来实现，复杂度 O(log(n)) 。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/15/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/15/002.png)  
 
 
 ## 三、二叉搜索树变平衡树  
@@ -88,7 +88,7 @@ published: true
 思路：先使用搜索树得到一个序列，然后使用序列构造平衡树。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/15/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/15/003.png)  
 
 
 ## 四、最大的团队表现值  
@@ -131,7 +131,7 @@ PS：看来短板效应对团队的影响很大啊，一个人拖累整个团队
 复杂度：O(n)  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/15/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/15/004.png)  
 
 
 ## 五、最后  

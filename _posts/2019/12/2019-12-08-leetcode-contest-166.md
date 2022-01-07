@@ -26,7 +26,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：按照题意模拟计算即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/08/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/08/001.png)  
 
 
 ## 二、用户分组  
@@ -48,7 +48,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2019.tiankonguse.com/images/2019/12/08/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/08/002.png)  
 
 
 ## 三、最小除数  
@@ -68,7 +68,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 所以可以二分答案，然后判断是否满足，找到最小的即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/08/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/08/003.png)  
 
 
 ## 四、使矩阵反转全部为0  
@@ -86,7 +86,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 我们可以通过异或运算符来做到完美反转。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/08/005.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/08/005.png)  
 
 
 
@@ -95,14 +95,14 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2019.tiankonguse.com/images/2019/12/08/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/08/004.png)  
 
 
 
 之后，就可以进行 BFS 搜索了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/08/006.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/08/006.png)  
 
 
 ## 五、最后  

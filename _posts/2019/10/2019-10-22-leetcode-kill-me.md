@@ -53,13 +53,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 随着不断的坚持写题解，不知不觉间，每次比赛最后两题我的题解总是可以排到前几名。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/001.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/001.jpg)  
 
 
 当时我没在意，还发了朋友圈。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/002.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/002.jpg)  
 
 
 这里面的逻辑很简单，前几名的题解其实都差不多的。  
@@ -72,10 +72,10 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 但是就是有人不明白这个道理，拿出了 leetcode 的规则来说必须使用 英文写题解。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/003.png)  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/004.png)  
 
 
 大概含义是：leetcode 鼓励使用英文交流，80 年前中国的高中和大学就开始学习英语了。  
@@ -84,7 +84,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 当然，一个哥们进行了回复：  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/005.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/005.png)  
 
 
 说了好长，说的啥我也看不懂。  
@@ -102,13 +102,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 打开 leetcode 后，就收到一堆通知，看着和往常不一样。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/006.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/006.png)  
 
 
 起初我以为是别人点赞或者评论，没想到是我之前的题解都被删除了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/007.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/007.png)  
 
 
 原来我的这几个掷骨子文章被无数人点赞后，终于引起高层的注意，从而被封杀了。  
@@ -120,7 +120,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 于是周日的题解我就使用中英文写了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/22/008.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/22/008.png)  
 
 
 看我被英文怕的，本来是两点确定一条直线，我都写成三点了。  

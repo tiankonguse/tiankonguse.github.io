@@ -46,13 +46,13 @@ published: true
 比如这是比亚迪股票的板块。
 
 
-![](//res.tiankonguse.com/images/2021/01/06/001.png)  
+![](https://res.tiankonguse.com/images/2021/01/06/001.png)  
 
 
 随便点一个板块，比如锂电池，就可以看到锂电池是啥意思，还可以看到相关的股票。  
 
 
-![](//res.tiankonguse.com/images/2021/01/06/002.png)  
+![](https://res.tiankonguse.com/images/2021/01/06/002.png)  
 
 
 当然，不同的券商软件，板块的功能不一样。 
@@ -62,7 +62,7 @@ published: true
 
 
 
-![](//res.tiankonguse.com/images/2021/01/06/003.png)  
+![](https://res.tiankonguse.com/images/2021/01/06/003.png)  
 
 
 对于一个股票，我们还可以看公司概况里面的主营业务，也有不少关键信息。  
@@ -72,7 +72,7 @@ published: true
 
 
 
-![](//res.tiankonguse.com/images/2021/01/06/004.png)  
+![](https://res.tiankonguse.com/images/2021/01/06/004.png)  
 
 
 通过板块、概念、行业，以及公司的市值与主营业务，我们差不多就可以挑出一个行业最主要的几个产业链以及对应的龙头公司了。  

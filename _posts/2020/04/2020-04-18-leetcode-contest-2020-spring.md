@@ -27,14 +27,14 @@ published: true
 比如在三点半的时候，有个同事过来了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/001.png)  
 
 
 五点左右，又有个同事来看房。  
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/002.png)  
 
 
 这看房大概浪费了一个小时半，我这敲代码速度，题肯定做不完了。  
@@ -43,7 +43,7 @@ published: true
 不过我还是尽量的去做题，做了三道题，看排名是第 88 名，没进去前 50 名，比较遗憾。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/009.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/009.png)  
 
 
 PS：刚开始比赛时我随机看的第四题，一看大水题，敲完发现提交后提示看不懂，多点了几下提交，被罚两次。  
@@ -70,7 +70,7 @@ PS：刚开始比赛时我随机看的第四题，一看大水题，敲完发现
 合在一起就是每堆除2向上取整，然后求和。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/003.png)  
 
 
 ## 二、传递信息  
@@ -101,7 +101,7 @@ PS：刚开始比赛时我随机看的第四题，一看大水题，敲完发现
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/004.png)  
 
 
 
@@ -126,8 +126,8 @@ PS：刚开始比赛时我随机看的第四题，一看大水题，敲完发现
 复杂度：O(m log(n))  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/005.png)  
-![](//res2020.tiankonguse.com/images/2020/04/18/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/006.png)  
 
 
 ## 四、最小跳跃次数  
@@ -149,7 +149,7 @@ PS：刚开始比赛时我随机看的第四题，一看大水题，敲完发现
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/007.png)  
 
 
 
@@ -192,7 +192,7 @@ PS：刚开始比赛时我随机看的第四题，一看大水题，敲完发现
 一个树的独立时间和并发时间计算出来之后，答案就是独立时间加上并发时间的一半。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/18/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/18/008.png)  
 
 
 

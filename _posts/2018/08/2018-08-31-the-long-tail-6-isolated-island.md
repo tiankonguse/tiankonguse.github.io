@@ -94,7 +94,7 @@ published: true
 
 
 
-![](//res.tiankonguse.com/images/tiankonguse-support.png) 
+![](https://res.tiankonguse.com/images/tiankonguse-support.png) 
 
 
 

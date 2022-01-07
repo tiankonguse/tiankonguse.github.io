@@ -52,7 +52,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 运气不错，泰国可以正常入境，最后皆大欢喜。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/28/002.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/28/002.jpg)  
 
 
 (拍于去泰国的飞机上)  
@@ -83,7 +83,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 原来登岛还需要买票，第一次听说。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/28/006.png)  
+![](https://res2019.tiankonguse.com/images/2019/10/28/006.png)  
 
 
 3）返航延机  
@@ -125,7 +125,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 等了一个小时多，太阳缓缓升起，人眼看的效果相当壮观。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/28/008.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/28/008.jpg)  
 
 
 3）出海钓鱼  
@@ -134,7 +134,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 来到大海，钓鱼是必不可少的娱乐项目了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/28/013.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/28/013.jpg)  
 
 
 下午三四点的时候，可能会比较热。  
@@ -144,7 +144,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 而且此时鱼也会很多，很容易就钓到，我们也钓了不少鱼。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/28/015.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/28/015.jpg)  
 
 
 4）晒海滩、游泳  
@@ -153,7 +153,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 大海与小岛，晒海滩与游泳是必不可少的活动了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/28/007.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/10/28/007.jpg)  
 
 
 这个过程，我有两个感觉。  

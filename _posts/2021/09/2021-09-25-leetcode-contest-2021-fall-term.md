@@ -245,7 +245,7 @@ return dp[now][1];
 隔空构造意味着增加一个点后并没有组成四点直线，而是一点与三点或者两点与两点。  
 
 
-![](//res.tiankonguse.com/2021/09/26/001.png)  
+![](https://res.tiankonguse.com/2021/09/26/001.png)  
 
 
 

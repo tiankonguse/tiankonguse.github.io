@@ -71,7 +71,7 @@ wxurl: https://mp.weixin.qq.com/s/pN9T9hyjClHFNfajxlWKkA
 由此，这道题的递归代码我们就可以写出来了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/29/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/05/29/001.png)  
 
 
 ## 四、两两交换链表相邻节点
@@ -103,7 +103,7 @@ wxurl: https://mp.weixin.qq.com/s/pN9T9hyjClHFNfajxlWKkA
 这样，两两翻转链表的代码就出炉了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/29/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/05/29/001.png)  
 
 
 ## 五、最后  

@@ -1848,7 +1848,7 @@ wx-open-subscribe-dialog {
 	line-height: 300px;
 	overflow: hidden;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	background: transparent url(//res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x55871f.png) no-repeat 0 0;
+	background: transparent url(https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/icon_appmsg_msg_closed_sprite.2x55871f.png) no-repeat 0 0;
 	width: 11px;
 	height: 11px;
 	vertical-align: middle;

@@ -46,7 +46,7 @@ published: true
 于是发了一个朋友圈，问是啥算法。  
 
 
-![](//res.tiankonguse.com/images/2021/09/20/001.png)  
+![](https://res.tiankonguse.com/images/2021/09/20/001.png)  
 
 
 

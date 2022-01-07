@@ -45,14 +45,14 @@ wp-content/themes/twentythirteen/functions.php:		$fonts_url = add_query_arg( $qu
 wp-content/themes/twentytwelve/functions.php:		$font_url = add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" );
 wp-content/themes/twentyfourteen/functions.php:		$font_url = add_query_arg( 'family', urlencode( 'Lato:300,400,700,900,300italic,400italic,700italic' ), "//fonts.googleapis.com/css" );
 wp-includes/script-loader.php:		$open_sans_font_url = "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=$subsets";
-wp-includes/js/tinymce/plugins/compat3x/css/dialog.css:@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=latin-ext,latin);
+wp-includes/js/tinymce/plugins/compat3x/css/dialog.css:@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=latin-ext,latin);
 ```
 
 不用管与themes有关的，那剩下的就是
 
 ```text
 wp-includes/script-loader.php:		$open_sans_font_url = "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=$subsets";
-wp-includes/js/tinymce/plugins/compat3x/css/dialog.css:@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=latin-ext,latin);
+wp-includes/js/tinymce/plugins/compat3x/css/dialog.css:@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600&subset=latin-ext,latin);
 ```
 
 
@@ -92,4 +92,4 @@ $disable_google_fonts = new Disable_Google_Fonts;
 
 (完)
 
-[make-yourself-wordpress-themes]: //github.tiankonguse.com/blog/2014/07/10/make-yourself-wordpress-themes.html
+[make-yourself-wordpress-themes]: https://github.tiankonguse.com/blog/2014/07/10/make-yourself-wordpress-themes.html

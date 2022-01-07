@@ -51,7 +51,7 @@ published: true
 平常烤面包或者烤肉吃着很香，就是主要是单糖与蛋白质发生美拉德反应，产生了相关化合物引起的。  
 
 
-![](//res.tiankonguse.com/images/2021/01/29/001.png)  
+![](https://res.tiankonguse.com/images/2021/01/29/001.png)  
 
 
 ## 四、双糖  
@@ -72,7 +72,7 @@ published: true
 当然，可以慢慢来，刚开始少喝点，坚持喝牛奶，后面慢慢的乳酸酶的活性正常了，就没事了。  
 
 
-![](//res.tiankonguse.com/images/2021/01/29/002.png)  
+![](https://res.tiankonguse.com/images/2021/01/29/002.png)  
 
 
 ## 五、多糖  
@@ -130,7 +130,7 @@ published: true
 毕竟世界上任何一个没有被科学证明的食物，都会被宣传为包治百病、延年益寿等，就差长生不老了。  
 
 
-![](//res.tiankonguse.com/images/2021/01/29/003.png)  
+![](https://res.tiankonguse.com/images/2021/01/29/003.png)  
 
 
 ## 六、最后  
@@ -145,7 +145,7 @@ published: true
 下面是完整的思维导图，也分享给大家。  
 
 
-![](//res.tiankonguse.com/images/2021/01/29/004.png)  
+![](https://res.tiankonguse.com/images/2021/01/29/004.png)  
 
 
 

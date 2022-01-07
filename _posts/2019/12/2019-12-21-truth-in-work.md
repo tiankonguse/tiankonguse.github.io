@@ -46,8 +46,8 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 具体的分享主干如下：    
 
 
-![](//res2019.tiankonguse.com/images/2019/12/21/001.png)  
-![](//res2019.tiankonguse.com/images/2019/12/21/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/21/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/21/002.png)  
 
 
 
@@ -57,7 +57,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 感兴趣的可以加入 Caoz 的知识星球，然后置顶帖按照指引观看课程即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/21/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/21/003.png)  
 
 
 利益声明：你加入这个星球，我有若干的分享赏金。  

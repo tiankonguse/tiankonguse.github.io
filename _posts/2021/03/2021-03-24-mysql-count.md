@@ -246,7 +246,7 @@ COUNT(1) is only subject to the same optimization if the first column is defined
 于是很多人把`count(1)`里面的这个 `1` 当做第一列的意思。  
 
 
-![](//res.tiankonguse.com/images/2021/03/24/001.png)  
+![](https://res.tiankonguse.com/images/2021/03/24/001.png)  
 
 
 但是根据 SQL 的定义，`count(1)`里面的 `1` 只是表达式 exp 的值，我们完全可以写为任意常量值，甚至是字符串。  

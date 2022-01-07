@@ -17,7 +17,7 @@ published: true
 视频地址： https://www.bilibili.com/video/BV1S54y1H7tf?share_source=copy_web
 
 
-![](//res.tiankonguse.com/images/2021/06/27/001.png)
+![](https://res.tiankonguse.com/images/2021/06/27/001.png)
 
 
 上图是频频的一个截图，可以看到，在屏幕下方做了一个进度条，我颇为满意。  
@@ -45,7 +45,7 @@ published: true
 题意：给一个长宽都为偶数的矩阵，如下图对矩阵进行分组，然后进行逆时针旋转 k 次，求最终的矩阵。  
 
 
-![](//res.tiankonguse.com/images/2021/06/27/002.png)
+![](https://res.tiankonguse.com/images/2021/06/27/002.png)
 
 
 思路：按照题意模拟即可。  

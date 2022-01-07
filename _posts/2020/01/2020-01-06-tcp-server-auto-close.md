@@ -49,7 +49,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 竟然有单机 qps 高达 18~20W/s，流量几乎跑满。  
 
 
-![](//res2020.tiankonguse.com/images/2020/01/06/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/06/001.png)  
 
 
 注：周四流量还低，不过监控系统只能看到最近的若干天，我记得暴涨之前大概只有不到 40M，与高峰期比翻了 3倍。  
@@ -79,7 +79,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 先看下中转的架构吧。  
 
 
-![](//res2020.tiankonguse.com/images/2020/01/06/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/06/002.png)  
 
 
 架构比较简单，分为五个模块：配置中心、生成者、接口机、转发机、消费者。  
@@ -109,7 +109,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 使用 tcpdump 抓包一看，发现连上转发机后，转发机作为服务端马上主动把连接断开了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/01/06/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/06/003.png)  
 
 
 所以问题还是出在转发机上，不过是流量低的那些转发机上（连接连不上，流量过不来）。  
@@ -128,7 +128,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 于是再回头细看网络框架的各种边界，还真发现有种情况会导致连接出问题。  
 
 
-![](//res2020.tiankonguse.com/images/2020/01/06/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/06/004.png)  
 
 
 框架对TCP的连接数做了最大限制。  
@@ -141,7 +141,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 再使用`gcore`生成服务的内存镜像，然后`gdb`进去输出相关变量。  
 
 
-![](//res2020.tiankonguse.com/images/2020/01/06/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/01/06/005.png)  
 
 
 还真是进入了连接最大限制这段代码。  

@@ -69,7 +69,7 @@ PS：建议没洗过牙的去洗一次牙，真的可以洗出好多脏东西来
 洗牙之后，舌头舔那里非常奇妙，少了点什么，哈哈哈哈。  
 
 
-![](//res.tiankonguse.com/images/2021/03/20/001.ong)
+![](https://res.tiankonguse.com/images/2021/03/20/001.ong)
 
 
 加油，健康人。  

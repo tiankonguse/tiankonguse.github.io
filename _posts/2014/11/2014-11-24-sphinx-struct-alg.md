@@ -679,5 +679,5 @@ T_COUNTER sphUniq ( T * pData, T_COUNTER iCount ){
 
 
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/830003199.jpg
-[bit-count-more]: //github.tiankonguse.com/blog/2014/11/16/bit-count-more.html
+[bit-count-more]: https://github.tiankonguse.com/blog/2014/11/16/bit-count-more.html
 [sphinxsearch]: http://sphinxsearch.com/

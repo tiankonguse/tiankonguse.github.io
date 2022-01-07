@@ -33,7 +33,7 @@ published: true
 思路：模拟即可，不管 a 多大，都是指数级下降的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/001.png)  
 
 
 PS：酒精是一级致癌物质，建议大家尽量滴酒不沾。  
@@ -46,7 +46,7 @@ PS：酒精是一级致癌物质，建议大家尽量滴酒不沾。
 问每个节点为根的子树上，有多少个节点与子根的字母相同。  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/002.png)  
 
 
 如上图，节点 0 的字母是 a，这个子树上有 2 个 a，所以节点 0 的答案是 2。  
@@ -61,7 +61,7 @@ PS：酒精是一级致癌物质，建议大家尽量滴酒不沾。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/003.png)  
 
 
 ## 三、最多的不重叠子字符串  
@@ -89,32 +89,32 @@ PS：酒精是一级致癌物质，建议大家尽量滴酒不沾。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/004.png)  
 
 
 1、先求出每个字母的左右区间  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/005.png)  
 
 
 2、维护一个单调栈，合并相邻的相交区间。  
 对于字母，使用并查集指向最左边的字母。  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/006.png)  
 
 
 3、再次使用单调栈，删除存在子区间的区间。  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/007.png)  
 
 
 4、此时单调栈里就是最有答案的区间列表，构造出答案。  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/008.png)  
 
 
 
@@ -125,7 +125,7 @@ PS：酒精是一级致癌物质，建议大家尽量滴酒不沾。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/009.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/009.png)  
 
 
 思路：比赛的时候看错题了，`&` 运算看成异或了。  
@@ -149,7 +149,7 @@ PS：酒精是一级致癌物质，建议大家尽量滴酒不沾。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/07/19/010.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/19/010.png)  
 
 
 当然，看题解可以发现这道题各种解法都有。  

@@ -41,7 +41,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 计算逻辑则为判断当前子链表的头时候需要删除，需要则删除把下一个节点当做链表头。  
 
 
-![](//res2019.tiankonguse.com/images/2019/07/02/001.png)
+![](https://res2019.tiankonguse.com/images/2019/07/02/001.png)
 
 
 ## 二、对称二叉树  
@@ -68,7 +68,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 具体代码如下。  
 
 
-![](//res2019.tiankonguse.com/images/2019/07/02/002.png)
+![](https://res2019.tiankonguse.com/images/2019/07/02/002.png)
 
 
 ## 三、合并两个有序数组  
@@ -91,7 +91,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 当其中一个数组为空时，那只能选择另外一个数组里的元素。  
 
 
-![](//res2019.tiankonguse.com/images/2019/07/02/003.png)
+![](https://res2019.tiankonguse.com/images/2019/07/02/003.png)
 
 
 ## 四、最后  

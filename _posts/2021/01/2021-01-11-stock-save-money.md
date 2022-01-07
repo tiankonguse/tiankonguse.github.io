@@ -37,7 +37,7 @@ published: true
 我随便要了一个卖出的股票交割细节的截图。  
 
 
-![](//res.tiankonguse.com/images/2021/01/11/001.png)
+![](https://res.tiankonguse.com/images/2021/01/11/001.png)
 
 
 
@@ -110,7 +110,7 @@ published: true
 扫描下方二维码（提前准备好银行卡、身份证）即可开户。  
 
 
-![](//res.tiankonguse.com/images/2021/01/11/002.png)
+![](https://res.tiankonguse.com/images/2021/01/11/002.png)
 
 
 
@@ -118,7 +118,7 @@ published: true
 重点来啦！  
 查看佣金服务，推荐人，这时应该看到默认工号“016116肖心怡”。  
 
-![](//res.tiankonguse.com/images/2021/01/11/003.png)  
+![](https://res.tiankonguse.com/images/2021/01/11/003.png)  
 
 
 如果没有出现默认工号，尝试换手机号码验证后查看是否有默认工号，如果没有，请停止继续开户，防止开户完成后无法享受优惠佣金。

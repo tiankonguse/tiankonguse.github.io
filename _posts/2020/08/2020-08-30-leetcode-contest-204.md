@@ -39,7 +39,7 @@ published: true
 复杂度：`O(N*M*K)`  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/30/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/30/001.png)  
 
 
 优化：由于是重复 K 个，相邻的其实位置可以复用之前的判断结果。  
@@ -69,7 +69,7 @@ published: true
 注意事项：乘积遇到 0 后永远是 0，所以 0 将数组拆分若干子问题，独立计算 。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/30/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/30/002.png)  
 
 
 ## 三、使陆地分离的最少天数  
@@ -120,7 +120,7 @@ published: true
 即枚举删除每个陆地，判断是否是分离的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/30/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/30/003.png)  
 
 
 ## 四、生成相同二叉树的数组方案数  
@@ -136,7 +136,7 @@ published: true
 例如下图，输入是`[3,4,5,1,2]`。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/30/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/30/004.png)  
 
 
 针对一个根节点来说，左子树的数字和右子树的数字都确定了。  
@@ -151,8 +151,8 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/08/30/005.png)  
-![](//res2020.tiankonguse.com/images/2020/08/30/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/30/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/30/006.png)  
 
 
 ## 五、最后  

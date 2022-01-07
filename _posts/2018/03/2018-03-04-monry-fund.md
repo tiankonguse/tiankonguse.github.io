@@ -44,7 +44,7 @@ published: true
 
 评估基金的风险之前，我们先来看看基金的运作流程图，如下：  
 
-![](//res2018.tiankonguse.com/images/2018/03/d3a7f2d0-535a-4505-8544-c61caf0c52c5.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/03/d3a7f2d0-535a-4505-8544-c61caf0c52c5.jpg)  
 
 
 可以看到投资者把钱给基金， 基金会存管在基金保管人那里，类似于P2P中的银行监管。  
@@ -62,17 +62,17 @@ published: true
 来看看定投的图文介绍：  
 
 
-![](//res2018.tiankonguse.com/images/2018/03/20180304215250.jpg)  
-![](//res2018.tiankonguse.com/images/2018/03/20180304215328.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304215250.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304215328.jpg)  
 （图片来自理财通）
 
 ***对于股票基金风险过高，对于混合型基金收益又过低，此时我们可以尝试一下指数型基金。***  
 
 
-![](//res2018.tiankonguse.com/images/2018/03/20180304215658.jpg)  
-![](//res2018.tiankonguse.com/images/2018/03/20180304215711.jpg)  
-![](//res2018.tiankonguse.com/images/2018/03/20180304215823.gif)  
-![](//res2018.tiankonguse.com/images/2018/03/20180304215724.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304215658.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304215711.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304215823.gif)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304215724.jpg)  
 （图片来自理财通）
 
 
@@ -84,7 +84,7 @@ published: true
 微信的昨天才定投，下周才能截图。    
 这个是支付宝的，每周定投一百。
 
-![](//res2018.tiankonguse.com/images/2018/03/20180304221353.png)  
+![](https://res2018.tiankonguse.com/images/2018/03/20180304221353.png)  
 
 
 
@@ -100,6 +100,6 @@ published: true
 大家如果有什么建议或问题可以在底部留言区留言。  
 当然，你也可以加我微信找我私聊，微信号: tiankonguse。  
 
-![](//res2018.tiankonguse.com/images/tiankonguse-support.png)  
+![](https://res2018.tiankonguse.com/images/tiankonguse-support.png)  
 
 

@@ -241,19 +241,19 @@ one_unit_test: $(TEST_OBJS)
 大概写了下面这些单元测试程序。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/20/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/20/001.png)  
 
 
 统计后，发现估计的行数差不多，而且估计少了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/20/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/20/002.png)  
 
 
 运行效果看着不多，有了单元测试，心里感觉靠谱多了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/20/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/20/002.png)  
 
 
 只是我项目真实跑起来的时候，发现还是有个小问题。  

@@ -38,7 +38,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 思路：两点确定一条直线， 所以循环判断后面的点是否在前两个点组成的直线上。
 
 
-![](//res2019.tiankonguse.com/images/2019/10/20/001.png)
+![](https://res2019.tiankonguse.com/images/2019/10/20/001.png)
 
 
 ## 二、找父路径  
@@ -56,7 +56,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 只需要不断找到一个父节点，向后遍历跳过所有儿子节点即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/20/002.png)
+![](https://res2019.tiankonguse.com/images/2019/10/20/002.png)
 
 
 ## 三、四字母平衡字符串  
@@ -77,7 +77,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2019.tiankonguse.com/images/2019/10/20/003.png)
+![](https://res2019.tiankonguse.com/images/2019/10/20/003.png)
 
 
 ## 四、时间调度  
@@ -113,7 +113,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度(complexity)：`n log(n)`  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/20/004.png)
+![](https://res2019.tiankonguse.com/images/2019/10/20/004.png)
 
 
 ## 五、最后  

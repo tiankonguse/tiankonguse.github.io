@@ -99,7 +99,7 @@ dp(i,j) = val(i,j) ^ dp(i-1, j) ^ dp(i,j-1) ^ dp(i-1,j-1)
 可以看下图来理解题意。  
 
 
-![](//res.tiankonguse.com/images/2021/01/24/001.png)  
+![](https://res.tiankonguse.com/images/2021/01/24/001.png)  
 
 
 思路：简单纸上画画，可以发现这是一个公式题。  
@@ -113,7 +113,7 @@ dp(i,j) = val(i,j) ^ dp(i-1, j) ^ dp(i,j-1) ^ dp(i-1,j-1)
 
 
 
-![](//res.tiankonguse.com/images/2021/01/24/002.png) 
+![](https://res.tiankonguse.com/images/2021/01/24/002.png) 
 
 
 如上图，显然，需要一侧需要新增一行，个数为 1 。  

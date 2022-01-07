@@ -17,13 +17,13 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 上周日做了 Leetcode 第 152 场比赛，最后一题做了一个小时，最后两分钟竟然被我水过去了。
 i
 
-![](//res2019.tiankonguse.com/images/2019/09/01/001.png)
+![](https://res2019.tiankonguse.com/images/2019/09/01/001.png)
 
 
 赛后，很多人说自己同样的代码就没过，原来我的常数复杂度比较低，数据样例再复杂一点点我就过不了了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/01/002.png)
+![](https://res2019.tiankonguse.com/images/2019/09/01/002.png)
 
 
 下面来看看这四道题吧。  
@@ -43,7 +43,7 @@ i
 这里只需要分别计算出素数的个数和非素数的个数，分别求阶乘即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/01/003.png)
+![](https://res2019.tiankonguse.com/images/2019/09/01/003.png)
 
 
 ## 二、健身计划评估  
@@ -78,7 +78,7 @@ upper = 37
 区间每次右移一次，只需要左边减去对应的值，右边加上对应的值，就可以得到最新的区间和了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/01/004.png)
+![](https://res2019.tiankonguse.com/images/2019/09/01/004.png)
 
 
 ## 三、构建回文串检测  
@@ -146,7 +146,7 @@ but，数据样例大了这道题还是过不了。
 由于 puzzle 只有7位，所有组合也就 `2^7=128`，比 word 的数量少两个数量级，所以枚举 puzzle 更快，大家可以试试。
 
 
-![](//res2019.tiankonguse.com/images/2019/09/01/005.png)
+![](https://res2019.tiankonguse.com/images/2019/09/01/005.png)
 
 
 

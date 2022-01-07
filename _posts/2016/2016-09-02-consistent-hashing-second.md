@@ -8,7 +8,7 @@ categories: [程序人生]
 
 ## 背景
 
-在上一篇文章《[一致性hash基础知识](//github.tiankonguse.com/blog/2016/08/21/consistent-hashing.html)》中记录了自己负责的缓存服务需要搞成分布式, 然后研究了一致性hash的理论知识.  
+在上一篇文章《[一致性hash基础知识](https://github.tiankonguse.com/blog/2016/08/21/consistent-hashing.html)》中记录了自己负责的缓存服务需要搞成分布式, 然后研究了一致性hash的理论知识.  
 后来讨论, 发现还有很多问题, 这里就一点一点的看看遇到的问题以及解决方案吧.  
 
 

@@ -122,7 +122,7 @@ TOP K 问题在算法中，显然需要优先队列（堆）才能实现的。
 比如统计耗时区间的分布情况、包大小的分布情况等等。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/26/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/26/001.png)  
 
 
 由于被统计的数据是一个连续的整数，直接按每个数字来统计数据量太大。  
@@ -138,13 +138,13 @@ TOP K 问题在算法中，显然需要优先队列（堆）才能实现的。
 再后来，而当年我的实现方式是使用map储存左区间，然后使用  `upper_bound` 来查找的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/26/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/26/002.png)  
 
 
 这样就可以快速的实现区间查找了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/26/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/26/003.png)  
 
 
 

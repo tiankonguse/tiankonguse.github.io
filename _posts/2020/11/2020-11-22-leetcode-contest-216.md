@@ -53,7 +53,7 @@ https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/056
 方法二：使用数学公式计算出前面几个`a`,后面几个`z`。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/22/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/22/001.png)  
 
 
 
@@ -100,14 +100,14 @@ https://github.com/tiankonguse/leetcode-solutions/blob/master/problemset-new/056
 一顿分析猛如虎，可以发现相邻的两个任务确实有一个关系。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/22/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/22/002.png)  
 
 
 
 假设交换后，一个比另外一个更优后，可以得到一个不等式，即差值小的在前面处理会更优。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/22/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/22/003.png)  
 
 
 故，先对集合按差值排序，然后扫描一遍相加即可。  

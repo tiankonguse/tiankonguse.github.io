@@ -23,7 +23,7 @@ wxurl: https://mp.weixin.qq.com/s/cosidfQuhaRuif-X8hBsTQ
 
 这是我当时的书评，双十一那天看完的。  
 
-![](//res2018.tiankonguse.com/images/2018/12/20181216231724.jpg)  
+![](https://res2018.tiankonguse.com/images/2018/12/20181216231724.jpg)  
 
 
 ## 一、楔子  

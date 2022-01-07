@@ -22,7 +22,7 @@ published: true
 
 
 
-![](//res.tiankonguse.com/images/2021/07/18/001.png)
+![](https://res.tiankonguse.com/images/2021/07/18/001.png)
 
 
 之前已经挖了一个坑来学习后缀数组，今天再次挖个坑学习树上的 trie 树。  

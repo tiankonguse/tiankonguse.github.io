@@ -19,7 +19,7 @@ Leetcode 第139 场比赛的题目难度属于中等难度。
 最后一道题就差几分钟就敲完代码了，但是比赛结束了，然后以提交，就过了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/02/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/02/001.png)  
 
 
 接下来就看看看这四道题吧。  
@@ -99,7 +99,7 @@ Leetcode 第139 场比赛的题目难度属于中等难度。
 由此，则可以完美的处理所有的进位了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/02/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/02/002.png)  
 
 
 ## 四、元素和为目标值的子矩阵数量  
@@ -129,7 +129,7 @@ Leetcode 第139 场比赛的题目难度属于中等难度。
 这里使用`map`或者`hash_map`储存前缀和以及个数，然后查找差值是否存在，存在则找到一个答案。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/02/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/02/003.png)  
 
 
 ## 五、最后  
@@ -141,7 +141,7 @@ Leetcode 第139 场比赛的题目难度属于中等难度。
 四道题解在 leetcode 上我也分享了，刷题的朋友可以帮我点个赞，虽然我不知道 leetcode 上点赞有啥用。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/02/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/02/004.png)  
 
 
 地址：https://leetcode.com/tiankonguse/  

@@ -27,14 +27,14 @@ published: true
 ## 一、大学初期
 
 初期是学习技术的快速成长期。  
-自己使用lamp 搭建了[自己的博客](//github.tiankonguse.com/firstblog.html)，博客系统是自己无网环境下自己裸写出来的。  
+自己使用lamp 搭建了[自己的博客](https://github.tiankonguse.com/firstblog.html)，博客系统是自己无网环境下自己裸写出来的。  
 文章共181篇。  
 
 
 ##  二、大学后期
 
 
-大学后期自己重写了[博客系统](//github.tiankonguse.com/record.html)。   
+大学后期自己重写了[博客系统](https://github.tiankonguse.com/record.html)。   
 然后把自己的日记，博客园，CSDN ，QQ空间的内容都补上去了，共707篇文章。  
 当然没有补第一个博客的内容。   
 
@@ -53,12 +53,12 @@ published: true
 比较好玩的算法放在[小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=281548515451&secret=r0krqw9fw0at24vxjxo1uo4k0h4lfe47&extra=d67ce0c25ec91252b3af846a10154c9e9d4cb50c763fee178acd68cd2c2e09ee)发布。  
 
 
-![](//res.tiankonguse.com/images/suanfa_xiaomiquan.jpg)  
+![](https://res.tiankonguse.com/images/suanfa_xiaomiquan.jpg)  
   
   
 长按图片关注公众号，接受最新文章消息。   
   
-![](//res.tiankonguse.com/images/weixin-50cm.jpg)  
+![](https://res.tiankonguse.com/images/weixin-50cm.jpg)  
   
   
   

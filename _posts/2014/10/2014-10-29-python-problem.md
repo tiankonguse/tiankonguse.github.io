@@ -1335,14 +1335,14 @@ import mod2.mod2
 
 [python-101-how-to-download-a-file]: http://www.blog.pythonlibrary.org/2012/06/07/python-101-how-to-download-a-file/
 [docs-python-requests]: http://docs.python-requests.org/en/latest/ 
-[python-problem-check-type]: //github.tiankonguse.com//blog/2014/10/29/python-problem/#content-h2-判断实例类型
+[python-problem-check-type]: https://github.tiankonguse.com//blog/2014/10/29/python-problem/#content-h2-判断实例类型
 [converting-integer-to-string-in-python]: http://stackoverflow.com/questions/961632/converting-integer-to-string-in-python
 [how-to-test-nonetype-in-python]: http://stackoverflow.com/questions/23086383/how-to-test-nonetype-in-python
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2514466730.png
-[python-http-post]: //github.tiankonguse.com/blog/2014/09/28/python-http-post.html
-[python-json]: //github.tiankonguse.com/blog/2014/09/29/python-json.html
-[first-learn-python]: //github.tiankonguse.com/blog/2014/09/25/first-learn-python.html
-[first-learn-python-hight-lev]: //github.tiankonguse.com/blog/2014/09/25/first-learn-python-hight-lev.html
-[python-style]: //github.tiankonguse.com/blog/2014/10/08/python-style.html
-[python-update-invalid]: //github.tiankonguse.com/blog/2014/10/20/python-update-invalid.html
+[python-http-post]: https://github.tiankonguse.com/blog/2014/09/28/python-http-post.html
+[python-json]: https://github.tiankonguse.com/blog/2014/09/29/python-json.html
+[first-learn-python]: https://github.tiankonguse.com/blog/2014/09/25/first-learn-python.html
+[first-learn-python-hight-lev]: https://github.tiankonguse.com/blog/2014/09/25/first-learn-python-hight-lev.html
+[python-style]: https://github.tiankonguse.com/blog/2014/10/08/python-style.html
+[python-update-invalid]: https://github.tiankonguse.com/blog/2014/10/20/python-update-invalid.html
 [how-can-i-avoid-running-a-python-script-multiple-times-implement-file-locking]: http://linux.byexamples.com/archives/494/how-can-i-avoid-running-a-python-script-multiple-times-implement-file-locking/#comment-100304

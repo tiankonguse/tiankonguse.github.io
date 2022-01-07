@@ -10,7 +10,7 @@ published: true
 ---  
 
 
-![](//res2018.tiankonguse.com/images/2018/06/20180620012525.png)  
+![](https://res2018.tiankonguse.com/images/2018/06/20180620012525.png)  
 
 
 ## 零、新闻时间  
@@ -100,7 +100,7 @@ CDR是什么呢？以后会专门写一篇文章来分享。
 去google一了解，转债果然很黑暗，不过如果通过转债进行投机的话，还是可以赚不少钱的。    
 
 
-![](//res2018.tiankonguse.com/images/2018/06/20180620002906.png)
+![](https://res2018.tiankonguse.com/images/2018/06/20180620002906.png)
 
 
 

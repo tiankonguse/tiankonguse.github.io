@@ -45,7 +45,7 @@ published: true
 这样就可以 `O(1)` 找到第一个元素相等的子数组了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/01/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/01/001.png)  
 
 
 ## 二、统计字典序元音字符串的数目  
@@ -60,7 +60,7 @@ published: true
 思路：动态规划即可，选与不选的问题。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/01/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/01/002.png)  
 
 
 ## 三、可以到达的最远建筑  
@@ -80,7 +80,7 @@ published: true
 3、使用梯子的时候，如果之前某个步骤用的砖头大于当前高度，可以进行交换，进而节省一些砖头。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/01/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/01/003.png)  
 
 
 ## 四、第 K 条最小指令  
@@ -100,7 +100,7 @@ published: true
 此后递归即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/11/01/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/11/01/004.png)  
 
 
 ## 五、最后  

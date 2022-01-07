@@ -197,4 +197,4 @@ rsync --daemon --config=/etc/rsyncd.conf
 [rsyncd_conf]: https://rsync.samba.org/ftp/rsync/rsyncd.conf.html
 [google_rsync_ssh]: https://www.google.com.hk/search?q=rsync+ssh
 [google_rsync_expect]: https://www.google.com.hk/search?q=rsync+expect
-[rsync-first]: //github.tiankonguse.com/blog/2015/01/13/rsync-first.html
+[rsync-first]: https://github.tiankonguse.com/blog/2015/01/13/rsync-first.html

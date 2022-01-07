@@ -30,7 +30,7 @@ published: true
 好了，接下来看看这次比赛的题目吧。  
 
 
-![](//res2020.tiankonguse.com/images/2020/05/10/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/05/10/001.png)  
 
 
 ## 一、构造数组  
@@ -59,7 +59,7 @@ published: true
 需要保留在目标数组中，则只 push 即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/05/10/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/05/10/002.png)  
 
 
 ## 二、三元组数目个数  
@@ -90,7 +90,7 @@ XOR(x,y) 含义是 x 到 y 之间的数字进行异或操作。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/05/10/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/05/10/003.png)  
 
 
 ## 三、收集苹果的最少时间  
@@ -124,7 +124,7 @@ XOR(x,y) 含义是 x 到 y 之间的数字进行异或操作。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/05/10/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/05/10/004.png)  
 
 
 ## 四、切披萨的方案数  
@@ -149,8 +149,8 @@ XOR(x,y) 含义是 x 到 y 之间的数字进行异或操作。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/05/10/005.png)  
-![](//res2020.tiankonguse.com/images/2020/05/10/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/05/10/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/05/10/006.png)  
 
 
 ## 五、最后  

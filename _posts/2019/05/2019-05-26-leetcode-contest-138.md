@@ -18,7 +18,7 @@ Leetcode 第 138 场比赛的题偏简单，而且两道题的题意也有问题
 浪费我们不少时间，不过最终根据测试数据随机应变的话，也很容易找到正确的题意。  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/26/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/05/26/001.png)  
 
 
 ## 一、身高检查  
@@ -75,7 +75,7 @@ This is the number of students that must move in order for all students to be st
 总体复杂度`O(n)`  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/26/002.png)
+![](https://res2019.tiankonguse.com/images/2019/05/26/002.png)
 
 
 ## 三、一次交换得到下一个排列  
@@ -101,7 +101,7 @@ This is the number of students that must move in order for all students to be st
 由此，这道题就做出来了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/26/003.png)   
+![](https://res2019.tiankonguse.com/images/2019/05/26/003.png)   
 
 
 ## 四、相邻不相等  
@@ -121,7 +121,7 @@ This is the number of students that must move in order for all students to be st
 构造依据：
 
 
-![](//res2019.tiankonguse.com/images/2019/05/26/004.png)
+![](https://res2019.tiankonguse.com/images/2019/05/26/004.png)
 
 
 假设给的数字的个数都相等，比如不同数字有`k`个，每个数字都是`N`个。  
@@ -137,7 +137,7 @@ This is the number of students that must move in order for all students to be st
 假设下一轮依旧执行的是策略1，依旧是`[3,4,3,4]`，相邻的位置位置不会相同。  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/26/005.png)   
+![](https://res2019.tiankonguse.com/images/2019/05/26/005.png)   
 
 
 现在再考虑数字的个数分为几组，如个数是`N1`的有`k1`个，个数是`N2`的有`k2`个，且`N1 < N2`。  
@@ -183,7 +183,7 @@ This is the number of students that must move in order for all students to be st
 下面是大家提交代码的 可视化图形，如果参与的人多了，看着应该会很壮观的吧。  
 
 
-![](//res2019.tiankonguse.com/images/2019/05/26/006.png)   
+![](https://res2019.tiankonguse.com/images/2019/05/26/006.png)   
 
 
 

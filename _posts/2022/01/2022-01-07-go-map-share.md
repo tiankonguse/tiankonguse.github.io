@@ -26,14 +26,14 @@ published: true
 今天，作为一个没怎么写过 go 代码但 CR 过不少 go 代码的初学者，给各位分享下 Go 的 map 源码实现。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/001.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/001.png)
 
 
 
 分享大概分为 5 部分：map 语法、HASH 算法、扩容算法、增删改查、迭代器。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/002.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/002.png)
 
 
 ## 一、map 的语法
@@ -48,7 +48,7 @@ published: true
 大家可以看下是否有遗漏。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/003.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/003.png)
 
 
 ## 二、HASH 算法    
@@ -68,7 +68,7 @@ hash 的本质是一个定长数组。
 长度一般是 2 的整数幂，这样就可以通过位操作来代替取模操作，提高效率。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/004.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/004.png)
 
 
 定长数组，hash 冲突了怎么办呢？  
@@ -83,7 +83,7 @@ bmap 是顺序插入与查找。
 所以为了提高查找性能，每个位置还储存了一个 1 字节的 hash 值，用来快速比较。
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/005.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/005.png)
 
 
 如果 8 个元素都满了怎么办呢？  
@@ -102,7 +102,7 @@ bmap 是顺序插入与查找。
 
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/006.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/006.png)
 
 
 
@@ -129,7 +129,7 @@ bmap 里储存了 8 个元素，每个元素称为 celle，储存三个值：key
 所以，对于 5~9 这几个数字，冲突的概率是 10~255 这些数字的二倍。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/007.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/007.png)
 
 
 对于 bmap 的设计，理论上应该按右图的方式来设计，但实际是左图那样。  
@@ -138,7 +138,7 @@ bmap 里储存了 8 个元素，每个元素称为 celle，储存三个值：key
 思考题：请问 go 为什么这样设计，有什么好处？  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/008.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/008.png)
 
 
 
@@ -152,7 +152,7 @@ bmap 里储存了 8 个元素，每个元素称为 celle，储存三个值：key
 这样，就可以优先使用预先申请的内容，用完了在去 new 。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/009.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/009.png)
 
 
 ## 三、扩容算法  
@@ -177,7 +177,7 @@ bmap 里储存了 8 个元素，每个元素称为 celle，储存三个值：key
 此时 B 不变，只进行内存整理。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/010.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/010.png)
 
 
 前面了解了 HASH 算法与扩容策略，现在就可以了解下 GO 里面 map 的数据结构了。  
@@ -190,7 +190,7 @@ bmap 就是一个分块，由 8 个 cell 组成，当然还有一个 next 指针
 cell 储存具体的 key、value、top信息。   
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/011.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/011.png)
 
 
 首先，只有插入元素时，才会触发扩容。  
@@ -210,7 +210,7 @@ cell 储存具体的 key、value、top信息。
 另外，如果 buckets 数组有大量空值时，游标会尝试寻找下个值，最多寻找 1024 次。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/012.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/012.png)
 
 
 
@@ -239,7 +239,7 @@ cell 储存具体的 key、value、top信息。
 这样，在增删改查的时候，就可以判断旧的 bucket 是否迁移，来判断读新旧哪个 bucket。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/013.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/013.png)
 
 
 ## 四、增删改查  
@@ -263,7 +263,7 @@ cell 储存具体的 key、value、top信息。
 4、之后就是循环链表与 bmap 来查找了。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/014.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/014.png)
 
 
 
@@ -277,7 +277,7 @@ cell 储存具体的 key、value、top信息。
 逻辑与第一个几乎一模一样，空值返回、计算偏移量、判断是否在旧 hash、循环查找。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/015.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/015.png)
 
 
 之后是赋值操作，代码也差不多。  
@@ -290,7 +290,7 @@ cell 储存具体的 key、value、top信息。
 另外，由于没找到，需要申请一个新的 bmap，把链表串起来，之后就按找到处理了。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/016.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/016.png)
 
 
 赋值的查找逻辑稍微复杂点，单独介绍下。  
@@ -307,7 +307,7 @@ cell 储存具体的 key、value、top信息。
 除了这两处不一样外，其他的都不变，不需要展开介绍了。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/017.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/017.png)
 
 
 对于删除，逻辑与前面的差不多。  
@@ -341,7 +341,7 @@ cell 储存具体的 key、value、top信息。
 
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/018.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/018.png)
 
 
 ## 五、迭代器  
@@ -359,7 +359,7 @@ cell 储存具体的 key、value、top信息。
 这在语言层面，就让用户知道，迭代器的输出是随机的，不要利用 map 的算法以及结果特征来做什么事情。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/019.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/019.png)
 
 
 对于迭代器，这里重点介绍四种情况下迭代会怎么样。  
@@ -370,7 +370,7 @@ cell 储存具体的 key、value、top信息。
 4、扩容，此 bucket 迭代中迁移  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/020.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/020.png)
 
 
 第一种情况是无扩容。  
@@ -382,7 +382,7 @@ cell 储存具体的 key、value、top信息。
 其他的就就和之前的都一样，正常循环即可。   
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/021.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/021.png)
 
 
 第二种情况是扩容中，但是当前 Bucket 已扩容。  
@@ -392,7 +392,7 @@ cell 储存具体的 key、value、top信息。
 另外，由于已完成迁移，删除也不影响迭代结果。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/022.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/022.png)
 
 
 第三种情况是扩容中，当前 Bucket 未迁移。  
@@ -401,7 +401,7 @@ cell 储存具体的 key、value、top信息。
 由于未开始迁移，所以只能访问旧的 Bucket。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/023.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/023.png)
 
 
 
@@ -434,7 +434,7 @@ cell 储存具体的 key、value、top信息。
 算是算法实现彻底被绑死了。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/024.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/024.png)
 
 
 最后一种情况是，迭代器处于扩容中，当前 Bucket 本来是未迁移，迭代过程中变为已迁移。  
@@ -448,7 +448,7 @@ cell 储存具体的 key、value、top信息。
 所以，这里从未迁移变成已迁移也不影响迭代结果。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/025.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/025.png)
 
 
 最后，还有种情况，也介绍下。  
@@ -465,7 +465,7 @@ cell 储存具体的 key、value、top信息。
 
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/026.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/026.png)
 
 
 最后介绍下迭代器的结论：迭代过程中可以删除或者修改内容，但是不能插入。   
@@ -475,7 +475,7 @@ cell 储存具体的 key、value、top信息。
 另外，需要强调的是，map 不支持并发读写，会直接 panic 的。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/027.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/027.png)
 
 
 ## 六、最后  
@@ -487,7 +487,7 @@ cell 储存具体的 key、value、top信息。
 ppt 我一会发给大家，感兴趣的，公众号后台回复`go-map-ppt` 获取。  
 
 
-![](//res2022.tiankonguse.com/iamges/2022/01/07/028.png)
+![](https://res2022.tiankonguse.com/iamges/2022/01/07/028.png)
 
 
 《完》  

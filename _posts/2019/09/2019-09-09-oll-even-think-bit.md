@@ -18,7 +18,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 很巧，一个勤奋的小伙伴提出一个问题：第三题按照我的方法过不了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/09/001.jpg)
+![](https://res2019.tiankonguse.com/images/2019/09/09/001.jpg)
 
 
 我想怎么可能呢？
@@ -70,20 +70,20 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 原先代码是`map`统计的，每次要赋值`26`个元素的`amp`。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/09/004.png)
+![](https://res2019.tiankonguse.com/images/2019/09/09/004.png)
 
 
 通过异或来奇偶反转，现在一个整数就解决了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/09/002.png)
+![](https://res2019.tiankonguse.com/images/2019/09/09/002.png)
 
 
 
 而对于查询操作，原先是`26`个字母的统计次数分别相减。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/09/005.png)
+![](https://res2019.tiankonguse.com/images/2019/09/09/005.png)
 
 
 现在则也只需要通过位操作就行了。  
@@ -96,7 +96,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 所以进行异或就能快速判断区间内是奇数个还是偶数个了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/09/003.jpg)
+![](https://res2019.tiankonguse.com/images/2019/09/09/003.jpg)
 
 
 ## 四、最后  

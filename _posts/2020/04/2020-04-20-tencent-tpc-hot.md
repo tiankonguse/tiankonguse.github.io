@@ -69,7 +69,7 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/001.png)  
 
 
 ## 二、简单数字游戏  
@@ -92,7 +92,7 @@ published: true
 当然，由于只需要进行m次操作，肯定只取前面的2m个数字啦。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/002.png)  
 
 
 ## 三、九的数量  
@@ -115,15 +115,15 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/003.png)  
-![](//res2020.tiankonguse.com/images/2020/04/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/004.png)  
 
 
 ## 四、神秘的乘法  
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/005.png)  
 
 
 题意：如上图，两个数字的叉积是每一位依次相乘，结果去掉前缀0后，按字符串的形式连起来。  
@@ -135,7 +135,7 @@ published: true
 思路：最暴力的是递归枚举，但是不知道会不会超时。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/006.png)  
 
 
 画出99乘法表后，分析最高位，竟然可以发现一个规律。  

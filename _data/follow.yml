@@ -1,5 +1,5 @@
--   url: //github.tiankonguse.com/atom.xml
-    img: //github.tiankonguse.com/images/rss_24x24.png
+-   url: https://github.tiankonguse.com/atom.xml
+    img: https://github.tiankonguse.com/images/rss_24x24.png
     name: rss
     showImg: 0 
     class: fa-rss
@@ -24,19 +24,19 @@
     class: fa-weixin
 
 -   url: https://plus.google.com/103623040770219910018?rel=author
-    img: //github.tiankonguse.com/images/google.ico
+    img: https://github.tiankonguse.com/images/google.ico
     name: google plus
     showImg: 0
     class: fa-google-plus
 
 -   url: https://twitter.com/tiankonguse
-    img: //github.tiankonguse.com/images/twitter.ico
+    img: https://github.tiankonguse.com/images/twitter.ico
     name: twitter
     showImg: 0 
     class: fa-twitter
 
 -   url: https://www.facebook.com/tiankonguse
-    img: //github.tiankonguse.com/images/facebook.ico
+    img: https://github.tiankonguse.com/images/facebook.ico
     name: facebook
     showImg: 0
     class: fa-facebook

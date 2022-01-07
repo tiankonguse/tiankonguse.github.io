@@ -13,7 +13,7 @@ published: true
 2021 年读完的第二本书是《大国大城：当代中国的统一、发展与平衡》。  
 
 
-![](//res.tiankonguse.com/images/2021/02/01/001.png)  
+![](https://res.tiankonguse.com/images/2021/02/01/001.png)  
 
 
 

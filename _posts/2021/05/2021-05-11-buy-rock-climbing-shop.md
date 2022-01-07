@@ -39,7 +39,7 @@ published: true
 后来我又去天猫下了一个订单。  
 
 
-![](//res.tiankonguse.com/images/2021/05/10/003.png) 
+![](https://res.tiankonguse.com/images/2021/05/10/003.png) 
 
 
 由于我好几年没使用淘宝和天猫了，收货地址还是多年前的。  
@@ -53,7 +53,7 @@ published: true
 等了三天后，终于收到了我的攀岩鞋，没错，汽车运过来的。  
 
 
-![](//res.tiankonguse.com/images/2021/05/10/002.png) 
+![](https://res.tiankonguse.com/images/2021/05/10/002.png) 
 
 
 穿上稍微有点紧，按照之前教练说的，攀岩鞋就是要紧点。  
@@ -62,7 +62,7 @@ published: true
 不过穿上新买的攀岩鞋，去攀岩一次后，教练说我的攀岩鞋有点大了，之后越穿越大，会显得更大。  
 
 
-![](//res.tiankonguse.com/images/2021/05/10/001.png)  
+![](https://res.tiankonguse.com/images/2021/05/10/001.png)  
 
 
 我感受了一下，好像确实没有攀岩馆提供的鞋子紧。  
@@ -77,7 +77,7 @@ published: true
 
 
 
-![](//res.tiankonguse.com/images/2021/05/10/004.png)  
+![](https://res.tiankonguse.com/images/2021/05/10/004.png)  
 
 
 使用这个后跟帖不仅可以让鞋子更紧，还可以防止鞋子磨后脚跟。  

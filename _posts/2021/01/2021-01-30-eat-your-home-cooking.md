@@ -55,7 +55,7 @@ published: true
 下图是我的早餐，已经这样吃了好几个月了，只差坚果了，后面我补上。  
 
 
-![](//res.tiankonguse.com/images/2021/01/30/001.png)  
+![](https://res.tiankonguse.com/images/2021/01/30/001.png)  
 
 
 ## 三、午餐与晚餐  
@@ -92,7 +92,7 @@ published: true
 下面是我的晚饭，午饭则一般吃两个菜，晚饭一般三个菜，偶尔四个菜。  
 
 
-![](//res.tiankonguse.com/images/2021/01/30/002.png)  
+![](https://res.tiankonguse.com/images/2021/01/30/002.png)  
 
 
 

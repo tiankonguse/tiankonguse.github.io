@@ -71,7 +71,7 @@ published: true
 于是看他们都不着急，那我这应该没啥大问题，于是我选择了第二天再来。  
 
 
-![](//res2020.tiankonguse.com/images/2020/07/12/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/12/001.png)  
 
 
 ## 四、看病  
@@ -82,7 +82,7 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/07/12/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/07/12/001.png)  
 
 
 第二天本来打算走去医院的。  

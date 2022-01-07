@@ -39,7 +39,7 @@ published: true
 如果差为1，先去较多的那个类型。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/19/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/19/001.png)  
 
 
 ## 二、点菜展示表  
@@ -57,7 +57,7 @@ set 统计有哪些菜。
 map 统计每个餐桌点了哪些菜。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/19/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/19/002.png)  
 
 
 ## 三、数青蛙  
@@ -79,7 +79,7 @@ map 统计每个餐桌点了哪些菜。
 对第一个字母和最后一个字母特殊判断，中间的进行状态转移即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/19/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/19/003.png)  
 
 
 ## 四、生成数组  
@@ -133,7 +133,7 @@ F(n,m,k)=m*F(n-1,m,k)+sum(F(m-1,maxVal,k-1))
 第二种是最后一位是最大值，则枚举下一个最大值。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/19/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/19/004.png)  
 
 
 ## 五、最后  

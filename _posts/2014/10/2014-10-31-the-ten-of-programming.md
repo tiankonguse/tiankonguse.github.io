@@ -653,6 +653,6 @@ COBOL主要是应用于银行、金融和会计行业等非常重要的商业数
 
 
 [wiki-COBOL]: http://zh.wikipedia.org/wiki/COBOL
-[the-tao-of-programming-The-Silent-Void]: //github.tiankonguse.com/blog/2014/10/29/the-tao-of-programming.html#content-h3-The Silent Void
+[the-tao-of-programming-The-Silent-Void]: https://github.tiankonguse.com/blog/2014/10/29/the-tao-of-programming.html#content-h3-The Silent Void
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3800736455.jpg
 [cover-g]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/3804473462.jpg

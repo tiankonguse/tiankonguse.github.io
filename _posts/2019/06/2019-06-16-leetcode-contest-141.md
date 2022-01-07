@@ -18,7 +18,7 @@ Leetcode 第 141 场比赛的题目难度属于中等偏下难度。
 第二题题意理解起来有点费劲，可能会浪费一些时间，其他题就是拼手速了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/16/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/16/001.png)  
 
 
 接下来就看看看这四道题吧。  
@@ -35,7 +35,7 @@ Leetcode 第 141 场比赛的题目难度属于中等偏下难度。
 比赛期间，最简单粗暴的方法就是定义一个新的数组，循环处理即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/16/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/16/002.png)  
 
 
 而作为算法题，我们就需要考虑如何做才能最优。  
@@ -47,7 +47,7 @@ Leetcode 第 141 场比赛的题目难度属于中等偏下难度。
 对于这种情况特殊判断一下即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/16/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/16/003.png)  
 
 
 ## 二、标签的最大值  
@@ -93,7 +93,7 @@ Leetcode 第 141 场比赛的题目难度属于中等偏下难度。
 这样累计选择`num_wanted`个满足要求的元素即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/16/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/16/004.png)  
 
 
 ## 三、矩阵上的最短路  
@@ -130,7 +130,7 @@ Leetcode 第 141 场比赛的题目难度属于中等偏下难度。
 至于怎么构造，建议画一个图可能会清晰一些，简单来说就是遇到相等字符之前，随意构造，相等了同时减一。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/16/005.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/16/005.png)  
 
 
 这里我想到一个扩展题：求满足要求的答案的个数。  
@@ -147,7 +147,7 @@ Leetcode 第 141 场比赛的题目难度属于中等偏下难度。
 四道题解在 leetcode 上我也分享了，刷题的朋友可以帮我点个赞，虽然我不知道 leetcode 上点赞有啥用。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/16/006.png)  
+![](https://res2019.tiankonguse.com/images/2019/06/16/006.png)  
 
 
 地址：https://leetcode.com/tiankonguse/  

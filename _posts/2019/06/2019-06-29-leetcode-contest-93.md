@@ -37,7 +37,7 @@ Leetcode 第 93 场比赛的题相对来说比较简单，前三道是简单计�
 如果只有一个`1`，则答案是`0`。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/29/001.png)
+![](https://res2019.tiankonguse.com/images/2019/06/29/001.png)
 
 
 ## 二、重新排序得到 2 的幂  
@@ -59,7 +59,7 @@ Leetcode 第 93 场比赛的题相对来说比较简单，前三道是简单计�
 一种方法是对数字各位进行排序，另一种是对数字各位进行统计，从`0~9`分别有多少个，然后对比是否一致。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/29/002.png)
+![](https://res2019.tiankonguse.com/images/2019/06/29/002.png)
 
 
 ## 三、优势洗牌  
@@ -77,7 +77,7 @@ Leetcode 第 93 场比赛的题相对来说比较简单，前三道是简单计�
 
 
 
-![](//res2019.tiankonguse.com/images/2019/06/29/003.png)
+![](https://res2019.tiankonguse.com/images/2019/06/29/003.png)
 
 
 ## 四、最低加油次数  
@@ -104,7 +104,7 @@ Leetcode 第 93 场比赛的题相对来说比较简单，前三道是简单计�
 具体的可以参考代码。  
 
 
-![](//res2019.tiankonguse.com/images/2019/06/29/004.png)
+![](https://res2019.tiankonguse.com/images/2019/06/29/004.png)
 
 
 赛后，问其他同事，有人贪心做的。  
@@ -115,7 +115,7 @@ Leetcode 第 93 场比赛的题相对来说比较简单，前三道是简单计�
 由于是无限油箱，遇到加油站时可以先记着。需要加油了，选择油最多的加油站，就可以使得加油次数最少了。    
 代码需要使用一个最大堆，这个直接使用`STL`里面的优先队列就行了。  
 
-![](//res2019.tiankonguse.com/images/2019/06/29/005.png)
+![](https://res2019.tiankonguse.com/images/2019/06/29/005.png)
 
 
 ## 五、最后  

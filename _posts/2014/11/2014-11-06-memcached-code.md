@@ -108,5 +108,5 @@ memcached 是以 key-val 的方式储存的 map<string, Object>。
 
 
 
-[memcached-lib]: //github.tiankonguse.com/blog/2014/11/06/memcached-lib.html
-[tiankonguse-hash-table]: //github.tiankonguse.com/blog/2014/11/04/hash-table.html
+[memcached-lib]: https://github.tiankonguse.com/blog/2014/11/06/memcached-lib.html
+[tiankonguse-hash-table]: https://github.tiankonguse.com/blog/2014/11/04/hash-table.html

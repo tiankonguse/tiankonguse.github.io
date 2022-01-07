@@ -654,9 +654,9 @@ expected searchd protocol version 1+, got version '0'
 
 
 
-[sphinx-learn]: //github.tiankonguse.com/blog/2014/10/30/sphinx-learn.html
-[coreseek-install-log]: //github.tiankonguse.com/blog/2014/11/03/coreseek-install-log.html
-[sphinx-use]: //github.tiankonguse.com/blog/2014/11/06/sphinx-config-and-use.html
+[sphinx-learn]: https://github.tiankonguse.com/blog/2014/10/30/sphinx-learn.html
+[coreseek-install-log]: https://github.tiankonguse.com/blog/2014/11/03/coreseek-install-log.html
+[sphinx-use]: https://github.tiankonguse.com/blog/2014/11/06/sphinx-config-and-use.html
 [yebihai-562]: http://www.yebihai.com/php/562.html
 [Fatal-error-Call-to-undefined-function-socket]: http://board.phpbuilder.com/showthread.php?10274229-Fatal-error-Call-to-undefined-function-socket_create()
 [cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2503078963.png

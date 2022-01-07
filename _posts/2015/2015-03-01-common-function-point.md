@@ -431,7 +431,7 @@ cmd3(1,2);
 [fivePointFun]: https://github.com/tiankonguse/empty/blob/master/comfun/fivePointFun.cpp
 [github-tiankonguse-empty-comfun-sixPointFun]: https://github.com/tiankonguse/empty/blob/master/comfun/sixPointFun.cpp
 [github-tiankonguse-empty-comfun-servenPointFun]: https://github.com/tiankonguse/empty/blob/master/comfun/servenPointFun.cpp
-[github-tiankonguse-c-base]: //github.tiankonguse.com/blog/2014/12/05/c-base.html
+[github-tiankonguse-c-base]: https://github.tiankonguse.com/blog/2014/12/05/c-base.html
 [cppblog-misakamm-164258]: http://www.cppblog.com/misakamm/archive/2012/01/16/164258.html
 [tiankonguse-record-175]: http://tiankonguse.com/record/record.php?id=175
 [github-tiankonguse-empty-comfun]: https://github.com/tiankonguse/empty/tree/master/comfun

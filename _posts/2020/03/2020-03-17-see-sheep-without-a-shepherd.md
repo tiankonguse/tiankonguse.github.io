@@ -37,10 +37,10 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/001.png)  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/002.png)  
 
 
 当然，前面也通过街坊邻居的故事透漏出当前的社会很黑暗，市长儿子胡作非为。  
@@ -49,7 +49,7 @@ published: true
 于是，主角的女儿被市长的儿子下药啪啪啪了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/003.png)  
 
 
 后来再次下手时，这个禽兽被女儿和女儿的妈妈一起反杀，然后埋在了坟地里。  
@@ -89,13 +89,13 @@ PS：主角的两个女儿名字分别叫做李平和李安。
 寺庙的大师身边有几只温顺的山羊，寓意着主角这些人与大师身边的山羊一样，温温顺顺，只求平安。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/004.png)  
 
 
 第二幕把车抛到河里时，山羊亲眼看到车下沉的风景，牧羊人很巧没看到。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/005.png)  
 
 
 
@@ -117,7 +117,7 @@ PS：主角的两个女儿名字分别叫做李平和李安。
 还有很多细节，如果仔细看的话，很多人都是假装不知道的细节。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/006.png)  
 
 
 第四幕是在新的警察局布网线时，躺枪的山羊。  
@@ -138,7 +138,7 @@ PS：主角的两个女儿名字分别叫做李平和李安。
 对于，禽兽这个不是我骂人，是电影中的一句台词：有的孩子是孩子，有的孩子是禽兽。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/17/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/17/007.png)  
 
 
 第五幕则是挖坟的时候，山羊被挖出来了。  

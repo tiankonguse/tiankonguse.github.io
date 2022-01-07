@@ -29,13 +29,13 @@ published: true
 完整题意如下：  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/001.png)  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/002.png)  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/003.png)  
 
 
 面对这个题，其实很简单。  
@@ -73,8 +73,8 @@ published: true
 ## 二、线性代数  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/004.png)  
-![](//res2020.tiankonguse.com/images/2020/03/18/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/005.png)  
 
 
 第二题是一个线性代数题，不过看到只有矩阵每个位置只有两个值，我笑了。  
@@ -102,13 +102,13 @@ published: true
 ## 三、解方程  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/006.png)  
 
 
 一看是一元三次方程，先去网上搜一个解的万能公式。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/007.png)  
 
 
 第一小题带入万能公式，就可以解除一个多项式解来。  
@@ -121,9 +121,9 @@ published: true
 
 
 
-![](//res2020.tiankonguse.com/images/2020/03/18/008.png)  
-![](//res2020.tiankonguse.com/images/2020/03/18/009.png)  
-![](//res2020.tiankonguse.com/images/2020/03/18/010.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/009.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/18/010.png)  
 
 
 第一小题就是一个N皇后题，由于数据较小，手动计算也可以找到所有答案。  

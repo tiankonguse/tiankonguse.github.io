@@ -78,7 +78,7 @@ set("hello");
 通过右值引用，我们就可以修改右值的值了，也就是可以对右值进行`swap`操作了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/31/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/31/001.png)  
 
 
 比如上图这段代码，`main`函数里面，第一个`f(a)`会调用左值引用的那个函数，也就是第一个函数。  
@@ -89,13 +89,13 @@ set("hello");
 对于 `A` 这个类，我也在构造函数和赋值函数中加了对应的辅助信息。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/31/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/31/002.png)  
 
 
 运行后，可以发现一个神奇的事情。  
 
 
-![](//res2019.tiankonguse.com/images/2019/12/31/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/12/31/003.png)  
 
 
 右值引用 `i` 的值不见了。  

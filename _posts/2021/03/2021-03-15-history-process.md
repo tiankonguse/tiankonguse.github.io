@@ -10,7 +10,7 @@ published: true
 ---  
 
 
-![](//res.tiankonguse.com/images/2021/03/15/001.jpg)  
+![](https://res.tiankonguse.com/images/2021/03/15/001.jpg)  
 
 
 2020年10月24日，打工人比较火的时候，我写了一些关于历史进程与打工创业的文字。  

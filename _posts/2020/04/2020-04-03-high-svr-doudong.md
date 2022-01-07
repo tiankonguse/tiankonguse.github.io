@@ -16,7 +16,7 @@ published: true
 大概这周一（3月30日）的时候，有业务反馈拉我的服务失败率升高了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/03/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/03/001.png)  
 
 
 一看这个曲线，明显服务隔一段时间抖动一下，具体来说是 6 分钟抖动一下。  
@@ -43,7 +43,7 @@ published: true
 于是我想起来了，最近支持了多个城市部署服务但是没上线，发布会使这个功能生效。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/03/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/03/002.png)  
 
 
 于是将其他城市的服务下线，耗时恢复到了上午发布之前的状态。  
@@ -87,7 +87,7 @@ published: true
 这个问题很诡异，很容易猜想是依赖的下游抖动导致的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/03/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/03/003.png)  
 
 
 服务架构简化后如上图。  
@@ -137,7 +137,7 @@ published: true
 那我就实现了一个打桩函数，统计了很一段CPU计算逻辑的执行耗时。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/03/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/03/004.png)  
 
 
 代码大概如上，然后在每个函数入口定义一个对象的变量，就会自动统计每个函数的耗时。  
@@ -156,7 +156,7 @@ published: true
 而定位到配置服务有问题后，只好找来源码进行阅读。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/03/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/03/005.png)  
 
 
 然后终于找到神奇的数字 6 了。  

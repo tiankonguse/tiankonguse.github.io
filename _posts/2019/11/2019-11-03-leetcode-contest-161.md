@@ -98,7 +98,7 @@ xy => yy => xy
 想想每次减二与每次减一或不减，谁更快到达零呢？  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/03/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/11/03/001.png)  
 
 
 ## 二、优美子数组的个数  
@@ -147,7 +147,7 @@ xy => yy => xy
 由于只扫描一遍数组，复杂度是`O(n)`。  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/03/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/11/03/002.png)  
 
 
 ## 三、移除无效的括号  
@@ -177,7 +177,7 @@ xy => yy => xy
 所以这道题就变得简单了，在遇到第二种情况时，标记删除，然后继续匹配即可。  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/03/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/11/03/003.png)  
 
 
 ## 四、是否是好数组  
@@ -213,7 +213,7 @@ xy => yy => xy
 第三步，此时最大公约数不为`1`，没有答案。  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/03/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/11/03/004.png)  
 
 
 ## 五、最后  
@@ -280,7 +280,7 @@ xy => yy => xy
 书中还介绍了很多例子来来介绍之间的差异，以及我们应该如何培养，感兴趣的可以扫描下面二维码免费阅读。  
 
 
-![](//res2019.tiankonguse.com/images/2019/11/03/005.jpg)  
+![](https://res2019.tiankonguse.com/images/2019/11/03/005.jpg)  
 
 
 

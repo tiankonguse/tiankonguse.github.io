@@ -13,7 +13,7 @@ published: true
 ## 一、背景  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/15/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/15/001.png)  
 
 
 经常看到不同的好友都在使用同一个女孩子作为头像。  
@@ -49,7 +49,7 @@ published: true
 琪琪带着自己的黑猫吉吉来到了一个比较现代化的海边城市深圳。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/15/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/15/004.png)  
 
 
 当琪琪开心的向大街上的人介绍自己时，却发现大家人来人往，没人停下来听她说话。  
@@ -73,7 +73,7 @@ published: true
 作为交换，小女孩在面包店帮忙。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/15/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/15/001.png)  
 
 
 同时，为了自力更生，小女孩开始创业，开始了包裹快递业务，类似于现在的同城快递。  
@@ -192,7 +192,7 @@ published: true
 黑猫和白猫生了一窝小黑猫和白猫什么意思？吃猫粮？  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/15/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/15/003.png)  
 
 
 《完》  

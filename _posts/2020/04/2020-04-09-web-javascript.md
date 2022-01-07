@@ -99,7 +99,7 @@ published: true
 流程梳理出来后，就是写代码了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/09/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/09/001.png)  
 
 
 结果在第三步的时候，发现存在跨域问题。  
@@ -108,7 +108,7 @@ published: true
 于是我只好将代码分两部分。  
 先得到前两部分的信息，输出一个json，然后复制到另外一个窗口，加载数据，继续后面的逻辑。  
 
-![](//res2020.tiankonguse.com/images/2020/04/09/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/09/002.png)  
 
 
 就这样，我就找到了那些有冲突的所有容器。  

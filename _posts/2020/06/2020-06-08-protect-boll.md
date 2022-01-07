@@ -44,7 +44,7 @@ published: true
 在《性生活常识必读全书》书中，也直接给出了答案：长在外面为了保持较低的温度，以维持合适的环境来生产精子。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/08/001.png)
+![](https://res2020.tiankonguse.com/images/2020/06/08/001.png)
 
 
 前面让大家摸摸自己的蛋蛋，现在可以自我核对答案了。  
@@ -69,7 +69,7 @@ published: true
 在《性生活常识必读全书》书中，也介绍了怎么保护蛋蛋，即不要让蛋蛋温度太高。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/08/002.png)
+![](https://res2020.tiankonguse.com/images/2020/06/08/002.png)
 
 
 尤其是夏天，那怎么才能不让蛋蛋温度过高呢？  

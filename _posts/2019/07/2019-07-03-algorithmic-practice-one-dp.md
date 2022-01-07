@@ -64,7 +64,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 自此，这道题就可以完美解决了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/07/03/001.png)
+![](https://res2019.tiankonguse.com/images/2019/07/03/001.png)
 
 
 ## 三、买卖股票的最佳时机  
@@ -94,7 +94,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 不过此时，`f(n)`这个定义就没意义了，因为子问题里没有再出现这个定义。  
 
 
-![](//res2019.tiankonguse.com/images/2019/07/03/002.png)
+![](https://res2019.tiankonguse.com/images/2019/07/03/002.png)
 
 
 ## 四、最大子序和  
@@ -135,7 +135,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2019.tiankonguse.com/images/2019/07/03/003.png)
+![](https://res2019.tiankonguse.com/images/2019/07/03/003.png)
 
 
 ## 五、打家劫舍  
@@ -155,7 +155,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 前面的几道题都是使用递推实现的，这个就使用递归实现吧。  
 
 
-![](//res2019.tiankonguse.com/images/2019/07/03/003.png)
+![](https://res2019.tiankonguse.com/images/2019/07/03/003.png)
 
 
 ## 六、最后  

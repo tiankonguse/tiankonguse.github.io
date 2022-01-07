@@ -95,7 +95,7 @@ published: true
 其实有个隐藏的操作可以直接看全文的，但是大部分都不知道，于是要么不看要么安装APP了。  
 
 
-![](//res2018.tiankonguse.com/images/2018/07/20180713233637.jpg) 
+![](https://res2018.tiankonguse.com/images/2018/07/20180713233637.jpg) 
 
 
 ## 九、签到营销 

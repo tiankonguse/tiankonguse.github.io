@@ -75,7 +75,7 @@ published: true
 ## 四、核酸挂号
 
 
-![](//res.tiankonguse.com/images/2021/03/17/001.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/001.png)  
 
 
 在预约挂号的时候，会提示拔牙需要提前做核酸。  
@@ -155,7 +155,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 会不会误把我当做去过香港呢？  
 
 
-![](//res.tiankonguse.com/images/2021/03/17/002.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/002.png)  
 
 
 实际行程上什么都没查出来。  
@@ -206,7 +206,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 由于牙髓有伤口，医生还给我缝了线。  
 
 
-![](//res.tiankonguse.com/images/2021/03/17/004.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/004.png)  
 
 
 ## 八、注意事项  
@@ -254,7 +254,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 文字注意事项上没有写不要吃高蛋白。  
 
 
-![](//res.tiankonguse.com/images/2021/03/17/003.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/003.png)  
 
 
 ## 九、冷敷与饮食  
@@ -263,7 +263,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 来医院前，我做了很多功课，最重要的是使用保温袋带了一个雪糕。  
 
 
-![](//res.tiankonguse.com/images/2021/03/17/007.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/007.png)  
 
 
 拔完智齿后，已经化的差不多了，但还比较凉。  
@@ -273,7 +273,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 回家路上，路边看到一个报亭，我又买了一个全新的雪糕来冷敷。
 
 
-![](//res.tiankonguse.com/images/2021/03/17/005.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/005.png)  
 
 
 到家后，我拿出提前准备的冻成冰的矿泉水，继续冷敷。
@@ -288,7 +288,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 牛奶的话，由于不能使用吸管，我使用剪刀剪一个小口，仰头直接向嘴里倒着喝。  
 
 
-![](//res.tiankonguse.com/images/2021/03/17/006.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/006.png)  
 
 
 当天晚上，代餐冲剂我喝了一半就放弃了，觉得还是去楼下出水饺靠谱点。  
@@ -309,7 +309,7 @@ PS：N 天后，我去打印发票的时候，得知核酸免费，应该是这�
 可能我冷敷做的比较到位吧，周一脸也没肿，牙也不疼，吃饭也正常了。  
 
 
-![](//res.tiankonguse.com/images/2021/03/17/008.png)  
+![](https://res.tiankonguse.com/images/2021/03/17/008.png)  
 
 
 ## 十、最后  

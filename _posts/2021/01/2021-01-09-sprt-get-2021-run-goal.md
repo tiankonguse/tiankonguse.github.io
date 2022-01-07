@@ -32,7 +32,7 @@ published: true
 
 
 
-![](//res.tiankonguse.com/images/2021/01/09/001.png)
+![](https://res.tiankonguse.com/images/2021/01/09/001.png)
 
 
 这健身房有点不人性化，这么冷的天，更衣室（加澡堂）竟然还开着冷空调。  
@@ -94,7 +94,7 @@ published: true
 就这样，跑满了 5 公里，用时 19 分 46 秒。  
 
 
-![](//res.tiankonguse.com/images/2021/01/09/001.png)
+![](https://res.tiankonguse.com/images/2021/01/09/001.png)
 
 
 没想到我 2021 年的跑步目标就这样完成了，还远远低于 21 分钟。  

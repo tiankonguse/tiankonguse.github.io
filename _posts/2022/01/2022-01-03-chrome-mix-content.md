@@ -33,7 +33,7 @@ published: true
 在 [chrominum 官方博客](https://blog.chromium.org/2020/02/protecting-users-from-insecure.html)里可以看到策略的执行记录，如下图  
 
 
-![](//res.tiankonguse.com/images/2022/01/03/001.png)  
+![](https://res.tiankonguse.com/images/2022/01/03/001.png)  
 
 
 Chrome 88 以及之后的版本，就对png、Mp3等图片、视频、音频、文本富媒体资源限制访问了。  

@@ -55,7 +55,7 @@ published: true
 事实上，这跟支付宝的运作方式是非常相似的，除了比特币地址应该只被使用一次。
 
 
-![](//res2018.tiankonguse.com/images/2018/02/bitcoin-how-it-works.png)  
+![](https://res2018.tiankonguse.com/images/2018/02/bitcoin-how-it-works.png)  
 
 
 ## 二、余额 - 块链

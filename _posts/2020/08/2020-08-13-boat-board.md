@@ -10,7 +10,7 @@ published: true
 ---  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/001.png)  
 
 
 ## 一、背景  
@@ -35,7 +35,7 @@ published: true
 我们去的是广东省河源市万绿湖景区。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/002.png)  
 
 
 去之前，看行程下午是玩皮划艇。  
@@ -43,7 +43,7 @@ published: true
 于是午饭之后，我和一个同事就打着伞绕着湖去散散步，去看下传说中的皮划艇。    
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/003.png)  
 
 
 结果，午饭之后，其他人在饭堂里通过分扑克牌进行了分组，说要做一个团队高智商游戏。  
@@ -52,7 +52,7 @@ published: true
 ## 三、投资游戏
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/004.png)  
 
 
 大概规则就是游戏分两步：海选与决赛。  
@@ -108,7 +108,7 @@ published: true
 然后所有数字放在一起再次求和，天呢，我们算错了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/005.png)  
 
 
 ## 四、水上桨板  
@@ -123,7 +123,7 @@ published: true
 于是所有人都要过去玩皮划艇了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/006.png)  
 
 
 PS：发现一个有意思的现象，大家都是挽着胳膊，什么原理？  
@@ -140,13 +140,13 @@ PS：发现一个有意思的现象，大家都是挽着胳膊，什么原理？
 下面就是皮划艇，就像小船一样，够操作的姿势只有一个：坐着。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/007.png)  
 
 
 而对于桨板，则可以趴着、盘腿坐、岔腿坐、蹲着、跪着、站着等等，各种姿势。  
 
 
-![](//res2020.tiankonguse.com/images/2020/08/13/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/08/13/008.png)  
 
 
 ## 五、最后  

@@ -433,4 +433,4 @@ two2 = (two | (one & a)) & tmp
 
 大家自己可以想想, 方法多多, 关键在于你怎么去想.
 
-[n-m-problem]: //github.tiankonguse.com/blog/2014/10/22/n-m-problem.html
+[n-m-problem]: https://github.tiankonguse.com/blog/2014/10/22/n-m-problem.html

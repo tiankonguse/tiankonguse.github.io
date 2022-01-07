@@ -400,7 +400,7 @@ for (;; p++) {
 
 
 [sphinx-ac]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/842828130.jpg
-[memcached-hash-table]: //github.tiankonguse.com/blog/2014/11/07/memcached-hash-table.html
-[hash-table]: //github.tiankonguse.com/blog/2014/11/04/hash-table.html
+[memcached-hash-table]: https://github.tiankonguse.com/blog/2014/11/07/memcached-hash-table.html
+[hash-table]: https://github.tiankonguse.com/blog/2014/11/04/hash-table.html
 [auto-string]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/1225209794.png
 [json-cover]: http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/1217946526.png

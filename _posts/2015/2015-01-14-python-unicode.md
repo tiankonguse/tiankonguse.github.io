@@ -100,7 +100,7 @@ Unicode code unit又是什么东西呢？一个Unicode code unit是一个16-bit�
 * print unicode不会乱码。现在我们常用的Linux、Windows系统，都是支持unicode的
 
 
-[json-dump-more]: //github.tiankonguse.com/blog/2015/01/14/json-dump-more.html
+[json-dump-more]: https://github.tiankonguse.com/blog/2015/01/14/json-dump-more.html
 [string_encode]: http://www.tutorialspoint.com/python/string_encode.htm
 [string_decode]: http://www.tutorialspoint.com/python/string_decode.htm
-[python-problem]: //github.tiankonguse.com/blog/2014/10/29/python-problem.html#content-h2-%E7%BC%96%E7%A0%81%E6%A3%80%E6%B5%8B%20%E4%B8%8E%E8%BD%AC%E6%8D%A2%E7%BC%96%E7%A0%81
+[python-problem]: https://github.tiankonguse.com/blog/2014/10/29/python-problem.html#content-h2-%E7%BC%96%E7%A0%81%E6%A3%80%E6%B5%8B%20%E4%B8%8E%E8%BD%AC%E6%8D%A2%E7%BC%96%E7%A0%81

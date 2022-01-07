@@ -17,7 +17,7 @@ published: true
 最近这两周挤了一些时间，这才看完。  
 
 
-![](//res.tiankonguse.com/images/2021/07/09/001.png)  
+![](https://res.tiankonguse.com/images/2021/07/09/001.png)  
 
 
 ## 二、题外话

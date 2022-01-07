@@ -30,7 +30,7 @@ wxurl: https://mp.weixin.qq.com/s/VFxQfjdBpL2cGfXm7A_5GA
 ## 二、队列的定义  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-001.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-001.png)  
 
 
 队列是一种先进先出的数据结构。  
@@ -109,7 +109,7 @@ class MyQueue {
 大概实现如下：  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-002.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-002.png)  
 
 
 ## 五、广度优先搜索  
@@ -122,19 +122,19 @@ class MyQueue {
 比如对于这样一个图，我们首先根节点`A`入队。  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-003.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-003.png)  
 
 
 然后，从队首取出一个元素，将其所有的子节点`B C D`加入到队列。  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-004.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-004.png)  
 
 
 接着，依次从队首取一个元素，并将元素的子节点加入到队列（重复的不要加）。  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-005.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-005.png)  
 
 
 这样不断循环下去，就可以遍历图上的所有可以到达的点。  
@@ -168,7 +168,7 @@ class MyQueue {
 这个在《数组即使这么简单》系列里曾介绍过。  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-006.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-006.png)  
 
 
 ## 七、打开转盘锁  
@@ -183,7 +183,7 @@ class MyQueue {
 具体见代码注释吧。  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-007.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-007.png)  
 
 
 ## 八、完全平方数  
@@ -200,7 +200,7 @@ class MyQueue {
 注意事项：对于和已经大于给定的数字时，就不需要入队了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-008.png)  
+![](https://res2019.tiankonguse.com/images/2019/04/leetcode-queue-base-008.png)  
 
 
 ## 九、最后  

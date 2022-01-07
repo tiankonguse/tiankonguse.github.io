@@ -142,7 +142,7 @@ if(CopyValueCallback.has(callback)) {
 由于是单链计算，可以简单一个数组搞定。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/19/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/19/001.png)  
 
 
 条件三：使用一个工厂管理所有的算子。  

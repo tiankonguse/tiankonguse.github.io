@@ -43,13 +43,13 @@ lower bound 的意思是查找第一个大于等于 k 的元素。
 
 由于 upper bound 是第一个大于 k 的元素，右区间恰好等于k时不满足条件，所以需要按左关右开区间来处理。  
 
-![](//res2020.tiankonguse.com/images/2020/04/01/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/001.png)  
 
 
 同理，lower bound 右区间可以查找到，所以需要按左开右关区间来处理。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/01/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/002.png)  
 
 
 掌握了两个函数与区间关闭的关系，我们就可以来解锁很多题目了。  
@@ -64,7 +64,7 @@ lower bound 的意思是查找第一个大于等于 k 的元素。
 思路：这道题暂时还不需要用到 map，直接对区间排序，一个个合并即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/01/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/003.png)  
 
 
 ## 四、Insert Interval  
@@ -86,7 +86,7 @@ lower bound 的意思是查找第一个大于等于 k 的元素。
 
 
 
-![](//res2020.tiankonguse.com/images/2020/04/01/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/004.png)  
 
 
 
@@ -104,19 +104,19 @@ lower bound 的意思是查找第一个大于等于 k 的元素。
 注意事项是又交集时需要不断的循环来合并区间。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/01/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/005.png)  
 
 
 删除的时候，有交集存在多种情况，比如全删除、删左半部、删右半部，删中间等。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/01/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/006.png)  
 
 
 查找非常简单，直接判断边界即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/04/01/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/04/01/007.png)  
 
 
 ## 六、最后  

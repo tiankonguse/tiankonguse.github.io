@@ -29,13 +29,13 @@ published: true
 首先登陆公众号后台，点击左边导航里的添加功能插件。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/001.png)  
 
 
 然后可以看到一个叫做“付费功能”的插件，点进去。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/002.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/002.png)  
 
 
 可以看到有三个申请条件。  
@@ -49,13 +49,13 @@ published: true
 我都满足了，点击开通按钮。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/003.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/003.png)  
 
 
 进去后，可以看到流程分三步。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/004.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/004.png)  
 
 
 点击第一步的填写信息。  
@@ -64,26 +64,26 @@ published: true
 此时，我们需要先同意一个条款，相信大部分人是直接拉到最后打上勾的。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/005.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/005.png)  
 
 
 之后到了最重要的步骤：填写银行信息，涉及卡号、哪家银行、开户地址及分行。  
 
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/006.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/006.png)  
 
 
 接下来是流程第二步，汇款确认银行信息。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/007.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/007.png)  
 
 
 点进去可以看到一个随机的汇款金额和银行卡号，我们汇款即可。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/008.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/008.png)  
 
 
 这里有几个注意事项。  
@@ -101,19 +101,19 @@ published: true
 一般几个小时就确认了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/009.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/009.png)  
 
 
 再之后，就是流程的第三步，我们不需要做其他的，只需要等待微信的审核了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/010.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/010.png)  
 
 
 微信的审核一般很快，所以你就可以开启付费功能了。  
 
 
-![](//res2020.tiankonguse.com/images/2020/03/11/011.png)  
+![](https://res2020.tiankonguse.com/images/2020/03/11/011.png)  
 
 
 ......

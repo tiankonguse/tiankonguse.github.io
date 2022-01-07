@@ -311,7 +311,7 @@ cp /usr/local/php/bin/* /etc/bin/*
 [zendtech]: https://github.com/zendtech/ZendOptimizerPlus/issues/72
 [parallels]: http://kb.sp.parallels.com/en/119804
 [zeromq-org]: http://zeromq.org/bindings%3aphp
-[zoermq-study]: //github.tiankonguse.com/blog/2014/12/20/zoermq-study.html
+[zoermq-study]: https://github.tiankonguse.com/blog/2014/12/20/zoermq-study.html
 [google-protobuf]: https://code.google.com/p/protobuf/
 [allegro-php-protobuf]: https://github.com/allegro/php-protobuf
 [mkoppanen-php-zmq]: https://github.com/mkoppanen/php-zmq

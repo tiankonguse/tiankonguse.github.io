@@ -22,7 +22,7 @@ wxurl: https://mp.weixin.qq.com/s/JUcXaIGVltkMuzplwleIYA
 当时我在朋友圈发布了一个状态：好消息 & 坏消息。  
 
 
-![](//res2019.tiankonguse.com/images/2019/01/20190131202641.png)  
+![](https://res2019.tiankonguse.com/images/2019/01/20190131202641.png)  
 
 
 中午才发完这个朋友圈，晚上就收到消息，所有页面都要下掉“宫廷”两个字。  

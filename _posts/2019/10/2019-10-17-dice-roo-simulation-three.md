@@ -50,7 +50,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 现在我们聚焦在`n`与`n-1`两组状态上，则发现状态的关系是固定的。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/17/001.jpg)
+![](https://res2019.tiankonguse.com/images/2019/10/17/001.jpg)
 
 
 如上图，状态`f(1,1)`可能来自所有的`f(x, ~1)`，而状态`f(2, 1)`只可能来自于`f(1, 1)`。  
@@ -118,7 +118,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 随机第二次的时候，起始状态乘以状态矩阵，就可以得出第二次的结果了。  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/17/003.jpg)
+![](https://res2019.tiankonguse.com/images/2019/10/17/003.jpg)
 
 
 如上图，随机第三次，第四次都可以很快的计算出结果。  
@@ -157,7 +157,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 时间复杂度：`log(n) * (6*15) ^ 3`  
 
 
-![](//res2019.tiankonguse.com/images/2019/10/17/003.png)
+![](https://res2019.tiankonguse.com/images/2019/10/17/003.png)
 
 
 ## 五、最后  

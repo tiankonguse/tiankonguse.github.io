@@ -160,7 +160,7 @@ map<key_type, value_type> map_field = N;
 另外通读整个文档的时候，还发现谷歌的一个错误，应该存在好几年了，一直没改。  
 
 
-![](//res2020.tiankonguse.com/images/2020/06/25/001.png)  
+![](https://res2020.tiankonguse.com/images/2020/06/25/001.png)  
 
 
 ## 八、Oneof  

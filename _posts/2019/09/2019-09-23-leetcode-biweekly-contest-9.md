@@ -42,7 +42,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 
 
 
-![](//res2019.tiankonguse.com/images/2019/09/23/001.png)  
+![](https://res2019.tiankonguse.com/images/2019/09/23/001.png)  
 
 
 ## 二、进击的骑士  
@@ -53,7 +53,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 这种移动方法有 `8` 种。  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/23/002.png)  
+![](https://res2019.tiankonguse.com/images/2019/09/23/002.png)  
 
 
 思路：对于最优答案，就需要使用广度优先搜索（BFS）了。  
@@ -74,7 +74,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：`n^2`  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/23/003.png)  
+![](https://res2019.tiankonguse.com/images/2019/09/23/003.png)  
 
 
 ## 三、找出所有行中最小公共元素  
@@ -97,7 +97,7 @@ wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A
 复杂度：`n^2`  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/23/004.png)  
+![](https://res2019.tiankonguse.com/images/2019/09/23/004.png)  
 
 
 ## 四、建造街区的最短时间  
@@ -207,7 +207,7 @@ M(n, m) =  min(f(n, 2m), M(n - 1, m - 1))
 复杂度：`O(n^2)`  
 
 
-![](//res2019.tiankonguse.com/images/2019/09/23/005.png)  
+![](https://res2019.tiankonguse.com/images/2019/09/23/005.png)  
 
 
 ## 五、最后  

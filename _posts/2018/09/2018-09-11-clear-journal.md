@@ -14,7 +14,7 @@ published: true
 
 
 
-![](//res2018.tiankonguse.com/images/2018/09/disk-journal.png)   
+![](https://res2018.tiankonguse.com/images/2018/09/disk-journal.png)   
 
 
 最近收到磁盘告警，一看是根目录所在磁盘快满了。  
@@ -57,7 +57,7 @@ published: true
 
 
 
-![](//res2018.tiankonguse.com/images/2018/09/clear-journal.png)   
+![](https://res2018.tiankonguse.com/images/2018/09/clear-journal.png)   
 
 
 文本如下：  
@@ -99,7 +99,7 @@ journalctl --vacuum-size=500M
 
 
 
-![](//res2018.tiankonguse.com/images/tiankonguse-support.png)   
+![](https://res2018.tiankonguse.com/images/tiankonguse-support.png)   
 
 
 今天长按识别上面的二维码，在公众号中回复“**ACM模板**”，你将免费获得我大学耗时四年整理的《ACM算法模板》。  
