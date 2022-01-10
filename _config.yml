@@ -97,7 +97,7 @@ defaults: []
 author : tiankonguse
 email : i@tiankonguse.com
 title: tiankonguse blog
-description : 这是 tiankonguse 基于 Jekyll 和 github 创建的博客，是 tiankonguse 在学习上，工作上，生活上的记录。
+description : 这里是一个程序员的生活缩影，记录的有： 1. 计算机技术与算法 2. 程序员生活的酸甜苦辣 3. 投资理财小知识 4. 健康知识：感冒、皮肤、健身、营养学等 5. 读书笔记 6. 电影观后感 7. 人生思考 这些都可以通过菜单快速找到。
 feed: /atom.xml
 author_info: <a href="https://github.tiankonguse.com">tiankonguse</a>
 tagline: Site Tagline 
