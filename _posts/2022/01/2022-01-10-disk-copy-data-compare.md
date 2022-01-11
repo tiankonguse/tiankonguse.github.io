@@ -5,7 +5,7 @@ description: 比较了两个电脑的复制速度，效果差异很大。
 keywords: 程序人生,电脑,硬件,硬盘  
 tags: [程序人生,电脑,硬盘]    
 categories: [程序人生]  
-updateData:  2022-01-10 22:00:00  
+updateData:  2022-01-10 22:01:00  
 published: true  
 ---  
 
@@ -187,7 +187,7 @@ IP 为 192.168.137.2 的电脑，配置默认网关为 192.168.137.1。
 通过一系列对比，得到的数据是如下表格。  
  
 
-![](https://res2022.tiankonguse.com/images/2022/01/10/011.png) 
+![](https://res2022.tiankonguse.com/images/2022/01/10/012.png) 
 
 
 
