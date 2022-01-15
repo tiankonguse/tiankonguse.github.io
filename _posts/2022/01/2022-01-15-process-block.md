@@ -1,7 +1,7 @@
 ---   
 layout:     post  
 title: 队列卡住？方向错了，使出十八般武艺也没用      
-description: 不要忘记最初的目标。       
+description: 不要忘记最初的目标，否则gcore、gstack、GDB、反汇编、寄存器都没用。  
 keywords: 程序人生,项目实战  
 tags: [程序人生,项目实战]    
 categories: [程序人生]  
