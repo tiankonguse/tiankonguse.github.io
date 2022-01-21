@@ -174,6 +174,9 @@ tiankonguse:~> dmesg  | tail  -1
 至于具体是啥问题，我就转给 linux 内核的同事了，让他们去进一步查看吧。  
 
 
+对了，strace 命令我多年前也写过简单的教程。  
+在这里：https://github.tiankonguse.com/blog/2016/08/28/strace.html  
+
 ## 四、最后  
 
 
