@@ -5,7 +5,7 @@ description: 大家用的最频繁的设计模式之一。
 keywords: 程序人生,项目实战  
 tags: [程序人生,项目实战]    
 categories: [程序人生]  
-updateData:  2022-01-22 19:01:00  
+updateData:  2022-01-22 17:01:00  
 published: true  
 ---  
 
@@ -29,7 +29,7 @@ published: true
 先来看一段代码。  
 
 
-```
+```go
 for k,v := range m {
   ...
 }
@@ -42,7 +42,7 @@ for k,v := range m {
 而对于 cpp 语言，则会写下面的代码  
 
 
-```
+```cpp
 for(auto it = m.begin(); it != m.end(); ++it) {
 
 }
@@ -65,12 +65,12 @@ for(auto it = m.begin(); it != m.end(); ++it) {
 迭代器模式的优点是，我们不需要理解容器的具体实现，就可以按照某种方法，遍历这个容器的所有元素。  
 
 
-容器可能很抽象。  
+容器可能很抽象，在 java 里叫做集合。  
 简单的容器有数组、链表、队列、栈等。  
 复杂的容器有 hash 表、二叉树、红黑树等。  
 
 
-![](https://res2022.tiankonguse.com/images/2022/01/22/001.png)  
+![各种类型的集合](https://res2022.tiankonguse.com/images/2022/01/22/001.png)  
 
 
 
@@ -90,7 +90,7 @@ for(auto it = m.begin(); it != m.end(); ++it) {
 所以，各种语言自带的迭代器都会封装一个独立的迭代器类。  
 
 
-![](https://res2022.tiankonguse.com/images/2022/01/22/002.png)  
+![列表与迭代器](https://res2022.tiankonguse.com/images/2022/01/22/002.png)  
 
 
 
@@ -103,7 +103,7 @@ for(auto it = m.begin(); it != m.end(); ++it) {
 这时候，容器的遍历方式就是随着诉求的变化而变化了。  
 
 
-![](https://res2022.tiankonguse.com/images/2022/01/22/003.png)  
+![二叉树的不同遍历方式](https://res2022.tiankonguse.com/images/2022/01/22/003.png)  
 
 
 
@@ -113,7 +113,7 @@ for(auto it = m.begin(); it != m.end(); ++it) {
 此时就需要使用抽象迭代器与多态实现了。  
 
 
-![](https://res2022.tiankonguse.com/images/2022/01/22/004.png)  
+![列表多态与迭代器](https://res2022.tiankonguse.com/images/2022/01/22/004.png)  
 
 
 
@@ -123,7 +123,7 @@ for(auto it = m.begin(); it != m.end(); ++it) {
 容器可能是变化的，遍历算法可能是变化的，两个抽象一下，我们就可以设计出一种迭代器模型了。  
 
 
-![](https://res2022.tiankonguse.com/images/2022/01/22/005.png)  
+![迭代器设计模式](https://res2022.tiankonguse.com/images/2022/01/22/005.png)  
 
 
 这个图看着比较抽象。  
