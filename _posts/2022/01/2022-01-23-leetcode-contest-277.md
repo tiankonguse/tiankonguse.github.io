@@ -34,6 +34,10 @@ published: true
 当然，也可以循环查找最值，或者使用STL库查找最值。  
 
 
+PS：两个思路的代码已经上传到 github 了。  
+
+
+
 ## 二、按符号重排数组  
 
 题意：给一个长度为偶数的数组，元素一半为正一半为负。  
@@ -55,6 +59,10 @@ published: true
 
 思路2：数组排序，然后判断左右判断即可。  
 小技巧：可以插入一个无穷小和无穷大的元素，则不需要考虑边界。  
+
+
+PS：两个思路的代码已经上传到 github 了。 
+
 
 
 ## 四、基于陈述统计最多好人数  
@@ -89,6 +97,10 @@ published: true
 综合复杂度`2^15 * n`  
 
 
+PS：优化前与优化后的代码已经上传到 github 了。 
+
+
+
 ## 五、最后
 
 
@@ -96,6 +108,9 @@ published: true
 
 
 最后一题你是怎么做的呢？  
+
+
+github: https://github.com/tiankonguse/leetcode-solutions.git  
 
 
 
