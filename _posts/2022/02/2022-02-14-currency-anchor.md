@@ -1,10 +1,10 @@
 ---   
-layout:     post  
-title: 读《分析与思考：黄奇帆的复旦经济课》之货币的“锚”
-description: 了解货币的历史，以及各国是如何印钱的。       
+layout:  post  
+title: 读《分析与思考：黄奇帆的复旦经济课》之货币的锚  
+description: 了解货币的历史，以及各国是如何印钱的。  
 keywords: 理财,读书  
 tags: [理财,读书]    
-categories: [读书]]  
+categories: [读书]  
 updateData:  2022-02-14 00:12:00  
 published: true  
 ---  
