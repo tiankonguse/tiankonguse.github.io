@@ -5,7 +5,7 @@ description: 这次 leetcode 过了，比赛成绩可能作废了吧。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-02-20 00:12:00  
+updateData:  2022-02-20 00:13:00  
 published: true  
 ---  
 
