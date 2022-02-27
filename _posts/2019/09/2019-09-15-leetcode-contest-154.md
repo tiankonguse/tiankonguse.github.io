@@ -164,5 +164,5 @@ Tarjan 思想：对于一个连通图，递归可以访问到所有顶点和边�
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
 公众号ID：tiankonguse-code  
-知识星球：不止算法  
+  
 

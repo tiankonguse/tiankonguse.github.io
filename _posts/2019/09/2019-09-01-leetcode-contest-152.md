@@ -171,5 +171,5 @@ but，数据样例大了这道题还是过不了。
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
 公众号ID：tiankonguse-code  
-知识星球：不止算法  
+  
 

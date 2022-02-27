@@ -148,5 +148,5 @@ PS：最近在学习 go 语言，这次比赛的代码我赛后使用 go 重写�
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
 公众号ID：tiankonguse-code  
-知识星球：不止算法  
+  
 

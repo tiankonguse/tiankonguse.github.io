@@ -215,5 +215,5 @@ PS：周六尝试参加了 atcode 比赛，从第一题开始，题目就看不�
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
 公众号ID：tiankonguse-code  
-知识星球：不止算法  
+  
 

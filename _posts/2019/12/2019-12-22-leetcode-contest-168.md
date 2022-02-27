@@ -137,5 +137,5 @@ leetcode 的工作人员看见了，可以优化一下。
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
 公众号ID：tiankonguse-code  
-知识星球：不止算法  
+  
 
