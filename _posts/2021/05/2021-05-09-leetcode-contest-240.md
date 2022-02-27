@@ -390,6 +390,6 @@ int largestPathValue(string& colors_, vector<vector<int>>& edges) {
 
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
-QQ算法群：165531769（不止算法）  
+公众号ID：tiankonguse-code  
 知识星球：不止算法  
 

@@ -149,6 +149,6 @@ Chrome 88 以及之后的版本，就对png、Mp3等图片、视频、音频、�
 
 本文公众号：天空的代码世界  
 个人微信号：tiankonguse  
-QQ算法群：165531769（不止算法）  
+公众号ID：tiankonguse-code  
 知识星球：不止算法  
 
