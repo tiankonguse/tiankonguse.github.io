@@ -1,11 +1,11 @@
 ---   
-layout:     post  
+layout: post  
 title: 读《文明、现代化、价值投资与中国》上  
-description: 凡是遭受过美国硬实力教训的人可能会相信，美国虽然对内民主，但对外其实是霸权。         
+description: 凡是遭受过美国硬实力教训的人可能会相信，美国虽然对内民主，但对外其实是霸权。  
 keywords: 文明,现代化,中国,价值投资,理财  
-tags: [读书,理财]    
+tags: [读书,理财]  
 categories: [读书]  
-updateData:  2022-03-17 19:13:00  
+updateData: 2022-03-17 23:13:00  
 published: true  
 ---  
 
