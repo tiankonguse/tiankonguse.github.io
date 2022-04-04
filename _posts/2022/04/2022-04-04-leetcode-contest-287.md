@@ -1,6 +1,6 @@
 ---   
 layout:     post  
-title: leetcode 第 284 场算法比赛  
+title: leetcode 第 287 场算法比赛  
 description: 这天在医院住院，就没参加比赛，做了下，很简单。       
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
