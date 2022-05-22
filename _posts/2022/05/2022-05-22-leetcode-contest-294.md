@@ -1,7 +1,7 @@
 ---   
-layout:     post  
+layout:  post  
 title: leetcode 第 294 场算法比赛  
-description:昨晚睡得晚，再次翻车，有想法，但是比较混乱。       
+description: 昨晚睡得晚，再次翻车，有想法，但是比较混乱。 
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
