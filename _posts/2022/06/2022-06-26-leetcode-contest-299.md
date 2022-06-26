@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: leetcode 第 299 场算法比赛 排名122/6036
+title: leetcode 第 299 场算法比赛 排名122/6036  
 description: 这次题目质量很好，可以感冒影响节奏了。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
