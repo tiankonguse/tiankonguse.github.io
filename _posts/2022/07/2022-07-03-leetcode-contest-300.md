@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: leetcode 第 300 场算法比赛 排名81/6549 
+title: leetcode 第 300 场算法比赛 排名81/6549  
 description: 家里的windows笔记本速度太慢，准备下周把mac笔记本带回来。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
@@ -51,7 +51,7 @@ published: true
 问第 n 天，有多少人还记得秘密。  
 
 
-思路：
+思路：  
 
 
 方法一：暴力计算。  
