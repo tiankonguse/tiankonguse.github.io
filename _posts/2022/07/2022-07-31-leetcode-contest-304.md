@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: leetcode 第 302 场算法比赛 97/7372
+title: leetcode 第 304 场算法比赛 97/7372
 description: 由于就会败北。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
