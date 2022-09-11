@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: leetcode 第 310 场算法比赛
+title: leetcode 第 310 场算法比赛  
 description: 大家变强了，还是我变弱了？     
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
