@@ -64,7 +64,7 @@ PS：当然，也由于我这个服务比较简单，只有一层网络。
 如下图，假设我们的服务没有依赖的同时向下游拉取两个数据。    
 
 
-![](https://res2022.tiankonguse.com/images/2023/01/07/001.png) 
+![](https://res2023.tiankonguse.com/images/2023/01/07/001.png) 
 
 
 伪代码如下：  
@@ -86,7 +86,7 @@ net.run();
 在同步框架服务中， CPU 的运行时间线是串行的，在网络等待的时候，CPU 是空闲的。  
 
 
-![](https://res2022.tiankonguse.com/images/2023/01/07/001.png) 
+![](https://res2023.tiankonguse.com/images/2023/01/07/001.png) 
 
 
 
@@ -97,7 +97,7 @@ net.run();
 即网络等待时 CPU 可以分时复用，从而提升 CPU 的利用效率。  
 
 
-![](https://res2022.tiankonguse.com/images/2023/01/07/002.png) 
+![](https://res2023.tiankonguse.com/images/2023/01/07/002.png) 
 
 
 
@@ -111,7 +111,7 @@ net.run();
 例如下图，CPU 2 已经处理完请求2 而空闲了，但是依旧不能处理请求 1的 CPU 逻辑。  
 
 
-![](https://res2022.tiankonguse.com/images/2023/01/07/003.png) 
+![](https://res2023.tiankonguse.com/images/2023/01/07/003.png) 
 
 
 
@@ -131,7 +131,7 @@ net.run();
 并发的时候，同一个请求的逻辑可以真正的同时运行了。  
 
 
-![](https://res2022.tiankonguse.com/images/2023/01/07/004.png) 
+![](https://res2023.tiankonguse.com/images/2023/01/07/004.png) 
 
 
 
@@ -169,7 +169,7 @@ net.run();
 下图是系统的一个抽象的简化图。  
 
 
-![](https://res2022.tiankonguse.com/images/2023/01/07/005.png) 
+![](https://res2023.tiankonguse.com/images/2023/01/07/005.png) 
 
 
 对于一个请求来说，会创建一个结构体来储存当前请求相关的临时数据，我们一般称为 context。  
