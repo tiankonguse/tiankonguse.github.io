@@ -1,7 +1,7 @@
 ---   
 layout:  post  
-title: NC 攀岩馆在腾讯云的小程序挂了    
-description: 研究了一下小程序的链路。        
+title: NC 攀岩馆的小程序挂了    
+description: 研究了一下小程序的链路，解决了这个问题。  
 keywords: 项目时间  
 tags: [项目时间]    
 categories: [项目时间]  
