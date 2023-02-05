@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: leetcode 第 331 场算法比赛 未参赛  
+title: leetcode 第 331 场算法比赛  
 description: 没休息好，敲错一个地方，调试半个小时，排名靠后了。        
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
