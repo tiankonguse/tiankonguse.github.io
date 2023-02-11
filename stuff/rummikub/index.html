@@ -117,9 +117,6 @@
         </div>
     </div>
     <div id="container" style="width: 100%;"></div>
-
-    <!-- https://antv-x6.gitee.io/zh/docs/tutorial/about -->
-    <script src="x6.js"></script>
     <script src="index.js"></script>
     <script>
 
@@ -128,10 +125,6 @@
 
         $(document).ready(function () {
             Init(globalData);
-            globalData.graph = new X6.Graph({
-                container: document.getElementById('container'),
-                grid: true
-            });
         });
 
         $("#control-add").click(function () {
@@ -143,8 +136,6 @@
         $("#control-check").click(function () {
             Check(globalData);
         });
-
-
 
     </script>
 
