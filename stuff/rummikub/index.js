@@ -88,7 +88,7 @@ function InitDp() {
             for (var i = 0; i < selectCase.length; i++) {
                 const n = selectCase[i];
                 if (!CheckNums(num, nums, n)) {
-                    
+
                     continue;
                 }
 
@@ -116,6 +116,8 @@ function InitDp() {
     console.log("init DP finish, size ", maskNum);
 }
 
+
+
 function Init(data) {
     globalData = data;
 
@@ -128,8 +130,8 @@ function Init(data) {
         row2.append('<div class="col num two select-num col-head ' + color + '"> <span class="val">' + colors[color] + '</span> </div>');
         for (var i = 1; i <= 13; i++) {
             globalData[color].push(0);
-            row1.append('<div class="col num one btn ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
-            row2.append('<div class="col num two btn ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
+            row1.append('<div class="col num one btn col-num ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
+            row2.append('<div class="col num two btn col-num ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
         }
     }
     InitDp();
@@ -142,18 +144,9 @@ function Click($num) {
     var color = $num.attr('attr-color');
     var num = parseInt($num.attr('attr-val'));
     if ($num.hasClass('select-num')) {
-        if (globalData[color][num - 1] == 0) {
-            alert("删除错误：" + color + " " + num + "为空")
-            return;
-        }
-
         globalData[color][num - 1]--;
         $num.removeClass('select-num');
     } else {
-        if (globalData[color][num - 1] == 2) {
-            alert("增加错误：" + color + " " + num + "已经有两个了")
-            return;
-        }
         globalData[color][num - 1]++;
         $num.addClass('select-num');
     }
@@ -500,7 +493,7 @@ function renderAns(ans, callback) {
         }
         gData.push(pData);
     }
-    console.log("gData",gData)
+    console.log("gData", gData)
     callback(gData);
     // renderHtml(gData);
     // renderMobie(gData);
@@ -524,6 +517,19 @@ function Check(callback) {
         alert("No");
     }
 }
+function Reset() {
+    var $rows = jQuery('.card-num .row .col-num');
+    for (var i = 0; i < $rows.length; i++) {
+        var $row = jQuery($rows[i]);
+        var color = $row.attr('attr-color');
+        var num = parseInt($row.attr('attr-val'));
+        if ($row.hasClass('select-num')) {
+            globalData[color][num - 1]--;
+            $row.removeClass('select-num');
+        }
+    }
+}
+
 
 function isMobile() {
     var userAgentInfo = navigator.userAgent;

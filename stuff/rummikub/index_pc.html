@@ -76,6 +76,13 @@
 </head>
 
 <body style="height: 100%">
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;padding-bottom: 30px;">
+                拉密数字麻将~以色列麻将（Rummikub）桌面画图版
+            </div>
+        </div>
+    </div>
     <div class="container card-num">
         <div class="row red one"></div>
         <div class="row red two"></div>
@@ -88,17 +95,20 @@
 
         <div class="row">
             <div class="col wrap-control">
-                <button type="button" id="control-check" class="btn btn-warning select-contolr">检查</button>
+                <button type="button" id="control-check" class="btn btn-success select-contolr">检查</button>
+            </div>
+            <div class="col wrap-control">
+                <button type="button" id="control-reset" class="btn btn-warning select-contolr">重置</button>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
-                <a href="index.html">HTML版</a>
+                <a href="index.html">HTML版(省流量)</a>
             </div>
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
-                <a href="index_mobile.html">手机版</a>
+                <a href="index_mobile.html">手机画图(费流量)</a>
             </div>
         </div>
     </div>
@@ -108,7 +118,7 @@
     <div class="container">
         <div class="row">
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
-                PC端答案
+                桌面端画图
             </div>
         </div>
     </div>
@@ -127,7 +137,7 @@
         $(document).ready(function () {
             Init(globalData);
 
-            $(document).on('click', '.card-num .row .col.num', function () {
+            $(document).on('click', '.card-num .row .col-num', function () {
                 Click($(this));
             });
             $("#control-check").click(function () {
@@ -135,6 +145,9 @@
                     renderHtml(gData);
                     renderDestop(gData);
                 });
+            });
+            $("#control-reset").click(function () {
+                Reset();
             });
         });
     </script>
