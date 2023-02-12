@@ -95,16 +95,25 @@
     <div class="container">
         <div class="row">
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
-                答案如下
+                桌面版答案
             </div>
         </div>
     </div>
     <div class="container card-ans"></div>
     <div id="container-x6" class="container card-x6"></div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
+                移动端答案
+            </div>
+        </div>
+    </div>
+    <div id="container-f6" class="container card-f6"></div>
 
     <!-- https://antv-x6.gitee.io/zh/docs/tutorial/about -->
     <script src="x6.js"></script>
+    <script src="f6.js"></script>
     <script src="index.js"></script>
     <script>
 
@@ -114,7 +123,6 @@
         $(document).ready(function () {
             Init(globalData);
 
-
             $(document).on('click', '.card-num .row .col.num', function () {
                 Click($(this));
             });
@@ -122,31 +130,9 @@
                 Check();
             });
 
-            globalData.width = $(window).width() * 2 / 3;
-            globalData.graph = new X6.Graph({
-                container: document.getElementById('container-x6'),
-                grid: true,
-                width: globalData.width,
-                height: 600,
-                embedding: {
-                    enabled: true,
-                    findParent: function (r) {
-                        const node = r.node;
-                        const bbox = node.getBBox();
-                        return this.getNodes().filter(function (node) {
-                            const data = node.getData();
-                            if (data && data.parent) {
-                                const targetBBox = node.getBBox();
-                                return bbox.isIntersectWithRect(targetBBox)
-                            }
-                            return false
-                        })
-                    }
-                }
-            });
-            globalData.graph.on('node:change:parent', function (r) {
-                const node = r.node;
-            });
+
+            globalData.mobile = isMobile();
+            console.log(globalData);
         });
     </script>
 
