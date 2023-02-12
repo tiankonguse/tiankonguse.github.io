@@ -27,35 +27,35 @@
             /* font-size: 20px; */
         }
 
-        .red .num {
-            background-color: rgba(255, 0, 0, 0.4);
+        .red.num {
+            background-color: rgba(255, 0, 0, 0.2);
         }
 
-        .black .num {
-            background-color: rgba(0, 0, 0, 0.4);
+        .black.num {
+            background-color: rgba(0, 0, 0, 0.2);
         }
 
-        .pink .num {
-            background-color: rgba(255, 105, 180, 0.4);
+        .pink.num {
+            background-color: rgba(255, 105, 180, 0.2);
         }
 
-        .blue .num {
-            background-color: rgba(0, 0, 255, 0.4);
+        .blue.num {
+            background-color: rgba(0, 0, 255, 0.2);
         }
 
-        .red .num.select-num {
+        .red.num.select-num {
             background-color: red;
         }
 
-        .black .num.select-num {
+        .black.num.select-num {
             background-color: black;
         }
 
-        .pink .num.select-num {
+        .pink.num.select-num {
             background-color: hotpink;
         }
 
-        .blue .num.select-num {
+        .blue.num.select-num {
             background-color: blue;
         }
 
@@ -67,7 +67,10 @@
             width: 100%;
             margin: 1px;
             padding: 1px;
+        }
 
+        .card-ans {
+            padding: 30px;
         }
     </style>
 </head>
@@ -89,7 +92,19 @@
             </div>
         </div>
     </div>
-    <div id="container" style="width: 100%;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
+                答案如下
+            </div>
+        </div>
+    </div>
+    <div class="container card-ans"></div>
+    <div id="container-x6" class="container card-x6"></div>
+
+
+    <!-- https://antv-x6.gitee.io/zh/docs/tutorial/about -->
+    <script src="x6.js"></script>
     <script src="index.js"></script>
     <script>
 
@@ -103,13 +118,36 @@
             $(document).on('click', '.card-num .row .col.num', function () {
                 Click($(this));
             });
+            $("#control-check").click(function () {
+                Check();
+            });
 
+            globalData.width = $(window).width() * 2 / 3;
+            globalData.graph = new X6.Graph({
+                container: document.getElementById('container-x6'),
+                grid: true,
+                width: globalData.width,
+                height: 600,
+                embedding: {
+                    enabled: true,
+                    findParent: function (r) {
+                        const node = r.node;
+                        const bbox = node.getBBox();
+                        return this.getNodes().filter(function (node) {
+                            const data = node.getData();
+                            if (data && data.parent) {
+                                const targetBBox = node.getBBox();
+                                return bbox.isIntersectWithRect(targetBBox)
+                            }
+                            return false
+                        })
+                    }
+                }
+            });
+            globalData.graph.on('node:change:parent', function (r) {
+                const node = r.node;
+            });
         });
-
-        $("#control-check").click(function () {
-            Check(globalData);
-        });
-
     </script>
 
 </body>
