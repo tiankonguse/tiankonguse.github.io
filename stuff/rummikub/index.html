@@ -28,19 +28,19 @@
         }
 
         .red .num {
-            background-color: rgba(255, 0, 0, 0.2);
+            background-color: rgba(255, 0, 0, 0.4);
         }
 
         .black .num {
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.4);
         }
 
         .pink .num {
-            background-color: rgba(255, 105, 180, 0.2);
+            background-color: rgba(255, 105, 180, 0.4);
         }
 
         .blue .num {
-            background-color: rgba(0, 0, 255, 0.2);
+            background-color: rgba(0, 0, 255, 0.4);
         }
 
         .red .num.select-num {
@@ -73,44 +73,17 @@
 </head>
 
 <body style="height: 100%">
-    <div class="container">
-        <div class="row red "></div>
-        <div class="row  pink"></div>
-        <div class="row  blue"></div>
-        <div class="row  black"></div>
+    <div class="container card-num">
+        <div class="row red one"></div>
+        <div class="row red two"></div>
+        <div class="row pink one"></div>
+        <div class="row pink two"></div>
+        <div class="row blue one"></div>
+        <div class="row blue two"></div>
+        <div class="row black one"></div>
+        <div class="row black two"></div>
 
         <div class="row">
-            <div class="col wrap-control">
-                <select class="select-contolr btn btn-outline-primary" id="selec-control-color">
-                    <option value="red">red</option>
-                    <option value="pink">pink</option>
-                    <option value="blue">blue</option>
-                    <option value="black">black</option>
-                </select>
-            </div>
-            <div class="col wrap-control">
-                <select class="select-contolr btn btn-outline-secondary" id="selec-control-num">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                </select>
-            </div>
-            <div class="col wrap-control">
-                <button type="button" id="control-del" class="btn btn-danger select-contolr">删除</button>
-            </div>
-            <div class="col wrap-control">
-                <button type="button" id="control-add" class="btn btn-success select-contolr">添加</button>
-            </div>
             <div class="col wrap-control">
                 <button type="button" id="control-check" class="btn btn-warning select-contolr">检查</button>
             </div>
@@ -125,14 +98,14 @@
 
         $(document).ready(function () {
             Init(globalData);
+
+
+            $(document).on('click', '.card-num .row .col.num', function () {
+                Click($(this));
+            });
+
         });
 
-        $("#control-add").click(function () {
-            ClickAdd(globalData);
-        });
-        $("#control-del").click(function () {
-            ClickDel(globalData);
-        });
         $("#control-check").click(function () {
             Check(globalData);
         });
