@@ -4,6 +4,7 @@ var globalData = {};
 
 
 var dpData = {};
+const C = 4;
 const K = 13;
 const KK = 26;
 const BIT = 2;
@@ -178,12 +179,89 @@ function CheckColors(colorNums, ans) {
     return true;
 }
 
+function DfsSplit(colorNums, c, k, leftColorNums) {
+    if (c < 0 || k < 0 || c >= C || k >= K) return 0;
+    if (leftColorNums[c][k] == colorNums[c][k]) return 0;
+    if (colorNums[c][k] == 0) return 0;
+    var ans = 1;
+    leftColorNums[c][k] = colorNums[c][k];
+    for (var i = -1; i <= 1; i++) {
+        ans += DfsSplit(colorNums, c + i, k, leftColorNums);
+        ans += DfsSplit(colorNums, c, k + i, leftColorNums);
+    }
+    return ans;
+}
+
+function SplitColorNums(colorNums, leftColorNums, rightColorNums) {
+    var flag = false
+    var leftNum = 0;
+    for (var k = 0; k < K; k++) {
+        for (var c = 0; c < C; c++) {
+            if (colorNums[c][k] > 0) {
+                leftNum = DfsSplit(colorNums, c, k, leftColorNums);
+                flag = true
+                break;
+            }
+        }
+        if (flag) {
+            break
+        }
+    }
+
+    var rightNum = 0;
+    for (var c = 0; c < C; c++) {
+        for (var k = 0; k < K; k++) {
+            if (colorNums[c][k] == leftColorNums[c][k]) continue;
+            rightColorNums[c][k] = colorNums[c][k];
+            rightNum++;
+        }
+    }
+    return rightNum > 0;
+}
+
+function CreateEmptyColorNums() {
+    var colorNums = []
+    for (var i = 0; i < 4; i++) {
+        colorNums.push([]);
+        for (var j = 0; j < K; j++) {
+            colorNums[i].push(0);
+        }
+    }
+    return colorNums
+}
+
 function DfsCheck(num, colorNums, ans) {
     if (CheckColors(colorNums, ans)) {
         return true;
     }
 
+
     if (num == K) return false;
+
+    // 连通分支优化
+    var leftColorNums = CreateEmptyColorNums()
+    var rightColorNums = CreateEmptyColorNums()
+    if (SplitColorNums(colorNums, leftColorNums, rightColorNums)) {
+        var leftAns = []
+        var rightAns = []
+        if (DfsCheck(num, leftColorNums, leftAns) && DfsCheck(num, rightColorNums, rightAns)) {
+            for (var i in leftAns) {
+                ans.push(leftAns[i]);
+            }
+            for (var i in rightAns) {
+                ans.push(rightAns[i]);
+            }
+            return true;
+        }
+        return false;
+    }
+
+
+    var nowTime = getTimestampInMs();
+    if ((nowTime - globalData.endTime) > 10000) {
+        return false;
+    }
+
 
 
     var nums = [];
@@ -506,13 +584,14 @@ function renderAns(ans, callback) {
     // renderDestop(gData);
 }
 
-function getTimestampInMs () {
+function getTimestampInMs() {
     return Date.now();
-  }
+}
 
 function Check(callback) {
-    jQuery("#cal-time").text("正在尝试计算答案中");
-    var colorNums = []
+    globalData.beginTime = getTimestampInMs();
+    globalData.endTime = getTimestampInMs();
+    var colorNums = [];
     var num = 0;
     for (var color in colors) {
         var nums = []
@@ -522,20 +601,30 @@ function Check(callback) {
         }
         colorNums.push(nums);
     }
-    
-    var beginTime = getTimestampInMs();
-    // console.log("colorNums", colorNums);
-    var ans = []
-    var showText = "选择"+num+"个数字，";
-    if (DfsCheck(0, colorNums, ans)) {
-        console.log("ans", ans);
-        renderAns(ans, callback);
-        showText += '<span style="color: green;">答案显示如下</span>';
-    } else {
-        showText += '<span style="color: red;">没有答案</span>';
-    }
-    var endTime = getTimestampInMs();
-    jQuery("#cal-time").html((endTime - beginTime)/1000 + "s，" + showText);
+    globalData.calTime.text(" ...s ");
+    globalData.calNum.text("，选择" + num + "个数字 ");
+    globalData.calResult.text("，正在尝试计算答案中 ");
+
+    var showText = "";
+    setTimeout(function () {
+        // console.log("colorNums", colorNums);
+        var ans = []
+        if (DfsCheck(0, colorNums, ans)) {
+            console.log("ans", ans);
+            renderAns(ans, callback);
+            showText = '<span style="color: green;">答案显示如下</span>';
+        } else {
+            showText = '<span style="color: red;">没有答案</span>';
+        }
+        globalData.endTime = getTimestampInMs();
+        var costTime = (globalData.endTime - globalData.beginTime) / 1000;
+        globalData.calTime.text(costTime + "s");
+        if (costTime > 10) {
+            globalData.calResult.html('<span style="color: red;">超过 10 秒，放弃计算</span>');
+        } else {
+            globalData.calResult.html(showText);
+        }
+    }, 1);
 }
 function Reset() {
     var $rows = jQuery('.card-num .row .col-num');
