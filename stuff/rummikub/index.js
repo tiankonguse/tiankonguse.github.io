@@ -318,6 +318,7 @@ function InitMobile(height) {
 
 function renderMobie(gData) {
     var y = 0;
+    globalData.width = $(window).width() * 5 / 6;
     var cellWidth = globalData.width / 10;
     var cellHeight = 60;
     var cellFontSize = 25
@@ -375,14 +376,13 @@ function renderMobie(gData) {
 
 
 function renderDestop(gData) {
-    var y = 0;
+    globalData.width = $(window).width() * 2 / 3;
     var cellWidth = globalData.width / 10;
     var cellHeight = 60;
     var cellFontSize = 25
     var cellPading = 10
     jQuery("svg").remove();
 
-    globalData.width = $(window).width() * 2 / 3;
     globalData.graphX6 = new X6.Graph({
         container: document.getElementById('container-x6'),
         grid: true,
@@ -408,9 +408,9 @@ function renderDestop(gData) {
 
     globalData.graphX6.clearCells();
 
+    var y = 0;
     for (var i in gData) {
-        var pdata = gData[i];
-        var cellNum = pdata.childs.length;
+        const pdata = gData[i];
         var x = 0;
         const parent = globalData.graphX6.addNode({
             x: x,
@@ -474,14 +474,13 @@ function renderHtml(gData) {
 
 }
 
-function renderAns(ans) {
+function renderAns(ans, callback) {
     var gData = []
     for (var k in ans) {
         var d = ans[k];
         var pData = {
             "childs": []
         }
-        gData.push(pData);
 
         if (d.type == "num") {
             for (var j in d.value) {
@@ -492,7 +491,6 @@ function renderAns(ans) {
                 });
             }
         } else {
-            var $row = jQuery('<div class="row"></div>');
             for (var j in d.value) {
                 pData.childs.push({
                     "num": d.value[j] + 1,
@@ -500,13 +498,15 @@ function renderAns(ans) {
                 });
             }
         }
+        gData.push(pData);
     }
-    console.log(gData)
-    renderHtml(gData);
-    renderMobie(gData);
-    renderDestop(gData);
+    console.log("gData",gData)
+    callback(gData);
+    // renderHtml(gData);
+    // renderMobie(gData);
+    // renderDestop(gData);
 }
-function Check() {
+function Check(callback) {
     var colorNums = []
     for (var color in colors) {
         var nums = []
@@ -519,7 +519,7 @@ function Check() {
     var ans = []
     if (DfsCheck(0, colorNums, ans)) {
         console.log("ans", ans);
-        renderAns(ans);
+        renderAns(ans, callback);
     } else {
         alert("No");
     }

@@ -95,22 +95,28 @@
     <div class="container">
         <div class="row">
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;">
-                <a href="index_pc.html">PC版</a>
+                <a href="index.html">HTML版</a>
             </div>
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;">
-                <a href="index_mobile.html">手机版</a>
+                <a href="index_pc.html">PC版</a>
             </div>
         </div>
     </div>
     <div class="container card-ans"></div>
     <div id="container-x6" class="container card-x6"></div>
 
-
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 30px;">
+                移动端答案
+            </div>
+        </div>
+    </div>
     <div id="container-f6" class="container card-f6"></div>
 
     <!-- https://antv-x6.gitee.io/zh/docs/tutorial/about -->
-    <!-- <script src="x6.js"></script>
-    <script src="f6.js"></script> -->
+    <!-- <script src="x6.js"></script> -->
+    <script src="f6.js"></script>
     <script src="index.js"></script>
     <script>
 
@@ -126,6 +132,7 @@
             $("#control-check").click(function () {
                 Check(function (gData) {
                     renderHtml(gData);
+                    renderMobie(gData);
                 });
             });
 
