@@ -280,6 +280,12 @@ function InitMobile(height) {
     globalData.graphF6.fitView();
 
     // 监听
+    globalData.graphF6.on('dragstart', () => {
+        $('body').addClass('stop-scrolling')
+    });
+    globalData.graphF6.on('dragend', () => {
+        $('body').removeClass('stop-scrolling')
+    });
     globalData.graphF6.on('combo:dragend', () => {
         globalData.graphF6.getCombos().forEach((combo) => {
             globalData.graphF6.setItemState(combo, 'dragenter', false);
@@ -499,23 +505,37 @@ function renderAns(ans, callback) {
     // renderMobie(gData);
     // renderDestop(gData);
 }
+
+function getTimestampInMs () {
+    return Date.now();
+  }
+
 function Check(callback) {
+    jQuery("#cal-time").text("正在尝试计算答案中");
     var colorNums = []
+    var num = 0;
     for (var color in colors) {
         var nums = []
         for (var k in globalData[color]) {
+            num = num + globalData[color][k]
             nums.push(globalData[color][k]);
         }
         colorNums.push(nums);
     }
-    console.log("colorNums", colorNums);
+    
+    var beginTime = getTimestampInMs();
+    // console.log("colorNums", colorNums);
     var ans = []
+    var showText = "选择"+num+"个数字，";
     if (DfsCheck(0, colorNums, ans)) {
         console.log("ans", ans);
         renderAns(ans, callback);
+        showText += '<span style="color: green;">答案显示如下</span>';
     } else {
-        alert("No");
+        showText += '<span style="color: red;">没有答案</span>';
     }
+    var endTime = getTimestampInMs();
+    jQuery("#cal-time").html((endTime - beginTime)/1000 + "s，" + showText);
 }
 function Reset() {
     var $rows = jQuery('.card-num .row .col-num');
