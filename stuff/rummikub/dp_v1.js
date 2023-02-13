@@ -123,7 +123,7 @@ var Solver = function () {
         const maxOffset = CalMaxOffset(n, lrs[color], color);
         for (var offset = 3; offset <= maxOffset; offset++) {
             var nextLrs = DumpLrs(lrs);
-            nextLrs[color] = UpdateLR(offset, lrs[color][1]);
+            nextLrs[color] = UpdateLR(offset, nextLrs[color][1]);
             ret.flag = Dfs(n, nextLrs);
             if (ret.flag == 1) {
                 var oneAns = [];
@@ -175,7 +175,7 @@ var Solver = function () {
             }
             ret.flag = Dfs(n, nextLrs);
             if (ret.flag == 1) {
-                 var oneAns = [];
+                var oneAns = [];
                 for (const i in curentColorVals) {
                     if (c == i) continue;
                     oneAns.push({ "num": n, "color": i });
@@ -188,7 +188,7 @@ var Solver = function () {
     }
 
     function CreateDpVal() {
-        return { "flag": -1};
+        return { "flag": -1 };
     }
     function CreateArray(dims, offset, createVal) {
         if (dims.length === offset) return createVal();
@@ -198,13 +198,28 @@ var Solver = function () {
         }
         return ret;
     }
+    function DfsInit(nums) {
+        if (nums instanceof Array) {
+            for (const i in nums) {
+                DfsInit(nums[i]);
+            }
+        } else {
+            nums.flag = -1;
+        }
+    }
+
     function InitDp() {
         var dims = [N];
         for (var i = 0; i < C; i++) {
             dims.push(L, R);
         }
         // console.log("dims", dims);
-        g.dp = CreateArray(dims, 0, CreateDpVal);
+        if (typeof (g.dp) != "undefined") {
+            DfsInit(g.dp);
+        } else {
+            g.dp = CreateArray(dims, 0, CreateDpVal);
+        }
+
     }
 
     function CreateNumVal() {
