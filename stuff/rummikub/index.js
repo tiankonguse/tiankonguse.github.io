@@ -138,7 +138,7 @@ function Check(callback) {
         } else {
             globalData.calResult.html(showText);
         }
-    }, 1);
+    }, 0);
 }
 function Reset() {
     var $rows = jQuery('.card-num .row .col-num');
