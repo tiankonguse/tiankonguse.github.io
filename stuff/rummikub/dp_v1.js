@@ -14,6 +14,7 @@ var Solver = function () {
     const C = 4;
     const L = 6;
     const R = 6;
+    var curentIndex = 0;
 
     function GetDP(n, lrs) {
         var tmpDp = g.dp[n];
@@ -100,23 +101,40 @@ var Solver = function () {
         }
         return color;
     }
+
+    function SetTrue() {
+        return curentIndex + 1;
+    }
+    function SetFalse() {
+        return curentIndex + 0;
+    }
+    function IsTrue(v) {
+        return v % 2;
+    }
+    function IsSet(v) {
+        return v >= curentIndex;
+    }
+
     function Dfs(n, lrs) {
-        if (n == -1) return 1; // 出口
+        if (n == -1) {
+            return SetTrue(); // 出口
+        }
 
         var ret = GetDP(n, lrs);
-        if (ret.flag != -1) return ret.flag;
+        if (IsSet(ret.flag)) {
+            return ret.flag;
+        }
 
         const color = FirstColor(n, lrs);
         if (color == C) { // 全是 0
-            var nextLrs = DumpLrs(lrs);
+            var nextLrs = lrs;
             for (const c in nextLrs) {
                 for (const v in nextLrs[c]) {
                     if (nextLrs[c][v] == 0) continue;
                     nextLrs[c][v]--;
                 }
             }
-            ret.flag = Dfs(n - 1, nextLrs);
-            return ret.flag;
+            return ret.flag = Dfs(n - 1, nextLrs);
         }
 
         // 相同颜色
@@ -125,7 +143,7 @@ var Solver = function () {
             var nextLrs = DumpLrs(lrs);
             nextLrs[color] = UpdateLR(offset, nextLrs[color][1]);
             ret.flag = Dfs(n, nextLrs);
-            if (ret.flag == 1) {
+            if (IsTrue(ret.flag)) {
                 var oneAns = [];
                 for (var i = 0; i < offset; i++) {
                     oneAns.push({ "num": n - i, "color": color });
@@ -144,7 +162,7 @@ var Solver = function () {
         }
         if (curentColorSum < 3) {
             // 不足三个或四个，没答案
-            return ret.flag = 0;
+            return ret.flag = SetFalse();
         }
 
         // 数字全选择
@@ -154,7 +172,7 @@ var Solver = function () {
             nextLrs[i] = UpdateLR(1, lrs[i][1]);
         }
         ret.flag = Dfs(n, nextLrs);
-        if (ret.flag == 1) {
+        if (IsTrue(ret.flag)) {
             var oneAns = [];
             for (const i in curentColorVals) {
                 if (curentColorVals[i] == 0) continue;
@@ -164,17 +182,22 @@ var Solver = function () {
             return ret.flag;
         }
 
-        if (curentColorSum == 3) return ret.flag = 0;
+        if (curentColorSum == 3) {
+            return ret.flag = SetFalse();
+        }
 
         // 此时， color == 0 && curentColorSum == 4, 枚举选择三个
         for (var c = 1; c < C; c++) {
-            var nextLrs = DumpLrs(lrs);
+            var nextLrs = lrs;
+            if (c + 1 < C) {
+                nextLrs = DumpLrs(lrs);
+            }
             for (const i in curentColorVals) {
                 if (c == i) continue;
                 nextLrs[i] = UpdateLR(1, lrs[i][1]);
             }
             ret.flag = Dfs(n, nextLrs);
-            if (ret.flag == 1) {
+            if (IsTrue(ret.flag)) {
                 var oneAns = [];
                 for (const i in curentColorVals) {
                     if (c == i) continue;
@@ -184,7 +207,7 @@ var Solver = function () {
                 return ret.flag;
             }
         }
-        return ret.flag = 0;
+        return ret.flag = SetFalse();
     }
 
     function CreateDpVal() {
@@ -215,7 +238,8 @@ var Solver = function () {
         }
         // console.log("dims", dims);
         if (typeof (g.dp) != "undefined") {
-            DfsInit(g.dp);
+            // DfsInit(g.dp);
+            curentIndex += 2;
         } else {
             g.dp = CreateArray(dims, 0, CreateDpVal);
         }
@@ -226,21 +250,24 @@ var Solver = function () {
         return 0;
     }
     function Solver(colorNums, ans) {
+        InitDp();
+        if (typeof (colorNums) == "undefined") {
+            return false;
+        }
         g.colorNums = colorNums;
         g.ans = ans;
-        InitDp();
         const lrs = CreateArray([C, 2], 0, CreateNumVal);
         // console.log("lrs", lrs);
         const ret = Dfs(N - 1, lrs);
-        console.log("ans", ret, g);
-        return ret;
+        // console.log("ans", ret, g);
+        return IsTrue(ret);
     }
     return Solver;
 }();
 
 /**
- * 
- * @param {*} colorNums[4][13]  
+ *
+ * @param {*} colorNums[4][13]
  * @param {*} ans[]
  * @returns {*} bool, 返回true为通过，返回false为不通过
  */

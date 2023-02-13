@@ -30,6 +30,7 @@ function Init(data) {
     $("#control-reset").click(function () {
         Reset();
     });
+    // CheckV1();
 }
 
 
@@ -126,6 +127,7 @@ function Check(callback) {
             renderAns(ans, callback);
             showText = '<span style="color: green;">答案显示如下</span>';
         } else {
+            renderAns([], callback);
             showText = '<span style="color: red;">没有答案</span>';
         }
         globalData.endTime = getTimestampInMs();
