@@ -121,7 +121,10 @@
 
         <div class="row">
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;">
-                计算耗时：<span id="cal-time"></span>
+                计算耗时：
+                <span id="cal-time"></span>
+                <span id="cal-num"></span>
+                <span id="cal-result"></span>
             </div>
         </div>
     </div>
@@ -150,17 +153,11 @@
         $(document).ready(function () {
             Init(globalData);
 
-            $(document).on('click', '.card-num .row .col-num', function () {
-                Click($(this));
-            });
             $("#control-check").click(function () {
                 Check(function (gData) {
                     renderHtml(gData);
                     renderDestop(gData);
                 });
-            });
-            $("#control-reset").click(function () {
-                Reset();
             });
         });
     </script>

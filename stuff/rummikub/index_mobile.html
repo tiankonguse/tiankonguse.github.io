@@ -72,6 +72,7 @@
         .card-ans {
             padding: 30px;
         }
+
         .stop-scrolling {
             height: 100%;
             overflow: hidden;
@@ -82,7 +83,8 @@
 <body style="height: 100%">
     <div class="container">
         <div class="row">
-            <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;padding-bottom: 30px;">
+            <div class="col"
+                style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;padding-bottom: 30px;">
                 拉密数字麻将~以色列麻将（Rummikub） 手机画图版
             </div>
         </div>
@@ -126,7 +128,10 @@
 
         <div class="row">
             <div class="col" style="text-align: center;padding-top: 50px;color: #0001bb;font-size: 20px;">
-                计算耗时：<span id="cal-time"></span>
+                计算耗时：
+                <span id="cal-time"></span>
+                <span id="cal-num"></span>
+                <span id="cal-result"></span>
             </div>
         </div>
     </div>
@@ -154,17 +159,11 @@
         $(document).ready(function () {
             Init(globalData);
 
-            $(document).on('click', '.card-num .row .col-num', function () {
-                Click($(this));
-            });
             $("#control-check").click(function () {
                 Check(function (gData) {
                     renderHtml(gData);
                     renderMobie(gData);
                 });
-            });
-            $("#control-reset").click(function () {
-                Reset();
             });
         });
     </script>

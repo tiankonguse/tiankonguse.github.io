@@ -136,6 +136,18 @@ function Init(data) {
         }
     }
     InitDp();
+
+
+    $(document).on('click', '.card-num .row .col-num', function () {
+        Click($(this));
+    });
+    globalData.calTime = jQuery("#cal-time");
+    globalData.calNum = jQuery("#cal-num");
+    globalData.calResult = jQuery("#cal-result");
+
+    $("#control-reset").click(function () {
+        Reset();
+    });
 }
 
 

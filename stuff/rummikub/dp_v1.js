@@ -1,0 +1,227 @@
+
+/*
+F(n, l, r) 含义 [n, n-l) 都减2， [n-l, n-r) 都减一。 
+f(n, l1, r1, l2, r2, l3, r3, l4, r4) = {
+    "flag" : 0,
+    "pre" : [n, l1, r1, l2, r2, l3, r3, l4, r4]
+}
+*/
+
+// 闭包处理
+var Solver = function () {
+    var g = {};
+    const N = 13;
+    const C = 4;
+    const L = 5;
+    const R = 5;
+
+    function GetDP(n, lrs) {
+        var tmpDp = g.dp[n];
+        for (var i in lrs) {
+            for (var j in lrs[i]) {
+                tmpDp = tmpDp[lrs[i][j]];
+            }
+        }
+        return tmpDp;
+    }
+
+    // F(n, l, r) 含义 [n, n-l) 都减2， [n-l, n-r) 都减一。
+    function GetVal(n, lr, color, offset) {
+        var baseVal = g.colorNums[n - offset][color];
+        for (var v in lr) {
+            if (v > j) {
+                baseVal--;
+            }
+        }
+        return baseVal;
+    }
+
+    function DumpLrs(lrs) {
+        var tmpLrs = []
+        for (var i in lrs) {
+            var tmpLr = [];
+            for (var j in lrs[i]) {
+                tmpLr.push(lrs[i][j]);
+            }
+            tmpLrs.push(tmpLr);
+        }
+        return tmpLrs
+    }
+
+    /**
+     * 
+     * @param {数字最大值} n 
+     * @param {两个顺子的偏移量} lr 
+     * @param {当前颜色} color 
+     * @returns 
+     */
+    function CalMaxOffset(n, lr, color) {
+        var maxOffset = 0;
+        while (n - maxOffset >= 0 && maxOffset < 5) {
+            const val = GetVal(n, lr, color, maxOffset);
+            if (val == 0) break;
+            maxOffset++;
+        }
+        return maxOffset;
+    }
+
+    /**
+     * 
+     * @param {数字最大值} n 
+     * @param {当前的状态} lrs 
+     */
+    function CalColorVals(n, lrs) {
+        var curentColorVals = []
+        for (const color in lrs) {
+            const lr = lrs[color];
+            const val = GetVal(n, lr, color, 0);
+            if (val > 0) {
+                curentColorVals.push(1);
+            } else {
+                curentColorVals.push(0);
+            }
+        }
+        return curentColorVals;
+    }
+    function UpdateLR(l, r) {
+        if (l < r) {
+            return [l, r];
+        } else {
+            return [r, l];
+        }
+    }
+    function FirstColor(n, lrs) {
+        var color = 0;
+        while (color < C) {
+            const val = GetVal(n, lrs[color], color, 0);
+            if (val != 0) break;
+            color++;
+        }
+        return color;
+    }
+    function Dfs(n, lrs) {
+        var ret = GetDP(n, lrs);
+        if (ret.flag != -1) return ret.flag;
+        const color = FirstColor(n, lrs);
+
+        if (color == C) { // 全是 0
+            var nextLrs = DumpLrs(lrs);
+            for (const c in nextLrs) {
+                for (const v in nextLrs[c]) {
+                    if (nextLrs[c][v] == 0) continue;
+                    nextLrs[c][v]--;
+                }
+            }
+            ret.flag = Dfs(n - 1, lrs);
+            if (ret.flag == 1) {
+                ret.pre.push(n - 1);
+                ret.pre.push(DumpLrs(lrs));
+            }
+            return ret.flag;
+        }
+
+
+
+        // 相同颜色
+        const maxOffset = CalMaxOffset(n, lrs[color], color);
+        for (var offset = 3; offset <= maxOffset; offset++) {
+            var nextLrs = DumpLrs(lrs);
+            nextLrs[color] = UpdateLR(offset, lrs[color][1]);
+            ret.flag = Dfs(n, nextLrs);
+            if (ret.flag == 1) {
+                ret.pre.push(n);
+                ret.pre.push(nextLrs);
+                for (const i = 0; i < offset; i++) {
+                    ret.ans.push({ "num": n - i, "color": color });
+                }
+                return ret.flag;
+            }
+        }
+
+        // 相同数字
+
+        const curentColorVals = CalColorVals(n, lrs);
+        var curentColorSum = 0;
+        for (const i in curentColorVals) {
+            curentColorSum += curentColorVals[i];
+        }
+        if (curentColorSum < 3) {
+            // 不足三个或四个，没答案
+            return ret.flag = 0;
+        }
+
+        // 数字全选择
+        var nextLrs = DumpLrs(lrs);
+        for (const i in curentColorVals) {
+            if (curentColorVals[i] == 0) continue;
+            nextLrs[i] = UpdateLR(1, lrs[i][1]);
+        }
+        ret.flag = Dfs(n, nextLrs);
+        if (ret.flag == 1) {
+            ret.pre.push(n);
+            ret.pre.push(nextLrs);
+            for (const i in curentColorVals) {
+                if (curentColorVals[i] == 0) continue;
+                ret.ans.push({ "num": n, "color": i });
+            }
+            return ret.flag;
+        }
+
+        if (curentColorSum == 3) return ret.flag = 0;
+
+        // 此时， color == 0 && curentColorSum == 4, 枚举选择三个
+        for (var c = 1; c < C; c++) {
+            var nextLrs = DumpLrs(lrs);
+            for (const i in curentColorVals) {
+                if (c == i) continue;
+                nextLrs[i] = UpdateLR(1, lrs[i][1]);
+            }
+            ret.flag = Dfs(n, nextLrs);
+            if (ret.flag == 1) {
+                ret.pre.push(n);
+                ret.pre.push(nextLrs);
+                for (const i in curentColorVals) {
+                    if (c == i) continue;
+                    ret.ans.push({ "num": n, "color": i });
+                }
+                return ret.flag;
+            }
+        }
+        return ret.flag = 0;
+    }
+
+    function CreateArray(dims, offset) {
+        if (dims.length === offset) return { "flag": -1, "pre": [], "ans": [] };
+        var ret = [];
+        for (var i = 0; i < dims[offset]; i++) {
+            ret.push(CreateArray(dims, offset + 1));;
+        }
+        return ret;
+    }
+    function InitDp() {
+        var dims = [N];
+        for (var i = 0; i < C; i++) {
+            dims.push(L, R);
+        }
+        g.dp = CreateArray(dims, 0);
+    }
+
+    function Solver(colorNums, ans) {
+        g.colorNums = colorNums;
+        g.ans = ans;
+        InitDp();
+        var lrs = CreateArray([C, 2], 0);
+        return Dfs(N - 1, lrs);
+    }
+    return Solver;
+}();
+
+/**
+ * 
+ * @param {*} colorNums[4][13]  
+ * @param {*} ans[]
+ * @returns {*} bool, 返回true为通过，返回false为不通过
+ */
+function CheckV1(colorNums, ans) {
+    return Solver(colorNums, ans);
+}

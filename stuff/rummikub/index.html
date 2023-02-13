@@ -137,6 +137,7 @@
     <!-- https://antv-x6.gitee.io/zh/docs/tutorial/about -->
     <!-- <script src="x6.js"></script>
     <script src="f6.js"></script> -->
+    <!-- <script src="dp_v1.js"></script> -->
     <script src="index.js"></script>
     <script>
 
@@ -146,24 +147,11 @@
         $(document).ready(function () {
             Init(globalData);
 
-            $(document).on('click', '.card-num .row .col-num', function () {
-                Click($(this));
-            });
-            globalData.calTime = jQuery("#cal-time");
-            globalData.calNum = jQuery("#cal-num");
-            globalData.calResult = jQuery("#cal-result");
             $("#control-check").click(function () {
                 Check(function (gData) {
                     renderHtml(gData);
                 });
             });
-            $("#control-reset").click(function () {
-                Reset();
-            });
-
-
-            globalData.mobile = isMobile();
-            console.log(globalData);
         });
     </script>
 
