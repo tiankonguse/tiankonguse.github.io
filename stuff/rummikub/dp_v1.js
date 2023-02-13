@@ -1,4 +1,4 @@
-
+"use strict";
 /*
 F(n, l, r) 含义 [n, n-l) 都减2， [n-l, n-r) 都减一。 
 f(n, l1, r1, l2, r2, l3, r3, l4, r4) = {
@@ -12,14 +12,15 @@ var Solver = function () {
     var g = {};
     const N = 13;
     const C = 4;
-    const L = 5;
-    const R = 5;
+    const L = 6;
+    const R = 6;
 
     function GetDP(n, lrs) {
         var tmpDp = g.dp[n];
-        for (var i in lrs) {
-            for (var j in lrs[i]) {
-                tmpDp = tmpDp[lrs[i][j]];
+        for (var color = 0; color < C; color++) {
+            const lr = lrs[color];
+            for (var j = 0; j < 2; j++) {
+                tmpDp = tmpDp[lr[j]];
             }
         }
         return tmpDp;
@@ -27,9 +28,9 @@ var Solver = function () {
 
     // F(n, l, r) 含义 [n, n-l) 都减2， [n-l, n-r) 都减一。
     function GetVal(n, lr, color, offset) {
-        var baseVal = g.colorNums[n - offset][color];
-        for (var v in lr) {
-            if (v > j) {
+        var baseVal = g.colorNums[color][n - offset];
+        for (const i in lr) {
+            if (lr[i] > offset) {
                 baseVal--;
             }
         }
@@ -100,10 +101,12 @@ var Solver = function () {
         return color;
     }
     function Dfs(n, lrs) {
+        if (n == -1) return 1; // 出口
+
         var ret = GetDP(n, lrs);
         if (ret.flag != -1) return ret.flag;
-        const color = FirstColor(n, lrs);
 
+        const color = FirstColor(n, lrs);
         if (color == C) { // 全是 0
             var nextLrs = DumpLrs(lrs);
             for (const c in nextLrs) {
@@ -112,15 +115,9 @@ var Solver = function () {
                     nextLrs[c][v]--;
                 }
             }
-            ret.flag = Dfs(n - 1, lrs);
-            if (ret.flag == 1) {
-                ret.pre.push(n - 1);
-                ret.pre.push(DumpLrs(lrs));
-            }
+            ret.flag = Dfs(n - 1, nextLrs);
             return ret.flag;
         }
-
-
 
         // 相同颜色
         const maxOffset = CalMaxOffset(n, lrs[color], color);
@@ -129,11 +126,11 @@ var Solver = function () {
             nextLrs[color] = UpdateLR(offset, lrs[color][1]);
             ret.flag = Dfs(n, nextLrs);
             if (ret.flag == 1) {
-                ret.pre.push(n);
-                ret.pre.push(nextLrs);
-                for (const i = 0; i < offset; i++) {
-                    ret.ans.push({ "num": n - i, "color": color });
+                var oneAns = [];
+                for (var i = 0; i < offset; i++) {
+                    oneAns.push({ "num": n - i, "color": color });
                 }
+                g.ans.push(oneAns);
                 return ret.flag;
             }
         }
@@ -158,12 +155,12 @@ var Solver = function () {
         }
         ret.flag = Dfs(n, nextLrs);
         if (ret.flag == 1) {
-            ret.pre.push(n);
-            ret.pre.push(nextLrs);
+            var oneAns = [];
             for (const i in curentColorVals) {
                 if (curentColorVals[i] == 0) continue;
-                ret.ans.push({ "num": n, "color": i });
+                oneAns.push({ "num": n, "color": i });
             }
+            g.ans.push(oneAns);
             return ret.flag;
         }
 
@@ -178,23 +175,26 @@ var Solver = function () {
             }
             ret.flag = Dfs(n, nextLrs);
             if (ret.flag == 1) {
-                ret.pre.push(n);
-                ret.pre.push(nextLrs);
+                 var oneAns = [];
                 for (const i in curentColorVals) {
                     if (c == i) continue;
-                    ret.ans.push({ "num": n, "color": i });
+                    oneAns.push({ "num": n, "color": i });
                 }
+                g.ans.push(oneAns);
                 return ret.flag;
             }
         }
         return ret.flag = 0;
     }
 
-    function CreateArray(dims, offset) {
-        if (dims.length === offset) return { "flag": -1, "pre": [], "ans": [] };
+    function CreateDpVal() {
+        return { "flag": -1};
+    }
+    function CreateArray(dims, offset, createVal) {
+        if (dims.length === offset) return createVal();
         var ret = [];
         for (var i = 0; i < dims[offset]; i++) {
-            ret.push(CreateArray(dims, offset + 1));;
+            ret.push(CreateArray(dims, offset + 1, createVal));;
         }
         return ret;
     }
@@ -203,15 +203,22 @@ var Solver = function () {
         for (var i = 0; i < C; i++) {
             dims.push(L, R);
         }
-        g.dp = CreateArray(dims, 0);
+        // console.log("dims", dims);
+        g.dp = CreateArray(dims, 0, CreateDpVal);
     }
 
+    function CreateNumVal() {
+        return 0;
+    }
     function Solver(colorNums, ans) {
         g.colorNums = colorNums;
         g.ans = ans;
         InitDp();
-        var lrs = CreateArray([C, 2], 0);
-        return Dfs(N - 1, lrs);
+        const lrs = CreateArray([C, 2], 0, CreateNumVal);
+        // console.log("lrs", lrs);
+        const ret = Dfs(N - 1, lrs);
+        console.log("ans", ret, g);
+        return ret;
     }
     return Solver;
 }();

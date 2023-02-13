@@ -135,7 +135,7 @@ function Init(data) {
             row2.append('<div class="col num two btn col-num ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
         }
     }
-    InitDp();
+    // InitDp();
 
 
     $(document).on('click', '.card-num .row .col-num', function () {
@@ -179,11 +179,11 @@ function CheckColors(colorNums, ans) {
         var mask = masks[k];
         while (mask != 0) {
             const data = dpData[mask];
-            ans.push({
-                "type": "seq",
-                "color": colorName[k],
-                "value": data.ans
-            });
+            var tmpAns = [];
+            for (var i in data.ans) {
+                tmpAns.push({ "num": data.ans[i], "color": k });
+            }
+            ans.push(tmpAns);
             mask = data.pre;
         }
     }
@@ -302,18 +302,22 @@ function DfsCheck(num, colorNums, ans) {
 
             if (DfsCheck(num + 1, colorNums, ans)) {
                 if (i > 0) {
-                    ans.push({
-                        "type": "num",
-                        "num": num,
-                        "value": sameCase[i]
-                    });
+                    var tmpAns = []
+                    for (var k in sameCase[i]) {
+                        if (sameCase[i][k] == 0) continue;
+                        tmpAns.push({ "num": num, "color": k });
+                    }
+                    ans.push(tmpAns);
+
                 }
                 if (j > 0) {
-                    ans.push({
-                        "type": "num",
-                        "num": num,
-                        "value": sameCase[j]
-                    });
+
+                    var tmpAns = []
+                    for (var k in sameCase[j]) {
+                        if (sameCase[j][k] == 0) continue;
+                        tmpAns.push({ "num": num, "color": k });
+                    }
+                    ans.push(tmpAns);
                 }
                 return true;
             }
@@ -566,26 +570,17 @@ function renderHtml(gData) {
 function renderAns(ans, callback) {
     var gData = []
     for (var k in ans) {
-        var d = ans[k];
+        const oneAns = ans[k];
         var pData = {
             "childs": []
         }
 
-        if (d.type == "num") {
-            for (var j in d.value) {
-                if (d.value[j] == 0) continue;
-                pData.childs.push({
-                    "num": d.num + 1,
-                    "color": colorName[j]
-                });
-            }
-        } else {
-            for (var j in d.value) {
-                pData.childs.push({
-                    "num": d.value[j] + 1,
-                    "color": d.color
-                });
-            }
+        for (const j in oneAns) {
+            const one = oneAns[j];
+            pData.childs.push({
+                "num": one.num + 1,
+                "color": colorName[one.color]
+            });
         }
         gData.push(pData);
     }
@@ -621,7 +616,9 @@ function Check(callback) {
     setTimeout(function () {
         // console.log("colorNums", colorNums);
         var ans = []
-        if (DfsCheck(0, colorNums, ans)) {
+
+        if (CheckV1(colorNums, ans)) {
+            // if (DfsCheck(0, colorNums, ans)) {
             console.log("ans", ans);
             renderAns(ans, callback);
             showText = '<span style="color: green;">答案显示如下</span>';
