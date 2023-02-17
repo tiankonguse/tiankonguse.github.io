@@ -1,26 +1,58 @@
-const colors = { "red": "红", "blue": "蓝", "pink": "粉", "black": "黑" };
-const colorName = ["red", "blue", "pink", "black"];
+const colors = [{
+    "name": "red",
+    "title": "红",
+    "num": 13
+}, {
+    "name": "blue",
+    "title": "蓝",
+    "num": 13
+}, {
+    "name": "pink",
+    "title": "粉",
+    "num": 13
+}, {
+    "name": "black",
+    "title": "黑",
+    "num": 13
+}, {
+    "name": "green",
+    "title": "百搭",
+    "num": 1
+}];
+const numMax = 12;
 var globalData = {};
 
 function Init(data) {
     globalData = data;
 
-    for (const color in colors) {
-        globalData[color] = [];
+    for (const colorIndex in colors) {
+        var colorName = colors[colorIndex].name;
+        var colorNum = colors[colorIndex].num;
+        var colorTitle = colors[colorIndex].title
+        globalData[colorName] = [];
 
-        var row1 = jQuery('.card-num .row.one.' + color)
-        var row2 = jQuery('.card-num .row.two.' + color)
-        row1.append('<div class="col num one select-num col-head ' + color + '"> <span class="val">' + colors[color] + '</span> </div>');
-        row2.append('<div class="col num two select-num col-head ' + color + '"> <span class="val">' + colors[color] + '</span> </div>');
-        for (var i = 1; i <= 13; i++) {
-            globalData[color].push(0);
-            row1.append('<div class="col num one btn col-num ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
-            row2.append('<div class="col num two btn col-num ' + color + '" attr-val="' + i + '" attr-color="' + color + '"> <span class="val">' + i + '</span> </div>');
+        for (var j = 0; j < 2; j++) {
+            var numClass = "num" + (j + 1);
+            var row = jQuery('.card-num .row.' + numClass + '.' + colorName)
+            row.append('<div class="col num ' + numClass + ' select-num col-head ' + colorName + '"> <span class="val">' + colorTitle + '</span> </div>');
+            var col11 = jQuery('<div class="col-11"></div></div>');
+            var row11 = jQuery('<div class="row row-num"></div>');
+            for (var i = 1; i <= colorNum; i++) {
+                globalData[colorName].push(0);
+                row11.append('<div class="col num + numClass + btn col-num ' + colorName + '" attr-val="' + i + '" attr-color="' + colorName + '"> <span class="val">' + i + '</span> </div>');
+            }
+            if (numMax - colorNum > 0) {
+                var num = numMax - colorNum;
+                row11.append('<div class="col-' + num + ' btn"> <span class="val"></span> </div>');
+            }
+            col11.append(row11);
+            row.append(col11);
         }
     }
 
 
-    $(document).on('click', '.card-num .row .col-num', function () {
+
+    $(document).on('click', '.card-num .row-num .col-num', function () {
         Click($(this));
     });
     globalData.calTime = jQuery("#cal-time");
@@ -30,7 +62,6 @@ function Init(data) {
     $("#control-reset").click(function () {
         Reset();
     });
-    // CheckV1();
 }
 
 
@@ -86,7 +117,7 @@ function renderAns(ans, callback) {
             const one = oneAns[j];
             pData.childs.push({
                 "num": one.num + 1,
-                "color": colorName[one.color]
+                "color": colors[one.color].name
             });
         }
         gData.push(pData);
@@ -104,11 +135,12 @@ function Check(callback) {
     globalData.endTime = getTimestampInMs();
     var colorNums = [];
     var num = 0;
-    for (var color in colors) {
-        var nums = []
-        for (var k in globalData[color]) {
-            num = num + globalData[color][k]
-            nums.push(globalData[color][k]);
+    for (var colorIndex in colors) {
+        var colorName = colors[colorIndex].name;
+        var nums = [];
+        for (var k in globalData[colorName]) {
+            num = num + globalData[colorName][k]
+            nums.push(globalData[colorName][k]);
         }
         colorNums.push(nums);
     }
@@ -118,8 +150,9 @@ function Check(callback) {
 
     var showText = "";
     setTimeout(function () {
-        // console.log("colorNums", colorNums);
+        console.log("colorNums", colorNums);
         var ans = []
+
 
         if (CheckV1(colorNums, ans)) {
             // if (DfsCheck(0, colorNums, ans)) {

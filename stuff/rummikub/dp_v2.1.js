@@ -281,6 +281,40 @@ var Solver = function () {
  * @param {*} ans[]
  * @returns {*} bool, 返回true为通过，返回false为不通过
  */
+const AllMatchIndex = 4;
+
 function CheckV1(colorNums, ans) {
-    return Solver(colorNums, ans);
+    var allMatchNum = colorNums[AllMatchIndex][0];
+    function Dfs(allMatchIndex, J) {
+        if (allMatchIndex == allMatchNum) {
+            return Solver(colorNums, ans);
+        }
+
+        for (var j = J; j < 13; j++) {
+            for (var i = 0; i < 4; i++) {
+                if (colorNums[i][j] == 2) continue;
+
+                colorNums[i][j]++;
+                if (Dfs(allMatchIndex + 1, J)) {
+                    ans.push([{
+                        "num": j,
+                        "color": i
+                    }]);
+                    return true;
+                }
+                colorNums[i][j]--;
+            }
+        }
+        return Solver(colorNums, ans);
+    }
+    if (Solver(colorNums, ans)) {
+        for (var i = 0; i < allMatchNum; i++) {
+            ans.push([{
+                "num": -1,
+                "color": 4
+            }]);
+        }
+        return true;
+    }
+    return Dfs(0, 0);
 }

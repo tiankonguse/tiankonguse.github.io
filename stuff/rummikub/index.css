@@ -27,6 +27,11 @@
     background-color: rgba(0, 0, 255, 0.2);
 }
 
+.green.num {
+    background-color: rgb(221 0 250 / 31%);
+}
+
+
 .red.num.select-num {
     background-color: red;
 }
@@ -41,6 +46,10 @@
 
 .blue.num.select-num {
     background-color: blue;
+}
+
+.green.num.select-num {
+    background-color: rgb(221 0 250 / 51%);
 }
 
 .select-contolr {
