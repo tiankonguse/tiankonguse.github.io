@@ -64,7 +64,7 @@ var Solver = function () {
      */
     function CalMaxOffset(n, lr, color) {
         var maxOffset = 0;
-        while (n - maxOffset >= 0 && maxOffset < 5) {
+        while (n - maxOffset >= 0 && maxOffset < R) {
             const val = GetVal(n, lr, color, maxOffset);
             if (val == 0) break;
             maxOffset++;
@@ -128,9 +128,9 @@ var Solver = function () {
             return SetTrue(); // 出口
         }
 
-        var ret = GetDP(n, lrs);
-        if (IsSetObj(ret)) {
-            return GetObjVal(ret);
+        var retWrap = GetDP(n, lrs);
+        if (IsSetObj(retWrap)) {
+            return GetObjVal(retWrap);
         }
 
 
@@ -141,11 +141,13 @@ var Solver = function () {
         }
         if (color == C) {
             var nextLrs = lrs;
-            for (const v in nextLrs[color]) {
-                if (nextLrs[color][v] == 0) continue;
-                nextLrs[color][v]--;
+            for (const c in nextLrs) {
+                for (const v in nextLrs[c]) {
+                    if (nextLrs[c][v] == 0) continue;
+                    nextLrs[c][v]--;
+                }
             }
-            return SetObj(ret, Dfs(n - 1, nextLrs));
+            return SetObj(retWrap, Dfs(n - 1, nextLrs));
         }
 
         // 相同颜色
@@ -153,14 +155,14 @@ var Solver = function () {
         for (var offset = 3; offset <= maxOffset; offset++) {
             var nextLrs = DumpLrs(lrs);
             nextLrs[color] = UpdateLR(offset, nextLrs[color][1]);
-            SetObj(ret, Dfs(n, nextLrs));
-            if (IsTrueObj(ret)) {
+            SetObj(retWrap, Dfs(n, nextLrs));
+            if (IsTrueObj(retWrap)) {
                 var oneAns = [];
                 for (var i = 0; i < offset; i++) {
                     oneAns.push({ "num": n - i, "color": color });
                 }
                 g.ans.push(oneAns);
-                return GetObjVal(ret);
+                return GetObjVal(retWrap);
             }
         }
 
@@ -171,7 +173,7 @@ var Solver = function () {
         }
         if (curentColorSum < 3) {
             // 不足三个或四个，没答案
-            return SetFalseObj(ret);
+            return SetFalseObj(retWrap);
         }
 
         // 数字全选择
@@ -180,19 +182,19 @@ var Solver = function () {
             if (curentColorVals[i] == 0) continue;
             nextLrs[i] = UpdateLR(1, lrs[i][1]);
         }
-        SetObj(ret, Dfs(n, nextLrs));
-        if (IsTrueObj(ret)) {
+        SetObj(retWrap, Dfs(n, nextLrs));
+        if (IsTrueObj(retWrap)) {
             var oneAns = [];
             for (const i in curentColorVals) {
                 if (curentColorVals[i] == 0) continue;
                 oneAns.push({ "num": n, "color": i });
             }
             g.ans.push(oneAns);
-            return GetObjVal(ret);
+            return GetObjVal(retWrap);
         }
 
         if (curentColorSum == 3) {
-            return SetFalseObj(ret);
+            return SetFalseObj(retWrap);
         }
 
         // 此时， color == 0 && curentColorSum == 4, 枚举选择三个
@@ -205,23 +207,20 @@ var Solver = function () {
                 if (c == i) continue;
                 nextLrs[i] = UpdateLR(1, lrs[i][1]);
             }
-            SetObj(ret, Dfs(n, nextLrs));
-            if (IsTrueObj(ret)) {
+            SetObj(retWrap, Dfs(n, nextLrs));
+            if (IsTrueObj(retWrap)) {
                 var oneAns = [];
                 for (const i in curentColorVals) {
                     if (c == i) continue;
                     oneAns.push({ "num": n, "color": i });
                 }
                 g.ans.push(oneAns);
-                return GetObjVal(ret);
+                return GetObjVal(retWrap);
             }
         }
-        return SetFalseObj(ret);
+        return SetFalseObj(retWrap);
     }
 
-    function CreateDpVal() {
-        return { "flag": -1 };
-    }
     function CreateArray(dims, offset, createVal) {
         if (dims.length === offset) return createVal();
         var ret = [];
