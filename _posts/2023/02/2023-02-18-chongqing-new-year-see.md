@@ -84,7 +84,7 @@ published: true
 1.24，周二，旧历大年初三，放假第十一天。  
 10:30起床，丈母娘家请吃饭。  
 下午老婆在商场打牌，晚上在茶楼打牌，打到23:50。  
-我读完了《[平面国])(https://mp.weixin.qq.com/s/TUp02NCFp939sFo70x01xg》这本书。  
+我读完了《[平面国](https://mp.weixin.qq.com/s/TUp02NCFp939sFo70x01xg)》这本书。  
 
 
 

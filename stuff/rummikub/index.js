@@ -16,7 +16,7 @@ const colors = [{
     "num": 13
 }, {
     "name": "green",
-    "title": "百搭",
+    "title": "王",
     "num": 1
 }];
 const numMax = 12;
@@ -145,8 +145,8 @@ function Check(callback) {
         colorNums.push(nums);
     }
     globalData.calTime.text(" ...s ");
-    globalData.calNum.text("，选择" + num + "个数字 ");
-    globalData.calResult.text("，正在尝试计算答案中 ");
+    globalData.calNum.text("选择" + num + "个数字 ");
+    globalData.calResult.text("正在尝试计算答案中 ");
 
     var showText = "";
     setTimeout(function () {
