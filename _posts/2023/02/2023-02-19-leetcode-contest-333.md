@@ -89,12 +89,16 @@ while (n) {
 
 
 ```
-int mask = GetMsk(nums[i]);
-if (mask == -1) continue;
-next = pre; // 不选择
-for (int j = 0; j < (1 << k); j++) {
-  if ((j & mask) != 0) continue;
-  next[j | mask] += pre[j];
+for (int i = 0; i < nums.size(); i++) {
+  int mask = GetMsk(nums[i]);
+  if (mask == -1) continue;
+  next = pre;
+  for (int j = 0; j < (1 << k); j++) {
+    if ((j & mask) == 0) {
+      next[j | mask] = (next[j | mask] + pre[j]) % mod;
+    }
+  }
+  pre.swap(next);
 }
 ```
 
