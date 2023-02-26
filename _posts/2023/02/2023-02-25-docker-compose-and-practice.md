@@ -163,7 +163,6 @@ a9f910e73ca8   mongo              0.0.0.0:27017->27017/tcp   nerd-cave-mongo-hos
 
 
 ```
-
 docker run -d \
     --name nerd-cave-service \
     --network nerd-cave \
