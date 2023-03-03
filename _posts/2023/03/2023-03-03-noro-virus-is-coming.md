@@ -92,7 +92,7 @@ published: true
 最近各个媒体都在宣传诺如病毒。   
 
 
-![](https://res2023.tiankonguse.com/images/2023/03/03/003.png) 
+![](https://res2023.tiankonguse.com/images/2023/03/03/004.png) 
 
 
 所以 2 月 21 日凌晨吐的那一刻，我就明白了， 2017 年的我肠胃炎就是诺如病毒，这次我也是诺如病毒。  
