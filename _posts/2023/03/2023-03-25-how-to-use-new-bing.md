@@ -49,7 +49,7 @@ published: true
 
 
 
-![](https://res2023.tiankonguse.com/images/2023/03/25/002.png)
+![](https://res2023.tiankonguse.com/images/2023/03/25/002.jpg)
 
 
 第三步：进入 chat 页面。  
@@ -58,13 +58,13 @@ published: true
 此时主页可以在菜单栏看到 chat 入口，搜索框下面也可以看到 chat 入口。  
 
 
-![](https://res2023.tiankonguse.com/images/2023/03/25/003.png)
+![](https://res2023.tiankonguse.com/images/2023/03/25/003.jpg)
 
 
 点击菜单栏的 chat，就会提示下载 `Microsoft Edge` 浏览器。  
 
 
-![](https://res2023.tiankonguse.com/images/2023/03/25/004.png)
+![](https://res2023.tiankonguse.com/images/2023/03/25/004.jpg)
 
 
 点击搜索框下的 `Learn More`，也可以看到提示下载 `Microsoft Edge` 浏览器。   
@@ -80,7 +80,7 @@ published: true
 可以在菜单栏看到 chat 入口。  
 
 
-![](https://res2023.tiankonguse.com/images/2023/03/25/006.png)
+![](https://res2023.tiankonguse.com/images/2023/03/25/006.jpg)
 
 
 之后就可以正常使用了。  
