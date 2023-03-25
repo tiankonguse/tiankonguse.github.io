@@ -29,19 +29,7 @@ jQuery(document).ready(function(){
         }
     });
     //***********************
-    
-    // tk.comment.init($('#disqus_container .comment'));
 
-    // //ad
-    // if(tk.isMobile.any()){
-    //     tk.ad.showPageFoot("ad-page-footer", "auto"); 
-    //     //tk.ad.showPageFoot("ad-page-footer", "300-250");        
-    // }else{
-    //     tk.ad.showPageFoot("ad-page-footer", "auto");
-    //     //tk.ad.showPageFoot("ad-page-footer", "728-90");
-    // }
-    
-    //tk.ad.loadGoogleJs();
     setTimeout(function(){
         $(".home-follow").click();
     }, 3000);

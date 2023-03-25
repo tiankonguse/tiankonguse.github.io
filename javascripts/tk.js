@@ -589,56 +589,56 @@ tk.Composition(TK, {
 使用方式： tk.comment.init($select);
 参数说明： $select 是要显示位置的对象，比如 $('#disqus_container .comment')
 */
-tk.AddMethod(TK,{
-    Comment : function Comment(){
-        this.isHaveComment = true;
-        this.disqus_shortname = 'tiankonguse-record';
-        this.duoshuo_shortname = 'tiankonguse';
-        this.hash = location.hash;
-        this.time = 5000;
-    }
-});
-tk.Composition(TK.Comment, {
-    init : function init(dom){
-        this.dom = dom;
-        if(!this.isHaveComment || this.dom.length == 0){
-            return;
-        }
-        if(this.shouldLoad()){
-            this.loadComment();
-        }else{
-            this.bindClick();
-            this.laterLoad(this.time);
-        }
+// tk.AddMethod(TK,{
+//     Comment : function Comment(){
+//         this.isHaveComment = true;
+//         this.disqus_shortname = 'tiankonguse-record';
+//         this.duoshuo_shortname = 'tiankonguse';
+//         this.hash = location.hash;
+//         this.time = 5000;
+//     }
+// });
+// tk.Composition(TK.Comment, {
+//     init : function init(dom){
+//         this.dom = dom;
+//         if(!this.isHaveComment || this.dom.length == 0){
+//             return;
+//         }
+//         if(this.shouldLoad()){
+//             this.loadComment();
+//         }else{
+//             this.bindClick();
+//             this.laterLoad(this.time);
+//         }
         
-    },
-    laterLoad : function laterLoad(t){
-        var that = this;
-        setTimeout(function(){
-            that.loadComment();
-        }, t);
-    },
-    shouldLoad  : function shouldLoad(){
-        return /\#comment/.test(this.hash ) || /\#disqus/.test(this.hash );
-    },
-    bindClick : function bindClick(){
-        var that = this;
-        this.dom.on('click',function(){
-            that.loadComment();
-        });
-    },
-    loadComment : function loadComment(){
-        var that = this.dom;
-        that.html('加载中...');
-        //$.getScript('https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js',function(){that.remove()});
-        //$.getScript('http://static.duoshuo.com/embed.js',function(){that.remove()});
-        $.getScript('https://' + this.disqus_shortname + '.disqus.com/embed.js',function(){that.remove()});
-    }
-});
-tk.Composition(TK, {
-        comment : new TK.Comment()
-    }
-);
+//     },
+//     laterLoad : function laterLoad(t){
+//         var that = this;
+//         setTimeout(function(){
+//             that.loadComment();
+//         }, t);
+//     },
+//     shouldLoad  : function shouldLoad(){
+//         return /\#comment/.test(this.hash ) || /\#disqus/.test(this.hash );
+//     },
+//     bindClick : function bindClick(){
+//         var that = this;
+//         this.dom.on('click',function(){
+//             that.loadComment();
+//         });
+//     },
+//     loadComment : function loadComment(){
+//         var that = this.dom;
+//         that.html('加载中...');
+//         //$.getScript('https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js',function(){that.remove()});
+//         //$.getScript('http://static.duoshuo.com/embed.js',function(){that.remove()});
+//         $.getScript('https://' + this.disqus_shortname + '.disqus.com/embed.js',function(){that.remove()});
+//     }
+// });
+// tk.Composition(TK, {
+//         comment : new TK.Comment()
+//     }
+// );
 
 
 tk.Composition(TK, {

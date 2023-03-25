@@ -6,8 +6,6 @@ tk.AddMethod(TK,{
         this._downName = ".js-scroll-down";
         this._downTag = "#_down";
         
-        this._commentName = ".js-scroll-comment";
-        this._commentTag = "#disqus_container";
         this._defaultPage = "/about.html#disqus_container";
     }
 });
@@ -24,9 +22,6 @@ tk.Composition(TK.Scroll,{
         if(name == "down"){
             $(that._downName).show();
         }
-        if(name == "comment"){
-            $(that._commentName).show();
-        }
     },
     hide : function(name){
         var that = this;
@@ -36,21 +31,11 @@ tk.Composition(TK.Scroll,{
         if(name == "down"){
             $(that._downName).hide();
         }
-        if(name == "comment"){
-            $(that._commentName).hide();
-        }
     },
     bind : function(){
         var that = this;
         $(that._topName).click(function(){
             tk.animateGoto($(that._topTag).position().top);
-        });
-        $(that._commentName).click(function(){
-            if($(that._commentTag).length){
-                tk.animateGoto($(that._commentTag).position().top);
-            }else{
-                window.open(that._defaultPage);
-            }
         });
         $(that._downName).click(function(){
             tk.animateGoto($(that._downTag).position().top);
