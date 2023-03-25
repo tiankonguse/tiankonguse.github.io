@@ -36,18 +36,20 @@ published: true
 主页地址：https://bing.com  
 
 
-第一步：语言设置为英文，地区设置为美国，刷新页面。  
-
-
-
-![](https://res2023.tiankonguse.com/images/2023/03/25/002.png)
-
-
-第二步：清空 cookies。  
+第一步：清空 cookies。  
 
 
 ![](https://res2023.tiankonguse.com/images/2023/03/25/001.png)
 
+
+
+
+
+第二步：语言设置为英文，地区设置为美国，刷新页面。  
+
+
+
+![](https://res2023.tiankonguse.com/images/2023/03/25/002.png)
 
 
 第三步：进入 chat 页面。  
