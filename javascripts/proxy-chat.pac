@@ -8,7 +8,7 @@ function FindProxyForURL(url, host) {
     for (let i in urlList) {
         let name = "https://*." + urlList[i] + "/*";
         if (shExpMatch(url, name)) {
-            return "SOCKS 43.133.254.69:4399";
+            return "SOCKS 43.130.156.215:4399";
         }
     }
     return "DIRECT";
