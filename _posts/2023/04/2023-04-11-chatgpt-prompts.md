@@ -83,6 +83,9 @@ published: true
 感兴趣的可以去自取。  
 
 
+另外，我这几天会把这个翻译为中文，感兴趣的可以关注公众号，后面把中文分享给大家。
+
+
 ![](https://res2023.tiankonguse.com/images/2023/04/11/004.png)
 
 
