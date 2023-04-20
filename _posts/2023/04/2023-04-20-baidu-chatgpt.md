@@ -162,6 +162,12 @@ published: true
 ![](https://res2023.tiankonguse.com/images/2023/04/20/014.png)
 
 
+最后我体验了文心一言的生成图片功能，大家看画的怎么样呢。  
+
+
+![](https://res2023.tiankonguse.com/images/2023/04/20/015.png)
+
+
 ## 四、最后  
 
 
