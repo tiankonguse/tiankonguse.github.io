@@ -34,7 +34,7 @@ published: true
 下图是公众号地址，大家可以扫码或者长按进入公众号，按下面流程操作。  
 
 
-![](https://res2023.tiankonguse.com/images/2023/04/21/001.png)
+![](https://res2023.tiankonguse.com/images/2023/04/21/000.bmp)
 
 
 
