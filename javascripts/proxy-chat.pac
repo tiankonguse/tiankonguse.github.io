@@ -4,6 +4,8 @@ function FindProxyForURL(url, host) {
         "openai.com",
         "google.com",
         "poe.com",
+        "bing.com",
+        "vercel.com",
     ];
     for (let i in urlList) {
         let name = "https://*." + urlList[i] + "/*";
