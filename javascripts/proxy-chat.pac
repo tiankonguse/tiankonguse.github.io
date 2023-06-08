@@ -18,6 +18,13 @@ function FindProxyForURL(url, host) {
     "featuregates.org",
     "statsigapi.net",
     "intercomcdn.com",
+    "azureedge.net",
+    "intercom.io",
+    "sentry.io",
+    "statsigapi.net",
+    "arkoselabs.com",
+    "speak.com",
+    "scholar-ai.net",
   ];
   for (let i in urlList) {
     if (host.split(".").slice(-2).join(".") == urlList[i]) {
