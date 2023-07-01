@@ -1,7 +1,7 @@
 // http://findproxyforurl.com/
 function FindProxyForURL(url, host) {
   "use strict";
-  let ipport = "43.130.156.215:4397";
+  let ipport = "43.130.156.215:14397";
   let proxy = "SOCKS " + ipport + "; SOCKS " + ipport + "; DIRECT;";
   let direct = "DIRECT;";
 
