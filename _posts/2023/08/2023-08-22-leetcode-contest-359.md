@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: leetcode 第 3589 场算法比赛  
+title: leetcode 第 359 场算法比赛  
 description: 万能的线段树，可以代替很多算法。          
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
