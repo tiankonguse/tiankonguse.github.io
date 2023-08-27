@@ -1,7 +1,7 @@
 // http://findproxyforurl.com/
 function FindProxyForURL(url, host) {
   "use strict";
-  let ipport = "43.130.156.215:14397";
+  let ipport = "43.153.106.188:14399";
   let proxy = "SOCKS " + ipport + "; SOCKS " + ipport + "; DIRECT;";
   let direct = "DIRECT;";
 
@@ -25,6 +25,7 @@ function FindProxyForURL(url, host) {
     "arkoselabs.com",
     "speak.com",
     "scholar-ai.net",
+    "toonily.com",
   ];
   for (let i in urlList) {
     if (host.split(".").slice(-2).join(".") == urlList[i]) {
