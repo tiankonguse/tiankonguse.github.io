@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
   let urlList = [
     "openai.com",
     "google.com",
+    "google.com.hk",
     "poe.com",
     "bing.com",
     "vercel.com",
