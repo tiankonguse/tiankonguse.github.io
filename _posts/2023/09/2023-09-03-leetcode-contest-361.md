@@ -95,9 +95,9 @@ published: true
 
 
 ```
-1   : k,k+mod,k+2mod,k+3mod+...
- mod:   k+mod,k+2mod,k+3mod+...
-2mod:         k+2mod,k+3mod+...
+1     : k,k+mod,k+2mod,k+3mod+...
+1+ mod:   k+mod,k+2mod,k+3mod+...
+1+2mod:         k+2mod,k+3mod+...
 ```
 
 
@@ -127,6 +127,8 @@ published: true
 注意事项1：k 等于 0 时，连续的无效数字形成的子数组也可以选择。  
 注意事项2：如果整个数组没有有效下标，需要特殊处理。  
 
+
+代码: https://github.com/tiankonguse/leetcode-solutions/blob/master/contest/3/361/C.cpp
 
 
 ## 四、边权重均等查询  
