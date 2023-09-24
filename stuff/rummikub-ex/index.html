@@ -297,8 +297,8 @@
 
         const DIS1 = 5;
         const minCardSize = 5000;
-        let runingDots = tmpDots
-        runingDots.length = 0
+        let runningDots = tmpDots
+        runningDots.length = 0
         const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
 
         for (let k = 0; k < boardDots.length; k++) { // 恢复黑色
@@ -348,32 +348,32 @@
                     const side = (ROW * canvas.width + COL) * 4;
                     if (data[side] != newColor && data[side] != runingColor) {
                         data[side] = runingColor;
-                        runingDots.push([ROW, COL]);
+                        runningDots.push([ROW, COL]);
                     }
                 }
             }
         }
-        console.log("初始待处理像素", runingDots.length);
+        console.log("初始待处理像素", runningDots.length);
         // TODO: 需要使用图论来优化，每次只搜索有变更的待处理像素
 
 
         const DIS = 20;
         let fixDot = 0
         let preState = -1
-        while (runingDots.length > 0 || waitingDots.length > 0) { // BFS 搜索
+        while (runningDots.length > 0 || waitingDots.length > 0) { // BFS 搜索
             if (window.exit) break;
-            if (runingDots.length == 0) {
-                let tmp = runingDots
-                runingDots = waitingDots;
+            if (runningDots.length == 0) {
+                let tmp = runningDots
+                runningDots = waitingDots;
                 waitingDots = tmp
                 waitingDots.length = 0
             }
-            if (preState != parseInt(runingDots.length / 100000)) {
-                preState = parseInt(runingDots.length / 100000);
-                console.log("修复像素个数 ", fixDot, "待处理像素", runingDots.length, "等待中像素", waitingDots.length);
+            if (preState != parseInt(runningDots.length / 100000)) {
+                preState = parseInt(runningDots.length / 100000);
+                console.log("修复像素个数 ", fixDot, "待处理像素", runningDots.length, "等待中像素", waitingDots.length);
             }
 
-            const xy = runingDots.pop()
+            const xy = runningDots.pop()
             const row = xy[0];
             const col = xy[1];
             const center = (row * canvas.width + col) * 4;
