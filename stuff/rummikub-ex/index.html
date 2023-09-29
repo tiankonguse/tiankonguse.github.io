@@ -7,6 +7,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/@turf/turf/turf.min.js"></script>
     <script src="heic2any.min.js"></script>
+    <script src="dsp.js"></script>
 </head>
 
 <body>
@@ -86,6 +87,128 @@
         ctx.putImageData(imageData, 0, 0);
     };
 
+    // 定义维纳滤波函数
+    function wienerFilter(imageData, kernelSize, noiseVariance) {
+        var width = imageData.width;
+        var height = imageData.height;
+        var data = imageData.data;
+
+        // 将图像转换为频域
+        var fft = new DFT(width, height);
+        fft.forward(data);
+
+        // 计算频率域 PSF
+        var psf = getPSF(kernelSize, width, height);
+        var psf_fft = new FFT(width, height);
+        psf_fft.forward(psf);
+
+        // 计算频域图像的模方
+        var image_mod = new Array(width * height);
+        for (var i = 0; i < height; i++) {
+            for (var j = 0; j < width; j++) {
+                var index = (i * width + j) * 2;
+                image_mod[i * width + j] = Math.pow(fft.real[index], 2) + Math.pow(fft.imag[index], 2);
+            }
+        }
+
+        // 计算频域噪声的模方
+        var noise_mod = new Array(width * height);
+        for (var i = 0; i < height; i++) {
+            for (var j = 0; j < width; j++) {
+                var index = (i * width + j) * 2;
+                noise_mod[i * width + j] = noiseVariance;
+            }
+        }
+
+        // 计算 Wiener 滤波器的频率响应
+        var wiener_freq = new Array(width * height);
+        for (var i = 0; i < height; i++) {
+            for (var j = 0; j < width; j++) {
+                var index = i * width + j;
+                var k = 1.0 / (Math.pow(psf_fft.real[index], 2) + Math.pow(psf_fft.imag[index], 2) + noise_mod[index] / image_mod[index]);
+                wiener_freq[index * 2] = (k * psf_fft.real[index] * fft.real[index] + k * psf_fft.imag[index] * fft.imag[index]);
+                wiener_freq[index * 2 + 1] = (k * psf_fft.real[index] * fft.imag[index] - k * psf_fft.imag[index] * fft.real[index]);
+            }
+        }
+
+        // 将 Wiener 滤波器应用于频域图像
+        var wiener_fft = new FFT_2D(width, height);
+        wiener_fft.real = wiener_freq.map(function (val) {
+            return val / (width * height);
+        });
+        wiener_fft.inverse();
+        var filteredData = wiener_fft.real;
+
+        // 将处理后的图像数据重新写回到 imageData.data 数组中
+        for (var i = 0; i < height; i++) {
+            for (var j = 0; j < width; j++) {
+                var index = (i * width + j) * 4;
+                imageData.data[index] = filteredData[i * width + j];
+                imageData.data[index + 1] = filteredData[i * width + j];
+                imageData.data[index + 2] = filteredData[i * width + j];
+            }
+        }
+
+        return imageData;
+    }
+
+    // 计算频域 PSF
+    function getPSF(kernelSize, width, height) {
+        var cx = Math.floor(width / 2);
+        var cy = Math.floor(height / 2);
+        var psf = new Array(width * height);
+
+        for (var i = 0; i < height; i++) {
+            for (var j = 0; j < width; j++) {
+                var x = j - cx;
+                var y = i - cy;
+                var distance = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+                psf[i * width + j] = (distance < kernelSize) ? 1 : 0;
+            }
+        }
+
+        return psf;
+    }
+    function meanFilter(imageData, radius) {
+        var width = imageData.width;
+        var height = imageData.height;
+        var data = imageData.data;
+
+        // 遍历每一个像素点
+        for (var i = 0; i < height; i++) {
+            for (var j = 0; j < width; j++) {
+                var sum = [0, 0, 0];
+                var count = 0;
+
+                // 遍历当前像素点周围的像素点
+                for (var k = -radius; k <= radius; k++) {
+                    for (var l = -radius; l <= radius; l++) {
+                        var x = j + l;
+                        var y = i + k;
+
+                        if (x < 0 || y < 0 || x >= width || y >= height) {
+                            continue;
+                        }
+
+                        var index = (y * width + x) * 4;
+                        sum[0] += data[index];
+                        sum[1] += data[index + 1];
+                        sum[2] += data[index + 2];
+                        count++;
+                    }
+                }
+
+                // 取平均值替换当前像素点的值
+                var currentIndex = (i * width + j) * 4;
+                data[currentIndex] = sum[0] / count;
+                data[currentIndex + 1] = sum[1] / count;
+                data[currentIndex + 2] = sum[2] / count;
+            }
+        }
+
+        return imageData;
+    }
+
     let BfsScan = function (row, col, oldColor, newColor, dots, data) {
         const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
         let sta = []
@@ -120,8 +243,20 @@
     const grayscale = () => {
         const imageData = base.imageData;
         const data = imageData.data;
+
+
+        let grayAlg = function (r, g, b) {
+            // return (r + g + b) / 3;
+            return r * 0.299 + g * 0.587 + b * 0.114;
+            // return Math.max(r, g, b);
+            // return Math.min(r, g, b);
+            // return Math.max(r, 0.8 * g, 0.6 * b);  // 红色加权
+            return Math.max(0.3 * r, 0.6 * g, b);  // 蓝色加权
+        }
+
+
         for (let i = 0; i < data.length; i += 4) {
-            let avg = parseInt((data[i] + data[i + 1] + data[i + 2]) / 3);
+            let avg = parseInt(grayAlg(data[i], data[i + 1], data[i + 2]));
             if (avg < 64) {
                 avg = 0;
             } else if (avg > 192) {
@@ -134,6 +269,8 @@
             data[i + 2] = avg; // blue
             data[i + 3] = 255; // 
         }
+
+        // wienerFilter(imageData, 10, 100)
         ctx.putImageData(imageData, 0, 0);
 
 
@@ -161,13 +298,28 @@
             for (let i = 1; i < tmp.length; i++) {
                 ctx.lineTo(tmp[i][1], tmp[i][0]);
 
-                ctx.fillRect(tmp[i][1], tmp[i][0], 10, 10);
 
                 edges.push(turf.length(turf.lineString([tmp[i - 1], tmp[i]])));
             }
             console.log(simplified.length, tmp, edges, area);
             ctx.closePath();
             ctx.stroke();
+
+
+            for (let i = 1; i < tmp.length; i++) {
+                ctx.beginPath();
+                let x = tmp[i][1]
+                let y = tmp[i][0]
+                let radius = 5; // Arc radius
+                let startAngle = 0; // Starting point on circle
+                let endAngle = Math.PI + (Math.PI * 2) / 2; // End point on circle
+                let counterclockwise = 1; // Draw counterclockwise
+                // ctx.fillRect(tmp[i][1], tmp[i][0], 10, 10);
+                ctx.arc(x, y, radius, startAngle, endAngle, counterclockwise);
+                ctx.fill();
+                // ctx.stroke();
+
+            }
 
 
         }
@@ -196,6 +348,8 @@
 
             }
         }
+
+
 
     };
     const minFix = () => {
@@ -241,11 +395,16 @@
         console.log("转化为黑白");
         ctx.putImageData(imageData, 0, 0);
 
-        // bfs 所有黑色区域，找到最大的，标记为底色
         const oldColor = 0;
         const newColor = 50
         const runingColor = 100
         const waitingColor = 150
+
+        const DIS1 = 5;
+        const minCardSize = 5000;
+        const DIS = 20;
+        const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
+
         let boardDots = []
         boardDots.length = canvas.height * canvas.width;
         boardDots.length = 0
@@ -259,180 +418,89 @@
         waitingDots.length = canvas.height * canvas.width;
         waitingDots.length = 0
 
-        for (let row = 1; row < canvas.height - 1; row++) {
-            for (let col = 1; col < canvas.width - 1; col++) {
-                const center = (row * canvas.width + col) * 4;
-                if (data[center] != oldColor) continue;
-                tmpDots.length = 0
-                BfsScan(row, col, oldColor, newColor, tmpDots, data);
-                if (tmpDots.length > boardDots.length) {
-                    let tmp = boardDots
-                    boardDots = tmpDots
-                    tmpDots = tmp
-                    tmpDots.length = 0
-                }
 
-            }
-        }
-        for (let row = 0; row < canvas.height; row++) {
-            for (let col = 0; col < canvas.width; col++) {
-                const center = (row * canvas.width + col) * 4;
-                if (data[center] == newColor) {
-                    data[center] = oldColor;
-                }
-            }
-        }
-        for (let i = 0; i < boardDots.length; i++) { // 恢复黑色
-            const xy = boardDots[i];
-            const ROW = xy[0]
-            const COL = xy[1]
-            const center = (ROW * canvas.width + COL) * 4;
-            data[center] = newColor
-        }
-
-        console.log("背景染色", boardDots.length);
-        ctx.putImageData(imageData, 0, 0);
-        // 目前为止，背景是1
-
-
-        const DIS1 = 5;
-        const minCardSize = 5000;
-        let runningDots = tmpDots
+        let runningDots = []
+        runningDots.length = canvas.height * canvas.width;
         runningDots.length = 0
-        const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
 
-        for (let k = 0; k < boardDots.length; k++) { // 恢复黑色
-            if (window.exit) break;
-            const xy = boardDots[k];
-            const row = xy[0]
-            const col = xy[1]
-            for (let i = -DIS1; i <= DIS1; i++) {
-                for (let j = -DIS1; j <= DIS1; j++) {
-                    const ROW = row + i;
-                    const COL = col + j;
-                    if (ROW < 0 || ROW >= canvas.height || COL < 0 || COL >= canvas.width) {
-                        continue
+        // 寻找最大的背景色，储存在 boardDots 中，颜色标记为 newColor
+        let findMaxPart = function () {
+            boardDots.length = 0
+            for (let row = 0; row < canvas.height; row++) {
+                for (let col = 0; col < canvas.width; col++) {
+                    const center = (row * canvas.width + col) * 4;
+                    if (data[center] != oldColor) continue;
+                    tmpDots.length = 0
+                    BfsScan(row, col, oldColor, newColor, tmpDots, data);
+                    if (tmpDots.length > boardDots.length) {
+                        let tmp = boardDots
+                        boardDots = tmpDots
+                        tmpDots = tmp
+                        tmpDots.length = 0
                     }
-                    const side = (ROW * canvas.width + COL) * 4;
-                    if (data[side] != newColor && data[side] != runingColor && data[side] != waitingColor) {
-                        // dfs 找到所有颜色，判断是否可以根据大小直接去噪
-                        waitingDots.length = 0
-                        BfsScan(ROW, COL, data[side], waitingColor, waitingDots, data);
-                        if (waitingDots.length < minCardSize) {
-                            for (let k = 0; k < waitingDots.length; k++) {
-                                const center = (waitingDots[k][0] * canvas.width + waitingDots[k][1]) * 4;
-                                data[center] = newColor;
-                                data[center + 1] = 0;
-                                data[center + 2] = 0;
-                                boardDots.push(waitingDots[k]);
+                }
+            }
+
+            // 将所有 newColor 颜色恢复 oldColor 颜色
+            for (let row = 0; row < canvas.height; row++) {
+                for (let col = 0; col < canvas.width; col++) {
+                    const center = (row * canvas.width + col) * 4;
+                    if (data[center] == newColor) {
+                        data[center] = oldColor;
+                    }
+                }
+            }
+
+            // 最大的背景设置为 newColor
+            for (let i = 0; i < boardDots.length; i++) {
+                const xy = boardDots[i];
+                const ROW = xy[0]
+                const COL = xy[1]
+                const center = (ROW * canvas.width + COL) * 4;
+                data[center] = newColor
+            }
+
+        };
+
+        let colorBackgroundAdjacent = function () {
+            for (let k = 0; k < boardDots.length; k++) { // 恢复黑色
+                const xy = boardDots[k];
+                const row = xy[0]
+                const col = xy[1]
+                for (let i = -DIS1; i <= DIS1; i++) {
+                    for (let j = -DIS1; j <= DIS1; j++) {
+                        const ROW = row + i;
+                        const COL = col + j;
+                        if (ROW < 0 || ROW >= canvas.height || COL < 0 || COL >= canvas.width) {
+                            continue
+                        }
+                        const side = (ROW * canvas.width + COL) * 4;
+                        if (data[side] != newColor && data[side] != waitingColor) {
+                            // dfs 找到所有颜色，判断是否可以根据大小直接去噪
+                            waitingDots.length = 0
+                            BfsScan(ROW, COL, data[side], waitingColor, waitingDots, data);
+                            if (waitingDots.length < minCardSize) {
+                                for (let k = 0; k < waitingDots.length; k++) {
+                                    const center = (waitingDots[k][0] * canvas.width + waitingDots[k][1]) * 4;
+                                    data[center] = newColor;
+                                    data[center + 1] = 0;
+                                    data[center + 2] = 0;
+                                    boardDots.push(waitingDots[k]);
+                                }
                             }
+                            waitingDots.length = 0
                         }
                     }
                 }
             }
-        }
-        console.log("初步降噪", boardDots.length);
+        };
 
-        for (let k = 0; k < boardDots.length; k++) { // 恢复黑色
-            if (window.exit) break;
-            const xy = boardDots[k];
-            const row = xy[0]
-            const col = xy[1]
-            for (let i = -DIS1; i <= DIS1; i++) {
-                for (let j = -DIS1; j <= DIS1; j++) {
-                    const ROW = row + i;
-                    const COL = col + j;
-                    if (ROW < 0 || ROW >= canvas.height || COL < 0 || COL >= canvas.width) {
-                        continue
-                    }
-                    const side = (ROW * canvas.width + COL) * 4;
-                    if (data[side] != newColor && data[side] != runingColor) {
-                        data[side] = runingColor;
-                        runningDots.push([ROW, COL]);
-                    }
-                }
-            }
-        }
-        console.log("初始待处理像素", runningDots.length);
-        // TODO: 需要使用图论来优化，每次只搜索有变更的待处理像素
-
-
-        const DIS = 20;
-        let fixDot = 0
-        let preState = -1
-        while (runningDots.length > 0 || waitingDots.length > 0) { // BFS 搜索
-            if (window.exit) break;
-            if (runningDots.length == 0) {
-                let tmp = runningDots
-                runningDots = waitingDots;
-                waitingDots = tmp
-                waitingDots.length = 0
-            }
-            if (preState != parseInt(runningDots.length / 100000)) {
-                preState = parseInt(runningDots.length / 100000);
-                console.log("修复像素个数 ", fixDot, "待处理像素", runningDots.length, "等待中像素", waitingDots.length);
-            }
-
-            const xy = runningDots.pop()
-            const row = xy[0];
-            const col = xy[1];
-            const center = (row * canvas.width + col) * 4;
-            if (data[center] == newColor) continue; // 已经染色了
-
-
-            let flag = 0
-            let counts = 0;
-            for (let dis = 1; dis <= DIS; dis++) {
-                for (let i = -dis; i <= dis; i++) {
-                    const ROW = row + i;
-                    if (ROW < 0 || ROW >= canvas.height) continue
-
-                    if (i == -dis || i == dis) { // 首行或尾行
-                        for (let j = -dis; j <= dis; j++) {
-                            const COL = col + j;
-                            if (COL < 0 || COL >= canvas.width) continue
-                            const side = (ROW * canvas.width + COL) * 4;
-                            if (data[side] == newColor) {
-                                counts++;
-                            }
-                        }
-                    } else {
-                        do {
-                            let j = -dis;
-                            const COL = col + j;
-                            if (COL < 0 || COL >= canvas.width) break
-                            const side = (ROW * canvas.width + COL) * 4;
-                            if (data[side] == newColor) {
-                                counts++;
-                            }
-                        } while (0);
-                        do {
-                            let j = dis;
-                            const COL = col + j;
-                            if (COL < 0 || COL >= canvas.width) break
-                            const side = (ROW * canvas.width + COL) * 4;
-                            if (data[side] == newColor) {
-                                counts++;
-                            }
-                        } while (0);
-                    }
-                }
-                // if(dis < 2) continue;
-                if (counts >= (dis * 2 + 1) * (dis * 2 + 1) * 0.75) { // 一个角覆盖率是 3/4，所以至少0.75
-                    flag = 1
-                    break;
-                }
-
-            }
-
-
-            if (flag) {
-                data[center] = newColor;
-                data[center + 1] = 0;
-                data[center + 2] = 0;
-                boardDots.push([row, col]);
-                fixDot++;
-
+        let findBackgroundAdjacent = function () {
+            runningDots.length = 0
+            for (let k = 0; k < boardDots.length; k++) {
+                const xy = boardDots[k];
+                const row = xy[0]
+                const col = xy[1]
                 for (let i = -DIS1; i <= DIS1; i++) {
                     for (let j = -DIS1; j <= DIS1; j++) {
                         const ROW = row + i;
@@ -443,32 +511,164 @@
                         const side = (ROW * canvas.width + COL) * 4;
                         if (data[side] != newColor && data[side] != runingColor) {
                             data[side] = runingColor;
-                            waitingDots.push([ROW, COL]);
+                            runningDots.push([ROW, COL]);
                         }
                     }
                 }
-
-            } else {
-                data[center] = waitingColor;
             }
-        }
-        console.log("恢复染色数据为白色");
-        for (let row = 0; row < canvas.height; row++) {
-            for (let col = 0; col < canvas.width; col++) {
+        };
+
+        let loopFixAdjacent = function () {
+            let fixDot = 0
+            let preState = -1
+            while (runningDots.length > 0 || waitingDots.length > 0) { // BFS 搜索
+                if (runningDots.length == 0) {
+                    let tmp = runningDots
+                    runningDots = waitingDots;
+                    waitingDots = tmp
+                    waitingDots.length = 0
+                }
+                if (preState != parseInt(runningDots.length / 100000)) {
+                    preState = parseInt(runningDots.length / 100000);
+                    console.log("修复像素个数 ", fixDot, "待处理像素", runningDots.length, "等待中像素", waitingDots.length);
+                }
+
+                const xy = runningDots.pop()
+                const row = xy[0];
+                const col = xy[1];
                 const center = (row * canvas.width + col) * 4;
-                if (data[center] == waitingColor) {
-                    data[center] = 255;
-                } else if (data[center] == waitingColor) {
-                    console.log("has runingColor");
+                if (data[center] == newColor) continue; // 已经染色了
+
+
+                let flag = 0
+                let counts = 0;
+                for (let dis = 1; dis <= DIS; dis++) {
+                    for (let i = -dis; i <= dis; i++) {
+                        const ROW = row + i;
+                        if (ROW < 0 || ROW >= canvas.height) continue
+
+                        if (i == -dis || i == dis) { // 首行或尾行
+                            for (let j = -dis; j <= dis; j++) {
+                                const COL = col + j;
+                                if (COL < 0 || COL >= canvas.width) continue
+                                const side = (ROW * canvas.width + COL) * 4;
+                                if (data[side] == newColor) {
+                                    counts++;
+                                }
+                            }
+                        } else {
+                            do {
+                                let j = -dis;
+                                const COL = col + j;
+                                if (COL < 0 || COL >= canvas.width) break
+                                const side = (ROW * canvas.width + COL) * 4;
+                                if (data[side] == newColor) {
+                                    counts++;
+                                }
+                            } while (0);
+                            do {
+                                let j = dis;
+                                const COL = col + j;
+                                if (COL < 0 || COL >= canvas.width) break
+                                const side = (ROW * canvas.width + COL) * 4;
+                                if (data[side] == newColor) {
+                                    counts++;
+                                }
+                            } while (0);
+                        }
+                    }
+                    // if(dis < 2) continue;
+                    if (counts >= (dis * 2 + 1) * (dis * 2 + 1) * 0.75) { // 一个角覆盖率是 3/4，所以至少0.75
+                        flag = 1
+                        break;
+                    }
+
+                }
+
+
+                if (flag) {
+                    data[center] = newColor;
+                    data[center + 1] = 0;
+                    data[center + 2] = 0;
+                    boardDots.push([row, col]);
+                    fixDot++;
+
+                    for (let i = -DIS1; i <= DIS1; i++) {
+                        for (let j = -DIS1; j <= DIS1; j++) {
+                            const ROW = row + i;
+                            const COL = col + j;
+                            if (ROW < 0 || ROW >= canvas.height || COL < 0 || COL >= canvas.width) {
+                                continue
+                            }
+                            const side = (ROW * canvas.width + COL) * 4;
+                            if (data[side] != newColor && data[side] != runingColor) {
+                                data[side] = runingColor;
+                                waitingDots.push([ROW, COL]);
+                            }
+                        }
+                    }
+
+                } else {
+                    data[center] = waitingColor;
                 }
             }
+        
+            console.log("修改个数: ", fixDot);
+        };
+
+        let resetAllColor = function () {
+            console.log("恢复染色数据为白色");
+            for (let row = 0; row < canvas.height; row++) {
+                for (let col = 0; col < canvas.width; col++) {
+                    const center = (row * canvas.width + col) * 4;
+                    if (data[center] == waitingColor) {
+                        data[center] = 255;
+                    } else if (data[center] == runingColor) {
+                        console.log("has runingColor");
+                    } else if (data[center] == newColor) {
+                        data[center] = 0;
+                    }
+                }
+            }
+        };
+
+
+
+        let neighborJudgment = function () {
+            // bfs 所有黑色区域，找到最大的，标记为 newColor
+            findMaxPart();
+            console.log("最大的背景：", boardDots.length);
+
+            const startLen = boardDots.length; // 记录原始背景的大小
+
+            // 将大小明显比较小的噪音去掉
+            colorBackgroundAdjacent();
+            console.log("初步降噪后背景大小：", boardDots.length, "新增个数", boardDots.length - startLen);
+
+            findBackgroundAdjacent();
+            console.log("背景相邻待处理像素：", runningDots.length);
+
+            loopFixAdjacent();
+
+            resetAllColor();
+            console.log("处理结束，累计修复个数: ", boardDots.length - startLen);
+            console.log("最终画布大小：", boardDots.length);
+
+            return boardDots.length - startLen;
+        };
+
+        let step = 0;
+        while (neighborJudgment() > 0 && step <5) {
+            console.log("黑色背景变大，重新来一轮");
+            step++;
         }
-        console.log("处理结束");
 
         ctx.putImageData(imageData, 0, 0);
     };
     let backColor = 0
     let backDots = []
+    backDots.length = canvas.height * canvas.width;
+    backDots.length = 0
     function pick(event, destination, destinationText) {
         const bounding = canvas.getBoundingClientRect();
         const imageData = base.imageData;
@@ -495,7 +695,7 @@
             backDots.length = 0
         } else {
             backColor = oldColor;
-            let newColor = 100;
+            let newColor = (oldColor + 100) % 256;
             // const imageData = base.imageData;
             // const tmpData = imageData.data
             BfsScan(row, col, oldColor, newColor, backDots, tmpData);
