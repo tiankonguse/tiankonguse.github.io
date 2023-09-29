@@ -46,7 +46,7 @@ published: true
 既然要自动识别图片的，首先需要知道图片是怎么储存的。  
 
 
-我问 chatGPT：图片二进制是如何储存的？
+我问 chatGPT：图片二进制是如何储存的？  
 chatGPT 回答二进制数据储存方式取决于图片的格式，常见的储存方式有位图、压缩图像、索引颜色表、Alpha通道、编码方式等。  
 
 
@@ -57,7 +57,7 @@ chatGPT 回答二进制数据储存方式取决于图片的格式，常见的储
 
 
 
-于是我又问 ChatGPT: 图片在内存中，压缩前是怎么储存的？
+于是我又问 ChatGPT: 图片在内存中，压缩前是怎么储存的？  
 chatGPT 回答内存中通常以位图的方式储存。  
 位图涉及几个方面：像素数组、颜色深度、分辨率、像素排列、Alpha通道。  
 具体含义见 ChatGPT 的回答，介绍的挺清楚的，这里我就不复述了。  
@@ -77,7 +77,6 @@ chatGPT 回答内存中通常以位图的方式储存。
 
 
 我问 ChatGPT：javascript 如何获取上传图片的二进制数据  
-
 ChatGPT 回答：上传图片后，通过 FileReader 可以加载图片的二进制。  
 
 
@@ -89,6 +88,7 @@ ChatGPT 回答：上传图片后，通过 FileReader 可以加载图片的二进
 
 
 图片转到电脑上一看，评估的图片格式是 heic 的。  
+
 
 所以，需要把 heic 图片转化为 png 图片。  
 ChatGPT 告诉我使用 NodeJS 的 heic-convert 库。  
@@ -111,7 +111,7 @@ ChatGPT 告诉我使用 NodeJS 的 heic-convert 库。
 获取到图片的二进制后，我发现不同图片储存确实有差异，我并不能直接得到像素值。  
 
 
-我问 ChatGPT：javascript 如何获取图片的像素
+我问 ChatGPT：javascript 如何获取图片的像素  
 
 
 ChatGPT 回答可以使用HTML5的Canvas元素和JavaScript来获取。  
@@ -230,10 +230,13 @@ X 应该多大呢？
 ![](https://res2023.tiankonguse.com/images/2023/09/29/015.png)
 
 
-## 八、最后   
-
-
 两种噪音算法结合，目前就识别出了棋牌的边界。  
+
+
+![](https://res2023.tiankonguse.com/images/2023/09/29/016.png)
+
+
+## 八、最后   
 
 
 大部分棋牌都是独立的，很容易识别。  
@@ -243,7 +246,7 @@ X 应该多大呢？
 当前的效果如下：  
 
 
-![](https://res2023.tiankonguse.com/images/2023/09/29/016.png)
+![](https://res2023.tiankonguse.com/images/2023/09/29/018.png)
 
 
 后面我的规划是先识别单独的棋牌，并识别出数字和颜色。  

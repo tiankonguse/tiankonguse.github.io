@@ -40,7 +40,8 @@
     const canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     var base = {
-        "imageData": []
+        "imageData": [],
+        "orgImg": []
     };
     const $canvas = $("#canvas");
     const hoveredColor = document.getElementById("hovered-color");
@@ -271,7 +272,7 @@
         }
 
         // wienerFilter(imageData, 10, 100)
-        ctx.putImageData(imageData, 0, 0);
+        ctx.putImageData(base.orgImg, 0, 0);
 
 
         let ShowEdge = function (dots) {
@@ -324,6 +325,8 @@
 
         }
 
+        let dotsList = []
+
         for (let row = 0; row < canvas.height; row++) {
             for (let col = 0; col < canvas.width; col++) {
                 const center = (row * canvas.width + col) * 4;
@@ -332,7 +335,9 @@
                     BfsScan(row, col, 255, 254, dots, data);
                     if (dots.length > 5000) {
                         ShowEdge(dots);
+                        dotsList.push(dots)
                     } else { // 无效白板，删除
+                        console.log("遇到较小的白板", dots.length)
                         // for (let i = 0; i < dots.length; i++) {
                         //     const xy = dots[i];
                         //     const x = xy[0];
@@ -348,6 +353,8 @@
 
             }
         }
+
+
 
 
 
@@ -612,12 +619,12 @@
                     data[center] = waitingColor;
                 }
             }
-        
+
             console.log("修改个数: ", fixDot);
         };
 
         let resetAllColor = function () {
-            console.log("恢复染色数据为白色");
+            let newColorNum = 0
             for (let row = 0; row < canvas.height; row++) {
                 for (let col = 0; col < canvas.width; col++) {
                     const center = (row * canvas.width + col) * 4;
@@ -626,10 +633,13 @@
                     } else if (data[center] == runingColor) {
                         console.log("has runingColor");
                     } else if (data[center] == newColor) {
+                        newColorNum++;
                         data[center] = 0;
                     }
                 }
             }
+            console.log("恢复染色数据为白色, 背景色找到个数", newColorNum);
+            return newColorNum;
         };
 
 
@@ -650,16 +660,16 @@
 
             loopFixAdjacent();
 
-            resetAllColor();
-            console.log("处理结束，累计修复个数: ", boardDots.length - startLen);
-            console.log("最终画布大小：", boardDots.length);
+            const newColorNum = resetAllColor();
+            console.log("处理结束，累计修复个数: ", newColorNum - startLen);
+            console.log("最终画布大小：", newColorNum);
 
-            return boardDots.length - startLen;
+            return newColorNum - startLen;
         };
 
         let step = 0;
-        while (neighborJudgment() > 0 && step <5) {
-            console.log("黑色背景变大，重新来一轮");
+        while (neighborJudgment() > 0 && step < 2) {
+            console.log("黑色背景变大，重新来一轮", step);
             step++;
         }
 
@@ -803,12 +813,13 @@
         img.src = data;
         img.onload = function () {
             console.log("img load finish");
-            // img.width /= 3;
-            // img.height /= 3;
+            // img.width /= 2.5;
+            // img.height /= 2.5;
             $canvas.attr("width", img.width)
             $canvas.attr("height", img.height)
             ctx.drawImage(img, 0, 0, img.width, img.height);
             base.imageData = ctx.getImageData(0, 0, img.width, img.height);
+            base.orgImg = ctx.getImageData(0, 0, img.width, img.height);
             // console.log(base.imageData.data, base.imageData.width, base.imageData.height);
 
         };
