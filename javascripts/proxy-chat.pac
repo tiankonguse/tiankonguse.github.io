@@ -11,6 +11,7 @@ var FindProxyForURL = function(init, profiles) {
 }("+auto switch", {
   "+auto switch": function(url, host, scheme) {
       "use strict";
+      if (/(?:^|\.)oaistatic\.com$/.test(host)) return "+vps";
       if (/(?:^|\.)github\.com$/.test(host)) return "+vps";
       if (/(?:^|\.)fanbox\.cc$/.test(host)) return "+vps";
       if (/(?:^|\.)marketo\.net$/.test(host)) return "+vps";
