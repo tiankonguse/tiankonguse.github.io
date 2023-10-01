@@ -76,6 +76,35 @@
         ctx.putImageData(base.imageData, 0, 0);
     });
 
+    function rgbToHsv(r, g, b) {
+        r = r / 255;
+        g = g / 255;
+        b = b / 255;
+
+        var max = Math.max(r, g, b);
+        var min = Math.min(r, g, b);
+        var delta = max - min;
+
+        var h = 0, s = 0, v = max;
+
+        if (delta !== 0) {
+            s = delta / max;
+            switch (max) {
+                case r:
+                    h = (g - b) / delta + (g < b ? 6 : 0);
+                    break;
+                case g:
+                    h = (b - r) / delta + 2;
+                    break;
+                case b:
+                    h = (r - g) / delta + 4;
+                    break;
+            }
+            h /= 6;
+        }
+
+        return [h, s, v];
+    }
     const invert = () => {
         const imageData = base.imageData;
         const data = imageData.data;
@@ -241,6 +270,8 @@
         }
         return dots;
     }
+    const FAC = 1.8;
+    const minCardSize = parseInt(5000 / FAC / FAC);
     const grayscale = () => {
         const imageData = base.imageData;
         const data = imageData.data;
@@ -333,7 +364,7 @@
                 if (data[center] == 255) {
                     let dots = []
                     BfsScan(row, col, 255, 254, dots, data);
-                    if (dots.length > 5000) {
+                    if (dots.length > minCardSize) {
                         ShowEdge(dots);
                         dotsList.push(dots)
                     } else { // 无效白板，删除
@@ -407,9 +438,8 @@
         const runingColor = 100
         const waitingColor = 150
 
-        const DIS1 = 5;
-        const minCardSize = 5000;
-        const DIS = 20;
+        const DIS1 = parseInt(5 / (FAC * 1.5));
+        const DIS = parseInt(20 / FAC * 1.5);
         const dirs = [[-1, 0], [1, 0], [0, 1], [0, -1]];
 
         let boardDots = []
@@ -585,7 +615,7 @@
                         }
                     }
                     // if(dis < 2) continue;
-                    if (counts >= (dis * 2 + 1) * (dis * 2 + 1) * 0.75) { // 一个角覆盖率是 3/4，所以至少0.75
+                    if (counts >= (dis * 2 + 1) * (dis * 2 + 1) * 0.8) { // 一个角覆盖率是 3/4，所以至少0.75
                         flag = 1
                         break;
                     }
@@ -674,6 +704,8 @@
         }
 
         ctx.putImageData(imageData, 0, 0);
+
+        return;
     };
     let backColor = 0
     let backDots = []
@@ -688,6 +720,8 @@
         const center = (row * canvas.width + col) * 4;
         const data = [tmpData[center], tmpData[center + 1], tmpData[center + 2], tmpData[center + 3]];
         const oldColor = data[0];
+        const hsv = rgbToHsv(tmpData[center], tmpData[center + 1], tmpData[center + 2]);
+        console.log(hsv);
 
         if (backDots.length > 0) {
             for (let i = 0; i < backDots.length; i++) {
@@ -813,8 +847,8 @@
         img.src = data;
         img.onload = function () {
             console.log("img load finish");
-            // img.width /= 2.5;
-            // img.height /= 2.5;
+            img.width = parseInt(img.width / FAC);
+            img.height = parseInt(img.height / FAC);
             $canvas.attr("width", img.width)
             $canvas.attr("height", img.height)
             ctx.drawImage(img, 0, 0, img.width, img.height);
