@@ -1,13 +1,13 @@
----   
-layout:  post  
+---
+layout: post  
 title: leetcode 第 377 场算法比赛  
-description: `O(1000^2)`的复杂度，莫名其妙超时。       
+description:  O(1000^2) 的复杂度，莫名其妙超时。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
 updateData:  2023-12-23 18:13:00  
 published: true  
----  
+---
 
 
 ## 零、背景  
