@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: leetcode 第 387 场算法比赛 
+title: leetcode 第 391 场算法比赛 
 description:  手速有点慢，依旧是100多名。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
