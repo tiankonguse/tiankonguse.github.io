@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: leetcode 第 397 场算法比赛 
+title: leetcode 第 398 场算法比赛 
 description:  考驾照去练车了，所以没参加比赛。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
