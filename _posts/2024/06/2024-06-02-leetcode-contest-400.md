@@ -23,7 +23,7 @@ D: 线段树。
 
 
 排名：166 
-代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/3/400  
+代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/4/400  
 
 
 ## 一、候诊室中的最少椅子数  

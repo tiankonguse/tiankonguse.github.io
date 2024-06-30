@@ -23,7 +23,7 @@ D: 线段树。
 
 
 排名：282  
-代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/3/402  
+代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/4/402  
 
 
 ## 一、构成整天的下标对数目 I  

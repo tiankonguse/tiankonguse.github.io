@@ -23,7 +23,7 @@ D: 枚举。
 
 
 排名：117  
-代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/3/403  
+代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/4/403  
 
 
 ## 一、最小元素和最大元素的最小平均值  

@@ -23,7 +23,7 @@ D: bitset。
 
 
 排名：230  
-代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/3/401  
+代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/contest/4/401  
 
 
 ## 一、找出 K 秒后拿着球的孩子  
