@@ -6,7 +6,7 @@ keywords: 算法,leetcode,算法比赛
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
 updateData: 2024-08-11 12:13:00  
-published: true  
+published: false  
 ---
 
 
@@ -14,7 +14,7 @@ published: true
 
 
 这次比赛前三题难度还好，第四题难度就大多了。  
-当然，不是说大家想不到算法，而是边界很多，很容易遗漏边界。    
+当然，不是说大家想不到算法，而是边界很多，很容易遗漏边界。  
 
 
 A: 值映射位置。   
