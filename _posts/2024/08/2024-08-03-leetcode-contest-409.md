@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: leetcode 第 409 场算法比赛 
+title: leetcode 第 409 场算法比赛  
 description:  最后一题相当复杂，比赛只有25人做出来。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
