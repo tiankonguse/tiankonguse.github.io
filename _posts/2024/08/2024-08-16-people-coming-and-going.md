@@ -1,6 +1,6 @@
 ---   
 layout:  post  
-title: 【2024 】回忆近一年的变动 
+title: 【2024】回忆近一年的变动 
 description: 人来人往。          
 keywords: 生活  
 tags: [生活]    
@@ -30,7 +30,7 @@ published: true
 新的团队一起经历了小半年时间。  
 
 
-![](https://res2023.tiankonguse.com/images/2024/08/16/001.png)
+![](https://res2024.tiankonguse.com/images/2024/08/16/001.png)
 
 
 
@@ -38,7 +38,7 @@ published: true
 地域分布：北京剩余 1 个人，深圳 6 个人。  
 
 
-![](https://res2023.tiankonguse.com/images/2024/08/16/002.png)
+![](https://res2024.tiankonguse.com/images/2024/08/16/002.png)
 
 
 
@@ -46,28 +46,28 @@ published: true
 地域分布：北京剩余 1 个人，深圳 5 个人。  
 
 
-![](https://res2023.tiankonguse.com/images/2024/08/16/003.png)
+![](https://res2024.tiankonguse.com/images/2024/08/16/003.png)
 
 
 2024年年初的时候，招聘的毕业生提前来实习，团队增加为 7 人。  
 地域分布：北京剩余 2 个人，深圳 5 个人。  
 
 
-![](https://res2023.tiankonguse.com/images/2024/08/16/004.png)
+![](https://res2024.tiankonguse.com/images/2024/08/16/004.png)
 
 
 
 2024年5月份的时候，又加入一个实习生，团队增加为 8 人。  
 地域分布：北京剩余 2 个人，深圳 6 个人。  
 
-![](https://res2023.tiankonguse.com/images/2024/08/16/005.png)
+![](https://res2024.tiankonguse.com/images/2024/08/16/005.png)
 
 
 
 2024年年中的时候，一个老同事转岗了，团队剩余 7 人。  
 地域分布：北京剩余 2 个人，深圳 5 个人。  
 
-![](https://res2023.tiankonguse.com/images/2024/08/16/006.png)
+![](https://res2024.tiankonguse.com/images/2024/08/16/006.png)
 
 
 
