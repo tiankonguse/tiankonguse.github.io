@@ -79,7 +79,7 @@ D: 动态规划。
 思路：画出数组的异或值矩阵，发现相邻数组之间的异或存在转化关系。  
 
 
-![](https://res2024.tiankonguse.com/images/2024/08/31/001.png)
+![](https://res2024.tiankonguse.com/images/2024/09/01/001.png)
 
 
 如上图所示，异或值的定义是递归的。  
@@ -105,7 +105,7 @@ D: 动态规划。
 状态方程：`F(l,r) = max(f(l,r), F(l,r-1), F(l+1,r))`  
 
 
-![](https://res2024.tiankonguse.com/images/2024/08/31/002.png)
+![](https://res2024.tiankonguse.com/images/2024/09/01/002.png)
 
 
 面对询问，可以提前预处理求出任意区间的答案，然后直接`O(1)`查询答案即可。  
