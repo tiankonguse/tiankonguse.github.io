@@ -45,7 +45,7 @@ published: true
 可以清楚的看到，文件为 tc_http.cpp，函数 strnstr 的第 38 行，这一行调用了 strlen 函数，然后 coredump 了。 
 
 
-![](https://res2024.tiankonguse.com/images/2024/09/09/001.png)
+![](https://res2024.tiankonguse.com/images/2024/09/09/002.png)
 
 
 
@@ -104,7 +104,7 @@ PS：对于网络库中的字符串，一般都没有 `\0` 结束符。
 
 
 
-![](https://res2024.tiankonguse.com/images/2024/09/09/004.png)
+![](https://res2024.tiankonguse.com/images/2024/09/09/005.png)
 
 
 
@@ -115,14 +115,14 @@ Since the strnstr() function is a FreeBSD specific API,it should only be used wh
 The `strnstr()` function	was introduced by FreeBSD 4.5 and is non-standard.  
 
 
-![](https://res2024.tiankonguse.com/images/2024/09/09/004.png)
+![](https://res2024.tiankonguse.com/images/2024/09/09/006.png)
 
 
 再看第一个 CSDN ，我震惊了，公共库的代码竟然和这个完全一样。  
 也就是 CSDN 最火的 strnstr 函数文章，代码是有 BUG 的，而公共库直接使用了这个代码。  
 
 
-![](https://res2024.tiankonguse.com/images/2024/09/09/004.png)
+![](https://res2024.tiankonguse.com/images/2024/09/09/007.png)
 
 
 再往下翻，其实可以找到苹果开源 libc 库中的 strnstr 源码， 其实也是 FreeBSD 的官方实现。  
