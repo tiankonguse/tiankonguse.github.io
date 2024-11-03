@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: leetcode 第 427 场算法比赛  
+title: leetcode 第 421 场算法比赛  
 description: 举个例子详解矩阵幂。  
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
