@@ -177,13 +177,13 @@ f(n,k) = f(n-1,k-1) + (m-1) * f(n-1,k)
 具体来说，是 `(m-1)^(n-1-k)`  
 
 
-![](https://res2024.tiankonguse.com/images/2024/12/029/001.png)  
+![](https://res2024.tiankonguse.com/images/2024/12/29/001.png)  
 
 
 把 `m-1` 去掉，再来看剩下的公式，就是`f(n,k) = f(n-1,k-1) + f(n-1,k)`  
 
 
-![](https://res2024.tiankonguse.com/images/2024/12/029/002.png)  
+![](https://res2024.tiankonguse.com/images/2024/12/29/002.png)  
 
 
 可能模版用多了，面对这个公式，我有种很熟悉的感觉，但是没有第一时间想到是什么。  
