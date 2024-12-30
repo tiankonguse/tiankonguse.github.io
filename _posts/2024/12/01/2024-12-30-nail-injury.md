@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: 2024年体检报告  
+title: 手指甲不小心扎入一根刺  
 description: 手指甲不小心扎入一根刺。  
 keywords: 健康生活  
 tags: [健康生活]  
