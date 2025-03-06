@@ -171,6 +171,10 @@ dp2(nm,k1) = max(
   dp(nm, k1),
   dp1(nm-1, k1) + V
 )
+dp(n,k) = max(
+  dp(n-1, k), // 不选择最后一个元素
+  dp2(n-m, k-1) + sum(n-m+1,n) // 选择至少 m 个
+)
 ```
 
 
