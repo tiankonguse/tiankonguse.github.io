@@ -95,7 +95,6 @@ PS：了解这个网络技术后，我有很多有趣的想法，后面有时间
 如果你没有 key，可以关注公众号，我这个周末我会找时间开发一个软件，对 key 做下限流，到时候会分享免费的 key 给大家使用。  
 
 
-https://www.icloud.com/shortcuts/ddb74c2510aa4aceaf90c7db0031cd3e  
 
 
 ![](https://res2025.tiankonguse.com/images/2025/03/26/007.png) 
