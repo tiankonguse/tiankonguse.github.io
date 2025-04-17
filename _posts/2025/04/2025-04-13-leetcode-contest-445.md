@@ -470,9 +470,26 @@ F(pos, pre) = sum(F(pos+1, c))
 cpp 实现时，我独立推导出的公式和参考的代码公式不同。  
 于是自己去推导了很久，结果发现两个公式确实都是正确的。    
 
+
+$$
+C(n,m)  = \frac{n}{m} * C(n-1, m-1) = \frac{n-m+1}{m} * C(n, m-1)
+$$
+
+
 一个是 `res = res * (n - m + i) / i;`。  
 另一个是 `res = res * (n - i + 1) / i;`，  
 竟然都正确，很神奇。  
+
+
+整理一下，组合公式如下：
+
+
+$$ (1): permutation(n) = \frac{n!}{a1! * a2! * ... * ak!} $$
+$$ (2): permutation(n-1) = \frac{a1 * permutation(n)}{n} $$
+$$ (3): C(n,m) = \frac{n * (n-1) * ... * (n-m+1)}{m * (m-1) * ... * 1} $$
+$$ (4): C(n,m)  = \frac{n}{m} * C(n-1, m-1)  $$
+$$ (5): C(n,m)   = \frac{n-m+1}{m} * C(n, m-1) $$
+
 
 
 《完》
