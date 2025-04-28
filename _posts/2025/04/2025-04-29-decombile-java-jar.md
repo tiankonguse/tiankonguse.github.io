@@ -110,14 +110,14 @@ Make sure you install the required Java version.
 打开后，可以点击目录图标选择 jar 包，或者直接拖拽 jar 包到 JD-GUI 窗口中。  
 
 
-![](https://res2025.tiankonguse.com/images/2025/04/28/002.png)   
+![](https://res2025.tiankonguse.com/images/2025/04/29/002.png)   
 
 
 
 打开后，根据我们的包路径，可以看到源码，还是比较清晰的。  
 
 
-![](https://res2025.tiankonguse.com/images/2025/04/28/001.png)  
+![](https://res2025.tiankonguse.com/images/2025/04/29/001.png)  
 
 
 
@@ -128,16 +128,16 @@ Make sure you install the required Java version.
 2）所有的名字都扩展添加了完整的包前缀。   
 
 
-![](https://res2025.tiankonguse.com/images/2025/04/28/004.png)  
+![](https://res2025.tiankonguse.com/images/2025/04/29/004.png)  
 
 
-![](https://res2025.tiankonguse.com/images/2025/04/28/003.png)  
+![](https://res2025.tiankonguse.com/images/2025/04/29/003.png)  
 
 
 业务核心代码也一样,都可以阅读清楚，只是代码包前缀都展开了，可读性变得很差。  
 
 
-![](https://res2025.tiankonguse.com/images/2025/04/28/005.png)  
+![](https://res2025.tiankonguse.com/images/2025/04/29/005.png)  
 
 
 ## 五、确保代码一致  
@@ -157,7 +157,7 @@ jar 包是反编译了，初步浏览了一遍反编译的代码，核心逻辑�
 
 
 
-![](https://res2025.tiankonguse.com/images/2025/04/28/006.png)  
+![](https://res2025.tiankonguse.com/images/2025/04/29/006.png)  
 
 
 
