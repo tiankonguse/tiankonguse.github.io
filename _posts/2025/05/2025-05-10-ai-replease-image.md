@@ -91,10 +91,10 @@ Jungle 风格的 prompt 是： waist-up "in a Jungle" by Syd Mead, tangerine col
 
 
 
-Film Noir 风格的 prompt 是：film noir style, ink sketch|vector, highly detailed, sharp focus, ultra sharpness, monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic  
+Film Noir 风格的 prompt 是：film noir style, ink sketch，vector, highly detailed, sharp focus, ultra sharpness, monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic  
 
 
-中文含义：黑色电影风格，水墨素描|矢量，高度详细，清晰对焦，超清晰，单色，高对比度，戏剧性阴影，20 世纪 40 年代风格，神秘，电影  
+中文含义：黑色电影风格，水墨素描，矢量，高度详细，清晰对焦，超清晰，单色，高对比度，戏剧性阴影，20 世纪 40 年代风格，神秘，电影  
 
 
 ![](https://res2025.tiankonguse.com/images/2025/05/10/008.png)
