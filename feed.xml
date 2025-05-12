@@ -13,7 +13,7 @@ layout: null
      <name>{{ site.author }}</name>
      <email>{{ site.email }}</email>
    </author>
-   {% for post in site.posts limit:20 %}
+   {% for post in site.posts limit:10 %}
     {% if post.updateData %}
     {% assign lastData =  post.updateData|date:"%Y-%m-%d %H:%M:%S" %}
     {% else %}

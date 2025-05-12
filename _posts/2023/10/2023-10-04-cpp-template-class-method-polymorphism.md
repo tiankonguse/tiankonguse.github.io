@@ -2,9 +2,9 @@
 layout:  post  
 title: cpp如何调用两个模板类的重载函数    
 description: 一个有意思的问题。          
-keywords: 技术研究  
-tags: [技术研究]    
-categories: [技术研究]  
+keywords: 程序人生  
+tags: [程序人生]    
+categories: [程序人生]  
 updateData:  2023-10-04 18:13:00  
 published: true  
 ---  

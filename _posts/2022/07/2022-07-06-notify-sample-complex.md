@@ -2,9 +2,9 @@
 layout:  post  
 title: 缓存服务中通知模块的演化  
 description: 面对一个问题，引入一个解决方案，就会引入另外一系列问题。  
-keywords: 技术人生
-tags: [技术人生]    
-categories: [技术人生]  
+keywords: 程序人生
+tags: [程序人生]    
+categories: [程序人生]  
 updateData:  2022-07-06 18:13:00  
 published: true  
 ---  

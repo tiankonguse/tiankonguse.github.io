@@ -2,9 +2,9 @@
 layout: post  
 title: 免费体验 ChatGPT 升级，支持 GPT4 
 description:  GPT4 比 GPT3 贵 20 倍。  
-keywords: 技术,人工智能,AI
-tags: [技术,人工智能,AI]  
-categories: [技术,人工智能,AI]  
+keywords: 人工智能
+tags: [人工智能]  
+categories: [人工智能]  
 updateData:  2024-06-13 21:13:00  
 published: true  
 ---

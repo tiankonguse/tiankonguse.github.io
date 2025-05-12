@@ -2,9 +2,9 @@
 layout:  post  
 title: 我的服务器被蹭流量了，于是增加了一层保护 
 description: 流量蛮贵的。          
-keywords: 项目经验  
-tags: [项目经验]    
-categories: [项目经验]  
+keywords: 程序人生  
+tags: [程序人生]    
+categories: [程序人生]  
 updateData:  2023-07-08 18:13:00  
 published: true  
 ---  
