@@ -2,9 +2,9 @@
 layout: post  
 title: Google gemini 5大模型的系统提示词           
 description: 没想到 Google gemini 给每一个模型都编写了自己的系统提示词。  
-keywords: 项目实践  
-tags: [项目实践]  
-categories: [项目实践]  
+keywords: AIGC  
+tags: [AIGC]  
+categories: [AIGC]  
 updateData: 2025-05-14 12:13:00  
 published: true  
 ---

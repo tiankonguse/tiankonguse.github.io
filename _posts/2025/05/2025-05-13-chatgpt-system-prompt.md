@@ -2,9 +2,9 @@
 layout: post  
 title: chatGPT 的系统 prompt 破解出来了            
 description: 来学习一下最流畅的 AI 产品的系统 prompt。  
-keywords: 项目实践 
-tags: [项目实践]  
-categories: [项目实践]  
+keywords: AIGC 
+tags: [AIGC]  
+categories: [AIGC]  
 updateData: 2025-05-10 12:13:00
 published: true  
 ---

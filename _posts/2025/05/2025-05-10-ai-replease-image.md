@@ -2,9 +2,9 @@
 layout: post  
 title: 免费的 AI 图片网站，一键替换人脸            
 description: 除了人物替换，还支持风格切换、附加新的 Prompt。  
-keywords: 项目实践 
-tags: [项目实践]  
-categories: [项目实践]  
+keywords: AIGC 
+tags: [AIGC]  
+categories: [AIGC]  
 updateData: 2025-05-10 12:13:00
 published: true  
 ---

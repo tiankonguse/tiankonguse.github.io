@@ -2,9 +2,9 @@
 layout: post  
 title: 豆包AI 帮我生成 14 页讲故事的PPT            
 description: 试用了下豆包，挺好用的。  
-keywords: 项目实践 
-tags: [项目实践]  
-categories: [项目实践]  
+keywords: AIGC 
+tags: [AIGC]  
+categories: [AIGC]  
 updateData: 2025-05-06 12:13:00
 published: true  
 ---
