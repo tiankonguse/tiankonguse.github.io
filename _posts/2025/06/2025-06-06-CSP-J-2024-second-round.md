@@ -1,9 +1,9 @@
 ---
 layout: post
-title: CCF CSP-J/S 2024 第二轮入门级认证
+title: CCF CSP-J 2024 第二轮入门级认证
 description: 第四题难度飙升    
-keywords: 算法,CSP-J/S,算法比赛
-tags: [算法, CSP-J/S, 算法比赛]
+keywords: 算法,CSP,算法比赛
+tags: [算法, CSP, 算法比赛]
 categories: [算法]
 updateData: 2025-06-06 12:13:00
 published: true
@@ -24,7 +24,7 @@ C: 找规律贪心
 D: 线性DP    
 
 
-代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/other/CSP-J/
+代码地址： https://github.com/tiankonguse/leetcode-solutions/tree/master/other/CSP-J/  
 
 
 ## 一、扑克牌  
