@@ -75,7 +75,7 @@ void Solver() {  //
 
 ```cpp
 char str[1010][1010];
-int dir[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+int dir[4][2] = { {0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
 ll ans = 0;
 void Add(int x, int y) {
