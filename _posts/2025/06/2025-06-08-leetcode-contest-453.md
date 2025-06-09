@@ -195,7 +195,7 @@ auto RangeSum = [&](int l, int r) {
 
 ```
 const int N = 5e4+10;
-ll dp[N], sum[N];©leetcode
+ll dp[N], sum[N];
 ```
 
 3）滑动窗口：二分时记录上次的左边界，下次不需要从 1 开始二分，直接从左边界二分。  
