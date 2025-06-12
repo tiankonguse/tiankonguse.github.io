@@ -461,7 +461,8 @@ if (queryOffset >= rightOffset) {  // 所有队员都是确定的，答案是确
   if (A[p].first >= minVal) {      // 可以获胜整个比赛
     sum += A[p].second;
   }
-  return {A[p].first, -1};  // 最小获胜值是 A[p].first，-1 代表没有右区间，只有一个答案
+  // 最小获胜值是 A[p].first，-1 代表没有右区间，只有一个答案
+  return {A[p].first, -1};
 }
 ```
 
