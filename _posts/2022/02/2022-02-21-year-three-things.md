@@ -5,7 +5,7 @@ description: 两次命中墨菲定律，一次命中黑天鹅事件。
 keywords: 程序人生  
 tags: [程序人生]  
 categories: [程序人生]  
-updateData:  2022-02-21 00:13:00  
+updateDate:  2022-02-21 00:13:00  
 published: true  
 ---  
 

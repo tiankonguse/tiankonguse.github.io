@@ -5,7 +5,7 @@ description: 这周做了Leetcode的第94场比赛，现在回顾记录一下。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-20 23:24   
+updateDate: 2019-04-20 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/ZUyCdKfane3OYmAEdFtIhw  
 ---  

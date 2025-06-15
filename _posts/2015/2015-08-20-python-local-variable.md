@@ -4,7 +4,7 @@ title: python 中局部变量
 description:  之前没遇到过python的局部变量问题, 也就不知道局部变量与全局变量冲突时会怎么样, 现在简单了解了一下.
 tags:  python 局部变量
 keywords: python, 局部变量
-updateData:  14:34 2015/8/20
+updateDate:  14:34 2015/8/20
 categories: [程序人生]
 ---  
 

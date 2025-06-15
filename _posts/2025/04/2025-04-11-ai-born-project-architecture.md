@@ -5,7 +5,7 @@ description: 大模型太方便了，介绍下我的使用体验。
 keywords: 项目实践 
 tags: [项目实践]  
 categories: [项目实践]  
-updateData: 2025-04-11 12:13:00
+updateDate: 2025-04-11 12:13:00
 published: true  
 ---
 

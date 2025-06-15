@@ -5,7 +5,7 @@ description: 再分享一下我的处理问题的方法，虽然很抽象，但�
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2019-06-03 21:30:00  
+updateDate:  2019-06-03 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/Xrhp6zPHjxVH2p4Ma5k2hA  
 ---  

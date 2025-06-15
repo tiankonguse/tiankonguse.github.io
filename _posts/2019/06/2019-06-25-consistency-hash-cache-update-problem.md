@@ -5,7 +5,7 @@ description: 之前聊过《一致性HASH技术的困境》,今天来看看另�
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2019-06-25 21:30:00  
+updateDate:  2019-06-25 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/oZv91wxxryXoISXbqAgiKw  
 ---  

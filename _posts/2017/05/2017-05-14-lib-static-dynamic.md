@@ -5,7 +5,7 @@ description: 有时候我们编译程序时希望手动决定链接静态库还�
 keywords: 后台服务  
 tags: [后台服务]  
 categories: [程序人生]  
-updateData:  19:30 2017/5/14 
+updateDate:  19:30 2017/5/14 
 published: true  
 ---  
   

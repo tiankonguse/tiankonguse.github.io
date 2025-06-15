@@ -5,7 +5,7 @@ description: 区间操作、树转森林、有效括号，都是不错的基础�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-07-07 21:30:00  
+updateDate:  2019-07-07 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

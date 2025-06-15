@@ -5,7 +5,7 @@ description: 一些不错的文章，需要回头阅读点评一下。
 keywords: 生活  
 tags: [生活]    
 categories: [生活]  
-updateData:  2019-09-04 21:30:00  
+updateDate:  2019-09-04 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

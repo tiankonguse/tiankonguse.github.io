@@ -5,7 +5,7 @@ description: 二叉树是一个很基础的数据结构，这里面有不少学�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-22 23:24   
+updateDate: 2019-05-22 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/HEsqxzUcAiLlJ4DLMCPsyQ  
 ---  

@@ -5,7 +5,7 @@ description: 昨晚睡得晚，再次翻车，有想法，但是比较混乱。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-05-22 18:13:00  
+updateDate:  2022-05-22 18:13:00  
 published: true  
 ---  
 

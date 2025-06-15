@@ -5,7 +5,7 @@ description: 作为业余选手参加 Leetcode 比赛有十几场了，说几个
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-06-26 21:30:00  
+updateDate:  2019-06-26 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ  
 ---  

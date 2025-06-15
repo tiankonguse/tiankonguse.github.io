@@ -5,7 +5,7 @@ description: 简单梳理一下投资产品的关系。
 keywords: 理财
 tags: [理财]  
 categories: [理财]  
-updateData:  23:40 2018/05/20
+updateDate:  23:40 2018/05/20
 published: true  
 ---  
 

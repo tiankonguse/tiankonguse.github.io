@@ -5,7 +5,7 @@ category: [程序人生]
 description: chrome插件很多, 但是总是和自己想要的有那么一些区别, 于是想着打造一个自己的chrome集合.    
 tags: [chrome]
 keywords: [chrome]
-updateData:   20:54 2015/09/27
+updateDate:   20:54 2015/09/27
 ---
 
 ## 前言

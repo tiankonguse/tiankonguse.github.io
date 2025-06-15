@@ -5,7 +5,7 @@ description: 看错题了，差点没做完所有题
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-12-04 18:13:00  
+updateDate:  2022-12-04 18:13:00  
 published: true  
 ---  
 

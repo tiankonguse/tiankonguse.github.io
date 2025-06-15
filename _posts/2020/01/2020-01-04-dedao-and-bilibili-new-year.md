@@ -5,7 +5,7 @@ description: 看了两遍得到和B站的跨年晚会，发现还是B站的好�
 keywords: 生活  
 tags: [生活]    
 categories: [生活]  
-updateData:  2020-01-04 21:30:00  
+updateDate:  2020-01-04 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

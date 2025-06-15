@@ -5,7 +5,7 @@ description: 怎么才能防止某个逻辑忘记加单元测试呢？
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-06-20 21:30:00  
+updateDate:  2020-06-20 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description:  暑假没参加比赛，最后一题有点意思。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2024-07-28 18:13:00  
+updateDate:  2024-07-28 18:13:00  
 published: true  
 ---
 

@@ -5,7 +5,7 @@ description: 第一题搞了五十分钟，脑子不行了
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-08-09 21:30:00  
+updateDate:  2020-08-09 21:30:00  
 published: true  
 ---  
 

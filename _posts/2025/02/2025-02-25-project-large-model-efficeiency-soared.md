@@ -5,7 +5,7 @@ description: 这样看来，我并不看好元宝、豆包、kimi等。
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
 categories: [大模型]  
-updateData: 2025-02-25 12:13:00  
+updateDate: 2025-02-25 12:13:00  
 published: true  
 ---
 

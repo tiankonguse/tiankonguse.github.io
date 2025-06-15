@@ -5,7 +5,7 @@ description: 这次比赛偏简单，第一次一个小时内昨晚了。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-26 23:24   
+updateDate: 2019-05-26 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/sug6PgbKI1VN3j3PT_TyBQ  
 ---  

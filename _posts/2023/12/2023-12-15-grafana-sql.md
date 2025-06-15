@@ -5,7 +5,7 @@ description: PromQL 的语法很有意思。
 keywords: 项目实战  
 tags: [项目实战]  
 categories: [项目实战]  
-updateData:  2023-12-15 18:13:00  
+updateDate:  2023-12-15 18:13:00  
 published: true  
 ---  
 

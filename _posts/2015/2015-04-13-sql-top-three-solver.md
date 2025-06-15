@@ -5,7 +5,7 @@ description: 前几天发了一道sql问题，很多人发了自己的答案但�
 keywords: [mysql]
 tags: [mysql]
 categories: [程序人生]
-updateData:  13:12 2015/4/13
+updateDate:  13:12 2015/4/13
 ---  
 
 ## 背景

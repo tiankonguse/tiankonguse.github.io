@@ -5,7 +5,7 @@ description: 周五发生了好几件事,有必要简单的记录一下.
 keywords: linux, 恢复
 tags: [linux, 恢复]
 categories: [程序人生]
-updateData:   16:05 2015/9/13
+updateDate:   16:05 2015/9/13
 ---
 
 <!-- ![image](http://tiankonguse.com/lab/cloudLink/baidupan.php?url=/1915453531/2339100698.png) -->

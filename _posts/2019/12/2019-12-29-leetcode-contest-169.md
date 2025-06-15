@@ -5,7 +5,7 @@ description: 这次比赛有机会进全球50名的，可以自己太弱，只�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-12-29 21:30:00  
+updateDate:  2019-12-29 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

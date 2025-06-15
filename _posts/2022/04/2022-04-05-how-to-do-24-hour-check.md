@@ -5,7 +5,7 @@ description: 检查时长不确定，需要提前做规划。
 keywords: 生活,疫情,核酸 
 tags: [生活]    
 categories: [生活]  
-updateData:  2022-04-05 12:13:00  
+updateDate:  2022-04-05 12:13:00  
 published: true  
 ---  
 

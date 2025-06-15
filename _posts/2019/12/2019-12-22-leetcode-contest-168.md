@@ -5,7 +5,7 @@ description: 鼠标坏了，严重影响比赛效率。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-12-22 21:30:00  
+updateDate:  2019-12-22 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

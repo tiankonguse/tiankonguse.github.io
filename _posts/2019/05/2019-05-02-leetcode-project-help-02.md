@@ -5,7 +5,7 @@ description: 之前提到使用github页面操作有问题，这里教你另外�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-02 23:24   
+updateDate: 2019-05-02 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/cPHUqFz78hDIVH4kqHZJPw  
 ---  

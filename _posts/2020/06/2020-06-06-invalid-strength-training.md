@@ -5,7 +5,7 @@ description: 力量训练应该科学的训练。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-06-06 21:30:00  
+updateDate:  2020-06-06 21:30:00  
 published: true  
 ---  
 

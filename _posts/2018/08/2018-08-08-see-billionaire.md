@@ -5,7 +5,7 @@ description: 看了一部搞笑的电影，碎碎念一下。
 keywords: 电影 
 tags: [电影]  
 categories: [电影]  
-updateData:  23:40 2018/08/08   
+updateDate:  23:40 2018/08/08   
 published: true   
 ---  
 

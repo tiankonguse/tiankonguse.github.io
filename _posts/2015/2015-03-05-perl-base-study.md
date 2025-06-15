@@ -4,7 +4,7 @@ title:  perl 快速学习记录
 description: 之前曾简单的写过几个perl脚本，现在又接到一个perl写的项目，于是先快速预习一下perl语法。  
 tag: perl
 keywords: perl
-updateData:  20:06 2015/3/5
+updateDate:  20:06 2015/3/5
 categories: [程序人生]
 ---  
 

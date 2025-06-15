@@ -5,7 +5,7 @@ description: 被狗咬了，狂犬疫苗报销下来了
 keywords: 生活记录  
 tags: [生活记录]    
 categories: [生活记录]  
-updateData:  2023-10-17 18:13:00  
+updateDate:  2023-10-17 18:13:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 动态维护字典树，原来这么简单。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-07-20 21:30:00  
+updateDate:  2021-07-20 21:30:00  
 published: true  
 ---  
 

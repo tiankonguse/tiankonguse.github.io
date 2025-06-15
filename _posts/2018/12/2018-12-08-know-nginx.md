@@ -5,7 +5,7 @@ description: 最近几周简单看了 Nginx 的源码，并做了一个分享，
 keywords: 技术
 tags: [程序人生]  
 categories: [程序人生]  
-updateData: 2018-12-08 19:28 
+updateDate: 2018-12-08 19:28 
 published: true   
 wxurl: https://mp.weixin.qq.com/s/wGscVGR7Ytf8uMWzEwOjLQ  
 ---  

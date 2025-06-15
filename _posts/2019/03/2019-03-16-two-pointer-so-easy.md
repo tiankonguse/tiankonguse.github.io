@@ -5,7 +5,7 @@ description: 有些算法需要使用两个指针才能解决，看了这篇文�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-03-16 13:24   
+updateDate: 2019-03-16 13:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/w6HdSIOEHJRnTCQp1wkZDQ  
 ---  

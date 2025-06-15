@@ -5,7 +5,7 @@ description: 二进制想要在文本中储存, 就需要明文转换,这里聊�
 keywords: 后台服务  
 tags: [后台服务]  
 categories: [算法]  
-updateData:  20:57 2017/4/21  
+updateDate:  20:57 2017/4/21  
 published: true  
 ---  
   

@@ -5,7 +5,7 @@ description: 做了 Leetcode 上的第129场比赛，简单看一下都是什么
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-03-24 23:24   
+updateDate: 2019-03-24 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/vp9OTJqfeidVhLxURxpi6g  
 ---  

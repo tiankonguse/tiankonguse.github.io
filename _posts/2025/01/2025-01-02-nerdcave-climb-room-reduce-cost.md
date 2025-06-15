@@ -5,7 +5,7 @@ description: 分析了一下攀岩馆的成本，发现至少可以降低 85%。
 keywords: 技术  
 tags: [技术]  
 categories: [技术]  
-updateData: 2025-01-02 21:13:00  
+updateDate: 2025-01-02 21:13:00  
 published: true  
 ---
 

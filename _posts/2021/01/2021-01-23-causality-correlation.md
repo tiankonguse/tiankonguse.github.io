@@ -5,7 +5,7 @@ description: 经验有时候并不代表正确。
 keywords: 生活,理性逻辑,因果分析  
 tags: [生活,理性逻辑,因果分析]    
 categories: [生活]  
-updateData:  2021-01-23 21:30:00  
+updateDate:  2021-01-23 21:30:00  
 published: true  
 ---  
 

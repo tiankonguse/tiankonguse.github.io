@@ -2,7 +2,7 @@
 layout: post  
 title: The Art of Writing Catchy Articles - 11 Simple Tips  
 description:  This is a guest article by Rajat Bhadani.  
-updateData:  22:31 2016/03/17
+updateDate:  22:31 2016/03/17
 categories: [生活]
 ---  
 

@@ -5,7 +5,7 @@ description: 动态规划、广度优先搜索、排序与构造，都是基础�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-06-16 21:30:00  
+updateDate:  2019-06-16 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/8aN62twn1yMtfMiySzVdEQ  
 ---  

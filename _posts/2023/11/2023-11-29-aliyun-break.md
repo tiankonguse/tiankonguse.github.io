@@ -5,7 +5,7 @@ description: 阿里云11月12日出现大面积故障，简单分析下这起故
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2023-11-29 18:13:00  
+updateDate:  2023-11-29 18:13:00  
 published: true  
 ---  
 

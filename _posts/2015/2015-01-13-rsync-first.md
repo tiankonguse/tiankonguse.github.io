@@ -4,7 +4,7 @@ title: rsync 简单使用记录
 description:  工作需要使用 rsync， 简单记录一下。  
 tags:  rsync
 keywords: rsync
-updateData:  19:37 2015/1/11
+updateDate:  19:37 2015/1/11
 categories: [程序人生]
 ---  
 

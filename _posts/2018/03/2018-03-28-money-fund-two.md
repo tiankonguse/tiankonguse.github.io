@@ -5,7 +5,7 @@ description: 这里告诉你怎么降低基金的手续费。
 keywords: 理财  
 tags: [理财]  
 categories: [理财]  
-updateData:  03:40 2018/03/28
+updateDate:  03:40 2018/03/28
 published: true  
 ---  
  

@@ -5,7 +5,7 @@ description: 最后两道都卡常数，没意思
 keywords: 算法,leetcode,算法比赛
 tags: [算法, leetcode, 算法比赛]
 categories: [算法]
-updateData: 2025-03-30 12:13:00
+updateDate: 2025-03-30 12:13:00
 published: true
 ---
 

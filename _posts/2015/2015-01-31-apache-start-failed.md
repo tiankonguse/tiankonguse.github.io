@@ -4,7 +4,7 @@ title: apache 启动失败问题记录
 description:  一个下午，突然收到编辑反馈，sphinx搜索不到数据， 我简单看了一下，一台机器上的apache挂了，于是想法解决了问题。  
 tags:  apache php
 keywords: apache,php  
-updateData:  21:23 2015/1/31 
+updateDate:  21:23 2015/1/31 
 categories: [程序人生]
 ---
 

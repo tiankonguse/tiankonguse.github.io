@@ -5,7 +5,7 @@ description: 链表专题，难度还可以，但是差几分钟做完所有题�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-12-05 21:30:00  
+updateDate:  2021-12-05 21:30:00  
 published: true  
 ---  
 

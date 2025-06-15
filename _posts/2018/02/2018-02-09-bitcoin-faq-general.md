@@ -5,7 +5,7 @@ description: 比特币最常见的问题。
 keywords: 区块链  
 tags: [比特币]  
 categories: [理财]  
-updateData:  22:40 2018/02/09
+updateDate:  22:40 2018/02/09
 published: true  
 ---  
   

@@ -5,7 +5,7 @@ description: 第三题学到新技能了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-06-27 21:30:00  
+updateDate:  2021-06-27 21:30:00  
 published: true  
 ---  
 

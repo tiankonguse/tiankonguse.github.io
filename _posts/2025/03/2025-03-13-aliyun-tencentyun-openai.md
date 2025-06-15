@@ -5,7 +5,7 @@ description: 阿里云免费的午餐不要吃。
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG]  
 categories: [大模型]  
-updateData: 2025-03-13 12:13:00
+updateDate: 2025-03-13 12:13:00
 published: true  
 ---
 

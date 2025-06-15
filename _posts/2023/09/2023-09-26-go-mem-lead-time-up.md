@@ -5,7 +5,7 @@ description: 涉及到几个GO的知识点。
 keywords: 技术  
 tags: [技术]    
 categories: [技术]  
-updateData:  2023-09-26 18:13:00  
+updateDate:  2023-09-26 18:13:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: github 的这个功能挺好的，提高了业界整体安全水平
 keywords: 大模型, Deepseek, RAG, github, openai key 
 tags: [大模型, Deepseek, RAG, github, openai key ]  
 categories: [大模型]  
-updateData: 2025-03-06 12:13:00
+updateDate: 2025-03-06 12:13:00
 published: true  
 ---
 

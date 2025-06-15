@@ -5,7 +5,7 @@ description: 这篇文章教你怎么找到二叉树每层的下一个节点。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-23 23:24   
+updateDate: 2019-05-23 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/knzEK8Xiwf21p8W-2QYl2A  
 ---  

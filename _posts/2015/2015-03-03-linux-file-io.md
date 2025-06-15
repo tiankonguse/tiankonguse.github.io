@@ -2,7 +2,7 @@
 layout: post  
 title:  简单了解linux 文件I/O 
 description: 之前一直没系统的阅读linux书籍，过年回家看了几章UNIX环境高级编程，发现挺好的，现在记录一下文件I/O 相关知识点。  
-updateData:  22:24 2015/3/3
+updateDate:  22:24 2015/3/3
 keywords: linux,文件IO
 tags: [linux, 文件IO]
 categories: [程序人生]

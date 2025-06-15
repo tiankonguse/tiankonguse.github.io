@@ -5,7 +5,7 @@ description: 只有 5 个函数，也许可以提高编码效率。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2023-01-26 18:13:00  
+updateDate:  2023-01-26 18:13:00  
 published: true  
 ---  
 

@@ -2,7 +2,7 @@
 layout: post  
 title: 从服务端反向查找客户端信息
 description:  提供一个服务, 有时候想反过来查找调用方的进程信息, 今天用到了, 这里记录一下.    
-updateData:  22:02 2016/4/27
+updateDate:  22:02 2016/4/27
 categories: [程序人生]
 ---  
 

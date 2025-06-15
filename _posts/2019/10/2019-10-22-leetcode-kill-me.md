@@ -5,7 +5,7 @@ description: 最近遇到一件糟心时，分享给大家。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-10-22 21:30:00  
+updateDate:  2019-10-22 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

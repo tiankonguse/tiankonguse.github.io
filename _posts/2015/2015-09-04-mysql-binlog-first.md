@@ -4,7 +4,7 @@ title: mysql binlog简单认识
 description:  我的小组主要用来管理视频资料, 也就是管理Db的啦. 后来发现有很多慢查询, 于是导了一份慢查询和binlog来看了看.  
 tags:  mysql
 keywords: mysql
-updateData:  14:58 2015/9/4
+updateDate:  14:58 2015/9/4
 categories: [程序人生]
 ---
 

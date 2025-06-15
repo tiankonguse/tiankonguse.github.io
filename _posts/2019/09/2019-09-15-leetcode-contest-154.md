@@ -5,7 +5,7 @@ description: 最后一道题是个赤裸裸模板题，但是我没过。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-09-15 21:30:00  
+updateDate:  2019-09-15 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

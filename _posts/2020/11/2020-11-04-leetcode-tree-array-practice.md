@@ -5,7 +5,7 @@ description: 分享几个简单的树状数组练习题。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-11-04 21:30:00  
+updateDate:  2020-11-04 21:30:00  
 published: true  
 ---  
 

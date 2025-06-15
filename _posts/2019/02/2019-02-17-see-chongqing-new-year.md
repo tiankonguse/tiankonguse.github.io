@@ -5,7 +5,7 @@ description:  在重庆过了几年了，记录一下看到的新年与文化。
 keywords: 生活  
 tags: [生活]    
 categories: [生活]  
-updateData: 2019-02-17 22:38  
+updateDate: 2019-02-17 22:38  
 publishe: true 
 wxurl: https://mp.weixin.qq.com/s/XaUKqhoT2-UPKVopsJ4FPg  
 ---  

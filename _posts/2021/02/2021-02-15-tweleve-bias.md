@@ -5,7 +5,7 @@ description: 你可能都有这些偏见。
 keywords: 生活,逻辑  
 tags: [生活,逻辑]    
 categories: [生活]  
-updateData:  2021-02-15 21:30:00  
+updateDate:  2021-02-15 21:30:00  
 published: true  
 ---  
 

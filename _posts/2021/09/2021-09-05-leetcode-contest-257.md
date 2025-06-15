@@ -5,7 +5,7 @@ description: 做了半个小时有点事，赛后看了下，有点难度。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-09-05 21:30:00  
+updateDate:  2021-09-05 21:30:00  
 published: true  
 ---  
 

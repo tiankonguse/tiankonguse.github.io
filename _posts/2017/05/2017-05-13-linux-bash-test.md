@@ -5,7 +5,7 @@ description: 这个是基本常识, 这里简单记录一下.
 keywords: 后台服务  
 tags: [后台服务]  
 categories: [程序人生]  
-updateData:  19:10 2017/5/13 
+updateDate:  19:10 2017/5/13 
 published: true  
 ---  
   

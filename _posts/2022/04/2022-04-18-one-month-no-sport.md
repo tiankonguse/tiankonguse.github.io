@@ -5,7 +5,7 @@ description: 最近两周开启运动模式。
 keywords: 生活,健康,运动  
 tags: [生活]    
 categories: [生活]  
-updateData:  2022-04-18 12:13:00  
+updateDate:  2022-04-18 12:13:00  
 published: true  
 ---  
 

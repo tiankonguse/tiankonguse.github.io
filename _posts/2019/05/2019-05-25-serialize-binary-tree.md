@@ -5,7 +5,7 @@ description: 做树相关的题时，有没有想过如何输入一棵树呢？
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-24 23:24   
+updateDate: 2019-05-24 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/6LkG-e1zq8q4pLI8UnxSCw  
 ---  

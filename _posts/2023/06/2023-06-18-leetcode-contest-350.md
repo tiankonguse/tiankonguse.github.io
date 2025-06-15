@@ -5,7 +5,7 @@ description: 动态规划最难的在于构造状态。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2023-06-18 18:13:00  
+updateDate:  2023-06-18 18:13:00  
 published: true  
 ---  
 

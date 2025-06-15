@@ -5,7 +5,7 @@ description: batchGet 并没有那么差，multiget 也没有那么好。
 keywords: 技术  
 tags: [技术]    
 categories: [技术]  
-updateData:  2023-09-02 18:13:00  
+updateDate:  2023-09-02 18:13:00  
 published: true  
 ---  
 

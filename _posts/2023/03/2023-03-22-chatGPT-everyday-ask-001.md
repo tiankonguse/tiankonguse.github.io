@@ -5,7 +5,7 @@ description: 01背包问题 chatGPT 还在胡说八道。
 keywords: chatGPT  
 tags: [chatGPT]    
 categories: [chatGPT]  
-updateData:  2023-03-22 18:13:00  
+updateDate:  2023-03-22 18:13:00  
 published: true  
 ---  
 

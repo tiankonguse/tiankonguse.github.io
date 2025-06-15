@@ -5,7 +5,7 @@ description: 这周小组内一起做了一场比赛，解题思路分享给大�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-06-29 21:30:00  
+updateDate:  2019-06-29 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ  
 ---  

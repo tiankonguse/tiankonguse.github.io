@@ -5,7 +5,7 @@ description: 动态规划题型其实很简单，就是递归记忆化搜索。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-10-13 21:30:00  
+updateDate:  2019-10-13 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

@@ -5,7 +5,7 @@ description: 算法就是这么简单系列结束了，说几句。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-06-18 21:30:00  
+updateDate:  2019-06-18 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/LiWtQsLKQRUrouQTmq_egA  
 ---  

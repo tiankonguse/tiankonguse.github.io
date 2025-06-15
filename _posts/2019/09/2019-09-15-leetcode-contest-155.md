@@ -5,7 +5,7 @@ description: 这次比赛涉及到容斥原理和拓扑排序，触发了很多�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-09-22 21:30:00  
+updateDate:  2019-09-22 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

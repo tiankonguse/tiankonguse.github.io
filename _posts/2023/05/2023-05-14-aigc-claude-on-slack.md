@@ -5,7 +5,7 @@ description: 只是体验一下，还是没有 ChatGPT 好用。
 keywords: 人工智能
 tags: [AIGC, ChatGPT]    
 categories: [人工智能]  
-updateData:  2023-05-14 18:13:00  
+updateDate:  2023-05-14 18:13:00  
 published: true  
 ---  
 

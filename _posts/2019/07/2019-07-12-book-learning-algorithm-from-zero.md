@@ -5,7 +5,7 @@ description: 之前写过从零开始学算法这个系列，现在只做为电�
 keywords: 程序人生  
 tags: [程序人生]  
 categories: [程序人生]  
-updateData:  2019-07-12 21:30:00  
+updateDate:  2019-07-12 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

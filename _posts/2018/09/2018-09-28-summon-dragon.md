@@ -5,7 +5,7 @@ description:    人人都需要有逻辑能力，人人都需要有分析能力�
 keywords: 算法 
 tags: [算法]  
 categories: [算法]  
-updateData:  23:40 2018/09/28  
+updateDate:  23:40 2018/09/28  
 published: true   
 ---  
 

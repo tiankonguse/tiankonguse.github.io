@@ -5,7 +5,7 @@ description:    这是阿里的技术栈，相当全面。
 keywords: 算法 
 tags: [算法]  
 categories: [算法]  
-updateData:  23:40 2018/09/26  
+updateDate:  23:40 2018/09/26  
 published: true   
 ---  
 

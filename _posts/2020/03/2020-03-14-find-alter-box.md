@@ -5,7 +5,7 @@ description: 彻底解决烦人的右下角弹窗广告。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-03-14 21:30:00  
+updateDate:  2020-03-14 21:30:00  
 published: true  
 ---  
 

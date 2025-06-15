@@ -5,7 +5,7 @@ description: 区间查询，字典树 VS 数位二分查找
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2023-11-12 18:13:00  
+updateDate:  2023-11-12 18:13:00  
 published: true  
 ---  
 

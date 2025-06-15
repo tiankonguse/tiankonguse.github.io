@@ -5,7 +5,7 @@ description: 被第二题坑了，使用暴力几分钟就过了
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-06-21 21:30:00  
+updateDate:  2020-06-21 21:30:00  
 published: true  
 ---  
 

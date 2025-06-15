@@ -5,7 +5,7 @@ description: 总的来看，这些 XaaS 服务之间是有关系的。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2019-06-27 21:30:00  
+updateDate:  2019-06-27 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ  
 ---  

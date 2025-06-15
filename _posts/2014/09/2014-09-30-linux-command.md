@@ -5,7 +5,7 @@ description: linux下的命令学好了，走到哪里都不怕电脑死机了�
 keywords: linux, command, ls, cp, dd, pwd, mv, 语法, touch, 用户, 操作, 权限, lsblk, 优化命令, readelf, 格式, 常用命令, strings
 tags: [linux, command]
 categories: [程序人生]
-updateData:   22:31 2015/5/13
+updateDate:   22:31 2015/5/13
 ---
 
 

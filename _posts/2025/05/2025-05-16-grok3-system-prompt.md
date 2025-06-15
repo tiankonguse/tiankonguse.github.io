@@ -5,7 +5,7 @@ description: 分为4个场景：聊天、深度研究、X 的个人分析、X �
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-16 12:13:00  
+updateDate: 2025-05-16 12:13:00  
 published: true  
 ---
 

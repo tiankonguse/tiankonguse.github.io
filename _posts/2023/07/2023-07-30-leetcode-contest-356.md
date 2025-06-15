@@ -5,7 +5,7 @@ description: 这比赛不难，但是我错误很多次。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2023-07-30 18:13:00  
+updateDate:  2023-07-30 18:13:00  
 published: true  
 ---  
 

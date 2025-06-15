@@ -5,7 +5,7 @@ description: 这次比赛题目都还算简单，但是有点事，差几分钟�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-07-25 21:30:00  
+updateDate:  2021-07-25 21:30:00  
 published: true  
 ---  
 

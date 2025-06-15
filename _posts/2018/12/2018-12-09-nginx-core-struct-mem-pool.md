@@ -5,7 +5,7 @@ description: Nginx 自己把所有的数据结构都自己造了一遍轮子，�
 keywords: 技术
 tags: [程序人生]  
 categories: [程序人生]  
-updateData: 2018-12-09 20:12 
+updateDate: 2018-12-09 20:12 
 published: true   
 wxurl: https://mp.weixin.qq.com/s/hcnMA0h5BPsRJH9cnmq7hw  
 ---  

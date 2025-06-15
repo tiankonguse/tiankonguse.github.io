@@ -5,7 +5,7 @@ description: 乘法逆元取模不是质数，触发我的知识盲区了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData: 2025-02-23 12:13:00  
+updateDate: 2025-02-23 12:13:00  
 published: true  
 ---
 

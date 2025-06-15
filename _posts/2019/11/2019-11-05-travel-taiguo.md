@@ -5,7 +5,7 @@ description: 今天上了一门课，决定按照中学作文的方式重写这�
 keywords: 生活  
 tags: [生活]    
 categories: [生活]  
-updateData:  2019-11-05 21:30:00  
+updateDate:  2019-11-05 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

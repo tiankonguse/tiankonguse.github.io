@@ -5,7 +5,7 @@ description: 来看看最简单的二叉搜索数吧。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-15 23:24   
+updateDate: 2019-05-15 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/xgO36QdiQF30L981YSfKwA  
 ---  

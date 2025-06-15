@@ -5,7 +5,7 @@ description: 相比文生图，图生图的应用更广一些。
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-19 12:13:00  
+updateDate: 2025-05-19 12:13:00  
 published: true  
 ---
 

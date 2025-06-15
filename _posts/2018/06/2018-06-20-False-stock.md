@@ -5,7 +5,7 @@ description: 第一次炒股，记录一下。
 keywords: 理财 
 tags: [理财]  
 categories: [理财]  
-updateData:  01:40 2018/06/20   
+updateDate:  01:40 2018/06/20   
 published: true   
 ---  
 

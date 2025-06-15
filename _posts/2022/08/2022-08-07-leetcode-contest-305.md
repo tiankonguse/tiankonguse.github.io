@@ -5,7 +5,7 @@ description: 比赛都不出 hard 的了？
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-08-07 18:13:00  
+updateDate:  2022-08-07 18:13:00  
 published: true  
 ---  
 

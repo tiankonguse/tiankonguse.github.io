@@ -5,7 +5,7 @@ description:  最后一题vector超时了，换成数组就过了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2024-05-12 18:13:00  
+updateDate:  2024-05-12 18:13:00  
 published: true  
 ---
 

@@ -5,7 +5,7 @@ description: 被第二题浮点数坑了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-05-23 21:30:00  
+updateDate:  2021-05-23 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 使用的一个东西被打包进docker了，所以我也被动学�
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2019-11-01 21:30:00  
+updateDate:  2019-11-01 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

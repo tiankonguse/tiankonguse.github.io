@@ -5,7 +5,7 @@ description: 这次题有点难，但好像有不是那么难。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-09-12 21:30:00  
+updateDate:  2021-09-12 21:30:00  
 published: true  
 ---  
 

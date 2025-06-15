@@ -5,7 +5,7 @@ description: 可以快速了解 go 语言语法，实战部分不推荐。
 keywords: 读书  
 tags: [读书]    
 categories: [读书]  
-updateData:  2023-02-06 18:13:00  
+updateDate:  2023-02-06 18:13:00  
 published: true  
 ---  
 

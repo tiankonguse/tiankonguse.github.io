@@ -5,7 +5,7 @@ description: 第一次使用信用卡申请飞机延误险。
 keywords: 生活  
 tags: [生活]  
 categories: [生活]  
-updateData: 2025-05-22 12:13:00  
+updateDate: 2025-05-22 12:13:00  
 published: true  
 ---
 

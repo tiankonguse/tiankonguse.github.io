@@ -5,7 +5,7 @@ category: [程序人生]
 description: 以前我把自己的所有笔记都记载我github的empty项目下，现在想要提取出来，但是又想在empty项目保留一个一份，于是学习一下git子模块  
 tags: [git, linux, 版本控制]
 keywords: [git, linux, 版本控制]
-updateData:  2015-04-19 12:41:04  
+updateDate:  2015-04-19 12:41:04  
 ---
 
 

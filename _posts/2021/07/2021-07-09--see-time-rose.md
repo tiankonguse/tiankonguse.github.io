@@ -5,7 +5,7 @@ description: 关于价值投资，这本书聊了很多。
 keywords: 读书,理财  
 tags: [读书,理财]    
 categories: [读书]  
-updateData:  2021-07-09 21:30:00  
+updateDate:  2021-07-09 21:30:00  
 published: true  
 ---  
 

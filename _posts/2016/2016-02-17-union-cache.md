@@ -4,7 +4,7 @@ title: 统一数据缓存系统记录
 description:  最近几个月在做同意数据缓存系统， 现在.  
 tags:  cache 
 keywords: cache
-updateData:  22:34 2016/02/17
+updateDate:  22:34 2016/02/17
 categories: [程序人生]
 ---  
 

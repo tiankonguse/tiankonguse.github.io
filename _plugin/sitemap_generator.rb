@@ -244,7 +244,7 @@ module Jekyll
                 layout = layouts[layout.data["layout"]]
             end
             
-            date = page_or_post.updateData
+            date = page_or_post.updateDate
             latest_date = date if (date != nil and date > latest_date)
 
             latest_date

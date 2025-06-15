@@ -5,7 +5,7 @@ description: 其实zookeeper 能做什么只需要看看他的基本功能就行
 keywords: 技术 
 tags: [程序人生]  
 categories: [程序人生]  
-updateData:  23:40 2018/09/09   
+updateDate:  23:40 2018/09/09   
 published: true   
 ---  
 

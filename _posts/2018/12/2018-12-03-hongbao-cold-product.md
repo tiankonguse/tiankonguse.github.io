@@ -5,7 +5,7 @@ description: 外卖与冷启动、红包与习惯、支付宝与花呗，都是�
 keywords: 生活
 tags: [生活]  
 categories: [生活]  
-updateData: 2018-12-01 23:56  
+updateDate: 2018-12-01 23:56  
 published: true   
 wxurl: https://mp.weixin.qq.com/s/MoSGf9Ixh2DLjFGos1_dqA  
 ---  

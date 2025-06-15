@@ -6,8 +6,8 @@ comment: true
 
 {% assign publishData =  page.date|date:"%Y-%m-%d %H:%M:%S" %}
 
-{% if page.updateData %}
-{% assign lastData =  page.updateData|date:"%Y-%m-%d %H:%M:%S" %}
+{% if page.updateDate %}
+{% assign lastData =  page.updateDate|date:"%Y-%m-%d %H:%M:%S" %}
 {% else %}
 {% assign lastData =  page.date|date:"%Y-%m-%d %H:%M:%S" %}
 {% endif %}

@@ -5,7 +5,7 @@ description: 有人说上次比赛第三题我的代码超时，我赶紧看了�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-09-09 21:30:00  
+updateDate:  2019-09-09 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

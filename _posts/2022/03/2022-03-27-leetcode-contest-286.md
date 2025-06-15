@@ -5,7 +5,7 @@ description: 思路不清晰，确实很难进去前百名。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-03-27 12:13:00  
+updateDate:  2022-03-27 12:13:00  
 published: true  
 ---  
 

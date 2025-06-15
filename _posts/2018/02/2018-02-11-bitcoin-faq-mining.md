@@ -5,7 +5,7 @@ description: 比特币最常的挖矿问题。
 keywords: 区块链  
 tags: [比特币]  
 categories: [理财]  
-updateData:  22:40 2018/02/11
+updateDate:  22:40 2018/02/11
 published: true  
 ---  
   

@@ -5,7 +5,7 @@ description: 没想到 Google gemini 给每一个模型都编写了自己的系�
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-14 12:13:00  
+updateDate: 2025-05-14 12:13:00  
 published: true  
 ---
 

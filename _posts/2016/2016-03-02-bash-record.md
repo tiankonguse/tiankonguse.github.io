@@ -4,7 +4,7 @@ title: bash 回顾
 description:  bash使用了写了三年多了,有人问我一下语法, 于是整理一个记录集, 以备后续参考.    
 tags:  bash
 keywords: bash
-updateData:  20:31 2016/3/2
+updateDate:  20:31 2016/3/2
 categories: [程序人生]
 ---  
 

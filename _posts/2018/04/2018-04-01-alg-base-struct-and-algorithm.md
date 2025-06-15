@@ -5,7 +5,7 @@ description: 介绍一些最最基础的算法与数据结构
 keywords: 算法  
 tags: [算法]  
 categories: [算法]  
-updateData:  23:40 2018/04/01  
+updateDate:  23:40 2018/04/01  
 published: false    
 ---  
  

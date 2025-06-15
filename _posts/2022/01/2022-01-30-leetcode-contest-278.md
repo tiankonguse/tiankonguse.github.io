@@ -5,7 +5,7 @@ description: 这次比赛翻车了，赛后分享了几个经验，分享给大�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-01-30 00:12:00  
+updateDate:  2022-01-30 00:12:00  
 published: true  
 ---  
 

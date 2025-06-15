@@ -5,7 +5,7 @@ description: 研究了 Deepseek 部署方法，搭建了几个知识库，对比
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
 categories: [大模型]  
-updateData: 2025-02-20 12:13:00  
+updateDate: 2025-02-20 12:13:00  
 published: true  
 ---
 

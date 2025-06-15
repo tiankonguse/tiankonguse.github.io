@@ -5,7 +5,7 @@ description: 这次 leetcode 放水了，都不难，但是想过也不容易。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2019-11-03 21:30:00  
+updateDate:  2019-11-03 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

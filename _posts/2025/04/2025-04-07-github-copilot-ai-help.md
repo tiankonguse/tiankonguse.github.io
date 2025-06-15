@@ -5,7 +5,7 @@ description: 清明三天研究了一下 copilot ，分享下使用经验。
 keywords: 项目实践 
 tags: [项目实践]  
 categories: [项目实践]  
-updateData: 2025-04-07 12:13:00
+updateDate: 2025-04-07 12:13:00
 published: true  
 ---
 

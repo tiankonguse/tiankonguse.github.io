@@ -5,7 +5,7 @@ description: 今天听了一个JPEG压缩的课程，下来我查了一下资料
 keywords: 后台服务  
 tags: [后台服务]  
 categories: [程序人生]  
-updateData:  23:36 2017/4/11  
+updateDate:  23:36 2017/4/11  
 published: true  
 ---  
   

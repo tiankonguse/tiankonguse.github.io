@@ -5,7 +5,7 @@ description: 办理下来了，住酒店接下来该办啥信用卡呢。
 keywords: 生活  
 tags: [生活]    
 categories: [生活]  
-updateData:  2023-05-22 18:13:00  
+updateDate:  2023-05-22 18:13:00  
 published: true  
 ---  
 

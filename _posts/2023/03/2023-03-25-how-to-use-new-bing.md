@@ -5,7 +5,7 @@ description: new bing 没有 chatGPT 好用。
 keywords: chatGPT  
 tags: [chatGPT]    
 categories: [chatGPT]  
-updateData:  2023-03-25 18:13:00  
+updateDate:  2023-03-25 18:13:00  
 published: true  
 ---  
 

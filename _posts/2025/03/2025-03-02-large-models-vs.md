@@ -5,7 +5,7 @@ description: 看到一个简单的问题，测试了下所有大模型，除了 
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
 categories: [大模型]  
-updateData: 2025-03-02 12:13:00  
+updateDate: 2025-03-02 12:13:00  
 published: true  
 ---
 

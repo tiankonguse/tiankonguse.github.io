@@ -5,7 +5,7 @@ description: 试用了下豆包，挺好用的。
 keywords: AIGC 
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-06 12:13:00
+updateDate: 2025-05-06 12:13:00
 published: true  
 ---
 

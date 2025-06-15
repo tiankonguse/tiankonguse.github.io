@@ -3,7 +3,7 @@ layout: page
 title: tiankonguse的音乐
 description: 我与音乐
 isContact: true
-updateData:  15:25 2015/4/10
+updateDate:  15:25 2015/4/10
 ---
 
 {% for videoState in site.data.music %}

@@ -2,7 +2,7 @@
 layout: post  
 title:  linux下目录的权限问题
 description: 遇到一个linux目录不可读的权限问题,查了资料,原来目录必须有可读和可执行权限才能访问.
-updateData:  13:34 2015/8/17
+updateDate:  13:34 2015/8/17
 keywords: linux,目录,权限
 tags: [linux,目录,权限]
 categories: [程序人生]

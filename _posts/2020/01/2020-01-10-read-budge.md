@@ -5,7 +5,7 @@ description: 作者说的道理都对，但是书中的逻辑很令人反感。
 keywords: 读书  
 tags: [读书]    
 categories: [读书]  
-updateData:  2020-01-10 21:30:00  
+updateDate:  2020-01-10 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

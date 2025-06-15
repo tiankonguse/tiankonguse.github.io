@@ -5,7 +5,7 @@ description: Leetcode 上有一道洗牌题，你敢来挑战吗。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-07-06 21:30:00  
+updateDate:  2019-07-06 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

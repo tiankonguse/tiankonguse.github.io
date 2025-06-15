@@ -5,7 +5,7 @@ description: 一只木桶盛水的多少取决于桶壁上最短的那块。
 keywords: 算法
 tags: [算法]  
 categories: [算法]  
-updateData:  16:29 2017/8/27  
+updateDate:  16:29 2017/8/27  
 published: true  
 ---  
   

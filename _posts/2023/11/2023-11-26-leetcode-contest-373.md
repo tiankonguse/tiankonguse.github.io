@@ -5,7 +5,7 @@ description: 比赛比较简单，不过在练车，没参加。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2023-11-26 18:13:00  
+updateDate:  2023-11-26 18:13:00  
 published: true  
 ---  
 

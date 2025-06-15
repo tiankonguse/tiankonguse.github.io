@@ -5,7 +5,7 @@ description: 最后一题打表题，犹豫了一会，排名就到一百名之�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-11-21 21:30:00  
+updateDate:  2021-11-21 21:30:00  
 published: true  
 ---  
 

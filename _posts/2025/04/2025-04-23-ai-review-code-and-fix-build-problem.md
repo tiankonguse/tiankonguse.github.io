@@ -5,7 +5,7 @@ description: 拿到一个旧项目的代码，使用 coplot 来帮忙看下。
 keywords: 项目实践 
 tags: [项目实践]  
 categories: [项目实践]  
-updateData: 2025-04-23 12:13:00
+updateDate: 2025-04-23 12:13:00
 published: true  
 ---
 

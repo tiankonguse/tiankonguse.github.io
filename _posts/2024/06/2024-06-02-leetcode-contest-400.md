@@ -5,7 +5,7 @@ description:  题目都比较简单，拼手速的时候到了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2024-06-02 18:13:00  
+updateDate:  2024-06-02 18:13:00  
 published: true  
 ---
 

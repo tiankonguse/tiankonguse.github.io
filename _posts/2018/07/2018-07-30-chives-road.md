@@ -5,7 +5,7 @@ description: 买的P2P雷了，回顾一下理财历程。
 keywords: 理财 
 tags: [理财]  
 categories: [理财]  
-updateData:  23:40 2018/07/30   
+updateDate:  23:40 2018/07/30   
 published: true   
 ---  
 

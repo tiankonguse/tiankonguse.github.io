@@ -5,7 +5,7 @@ description: 如果四年前那个利率的产品买了，并持有到现在，�
 keywords: 理财  
 tags: [理财]    
 categories: [理财]  
-updateData:  2022-02-11 00:12:00  
+updateDate:  2022-02-11 00:12:00  
 published: true  
 ---  
 

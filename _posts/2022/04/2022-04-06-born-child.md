@@ -5,7 +5,7 @@ description: 疫情年代，住个院很麻烦。
 keywords: 生活,疫情,核酸 
 tags: [生活]    
 categories: [生活]  
-updateData:  2022-04-06 12:13:00  
+updateDate:  2022-04-06 12:13:00  
 published: true  
 ---  
 

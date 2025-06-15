@@ -4,7 +4,7 @@ title: sphinx 源码阅读之 分词，压缩索引，倒排
 description: 一个搜索引擎的核心就是分词、倒排、索引、储存。这些决定着如何搜索。  
 tags: sphinx  源码 分词 倒排
 keywords: sphinx, 源码, 分词, 倒排
-updateData: 19:59 2014/12/2
+updateDate: 19:59 2014/12/2
 categories: [程序人生]
 ---
 

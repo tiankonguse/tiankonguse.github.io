@@ -5,7 +5,7 @@ description: 这次做比赛依旧是考察动态规划、二分查找。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-12 23:24   
+updateDate: 2019-05-12 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/a_IkwwC5fHrHCbfRuUPPuQ  
 ---  

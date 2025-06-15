@@ -5,7 +5,7 @@ description: 10秒生成一张高质量图。
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-17 12:13:00  
+updateDate: 2025-05-17 12:13:00  
 published: true  
 ---
 

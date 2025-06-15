@@ -5,7 +5,7 @@ description: 偶尔需要查看一下linux系统下的设备信息, 记录一下
 keywords: linux
 tags: [linux]
 categories: [程序人生]
-updateData:   22:47 2015/10/10
+updateDate:   22:47 2015/10/10
 ---
 
 ## CPU 

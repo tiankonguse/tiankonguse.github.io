@@ -5,7 +5,7 @@ description: 基金是什么？从哪里来？到那里去？
 keywords: 理财  
 tags: [理财]  
 categories: [理财]  
-updateData:  22:40 2018/03/04
+updateDate:  22:40 2018/03/04
 published: true  
 ---  
  

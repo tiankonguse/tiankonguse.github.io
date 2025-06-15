@@ -5,7 +5,7 @@ description: Nginx 用到的数据结构都自己实现了，今天来看三个�
 keywords: 技术
 tags: [程序人生]  
 categories: [程序人生]  
-updateData: 2018-12-12 16:27  
+updateDate: 2018-12-12 16:27  
 published: true   
 wxurl: https://mp.weixin.qq.com/s/e_eA8cbfG_681EU06v0jhA  
 ---  

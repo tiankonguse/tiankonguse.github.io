@@ -5,7 +5,7 @@ description: 计划写一个系列来分享如何入门学习算法
 keywords: 算法  
 tags: [算法]  
 categories: [算法]  
-updateData:  22:40 2018/03/18
+updateDate:  22:40 2018/03/18
 published: true  
 ---  
  

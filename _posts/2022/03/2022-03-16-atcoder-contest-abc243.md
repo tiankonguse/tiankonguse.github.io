@@ -5,7 +5,7 @@ description: 看完题解后，会做了，学到不少知识。
 keywords: 算法,atcoder,算法比赛  
 tags: [算法,atcoder,算法比赛]    
 categories: [算法]  
-updateData:  2022-03-16 12:13:00  
+updateDate:  2022-03-16 12:13:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 生成高质量图片的关键。
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-27 12:13:00  
+updateDate: 2025-05-27 12:13:00  
 published: true  
 ---
 

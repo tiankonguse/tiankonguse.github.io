@@ -4,7 +4,7 @@ title: 关于 tiankonguse 的一些东西
 description: tiankonguse 的博客历史、书籍，视频，音乐，个人经历等。  
 keywords:  About, Author, Site, tiankonguse, Jekyll, GitHub, Chrome, Firefox, Safari, IE, MS, Contact, Change, Log, SEO
 isContact: true
-updateData:  21:25 2015/4/2
+updateDate:  21:25 2015/4/2
 ---
 
 ## 关于 tiankonguse

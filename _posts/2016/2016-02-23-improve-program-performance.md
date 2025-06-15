@@ -4,7 +4,7 @@ title: 程序性能优化
 description:  最近在写高访问量服务，　记录一些各种优化技巧  
 tags:  性能 
 keywords: 性能
-updateData:  23:34 2016/02/23
+updateDate:  23:34 2016/02/23
 categories: [程序人生]
 ---  
 

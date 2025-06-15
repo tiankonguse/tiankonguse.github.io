@@ -5,7 +5,7 @@ description: 这次比赛没啥意思，面试题？
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-11-14 21:30:00  
+updateDate:  2021-11-14 21:30:00  
 published: true  
 ---  
 

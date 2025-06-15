@@ -2,7 +2,7 @@
 layout: post  
 title: android 逆向工程
 description:  学习一下android反编译，获取一些好的app的资源。    
-updateData:  18:31 2016/03/12
+updateDate:  18:31 2016/03/12
 categories: [程序人生]
 ---  
 

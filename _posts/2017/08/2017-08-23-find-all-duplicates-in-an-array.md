@@ -5,7 +5,7 @@ description: 这不是一道异或题，但依旧很简单。
 keywords: 算法  
 tags: [算法]  
 categories: [算法]  
-updateData:  23:59 2017/8/20  
+updateDate:  23:59 2017/8/20  
 published: true  
 ---  
   

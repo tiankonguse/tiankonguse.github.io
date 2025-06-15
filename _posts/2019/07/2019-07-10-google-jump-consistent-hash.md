@@ -5,7 +5,7 @@ description: 这个算法零内存、分布均匀、计算快速，全是优点�
 keywords: 程序人生  
 tags: [程序人生]  
 categories: [程序人生]  
-updateData:  2019-07-10 21:30:00  
+updateDate:  2019-07-10 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

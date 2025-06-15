@@ -5,7 +5,7 @@ description: 除了人物替换，还支持风格切换、附加新的 Prompt。
 keywords: AIGC 
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-10 12:13:00
+updateDate: 2025-05-10 12:13:00
 published: true  
 ---
 

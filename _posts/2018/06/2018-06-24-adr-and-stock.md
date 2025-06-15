@@ -5,7 +5,7 @@ description: CDR火了好久了，记录一下。
 keywords: 理财 
 tags: [理财]  
 categories: [理财]  
-updateData:  01:40 2018/06/24   
+updateDate:  01:40 2018/06/24   
 published: true   
 ---  
 

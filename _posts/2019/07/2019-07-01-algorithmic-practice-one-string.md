@@ -5,7 +5,7 @@ description: 字符串的一些练习题，你可以看看。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-07-01 21:30:00  
+updateDate:  2019-07-01 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

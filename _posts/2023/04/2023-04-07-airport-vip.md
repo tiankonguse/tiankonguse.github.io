@@ -5,7 +5,7 @@ description: 办了一个信用卡，送机场 VIP 服务。
 keywords: 生活  
 tags: [chat生活GPT]  
 categories: [生活]  
-updateData:  2023-04-07 18:13:00  
+updateDate:  2023-04-07 18:13:00  
 published: true  
 ---  
 

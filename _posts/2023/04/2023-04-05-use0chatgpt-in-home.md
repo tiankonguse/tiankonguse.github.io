@@ -5,7 +5,7 @@ description: 对于大部分人来体验一下 chatGPT 应该够了。
 keywords: chatGPT  
 tags: [chatGPT]    
 categories: [chatGPT]  
-updateData:  2023-04-05 18:13:00  
+updateDate:  2023-04-05 18:13:00  
 published: true  
 ---  
 

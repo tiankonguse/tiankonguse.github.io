@@ -5,7 +5,7 @@ description: 快捷咨询问题。
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG]  
 categories: [大模型]  
-updateData: 2025-03-26 12:13:00
+updateDate: 2025-03-26 12:13:00
 published: true  
 ---
 

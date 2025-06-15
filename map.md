@@ -3,7 +3,7 @@ layout: page
 title: tiankonguse 网站地图 
 description: tiankonguse 网站地图
 isArchive: true
-updateData:  21:25 2015/4/2
+updateDate:  21:25 2015/4/2
 ---
 
 <script data-main="javascripts/map_page" src="/javascripts/lib/require.js"></script>

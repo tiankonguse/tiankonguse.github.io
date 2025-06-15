@@ -5,7 +5,7 @@ description: 几个月前我使用timerfd封装了一个定时器，使用了这
 tags: [程序人生]
 keywords: [linux, 网络编程]
 category: [程序人生]
-updateData:   19:08 2015/4/15
+updateDate:   19:08 2015/4/15
 ---
 
 

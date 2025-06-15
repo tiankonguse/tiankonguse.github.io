@@ -5,7 +5,7 @@ description: 关于top这个命令, 虽然简单, 但是真正的了解了怎么
 keywords: linux, shell, top
 tags: [linux, shell, top]
 categories: [程序人生]
-updateData:   8:49 2015/11/2
+updateDate:   8:49 2015/11/2
 ---
 
 ## 前言

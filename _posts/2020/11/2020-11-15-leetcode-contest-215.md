@@ -5,7 +5,7 @@ description: 状态压缩、轮廓线动态规划，来了解一下？
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-11-15 21:30:00  
+updateDate:  2020-11-15 21:30:00  
 published: true  
 ---  
 

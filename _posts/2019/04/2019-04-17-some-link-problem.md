@@ -5,7 +5,7 @@ description: 检验你是否对链表是真爱的时候到了
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-17 23:24   
+updateDate: 2019-04-17 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/EJwgXqkgTy5pIUvHQx4zgA  
 ---  

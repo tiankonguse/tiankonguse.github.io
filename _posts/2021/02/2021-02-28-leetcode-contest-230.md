@@ -5,7 +5,7 @@ description: 都有简单的方法，我优先想到最难那个。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-02-28 21:30:00  
+updateDate:  2021-02-28 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 我开始从 vim IDE 专项 vscode 了。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2019-11-04 21:30:00  
+updateDate:  2019-11-04 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

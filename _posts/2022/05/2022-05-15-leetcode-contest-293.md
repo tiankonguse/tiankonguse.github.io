@@ -5,7 +5,7 @@ description: 本以为可以 30 分钟做完，结果翻车了，错误两次。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-05-15 18:13:00  
+updateDate:  2022-05-15 18:13:00  
 published: true  
 ---  
 

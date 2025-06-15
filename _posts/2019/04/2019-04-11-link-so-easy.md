@@ -5,7 +5,7 @@ description: 数组、队列、栈分享完了，接下来是链表的知识。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-11 23:24   
+updateDate: 2019-04-11 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/rG1ehI-9QK8h7p6_KkRJew  
 ---  

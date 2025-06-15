@@ -5,7 +5,7 @@ description: 查看一个股票，可以看到市值、市盈率、市净率，�
 keywords: 理财  
 tags: [理财]    
 categories: [理财]  
-updateData:  2023-02-07 18:13:00  
+updateDate:  2023-02-07 18:13:00  
 published: true  
 ---  
 

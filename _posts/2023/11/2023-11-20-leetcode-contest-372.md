@@ -5,7 +5,7 @@ description: 区间内大于等于的第一个数字，好题目。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2023-11-20 18:13:00  
+updateDate:  2023-11-20 18:13:00  
 published: true  
 ---  
 

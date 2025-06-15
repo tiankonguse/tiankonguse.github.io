@@ -4,7 +4,7 @@ title: cache 的简单认识与思考
 description:  之前对NOSQL的总结是:基本功能是key-value, 然后各自附加特殊功能. 现在简单的来认识一下cache.  
 tags:  cache NOSQL
 keywords: cache,NOSQL
-updateData:  00:34 2015/8/30
+updateDate:  00:34 2015/8/30
 categories: [程序人生]
 ---  
 

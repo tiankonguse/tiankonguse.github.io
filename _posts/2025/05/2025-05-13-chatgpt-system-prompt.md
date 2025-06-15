@@ -5,7 +5,7 @@ description: 来学习一下最流畅的 AI 产品的系统 prompt。
 keywords: AIGC 
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-10 12:13:00
+updateDate: 2025-05-10 12:13:00
 published: true  
 ---
 

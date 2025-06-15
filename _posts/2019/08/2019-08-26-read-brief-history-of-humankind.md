@@ -5,7 +5,7 @@ description:  不管是自由、平等、权利，还是基督宗教、民主、
 keywords: 读书  
 tags: [读书]  
 categories: [读书]  
-updateData:  2019-07-26 21:30:00  
+updateDate:  2019-07-26 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

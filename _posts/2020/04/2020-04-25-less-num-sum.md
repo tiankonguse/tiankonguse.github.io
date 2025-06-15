@@ -5,7 +5,7 @@ description: 树状数组与线段树是个好的数据结构。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-04-25 21:30:00  
+updateDate:  2020-04-25 21:30:00  
 published: true  
 ---  
 

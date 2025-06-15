@@ -5,7 +5,7 @@ description: 大部分正确，但是不要盲目相信。
 keywords: 生活,逻辑,理性  
 tags: [生活,逻辑,理性]    
 categories: [生活]  
-updateData:  2021-04-06 21:30:00  
+updateDate:  2021-04-06 21:30:00  
 published: true  
 ---  
 

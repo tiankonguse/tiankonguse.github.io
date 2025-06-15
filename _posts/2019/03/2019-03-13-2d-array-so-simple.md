@@ -5,7 +5,7 @@ description: 数据结构中的基础知识有很多，计划一点点介绍，�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-03-13 02:24   
+updateDate: 2019-03-13 02:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/bsMT3tsJZRZwOk8qdvKFyA  
 ---  

@@ -5,7 +5,7 @@ description: 装备差不多都买齐了。
 keywords: 生活,攀岩,运动  
 tags: [生活,攀岩,运动]    
 categories: [生活]  
-updateData:  2021-06-05 21:30:00  
+updateDate:  2021-06-05 21:30:00  
 published: true  
 ---  
 

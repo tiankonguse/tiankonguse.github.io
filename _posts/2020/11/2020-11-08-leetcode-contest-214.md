@@ -5,7 +5,7 @@ description: 这次比赛用到我的，模板了，两分钟通过最后一个�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-11-08 21:30:00  
+updateDate:  2020-11-08 21:30:00  
 published: true  
 ---  
 

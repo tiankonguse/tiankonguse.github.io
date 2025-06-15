@@ -5,7 +5,7 @@ description: 这一次题不难，但是时间不够了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-04-10 21:30:00  
+updateDate:  2021-04-10 21:30:00  
 published: true  
 ---  
 

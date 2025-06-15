@@ -5,7 +5,7 @@ description: 暴力判断回文串。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-08-06 21:30:00  
+updateDate:  2020-08-06 21:30:00  
 published: true  
 ---  
 

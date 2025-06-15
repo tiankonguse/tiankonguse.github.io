@@ -5,7 +5,7 @@ description: 在回深圳的路上，没参加比赛，题目比较简单。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-02-13 00:12:00  
+updateDate:  2022-02-13 00:12:00  
 published: true  
 ---  
 

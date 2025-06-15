@@ -3,7 +3,7 @@ layout: post
 title: linux 下core dump 简单了解   
 description:  c++程序问题遇到的多了，就会发现有时候core文件是非常有用的，于是简单了解一下core背景知识。  
 keywords: [linux, core dump]
-updateData:  13:38 2015/4/2
+updateDate:  13:38 2015/4/2
 tags: [linux, core dump] 
 categories: [程序人生]
 ---  

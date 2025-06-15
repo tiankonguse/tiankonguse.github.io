@@ -3,7 +3,7 @@ layout: page
 title: tiankonguse的视频与漫画
 description: 大学毕业后,看的视频与漫画
 isContact: true
-updateData:  15:25 2015/4/10
+updateDate:  15:25 2015/4/10
 ---
 
 {% for videoState in site.data.video %}

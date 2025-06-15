@@ -4,7 +4,7 @@ title: redis 基础知识
 description: 最近准备看redis的源码了,看之前先看看redis有哪些功能.
 tags:  redis
 keywords: redis
-updateData:  2015-07-28 19:44
+updateDate:  2015-07-28 19:44
 categories: [程序人生]
 ---  
 

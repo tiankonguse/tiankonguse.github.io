@@ -5,7 +5,7 @@ description: 本以为做的太慢了，竟然 38 名。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2023-04-02 18:13:00  
+updateDate:  2023-04-02 18:13:00  
 published: true  
 ---  
 

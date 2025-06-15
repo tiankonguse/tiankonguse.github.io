@@ -14,8 +14,8 @@ layout: null
      <email>{{ site.email }}</email>
    </author>
    {% for post in site.posts limit:10 %}
-    {% if post.updateData %}
-    {% assign lastData =  post.updateData|date:"%Y-%m-%d %H:%M:%S" %}
+    {% if post.updateDate %}
+    {% assign lastData =  post.updateDate|date:"%Y-%m-%d %H:%M:%S" %}
     {% else %}
     {% assign lastData =  post.date|date:"%Y-%m-%d %H:%M:%S" %}
     {% endif %}

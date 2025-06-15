@@ -5,7 +5,7 @@ description: 这次比赛很简单，听说第一名5分钟就AK了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-01-24 00:12:00  
+updateDate:  2022-01-24 00:12:00  
 published: true  
 ---  
 

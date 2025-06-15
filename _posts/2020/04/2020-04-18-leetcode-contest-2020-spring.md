@@ -5,7 +5,7 @@ description: 这次比赛有点ACM的味道。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-04-18 21:30:00  
+updateDate:  2020-04-18 21:30:00  
 published: true  
 ---  
 

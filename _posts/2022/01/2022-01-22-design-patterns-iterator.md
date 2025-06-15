@@ -5,7 +5,7 @@ description: 大家用的最频繁的设计模式之一。
 keywords: 程序人生,项目实战  
 tags: [程序人生,项目实战]    
 categories: [程序人生]  
-updateData:  2022-01-22 17:01:00  
+updateDate:  2022-01-22 17:01:00  
 published: true  
 ---  
 

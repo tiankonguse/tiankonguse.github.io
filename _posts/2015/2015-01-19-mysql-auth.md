@@ -4,7 +4,7 @@ title: 数据库同步与认证问题
 description:  周一刚来到公司，收到一个消息，我的一个sphinx搜索服务搜出的数据延迟一个小时，于是查了查什么问题
 tags:  mysql
 keywords: mysql
-updateData:  23:22 2015/1/19
+updateDate:  23:22 2015/1/19
 categories: [程序人生]
 ---
 

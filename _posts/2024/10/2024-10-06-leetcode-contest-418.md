@@ -5,7 +5,7 @@ description: 国庆有事没参加比赛，最后一题比较难，但是第三�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData: 2024-10-06 12:13:00  
+updateDate: 2024-10-06 12:13:00  
 published: true  
 ---
 

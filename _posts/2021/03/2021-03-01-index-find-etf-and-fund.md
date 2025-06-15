@@ -5,7 +5,7 @@ description: 再给你推荐一个好功能。
 keywords: 理财,基金,ETF,指数  
 tags: [理财,基金,ETF,指数]    
 categories: [理财]  
-updateData:  2021-03-01 21:30:00  
+updateDate:  2021-03-01 21:30:00  
 published: true  
 ---  
 

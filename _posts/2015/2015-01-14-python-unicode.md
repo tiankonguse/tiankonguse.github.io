@@ -4,7 +4,7 @@ title: python 中编码的再次学习
 description:  之前曾研究过 python 的编码转换， 但是没有怎么详细记录。现在又遇到编码问题，记录一下。  
 tags:  python post
 keywords: python, post
-updateData:  9:24 2015/1/14
+updateDate:  9:24 2015/1/14
 categories: [程序人生]
 ---  
 

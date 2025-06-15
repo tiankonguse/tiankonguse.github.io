@@ -5,7 +5,7 @@ description: 一个简单的动态规划题
 keywords: 技术 
 tags: [程序人生]  
 categories: [程序人生]  
-updateData:  00:40 2018/11/21   
+updateDate:  00:40 2018/11/21   
 published: true   
 ---  
 

@@ -5,7 +5,7 @@ description: 前面学习了队列，现在来学学栈吧。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-03 23:24   
+updateDate: 2019-04-03 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/natRB_8e8sSPnkOgxDR8jg  
 ---  

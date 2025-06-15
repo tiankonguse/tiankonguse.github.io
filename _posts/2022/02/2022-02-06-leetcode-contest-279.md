@@ -5,7 +5,7 @@ description: 肠胃不舒服，本来不打算参加比赛的，睡一觉好了�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-02-06 00:12:00  
+updateDate:  2022-02-06 00:12:00  
 published: true  
 ---  
 

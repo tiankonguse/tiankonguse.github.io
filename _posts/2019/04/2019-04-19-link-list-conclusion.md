@@ -5,7 +5,7 @@ description: 链表高级应用学会后，你会发现已经会树的操作了
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-19 23:24   
+updateDate: 2019-04-19 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/SQCJWiG2HMhI8U-hVTvk7A  
 ---  

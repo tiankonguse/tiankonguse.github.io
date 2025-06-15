@@ -5,7 +5,7 @@ category: [c/c++]
 description: C专家编程在大一的时候看过，现在过了这么多年了，再次阅读一遍，还是可以学到很多东西的。  
 tags: [c/c++, linux, 网络编程]
 keywords: [timerfd, linux, 网络编程]
-updateData:   19:08 2015/4/15
+updateDate:   19:08 2015/4/15
 ---
 
 ## 穿越时空的迷雾

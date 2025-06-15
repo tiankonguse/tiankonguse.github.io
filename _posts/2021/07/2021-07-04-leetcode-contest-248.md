@@ -5,7 +5,7 @@ description: 后缀数组我还不会，有必要学习一下了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-07-04 21:30:00  
+updateDate:  2021-07-04 21:30:00  
 published: true  
 ---  
 

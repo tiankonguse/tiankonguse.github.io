@@ -5,7 +5,7 @@ description: 作为一个开发, linux上的常用命令是必备的。
 keywords: 后台服务  
 tags: [后台服务]  
 categories: [程序人生]  
-updateData:  0:40 2017/5/25
+updateDate:  0:40 2017/5/25
 published: true  
 ---  
   

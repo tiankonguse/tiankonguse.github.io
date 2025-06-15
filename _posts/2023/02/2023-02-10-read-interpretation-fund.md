@@ -5,7 +5,7 @@ description: 读完这本书，我制定了一个2023年的资产配置。
 keywords: 理财  
 tags: [理财]    
 categories: [理财]  
-updateData:  2023-02-10 18:13:00  
+updateDate:  2023-02-10 18:13:00  
 published: true  
 ---  
 

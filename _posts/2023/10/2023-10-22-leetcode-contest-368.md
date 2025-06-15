@@ -5,7 +5,7 @@ description: 被第三题坑了，暴力过了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2023-10-22 18:13:00  
+updateDate:  2023-10-22 18:13:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 昨天突发臆想，计划发起一个算法互动编程项目，�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-28 23:24   
+updateDate: 2019-04-28 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/V1IeDxJibC30wyK9nJwp_w  
 ---  

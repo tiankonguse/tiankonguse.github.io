@@ -5,7 +5,7 @@ description: 上周 leetcode 比赛第三题分享了递归题解，这里分享
 keywords: 算法 
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-10-15 21:30:00  
+updateDate:  2019-10-15 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

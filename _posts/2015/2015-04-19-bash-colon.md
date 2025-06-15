@@ -5,7 +5,7 @@ category: [程序人生]
 description: 前段时间有人在群上发了一个shell命令,问谁敢运行,还说最好在虚拟里运行.于是我研究了一下.  
 tags: [shell, linux, bash]
 keywords: [shell, linux, bash]
-updateData:  9:18 2015/4/21
+updateDate:  9:18 2015/4/21
 ---
 
 

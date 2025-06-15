@@ -5,7 +5,7 @@ description: 举个例子详解矩阵幂。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData: 2024-10-27 12:13:00  
+updateDate: 2024-10-27 12:13:00  
 published: true  
 ---
 

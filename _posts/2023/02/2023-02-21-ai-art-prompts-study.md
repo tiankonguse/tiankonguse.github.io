@@ -5,7 +5,7 @@ description: 研究可下 prompts 规则，可以更高效的画出想要的图�
 keywords: 工具  
 tags: [工具]    
 categories: [工具]  
-updateData:  2023-02-21 18:13:00  
+updateDate:  2023-02-21 18:13:00  
 published: true  
 ---  
 

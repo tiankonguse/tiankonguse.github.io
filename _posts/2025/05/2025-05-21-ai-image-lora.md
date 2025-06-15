@@ -5,7 +5,7 @@ description: LoRA 是文生图变换风格的利器。
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-21 12:13:00  
+updateDate: 2025-05-21 12:13:00  
 published: true  
 ---
 

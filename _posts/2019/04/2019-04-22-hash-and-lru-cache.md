@@ -5,7 +5,7 @@ description: 数组和链表分享完了，我们就可以设计很多东西了�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-22 23:24   
+updateDate: 2019-04-22 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/7x_N_84q2Lz7Q23Str-TqQ  
 ---  

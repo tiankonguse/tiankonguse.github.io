@@ -5,7 +5,7 @@ description: 补充下之前比赛的题解。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2023-08-14 20:13:00  
+updateDate:  2023-08-14 20:13:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 一直想着去学习，前段时间买了耳机才完成了计划�
 keywords: 生活  
 tags: [生活]    
 categories: [生活]  
-updateData:  2019-06-22 21:30:00  
+updateDate:  2019-06-22 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/Mi8KTEw5NTdpy1EmIQ_UIg  
 ---  

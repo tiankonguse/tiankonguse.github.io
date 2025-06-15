@@ -5,7 +5,7 @@ description: 基础的数据结构分享玩了
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-18 23:24   
+updateDate: 2019-05-18 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/Q0MgdrnJE4-U4PaPCrn5MQ  
 ---  

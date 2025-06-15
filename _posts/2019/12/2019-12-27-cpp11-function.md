@@ -5,7 +5,7 @@ description: 快来学习c++新功能 function 模板 吧。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2019-12-27 21:30:00  
+updateDate:  2019-12-27 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

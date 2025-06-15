@@ -5,7 +5,7 @@ description: 我不懂经济学，不知道是否正确。
 keywords: chatGPT  
 tags: [chatGPT]    
 categories: [chatGPT]  
-updateData:  2023-03-23 18:13:00  
+updateDate:  2023-03-23 18:13:00  
 published: true  
 ---  
 

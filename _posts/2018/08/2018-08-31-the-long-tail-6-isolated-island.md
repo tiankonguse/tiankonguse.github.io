@@ -5,7 +5,7 @@ description: 一种动机并不能解释所有人的动机。
 keywords: 读书 
 tags: [读书]  
 categories: [读书]  
-updateData:  23:40 2018/08/31   
+updateDate:  23:40 2018/08/31   
 published: true   
 ---  
 

@@ -5,7 +5,7 @@ description: 贝叶斯是什么。
 keywords: 读书,数学,统计学,概率  
 tags: [读书,数学,统计学,概率]    
 categories: [读书]  
-updateData:  2021-02-14 21:30:00  
+updateDate:  2021-02-14 21:30:00  
 published: true  
 ---  
 

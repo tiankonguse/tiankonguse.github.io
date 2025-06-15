@@ -5,7 +5,7 @@ description: 同事反馈的问题，最终发现是框架的设计问题。
 keywords: 程序人生,coredump,问题定位,项目实战
 tags: [程序人生,coredump,问题定位,项目实战]
 categories: [程序人生]
-updateData:  2022-01-01 21:30:00
+updateDate:  2022-01-01 21:30:00
 published: true
 ---
 

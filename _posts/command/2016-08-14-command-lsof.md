@@ -2,7 +2,7 @@
 layout: post  
 title: lsof命令详解
 description: lsof在linux中是一个很重要的命令，这里简单记录一下．  
-updateData:  13:48 2016/8/14
+updateDate:  13:48 2016/8/14
 categories: [程序人生]
 ---  
 

@@ -5,7 +5,7 @@ description: 大家都说买双自己的鞋比较好，便买了。
 keywords: 生活,攀岩,运动  
 tags: [生活,攀岩,运动]    
 categories: [生活]  
-updateData:  2021-05-11 21:30:00  
+updateDate:  2021-05-11 21:30:00  
 published: true  
 ---  
 

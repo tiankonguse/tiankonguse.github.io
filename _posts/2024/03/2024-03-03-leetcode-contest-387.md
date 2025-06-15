@@ -5,7 +5,7 @@ description:  四道题都比较简单，不过没参加比赛。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]  
 categories: [算法]  
-updateData:  2024-03-03 18:13:00  
+updateDate:  2024-03-03 18:13:00  
 published: true  
 ---
 

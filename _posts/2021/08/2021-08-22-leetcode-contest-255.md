@@ -5,7 +5,7 @@ description: 最后一题构造题，全国只过了38人，你能构造出来�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-08-22 21:30:00  
+updateDate:  2021-08-22 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 翻车了，原因很低级。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-03-13 12:13:00  
+updateDate:  2022-03-13 12:13:00  
 published: true  
 ---  
 

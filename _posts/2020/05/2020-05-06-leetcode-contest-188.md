@@ -5,7 +5,7 @@ description: 发现手速与脑速都跟不上了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-05-06 21:30:00  
+updateDate:  2020-05-06 21:30:00  
 published: true  
 ---  
 

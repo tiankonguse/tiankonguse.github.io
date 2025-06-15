@@ -5,7 +5,7 @@ description: 对于社会问题，本来就没有固定的答案。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-01-21 21:30:00  
+updateDate:  2020-01-21 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

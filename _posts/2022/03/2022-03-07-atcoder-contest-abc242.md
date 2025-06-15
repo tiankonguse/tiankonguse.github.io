@@ -5,7 +5,7 @@ description: 这次比赛题目很好，涉及各种算法。
 keywords: 算法,atcoder,算法比赛  
 tags: [算法,atcoder,算法比赛]    
 categories: [算法]  
-updateData:  2022-03-07 00:13:00  
+updateDate:  2022-03-07 00:13:00  
 published: true  
 ---  
 

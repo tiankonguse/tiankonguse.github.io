@@ -5,7 +5,7 @@ description: 最近逐渐的使用 git 的 tag 来管理项目, 不小心增加�
 keywords: git, delte tag, 管理项目
 tags: [git, delte tag, 管理项目]
 categories: [程序人生]
-updateData:  10:34 2015/09/27
+updateDate:  10:34 2015/09/27
 ---
 
 ## 前言

@@ -5,7 +5,7 @@ description: 之前分享了不少数组的介绍，现在简单总结一下。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-01 23:24   
+updateDate: 2019-04-01 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/n_B38CXxmvsOl7FZxyPKgA  
 ---  

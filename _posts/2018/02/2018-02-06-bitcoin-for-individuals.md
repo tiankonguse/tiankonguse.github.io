@@ -5,7 +5,7 @@ description: 比特币是最简单、低成本的货币兑换方式。
 keywords: 区块链  
 tags: [比特币]  
 categories: [理财]  
-updateData:  22:40 2018/02/06
+updateDate:  22:40 2018/02/06
 published: true  
 ---  
   

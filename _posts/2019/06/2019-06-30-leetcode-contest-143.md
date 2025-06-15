@@ -5,7 +5,7 @@ description: 这次比赛和上次一样，有一道语法分析的递归题，�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-06-30 21:30:00  
+updateDate:  2019-06-30 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/JCwMTqfeOdFEMcfNkf8mKQ  
 ---  

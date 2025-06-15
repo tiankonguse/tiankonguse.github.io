@@ -5,7 +5,7 @@ description: 做了 Leetcode 的第87场比赛，简单分享一下思路。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-03-28 23:24   
+updateDate: 2019-03-28 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/pZNs_Yf2gLBeDGxbN1dkmg  
 ---  

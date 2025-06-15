@@ -5,7 +5,7 @@ description: LCA 算法学会了，又可以解决一批问题。
 keywords: 算法,RMQ,LCA,MEX,leetcode  
 tags: [算法,RMQ,LCA,MEX,leetcode]    
 categories: [算法]  
-updateData:  2021-09-17 21:30:00  
+updateDate:  2021-09-17 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 这周五团队一起做了第95场比赛，其实题挺有难度�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-11 23:24   
+updateDate: 2019-05-11 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/VfSfndvIv2lCEpIENOCq0A  
 ---  

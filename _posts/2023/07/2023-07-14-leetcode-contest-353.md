@@ -5,7 +5,7 @@ description: 休假回家了，没参加比赛。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2023-07-14 18:13:00  
+updateDate:  2023-07-14 18:13:00  
 published: true  
 ---  
 

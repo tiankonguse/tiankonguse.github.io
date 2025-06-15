@@ -5,7 +5,7 @@ description: 这次比赛各种不顺，第一题做了十几分钟，最后一�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-10-10 21:30:00  
+updateDate:  2021-10-10 21:30:00  
 published: true  
 ---  
 

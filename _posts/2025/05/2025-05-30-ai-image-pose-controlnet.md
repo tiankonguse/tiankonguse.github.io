@@ -5,7 +5,7 @@ description: controlnet pose 技术。
 keywords: AIGC  
 tags: [AIGC]  
 categories: [AIGC]  
-updateData: 2025-05-20 12:13:00  
+updateDate: 2025-05-20 12:13:00  
 published: true  
 ---
 

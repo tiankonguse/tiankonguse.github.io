@@ -5,7 +5,7 @@ description: 决策出于睿者，谣言止于智者。
 keywords: 程序人生  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData:  2020-01-23 21:30:00  
+updateDate:  2020-01-23 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/vc-QsIJ7rcst_Ch1EG5R2A  
 ---  

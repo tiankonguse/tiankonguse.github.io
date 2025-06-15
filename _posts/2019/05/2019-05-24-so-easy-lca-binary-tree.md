@@ -5,7 +5,7 @@ description: 本以为这是一道青铜题，谁知是王者题。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-05-24 23:24   
+updateDate: 2019-05-24 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/EUK7AW3nJQDpFERPWKcy4g  
 ---  

@@ -5,7 +5,7 @@ description: 一个同事问我有没有了解过拖拽排序，于是讨论了�
 keywords: 技术 
 tags: [程序人生]  
 categories: [程序人生]  
-updateData: 2018-11-26 21:03 
+updateDate: 2018-11-26 21:03 
 published: true   
 wxurl: https://mp.weixin.qq.com/s/zDvZ9jiNu6T6_nnVqEZjLQ  
 ---  

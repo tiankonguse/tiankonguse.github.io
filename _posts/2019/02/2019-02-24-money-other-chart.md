@@ -5,7 +5,7 @@ description: K线和美国线介绍完了，其他的都将介绍一下。
 keywords: 理财  
 tags: [理财]    
 categories: [理财]  
-updateData: 2019-02-24 21:24   
+updateDate: 2019-02-24 21:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/-2Cvcj3cq7MO2QySjopf9g  
 ---  

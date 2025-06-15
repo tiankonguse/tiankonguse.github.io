@@ -5,7 +5,7 @@ description: 比赛的时候，还在照顾娃，以为排名比较靠后，谁�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-06-12 18:13:00  
+updateDate:  2022-06-12 18:13:00  
 published: true  
 ---  
 

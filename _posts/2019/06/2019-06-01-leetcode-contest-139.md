@@ -5,7 +5,7 @@ description: 思维还需要锻炼，看着都会，就是想的太慢。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData:  2019-06-02 21:30:00  
+updateDate:  2019-06-02 21:30:00  
 published: true  
 wxurl: https://mp.weixin.qq.com/s/l-9CQQIZCRAzxIRskVkF3g  
 ---  

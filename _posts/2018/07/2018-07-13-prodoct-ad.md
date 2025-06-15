@@ -5,7 +5,7 @@ description: 很多公司的营销都是套路，不信你看。
 keywords: 技术 
 tags: [程序人生]  
 categories: [程序人生]  
-updateData:  23:40 2018/07/13   
+updateDate:  23:40 2018/07/13   
 published: true   
 ---  
 

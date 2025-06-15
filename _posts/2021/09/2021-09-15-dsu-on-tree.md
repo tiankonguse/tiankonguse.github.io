@@ -5,7 +5,7 @@ description: 一个很神奇的优化，有必要学一下。
 keywords: 算法,树上并查集  
 tags: [算法,树上并查集]    
 categories: [算法]  
-updateData:  2021-09-15 21:30:00  
+updateDate:  2021-09-15 21:30:00  
 published: true  
 ---  
 

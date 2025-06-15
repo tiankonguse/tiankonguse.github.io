@@ -5,7 +5,7 @@ description: 睡眠不好，果然做题思路不清晰。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-01-09 12:12:00  
+updateDate:  2022-01-09 12:12:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 任何图片都可以生成，图片质量还非常高。
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
 categories: [大模型]  
-updateData: 2025-02-26 12:13:00  
+updateDate: 2025-02-26 12:13:00  
 published: true  
 ---
 

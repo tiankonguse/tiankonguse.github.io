@@ -5,7 +5,7 @@ description: 最后一题模板题，我看成后缀数组了，粗心大意。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-08-29 21:30:00  
+updateDate:  2021-08-29 21:30:00  
 published: true  
 ---  
 

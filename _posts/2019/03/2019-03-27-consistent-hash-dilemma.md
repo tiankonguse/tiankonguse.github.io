@@ -5,7 +5,7 @@ description: 三年前我曾介绍过一致性HASH可能会面临的问题，最
 keywords: 技术  
 tags: [程序人生]    
 categories: [程序人生]  
-updateData: 2019-03-27 23:24   
+updateDate: 2019-03-27 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/yyqEwfEgEWYwWoalFLcuSw  
 ---  

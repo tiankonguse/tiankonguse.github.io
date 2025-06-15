@@ -5,7 +5,7 @@ description: 前面学习了队列和栈的基础知识和简单实践，现在�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-08 23:24   
+updateDate: 2019-04-08 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/UB1_uHMhFVrLTPtusb_NJQ  
 ---  

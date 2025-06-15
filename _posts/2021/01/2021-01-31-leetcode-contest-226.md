@@ -5,7 +5,7 @@ description: 思路不顺，第一题写了十几分钟，排名依旧是一百�
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-01-31 21:30:00  
+updateDate:  2021-01-31 21:30:00  
 published: true  
 ---  
 

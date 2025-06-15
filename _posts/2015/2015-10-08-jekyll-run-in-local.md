@@ -5,7 +5,7 @@ category: [前端技术]
 description: 使用github来当作自己的记录集后,每次有改动时都要提交了才能看到结果,于是尝试在本地搭建一个jekyll环境.    
 tags: [github, jekyll]
 keywords: [github, jekyll]
-updateData:   23:54 2015/10/08
+updateDate:   23:54 2015/10/08
 ---
 
 ## 前言

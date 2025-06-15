@@ -5,7 +5,7 @@ description: 这次的题考查基础知识，拼手速的时候到了。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2020-03-08 21:30:00  
+updateDate:  2020-03-08 21:30:00  
 published: true  
 ---  
 

@@ -5,7 +5,7 @@ description: 数组系列的知识分享完了，今天开始分享队列的基�
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-02 23:24   
+updateDate: 2019-04-02 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/VFxQfjdBpL2cGfXm7A_5GA  
 ---  

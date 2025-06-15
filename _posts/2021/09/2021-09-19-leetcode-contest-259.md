@@ -5,7 +5,7 @@ description: 最优一题不敢暴力，暴力了真的不会超时。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2021-09-19 21:30:00  
+updateDate:  2021-09-19 21:30:00  
 published: true  
 ---  
 

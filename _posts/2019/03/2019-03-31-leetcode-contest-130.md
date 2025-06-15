@@ -5,7 +5,7 @@ description: 发现一个Leetcode的一个重大秘密，偷偷告诉你。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-03-31 23:24   
+updateDate: 2019-03-31 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/UB1_uHMhFVrLTPtusb_NJQ  
 ---  

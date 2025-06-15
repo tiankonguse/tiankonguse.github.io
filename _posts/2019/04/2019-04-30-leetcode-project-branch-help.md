@@ -5,7 +5,7 @@ description: git 代码管理其实是有门槛的，这里简单介绍一下。
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-30 23:24   
+updateDate: 2019-04-30 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/NYAGJvHuCEtLh8fWHOzujw  
 ---  

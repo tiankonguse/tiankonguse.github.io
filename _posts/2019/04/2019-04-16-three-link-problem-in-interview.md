@@ -5,7 +5,7 @@ description: 有几道链表相关的题面试者必问，你会吗？
 keywords: 算法  
 tags: [算法]    
 categories: [算法]  
-updateData: 2019-04-16 23:24   
+updateDate: 2019-04-16 23:24   
 published: true 
 wxurl: https://mp.weixin.qq.com/s/2tT4j-ePNeoktqkVNvAqJQ  
 ---  

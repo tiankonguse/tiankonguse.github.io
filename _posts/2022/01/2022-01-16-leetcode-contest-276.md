@@ -5,7 +5,7 @@ description: 三道贪心题，最后一题果然需要碰运气。
 keywords: 算法,leetcode,算法比赛  
 tags: [算法,leetcode,算法比赛]    
 categories: [算法]  
-updateData:  2022-01-16 12:12:00  
+updateDate:  2022-01-16 12:12:00  
 published: true  
 ---  
 
