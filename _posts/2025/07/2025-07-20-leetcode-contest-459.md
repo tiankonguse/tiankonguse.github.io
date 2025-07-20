@@ -1,6 +1,6 @@
 ---
 layout: post
-title: leetcode 第 459 场算法比赛-前百名
+title: leetcode 第 459 场算法比赛
 description: 几何触发我的盲区了 
 keywords: 算法,leetcode,算法比赛
 tags: [算法, leetcode, 算法比赛]
