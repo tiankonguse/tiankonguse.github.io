@@ -1,6 +1,6 @@
 ---
 layout: post
-title: leetcode 第 470 场算法比赛-排名62
+title: leetcode 第 460 场算法比赛-排名62
 description: 线性基，从来没听过 
 keywords: 算法,leetcode,算法比赛
 tags: [算法, leetcode, 算法比赛]
