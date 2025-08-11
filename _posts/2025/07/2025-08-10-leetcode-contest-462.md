@@ -338,7 +338,7 @@ bool DfsAll(const int len, const int mid, const int offset, const ll val) {
 ```
 
 
-优化：可以一边枚举一边检查个数是否满足要求。  
+优化1：可以一边枚举一边检查个数是否满足要求。  
 
 
 ```cpp
@@ -361,6 +361,46 @@ for (int i = 2; i < 10; i++) {                // 从小到大枚举，确保答�
   }
 }
 ```
+
+
+优化2：从小到大枚举时，可能当前枚举前缀已经小于 n 的前缀，此时可以直接跳过。
+由于只有长度相同时才需要比较前缀，这里可以记录当前枚举的最大值，从而做到通用性。  
+
+```cpp
+// leftLen 一次也没选择的数字里面，允许选择的最大数字
+// leftMaxVal 未填充位置全部是 9 的值
+bool DfsAll(const int len, const int mid, const int offset, const ll val, const int leftLen, const ll leftMaxVal) {
+  if (val + leftMaxVal < this->n) return false;
+  if (offset == len / 2) {
+    // 出口
+  }
+  for (int i = 2; i < 10; i++) {                // 从小到大枚举，确保答案是最小的
+    if (bits[i] == i) continue;                 // 足够了
+    if (bits[i] == 0 && i > leftLen) continue;  // 剪枝，首次选择，剩余位置不够
+    if (i == mid || i % 2 == 0) {
+      int newleftLen = leftLen;
+      if (bits[i] == 0) {
+        newleftLen -= i;  // 首次选择
+      }
+      bits[i] += 2;
+      const ll newVal = val + i * B[offset] + i * B[len - 1 - offset];
+      const ll newLeftMaxVal = leftMaxVal - 9 * B[offset] - 9 * B[len - 1 - offset];
+      if (DfsAll(len, mid, offset + 1, newVal, newleftLen, newLeftMaxVal)) {
+        return true;
+      }
+      bits[i] -= 2;
+    }
+  }
+  return false;
+}
+```
+
+
+三次代码的耗时对比，没有任何优化是3ms，加上长度优化是1ms，加上前缀优化是0ms。  
+
+
+![](https://res2025.tiankonguse.com/images/2025/08/10/005.png) 
+
 
 
 ## 五、最后  
