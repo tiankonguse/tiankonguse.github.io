@@ -354,7 +354,8 @@ for (int i = 2; i < 10; i++) {                // 从小到大枚举，确保答�
       newleftLen -= i;  // 首次选择，一次性全部扣除
     }
     bits[i] += 2;
-    if (DfsAll(len, mid, offset + 1, val + i * B[offset] + i * B[len - 1 - offset], newleftLen)) {
+    const ll newVal = val + i * B[offset] + i * B[len - 1 - offset];
+    if (DfsAll(len, mid, offset + 1, newVal, newleftLen)) {
       return true;
     }
     bits[i] -= 2;
