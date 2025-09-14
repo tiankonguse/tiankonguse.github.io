@@ -71,7 +71,7 @@ return nums;
 
 
 
-![](https://res2025.tiankonguse.com/images/2025/09/17/001.png)  
+![](https://res2025.tiankonguse.com/images/2025/09/14/001.png)  
 
 
 
@@ -147,7 +147,7 @@ auto Check = [&](int leftNum, int x) {
 ## 四、稳定子序列的数量
 
 
-![](https://res2025.tiankonguse.com/images/2025/09/17/002.png)  
+![](https://res2025.tiankonguse.com/images/2025/09/14/002.png)  
 
 
 题意：给一个数组，问存在多少个子序列，子序列中不存在连续3个相同奇偶性的元素。  
