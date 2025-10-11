@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 历年 CSP-J/S 题型总结之二分算法
-description: 二分、线段树、动态规划、最短路            
+title: 历年 CSP-J CSP-S 题型总结之二分算法
+description: 二分、线段树、动态规划、最短路  
 keywords: 算法,CSP,算法比赛
 tags: [算法, CSP, 算法比赛]
 categories: [算法]
