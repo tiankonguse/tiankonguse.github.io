@@ -61,7 +61,7 @@ int arrOffset= lower_bound(arrList, arrList + 5, 3) - arrList;
 vector<int> vecList = {1, 2, 3, 4, 5};
 int offset= lower_bound(vecList.begin(), vecList.end(), 3) - vecList.begin();
 
-map<ll, ll> h = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
+map<ll, ll> h = { {1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10} };
 auto it = h.lower_bound(5); // 不存在时等于 h.end()
 
 set<int> s = {1, 2, 3, 4, 5};
