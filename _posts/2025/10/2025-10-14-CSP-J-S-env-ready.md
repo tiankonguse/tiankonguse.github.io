@@ -59,7 +59,7 @@ CSP-S/J 第二轮电脑环境通常是基于 NOI Linux 2.0 系统，这是中国
 注2：江苏省、香港、澳门三个地方未查到相关公告，不清楚具体考试环境。  
 
 
-![](https://res2025.tiankonguse.com/images/2025/10/15/015.png)  
+![](https://res2025.tiankonguse.com/images/2025/10/15/011.png)  
 
 
 
