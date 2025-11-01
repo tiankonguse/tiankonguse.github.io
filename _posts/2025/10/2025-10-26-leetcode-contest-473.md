@@ -102,8 +102,9 @@ while (l <= r) {
 
 
 ```cpp
-prefixSum[ai] = prefixSum[di] - sum(b, ..., c) - d 
-              = prefixSum[di] - 2 * d 
+  prefixSum[ai]
+= prefixSum[di] - sum(b, ..., c) - d 
+= prefixSum[di] - 2 * d 
 ```
 
 
