@@ -330,6 +330,31 @@ dp(i,k,2) = max(dp(i-1,k,2), dp(i-1,k-1,1) - arr[i]) // 卖空
 复杂度： `O(n * K)`  
 
 
+```cpp
+ll Dfs(int p, int k, int mode) {
+  if (p < 0 || k <= 0) {
+    if (mode != EMPTY) {
+      return INT64_MIN / 2;  // 无效状态
+    }
+    return 0;
+  }
+  ll& ret = dp[p][k][mode];
+  if (ret != INT64_MIN) return ret;
+  if (mode == EMPTY) {
+    ret = Dfs(p - 1, k, EMPTY);                          // 不选当前点
+    ret = max(ret, Dfs(p - 1, k, BUY) - nums2[p]);   // 之前是买入，现在需要卖出
+    ret = max(ret, Dfs(p - 1, k, SELL) + nums2[p]);  // 之前是卖出，现在需要买入
+  } else if (mode == BUY) {
+    ret = Dfs(p - 1, k, BUY);                             // 不选当前点，继续买入
+    ret = max(ret, Dfs(p - 1, k - 1, EMPTY) + nums2[p]);  // 之前是空闲，现在买入
+  } else {
+    ret = Dfs(p - 1, k, SELL);                            // 不选当前点，继续卖出
+    ret = max(ret, Dfs(p - 1, k - 1, EMPTY) - nums2[p]);  // 之前是空闲，现在卖出
+  }
+  return ret;
+}
+```
+
 
 ## 五、总结  
 
