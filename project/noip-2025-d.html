@@ -33,6 +33,13 @@
             flex-direction: column;
         }
 
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                height: 95vh;
+            }
+        }
+
         h1 {
             text-align: center;
             color: #333;
@@ -40,34 +47,83 @@
             font-size: 28px;
         }
 
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+        }
+
         .main-content {
             display: flex;
-            gap: 30px;
+            flex-direction: column;
+            gap: 20px;
             flex: 1;
             overflow: hidden;
         }
 
         .sidebar {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             gap: 20px;
-            width: 220px;
+            width: 100%;
             flex-shrink: 0;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                flex-direction: column;
+            }
         }
 
         .controls {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             gap: 15px;
             padding: 20px;
             background: #f8f9fa;
             border-radius: 8px;
+            flex: 1;
+            min-width: 300px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                min-width: 100%;
+                padding: 10px;
+                gap: 10px;
+            }
         }
 
         .control-group {
             display: flex;
             flex-direction: column;
             gap: 8px;
+            flex: 1;
+            min-width: 120px;
+        }
+
+        @media (max-width: 768px) {
+            .control-group {
+                min-width: 100%;
+                gap: 4px;
+            }
+
+            .control-group label {
+                font-size: 12px;
+            }
+
+            .control-group .value {
+                font-size: 13px;
+                padding: 4px;
+            }
+
+            .control-group input[type="range"] {
+                height: 4px;
+            }
         }
 
         .control-group label {
@@ -94,12 +150,21 @@
 
         .legend {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             gap: 12px;
             padding: 15px;
             background: #f8f9fa;
             border-radius: 8px;
             font-size: 13px;
+            flex-wrap: wrap;
+            align-items: center;
+            min-width: 300px;
+        }
+
+        @media (max-width: 768px) {
+            .legend {
+                display: none;
+            }
         }
 
         .legend-item {
@@ -147,6 +212,12 @@
             color: #666;
             font-size: 13px;
             margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .info {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -325,11 +396,11 @@
 
             // Y 轴范围：[0, n+R+1]
             const yMin = 0;
-            const yMax = n + R + 1;
+            const yMax = n + R - 1;
             const yRange = yMax - yMin;
 
             // X 轴范围：[-R-2, n+1]
-            const xMin = -R - 2;
+            const xMin = -R + 1;
             const xMax = n + 1;
             const xRange = xMax - xMin;
 
@@ -374,7 +445,7 @@
             ctx.strokeStyle = '#ddd';
 
             // X轴虚线网格
-            for (let val = -R - 2; val <= n + 1; val++) {
+            for (let val = -R; val <= n + 1; val++) {
                 const x = toCanvasX(val);
                 ctx.beginPath();
                 ctx.moveTo(x, padding);
@@ -383,7 +454,7 @@
             }
 
             // Y轴虚线网格
-            for (let val = 0; val <= n + R + 1; val++) {
+            for (let val = 0; val <= yMax; val++) {
                 const y = toCanvasY(val);
                 ctx.beginPath();
                 ctx.moveTo(padding, y);
@@ -396,7 +467,7 @@
             ctx.lineWidth = 1;
 
             // X轴刻度标记
-            for (let val = -R - 2; val <= n + 1; val++) {
+            for (let val = -R; val <= n + 1; val++) {
                 const x = toCanvasX(val);
                 ctx.beginPath();
                 ctx.moveTo(x, canvas.height - padding);
@@ -407,7 +478,7 @@
             }
 
             // Y轴刻度标记
-            for (let val = 0; val <= n + R + 1; val++) {
+            for (let val = 0; val <= yMax; val++) {
                 const y = toCanvasY(val);
                 ctx.beginPath();
                 ctx.moveTo(yAxisX - 5, y);
@@ -548,7 +619,7 @@
             ctx.setLineDash([4, 4]);
 
             // 直线1: y = x + R - 1
-            const line1Start = { x: -R - 2, y: -R - 2 + R - 1 };
+            const line1Start = { x: -R + 1, y: -R + R - 1 + 1 };
             const line1End = { x: n + 1, y: n + R };
             ctx.beginPath();
             ctx.moveTo(toCanvasX(line1Start.x), toCanvasY(line1Start.y));
@@ -556,7 +627,7 @@
             ctx.stroke();
 
             // 直线2: y = x + L - 1
-            const line2Start = { x: -R - 2, y: -R - 2 + L - 1 };
+            const line2Start = { x: -R - 2 + 2, y: -R - 2 + L - 1 + 2 };
             const line2End = { x: n + 1, y: n + L };
             ctx.beginPath();
             ctx.moveTo(toCanvasX(line2Start.x), toCanvasY(line2Start.y));
