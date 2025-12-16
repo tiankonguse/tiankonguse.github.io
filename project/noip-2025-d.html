@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二维坐标轴和梯形图</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 30px;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 220px;
+            flex-shrink: 0;
+        }
+
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .control-group input[type="range"] {
+            width: 100%;
+            height: 6px;
+            cursor: pointer;
+        }
+
+        .control-group .value {
+            font-size: 16px;
+            color: #2c3e50;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px;
+            background: white;
+            border-radius: 4px;
+        }
+
+        .legend {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 13px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            border: 1px solid #999;
+            flex-shrink: 0;
+        }
+
+        .canvas-section {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .canvas-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            overflow: auto;
+        }
+
+        canvas {
+            border: 1px solid #ccc;
+            background: white;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .info {
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>二维坐标轴和梯形图</h1>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="nInput">n 的值</label>
+                        <input type="range" id="nInput" min="2" max="100" value="10">
+                        <div class="value" id="nValue">10</div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="lInput">L 的值</label>
+                        <input type="range" id="lInput" min="1" max="10" value="3">
+                        <div class="value" id="lValue">3</div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="rInput">R 的值</label>
+                        <input type="range" id="rInput" min="1" max="10" value="8">
+                        <div class="value" id="rValue">8</div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="iInput">i 的值</label>
+                        <input type="range" id="iInput" min="1" max="10" value="5">
+                        <div class="value" id="iValue">5</div>
+                    </div>
+                </div>
+
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(200, 220, 240, 0.3); border-color: #999;">
+                        </div>
+                        <span>梯形区域</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(100, 150, 200, 0.4);"></div>
+                        <span>竖直平行四边形</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(200, 100, 100, 0.4);"></div>
+                        <span>水平平行四边形</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: rgba(100, 200, 100, 0.6);"></div>
+                        <span>交集区域</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="canvas-section">
+                <div class="canvas-container">
+                    <canvas id="canvas" width="1000" height="1000"></canvas>
+                </div>
+
+                <div class="info">
+                    <p><strong>直线方程：</strong></p>
+                    <p>直线1: y = x + R - 1 (斜率为1)</p>
+                    <p>直线2: y = x + L - 1 (斜率为1)</p>
+                    <p>直线3: y = i (水平线)</p>
+                    <p>直线4: x = i (竖直线)</p>
+                    <p>直线5: x = n (竖直线)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        const nInput = document.getElementById('nInput');
+        const lInput = document.getElementById('lInput');
+        const rInput = document.getElementById('rInput');
+        const iInput = document.getElementById('iInput');
+
+        const nValue = document.getElementById('nValue');
+        const lValue = document.getElementById('lValue');
+        const rValue = document.getElementById('rValue');
+        const iValue = document.getElementById('iValue');
+
+        let n = 10, L = 3, R = 8, i = 5;
+
+        // 更新显示值
+        nInput.addEventListener('input', (e) => {
+            n = parseInt(e.target.value);
+            nValue.textContent = n;
+
+            // 更新其他输入的最大值
+            lInput.max = n;
+            rInput.max = n;
+            iInput.max = n;
+
+            // 确保 L <= R
+            if (L > n) L = n;
+            if (R > n) R = n;
+            if (L > R) {
+                R = L;
+                rInput.value = R;
+                rValue.textContent = R;
+            }
+            if (i > n) {
+                i = n;
+                iInput.value = i;
+                iValue.textContent = i;
+            }
+
+            lInput.value = L;
+            rInput.value = R;
+            iInput.value = i;
+
+            draw();
+        });
+
+        lInput.addEventListener('input', (e) => {
+            L = parseInt(e.target.value);
+            lValue.textContent = L;
+
+            // 确保 L <= R
+            if (L > R) {
+                R = L;
+                rInput.value = R;
+                rValue.textContent = R;
+            }
+
+            draw();
+        });
+
+        rInput.addEventListener('input', (e) => {
+            R = parseInt(e.target.value);
+            rValue.textContent = R;
+
+            // 确保 L <= R
+            if (R < L) {
+                L = R;
+                lInput.value = L;
+                lValue.textContent = L;
+            }
+
+            draw();
+        });
+
+        iInput.addEventListener('input', (e) => {
+            i = parseInt(e.target.value);
+            iValue.textContent = i;
+
+            draw();
+        });
+
+        function isInPolygon(point, polygon) {
+            // 射线法判断点是否在多边形内
+            let inside = false;
+            for (let j = polygon.length - 1, k = 0; k < polygon.length; j = k++) {
+                const xi = polygon[k].x, yi = polygon[k].y;
+                const xj = polygon[j].x, yj = polygon[j].y;
+                const intersect = ((yi > point.y) !== (yj > point.y)) &&
+                    (point.x < (xj - xi) * (point.y - yi) / (yj - yi) + xi);
+                if (intersect) inside = !inside;
+            }
+            return inside;
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const padding = 60;
+            const graphWidth = canvas.width - 2 * padding;
+            const graphHeight = canvas.height - 2 * padding;
+
+            // Y 轴范围：[0, n+R+1]
+            const yMin = 0;
+            const yMax = n + R + 1;
+            const yRange = yMax - yMin;
+
+            // X 轴范围：[-R-2, n+1]
+            const xMin = -R - 2;
+            const xMax = n + 1;
+            const xRange = xMax - xMin;
+
+            // 计算比例（坐标系中的单位到画素的转换）
+            const scaleX = graphWidth / xRange;
+            const scaleY = graphHeight / yRange;
+
+            // 转换函数：从逻辑坐标到画布坐标
+            const toCanvasX = (x) => padding + (x - xMin) * scaleX;
+            const toCanvasY = (y) => canvas.height - padding - (y - yMin) * scaleY;
+
+            // ========== 绘制坐标轴 ==========
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 2;
+            ctx.fillStyle = '#333';
+            ctx.font = '14px Arial';
+
+            // X轴
+            ctx.beginPath();
+            ctx.moveTo(padding, canvas.height - padding);
+            ctx.lineTo(canvas.width - padding, canvas.height - padding);
+            ctx.stroke();
+
+            // Y轴
+            ctx.beginPath();
+            const yAxisX = toCanvasX(0);
+            ctx.moveTo(yAxisX, padding);
+            ctx.lineTo(yAxisX, canvas.height - padding);
+            ctx.stroke();
+
+            // 轴标签
+            ctx.textAlign = 'center';
+            ctx.fillText('X', canvas.width - 40, canvas.height - 30);
+            ctx.textAlign = 'right';
+            ctx.fillText('Y', 30, 20);
+
+            // 轴刻度和标签 - X轴 [0, 2*n+1]，Y轴 [-R-1, n+1]，刻度单位为 1
+            ctx.lineWidth = 1;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            ctx.setLineDash([4, 4]);
+            ctx.strokeStyle = '#ddd';
+
+            // X轴虚线网格
+            for (let val = -R - 2; val <= n + 1; val++) {
+                const x = toCanvasX(val);
+                ctx.beginPath();
+                ctx.moveTo(x, padding);
+                ctx.lineTo(x, canvas.height - padding);
+                ctx.stroke();
+            }
+
+            // Y轴虚线网格
+            for (let val = 0; val <= n + R + 1; val++) {
+                const y = toCanvasY(val);
+                ctx.beginPath();
+                ctx.moveTo(padding, y);
+                ctx.lineTo(canvas.width - padding, y);
+                ctx.stroke();
+            }
+
+            ctx.setLineDash([]);
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 1;
+
+            // X轴刻度标记
+            for (let val = -R - 2; val <= n + 1; val++) {
+                const x = toCanvasX(val);
+                ctx.beginPath();
+                ctx.moveTo(x, canvas.height - padding);
+                ctx.lineTo(x, canvas.height - padding + 5);
+                ctx.stroke();
+                ctx.fillStyle = '#333';
+                ctx.fillText(val.toString(), x, canvas.height - padding + 10);
+            }
+
+            // Y轴刻度标记
+            for (let val = 0; val <= n + R + 1; val++) {
+                const y = toCanvasY(val);
+                ctx.beginPath();
+                ctx.moveTo(yAxisX - 5, y);
+                ctx.lineTo(yAxisX, y);
+                ctx.stroke();
+                ctx.textAlign = 'right';
+                ctx.textBaseline = 'middle';
+                ctx.fillStyle = '#333';
+                ctx.fillText(val.toString(), yAxisX - 10, y);
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'top';
+            }
+
+            // ========== 定义平行四边形顶点 ==========
+            // 梯形四个顶点
+            const trapP1 = { x: i - R + 1, y: i };           // 梯形左下
+            const trapP2 = { x: i, y: i + R - 1 };           // 梯形右上
+            const trapP3 = { x: i, y: i + L - 1 };           // 梯形右中
+            const trapP4 = { x: i - L + 1, y: i };           // 梯形左中
+
+            // 竖直平行四边形：左右两边竖直（x=i-L+1 和 x=i），上下两边是斜线
+            // 下边：y = x + L - 1，左端点(i-L+1, i)，右端点(i, i+L-1)
+            // 上边：y = x + R - 1，左端点(i-L+1, i+R-L)，右端点(i, i+R-1)
+            const vertP1 = { x: i - L + 1, y: i };           // 左下
+            const vertP2 = { x: i, y: i + L - 1 };           // 右下
+            const vertP3 = { x: i, y: i + R - 1 };           // 右上
+            const vertP4 = { x: i - L + 1, y: i + R - L };   // 左上
+
+            // 水平平行四边形：上下两边水平（y=i 和 y=i+L-1），左右两边是斜线
+            // 下边：y = i，左端点(i-R+1, i)，右端点(i-L+1, i)
+            // 上边：y = i + L - 1，左端点(i-R+1+L-1, i+L-1)=(i+L-R-1, i+L-1)，右端点(i, i+L-1)
+            // 等等，需要找y=i+L-1在两条斜线上的x坐标
+            // 在y=x+L-1上：i+L-1 = x+L-1，所以 x=i
+            // 在y=x+R-1上：i+L-1 = x+R-1，所以 x=i+L-R
+            const horizP1 = { x: i - R + 1, y: i };          // 左下
+            const horizP2 = { x: i - L + 1, y: i };          // 右下
+            const horizP3 = { x: i, y: i + L - 1 };          // 右上
+            const horizP4 = { x: i + L - R, y: i + L - 1 };  // 左上
+
+            // 绘制梯形背景（浅色）
+            ctx.fillStyle = 'rgba(200, 220, 240, 0.3)';
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(trapP1.x), toCanvasY(trapP1.y));
+            ctx.lineTo(toCanvasX(trapP2.x), toCanvasY(trapP2.y));
+            ctx.lineTo(toCanvasX(trapP3.x), toCanvasY(trapP3.y));
+            ctx.lineTo(toCanvasX(trapP4.x), toCanvasY(trapP4.y));
+            ctx.closePath();
+            ctx.fill();
+
+            // 绘制竖直平行四边形（蓝色）
+            ctx.fillStyle = 'rgba(100, 150, 200, 0.4)';
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(vertP1.x), toCanvasY(vertP1.y));
+            ctx.lineTo(toCanvasX(vertP2.x), toCanvasY(vertP2.y));
+            ctx.lineTo(toCanvasX(vertP3.x), toCanvasY(vertP3.y));
+            ctx.lineTo(toCanvasX(vertP4.x), toCanvasY(vertP4.y));
+            ctx.closePath();
+            ctx.fill();
+            ctx.strokeStyle = 'rgba(50, 100, 150, 0.6)';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+
+            // 绘制水平平行四边形（红色）
+            ctx.fillStyle = 'rgba(200, 100, 100, 0.4)';
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(horizP1.x), toCanvasY(horizP1.y));
+            ctx.lineTo(toCanvasX(horizP2.x), toCanvasY(horizP2.y));
+            ctx.lineTo(toCanvasX(horizP3.x), toCanvasY(horizP3.y));
+            ctx.lineTo(toCanvasX(horizP4.x), toCanvasY(horizP4.y));
+            ctx.closePath();
+            ctx.fill();
+            ctx.strokeStyle = 'rgba(150, 50, 50, 0.6)';
+            ctx.lineWidth = 1;
+            ctx.stroke();
+
+            // 计算交集
+            // 竖直平行四边形顶点：vertP1(i-L+1,i), vertP2(i,i+L-1), vertP3(i,i+R-1), vertP4(i-L+1,i+R-L)
+            // 水平平行四边形顶点：horizP1(i-R+1,i), horizP2(i-L+1,i), horizP3(i,i+L-1), horizP4(i+L-R,i+L-1)
+
+            // 交集的顶点：
+            // 1. vertP1 = horizP2 = (i-L+1, i) 是共同顶点
+            // 2. vertP2 = horizP3 = (i, i+L-1) 是共同顶点
+            // 3. vertP4 = (i-L+1, i+R-L) 在水平平行四边形内吗？
+            //    检查：y = i+R-L 是否在 [i, i+L-1] 范围内？如果 R > L，则 i+R-L > i+L-1，不在范围内
+            // 4. 需要找竖直平行四边形的左上边与水平平行四边形上边的交点
+            //    竖直平行四边形左上边：x = i-L+1, y 从 i 到 i+R-L
+            //    水平平行四边形上边：y = i+L-1, x 从 i+L-R 到 i
+            //    交点：x = i-L+1, y = i+L-1，即 (i-L+1, i+L-1)
+            // 5. horizP4 = (i+L-R, i+L-1) 在竖直平行四边形内吗？
+            //    检查：x = i+L-R 是否在 [i-L+1, i] 范围内？
+            //    i+L-R >= i-L+1？ => 2L-R >= 1，如果 L >= R，否则不一定
+            //    x = i+L-R <= i？ => L <= R，通常满足
+            //    如果 L < R，则 i+L-R < i，i+L-R >= i-L+1 等价于 2L >= R+1
+
+            // 简单方法：交集就是 vertP1, vertP2, (i-L+1,i+L-1), horizP4 中符合条件的
+            const intersectionVertices = [];
+
+            // vertP1
+            intersectionVertices.push(vertP1);
+            // (i, i) 是否在两个平行四边形内？不一定
+            // vertP2
+            intersectionVertices.push(vertP2);
+            // (i-L+1, i+L-1) 
+            intersectionVertices.push({ x: i - L + 1, y: i + L - 1 });
+            // horizP4 是否需要？取决于它是否在竖直平行四边形内
+            // 对于horizP4 = (i+L-R, i+L-1)，需要检查是否在 [i-L+1, i] x [i, i+R-1]
+            if (i + L - R >= i - L + 1 && i + L - R <= i) {
+                intersectionVertices.push(horizP4);
+            }
+
+            // 按角度排序顶点
+            if (intersectionVertices.length >= 3) {
+                const center = {
+                    x: intersectionVertices.reduce((s, p) => s + p.x, 0) / intersectionVertices.length,
+                    y: intersectionVertices.reduce((s, p) => s + p.y, 0) / intersectionVertices.length
+                };
+                intersectionVertices.sort((a, b) => {
+                    return Math.atan2(a.y - center.y, a.x - center.x) - Math.atan2(b.y - center.y, b.x - center.x);
+                });
+
+                // 绘制交集区域（绿色）
+                ctx.fillStyle = 'rgba(100, 200, 100, 0.6)';
+                ctx.beginPath();
+                ctx.moveTo(toCanvasX(intersectionVertices[0].x), toCanvasY(intersectionVertices[0].y));
+                for (let k = 1; k < intersectionVertices.length; k++) {
+                    ctx.lineTo(toCanvasX(intersectionVertices[k].x), toCanvasY(intersectionVertices[k].y));
+                }
+                ctx.closePath();
+                ctx.fill();
+                ctx.strokeStyle = 'rgba(50, 150, 50, 0.8)';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+
+            // ========== 绘制四条直线 ==========
+            ctx.strokeStyle = '#999';
+            ctx.lineWidth = 1.5;
+            ctx.setLineDash([4, 4]);
+
+            // 直线1: y = x + R - 1
+            const line1Start = { x: -R - 2, y: -R - 2 + R - 1 };
+            const line1End = { x: n + 1, y: n + R };
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(line1Start.x), toCanvasY(line1Start.y));
+            ctx.lineTo(toCanvasX(line1End.x), toCanvasY(line1End.y));
+            ctx.stroke();
+
+            // 直线2: y = x + L - 1
+            const line2Start = { x: -R - 2, y: -R - 2 + L - 1 };
+            const line2End = { x: n + 1, y: n + L };
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(line2Start.x), toCanvasY(line2Start.y));
+            ctx.lineTo(toCanvasX(line2End.x), toCanvasY(line2End.y));
+            ctx.stroke();
+
+            // 直线3: y = i
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(-R - 2), toCanvasY(i));
+            ctx.lineTo(toCanvasX(n + 1), toCanvasY(i));
+            ctx.stroke();
+
+            // 直线4: x = i
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(i), toCanvasY(0));
+            ctx.lineTo(toCanvasX(i), toCanvasY(n + R + 1));
+            ctx.stroke();
+
+            // 直线5: x = n
+            ctx.beginPath();
+            ctx.moveTo(toCanvasX(n), toCanvasY(0));
+            ctx.lineTo(toCanvasX(n), toCanvasY(n + R + 1));
+            ctx.stroke();
+
+            ctx.setLineDash([]);
+
+            // 绘制直线方程标签，显示在对应直线附近
+            ctx.fillStyle = '#333';
+            ctx.font = 'bold 12px Arial';
+
+            // 直线1: y = x + R - 1 (显示在直线尽头的右侧)
+            // 在 x = n+1 处，y = n+1+R-1 = n+R
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText('y = x + R - 1', toCanvasX(xMax) + 5, toCanvasY(n + R) - 8);
+
+            // 直线2: y = x + L - 1 (显示在直线尽头的右侧)
+            // 在 x = n+1 处，y = n+1+L-1 = n+L
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'top';
+            ctx.fillText('y = x + L - 1', toCanvasX(xMax) + 5, toCanvasY(n + L) + 8);
+
+            // 直线3: y = i (显示在最左侧偏上一点)
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText('y = i', toCanvasX(xMin) + 5, toCanvasY(i) - 8);
+
+            // 直线4: x = i (显示在直线的最上面)
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText('x = i', toCanvasX(i), padding + 5);
+
+            // 直线5: x = n (显示在X坐标轴下面更远处)
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            ctx.fillText('x = n', toCanvasX(n), canvas.height - padding + 35);
+
+            // 标记关键点 (i, i)
+            ctx.fillStyle = '#e74c3c';
+            ctx.beginPath();
+            ctx.arc(toCanvasX(i), toCanvasY(i), 4, 0, 2 * Math.PI);
+            ctx.fill();
+
+            ctx.fillStyle = '#333';
+            ctx.font = 'bold 12px Arial';
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText(`(${i}, ${i})`, toCanvasX(i) + 8, toCanvasY(i) - 8);
+        }
+
+        // 初始绘制
+        draw();
+    </script>
+</body>
+
+</html>
