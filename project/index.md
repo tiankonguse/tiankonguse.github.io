@@ -13,6 +13,12 @@ title: 项目列表
             </p>
         </a>
     {% endfor %}
+        <a target="_blank" href="./noip-2025-d.html">
+            <p>
+                <strong> NOIP 2025 D - 二维坐标轴和梯形图 </strong>
+                <span>几何做法的可视化</span>
+            </p>
+        </a>
 </div>
 
 <script>
