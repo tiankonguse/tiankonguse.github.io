@@ -95,7 +95,7 @@ int Dfs(const int u, const int p, const ll groupId, const ll groupAllNum) {
 这样，对所有分组分别构造出的这些小树的总节点数是 `O(n)` 级别的。  
 
 
-![源码截图](https://res2025.tiankonguse.com/images/2025/12/26/001.png)  
+![源码截图](https://res2025.tiankonguse.com/images/2025/12/29/001.png)  
 
 
 接着再看第二张图。  
@@ -103,21 +103,21 @@ int Dfs(const int u, const int p, const ll groupId, const ll groupAllNum) {
 此时，在压缩得到的新树上，每条边都需要带上一个权值，表示它实际对应的原树中的边数。  
 
 
-![源码截图](https://res2025.tiankonguse.com/images/2025/12/26/002.png)  
+![源码截图](https://res2025.tiankonguse.com/images/2025/12/29/002.png)  
 
 
 再来看第三张图。  
 当分组内多条路径之间存在交点时，这些交点（也就是相应路径的 LCA）也必须作为新树中的节点保留下来。  
 
 
-![源码截图](https://res2025.tiankonguse.com/images/2025/12/26/003.png)  
+![源码截图](https://res2025.tiankonguse.com/images/2025/12/29/003.png)  
 
 
 最后，把所有这些情况综合起来：  
 对某个分组，我们保留分组内的所有节点及它们两两路径上的所有 LCA，删去其他与之无关的节点与边，并对路径中连续的边进行压缩，就得到了一棵新的树，这棵树就是这组节点对应的「虚树」。  
 
 
-![源码截图](https://res2025.tiankonguse.com/images/2025/12/26/004.png)  
+![源码截图](https://res2025.tiankonguse.com/images/2025/12/29/004.png)  
 
 
 所以，可以把虚树理解为：在一棵大树上，围绕某个分组节点，将与其相关的结构抽取出来并压缩后形成的一棵小树。  
@@ -161,7 +161,7 @@ int Dfs(const int u, const int p, const ll groupAllNum) {
 这里的相邻节点，指的是在整棵树的 DFS 序中相邻的那些分组节点。  
 
 
-![源码截图](https://res2025.tiankonguse.com/images/2025/12/26/005.png)  
+![源码截图](https://res2025.tiankonguse.com/images/2025/12/29/005.png)  
 
 
 要做到这一点，我们先对原树进行一遍 DFS，得到每个节点的 DFS 序号 `dfn[u]`：  
