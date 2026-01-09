@@ -4,7 +4,7 @@ title: GO 服务 QPS 上升 20%，耗时翻3倍案例分析
 description: 涉及到几个GO的知识点。  
 keywords: 技术  
 tags: [技术]    
-categories: [技术]  
+categories: [程序人生]  
 updateDate:  2023-09-26 18:13:00  
 published: true  
 ---  

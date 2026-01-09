@@ -4,7 +4,7 @@ title: python 创建 package 来与业务解耦
 description: 通过 package 解耦了协议，还解耦了 SDK 逻辑。  
 keywords: 项目实践  
 tags: [项目实践]    
-categories: [项目实践]  
+categories: [程序人生]  
 updateDate:  2023-02-03 18:13:00  
 published: true  
 ---  

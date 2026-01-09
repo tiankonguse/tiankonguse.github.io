@@ -4,7 +4,7 @@ title: 代码生成实战：本地DeepSeek与云端大模型Copilot/Cousor/Gemin
 description: 对比本地DeepSeek与五大云端大模型（Gemini/Copilot/Cousor/通义/MarsCode）的代码生成能力，最终得出本地模型效果不佳，云端大模型更为优越的结论，并分享了各模型的优缺点及使用体验。。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-02-28 12:13:00  
 published: true  
 ---

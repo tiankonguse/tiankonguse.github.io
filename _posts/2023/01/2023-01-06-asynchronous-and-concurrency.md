@@ -4,7 +4,7 @@ title: 切换 fiber coredump ? 你需要理解异步与并发
 description: 异步与并发是两个概念，但是很容易混淆。        
 keywords: 技术 
 tags: [技术]    
-categories: [技术]  
+categories: [程序人生]  
 updateDate:  2023-01-05 18:13:00  
 published: true  
 ---  

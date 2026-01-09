@@ -4,7 +4,7 @@ title: 考驾照（四）：科目二
 description: 不同车离合差异很大，后车镜和座椅是关键。
 keywords: 记录生活  
 tags: [记录生活]
-categories: [记录生活]  
+categories: [生活]  
 updateDate:  2023-12-23 19:13:00  
 published: true  
 ---  

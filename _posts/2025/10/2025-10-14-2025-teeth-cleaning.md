@@ -4,7 +4,7 @@ title: 2025年洗牙，如果你的牙有黑点，一定要去洗牙
 description: 每年一度的洗牙。  
 keywords: 健康生活  
 tags: [健康生活]  
-categories: [健康生活]  
+categories: [生活]  
 updateDate: 2025-10-14 12:13:00  
 published: true  
 ---

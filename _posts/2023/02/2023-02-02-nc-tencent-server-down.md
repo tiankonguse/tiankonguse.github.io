@@ -4,7 +4,7 @@ title: NC 攀岩馆的小程序挂了
 description: 研究了一下小程序的链路，解决了这个问题。  
 keywords: 项目实践  
 tags: [项目实践]    
-categories: [项目实践]  
+categories: [程序人生]  
 updateDate:  2023-02-02 18:13:00  
 published: true  
 ---  

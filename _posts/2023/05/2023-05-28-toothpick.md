@@ -4,7 +4,7 @@ title: 洗牙后决定买牙线棒了
 description: 没想到我的牙齿可以使用。          
 keywords: 健康生活  
 tags: [健康生活]    
-categories: [健康生活]  
+categories: [生活]  
 updateDate:  2023-05-28 18:13:00  
 published: true  
 ---  

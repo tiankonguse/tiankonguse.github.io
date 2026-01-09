@@ -4,7 +4,7 @@ title: ssh 端口转发
 description: 神奇的功能        
 keywords: 项目实践  
 tags: [项目实践]    
-categories: [项目实践]  
+categories: [程序人生]  
 updateDate:  2023-03-21 18:13:00  
 published: false  
 ---  

@@ -4,7 +4,7 @@ title: 2024五一假期西安与重庆之旅
 description: 五天假期，都在路上。
 keywords: 记录生活  
 tags: [记录生活]
-categories: [记录生活]  
+categories: [生活]  
 updateDate:  2024-06-10 19:13:00  
 published: true  
 ---  

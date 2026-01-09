@@ -4,7 +4,7 @@ title: 云平台接入大模型，实战效率飞起
 description: 这样看来，我并不看好元宝、豆包、kimi等。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-02-25 12:13:00  
 published: true  
 ---

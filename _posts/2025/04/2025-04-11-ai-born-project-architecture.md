@@ -4,7 +4,7 @@ title: 大模型自动刻画项目架构链路图
 description: 大模型太方便了，介绍下我的使用体验。  
 keywords: 项目实践 
 tags: [项目实践]  
-categories: [项目实践]  
+categories: [AIGC]  
 updateDate: 2025-04-11 12:13:00
 published: true  
 ---

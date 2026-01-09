@@ -4,7 +4,7 @@ title: chatGPT 每日问答002 - 美联储加息的影响
 description: 我不懂经济学，不知道是否正确。 
 keywords: chatGPT  
 tags: [chatGPT]    
-categories: [chatGPT]  
+categories: [AIGC]  
 updateDate:  2023-03-23 18:13:00  
 published: true  
 ---  

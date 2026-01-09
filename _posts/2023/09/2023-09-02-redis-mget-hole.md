@@ -4,7 +4,7 @@ title: batchGet 转化为 multiget 会更好吗？
 description: batchGet 并没有那么差，multiget 也没有那么好。  
 keywords: 技术  
 tags: [技术]    
-categories: [技术]  
+categories: [程序人生]  
 updateDate:  2023-09-02 18:13:00  
 published: true  
 ---  

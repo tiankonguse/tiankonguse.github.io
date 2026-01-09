@@ -4,7 +4,7 @@ title: 教你注册与使用 chatGPT
 description: 其实没有想象的那么复杂。 
 keywords: chatGPT  
 tags: [chatGPT]    
-categories: [chatGPT]  
+categories: [AIGC]  
 updateDate:  2023-03-23 18:13:00  
 published: true  
 ---  

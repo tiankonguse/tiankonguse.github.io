@@ -4,7 +4,7 @@ title: 考驾照（二）：报名
 description: 三十多岁，我终于打算考驾照了，第一件事是报名。
 keywords: 记录生活  
 tags: [记录生活]
-categories: [记录生活]  
+categories: [生活]  
 updateDate:  2023-12-01 18:13:00  
 published: true  
 ---  

@@ -4,7 +4,7 @@ title: 通过 AI 3分钟生成 leetcode 参赛表格
 description: AI 用来开发脚本太方便了。  
 keywords: 项目实践 
 tags: [项目实践]  
-categories: [项目实践]  
+categories: [AIGC]  
 updateDate: 2025-05-02 12:13:00
 published: true  
 ---

@@ -4,7 +4,7 @@ title: docker compose 实践
 description: 了解 docker compose 技术，并最终实践。  
 keywords: 项目实践  
 tags: [项目实践]    
-categories: [项目实践]  
+categories: [程序人生]  
 updateDate:  2023-02-25 18:13:00  
 published: true  
 ---  

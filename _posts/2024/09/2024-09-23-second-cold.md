@@ -4,7 +4,7 @@ title: 2024年第二次感冒
 description: 疲劳情况下很容易感冒      
 keywords: 健康生活    
 tags: [健康生活]  
-categories: [健康生活]  
+categories: [生活]  
 updateDate: 2024-09-23 22:13:00  
 published: true  
 ---

@@ -4,7 +4,7 @@ title: 科目一 错题
 description: 我是慢热型人格，刚开始感觉好难，最后目标是100分。
 keywords: 记录生活
 tags: [记录生活]
-categories: [记录生活]
+categories: [生活]
 updateDate: 2023-12-06 18:13:00
 published: true
 ---

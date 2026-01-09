@@ -4,7 +4,7 @@ title: 众所周知，狗是会咬人的，打狂犬疫苗小记
 description: 被狗咬了，狂犬疫苗报销下来了  
 keywords: 生活记录  
 tags: [生活记录]    
-categories: [生活记录]  
+categories: [生活]  
 updateDate:  2023-10-17 18:13:00  
 published: true  
 ---  

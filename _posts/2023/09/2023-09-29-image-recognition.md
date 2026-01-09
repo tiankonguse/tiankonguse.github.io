@@ -4,7 +4,7 @@ title: 纯手工分析图像与目标识别
 description: 了解大量图片相关知识。  
 keywords: 技术  
 tags: [技术]    
-categories: [技术]  
+categories: [程序人生]  
 updateDate:  2023-09-29 18:13:00  
 published: true  
 ---  

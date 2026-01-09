@@ -4,7 +4,7 @@ title: coplot 2分钟生成项目文档与 think 模式自动解决编译问题
 description: 拿到一个旧项目的代码，使用 coplot 来帮忙看下。  
 keywords: 项目实践 
 tags: [项目实践]  
-categories: [项目实践]  
+categories: [AIGC]  
 updateDate: 2025-04-23 12:13:00
 published: true  
 ---

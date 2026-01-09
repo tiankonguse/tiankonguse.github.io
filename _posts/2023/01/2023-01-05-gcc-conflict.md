@@ -4,7 +4,7 @@ title: 升级到gcc8，服务数据出错了，怎么回事?
 description: 要设计一个不强依赖编译器的系统。        
 keywords: 技术 
 tags: [技术]    
-categories: [技术]  
+categories: [程序人生]  
 updateDate:  2023-01-05 18:13:00  
 published: true  
 ---  

@@ -4,7 +4,7 @@ title: 2023年DEXA/DXA体脂率测量
 description: 好消息，深圳就可以测量。          
 keywords: 生活记录  
 tags: [生活记录]    
-categories: [生活记录]  
+categories: [生活]  
 updateDate:  2023-11-14 18:13:00  
 published: true  
 ---  

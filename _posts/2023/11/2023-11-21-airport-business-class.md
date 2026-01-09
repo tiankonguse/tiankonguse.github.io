@@ -4,7 +4,7 @@ title: 重庆机场 50 元体验头等舱
 description: 之前做过头等舱，没拍照，这次记录一下。          
 keywords: 记录生活  
 tags: [记录生活]    
-categories: [记录生活]  
+categories: [生活]  
 updateDate:  2023-11-21 18:13:00  
 published: true  
 ---  

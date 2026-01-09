@@ -4,7 +4,7 @@ title: 轻松掌握 Node.js：前端技术入门指南
 description: 这是一篇浅显易懂的 Node.js 入门文章目录框架，旨在帮助读者快速了解并入门 Node.js，从而更好地掌握前端技术。希望大家能轻松学会并愿意分享给更多的人。   
 keywords: 技术  
 tags: [技术]    
-categories: [技术]  
+categories: [程序人生]  
 updateDate:  2023-04-23 18:13:00  
 published: true  
 ---  

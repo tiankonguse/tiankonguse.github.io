@@ -4,7 +4,7 @@ title: vscode+DeepSeek，轻松进行代码解释、找BUG、重构
 description:  DeepSeek 本地部署后，就可以和日常开发结合起来了。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-02-27 12:13:00  
 published: true  
 ---

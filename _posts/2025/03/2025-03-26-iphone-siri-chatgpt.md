@@ -4,7 +4,7 @@ title: iPhone 通过 siri 问 DeepSeek 问题
 description: 快捷咨询问题。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-03-26 12:13:00
 published: true  
 ---

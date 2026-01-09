@@ -4,7 +4,7 @@ title: 考驾照（七）：练倒车入库、台风狂风暴雨上高速
 description: 继续约教练练习倒车入库、侧方停车，最后暴风雨中跑了一个小时高速。
 keywords: 记录生活  
 tags: [记录生活]
-categories: [记录生活]  
+categories: [生活]  
 updateDate:  2024-06-03 19:13:00  
 published: true  
 ---  

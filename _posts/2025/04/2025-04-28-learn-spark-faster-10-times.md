@@ -4,7 +4,7 @@ title: 学习了spark原理，任务性能提升13倍
 description: spark 背后的原理挺有意思的，学习后任务轻松提升10倍。  
 keywords: 项目实践 
 tags: [项目实践]  
-categories: [项目实践]  
+categories: [程序人生]  
 updateDate: 2025-04-27 12:13:00
 published: true  
 ---

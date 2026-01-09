@@ -4,7 +4,7 @@ title: 微信公众号接入AI大模型
 description: 快来体验下怎么样。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-02-23 12:13:00  
 published: true  
 ---

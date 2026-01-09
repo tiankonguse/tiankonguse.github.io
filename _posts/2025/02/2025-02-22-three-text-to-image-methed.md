@@ -4,7 +4,7 @@ title: 几个免费的 AI 生成图片的方法
 description: 图片画的质量挺高的。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG ]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-02-22 12:13:00  
 published: true  
 ---

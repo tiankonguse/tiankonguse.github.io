@@ -4,7 +4,7 @@ title: 黑心的阿里云，良心的腾讯云，我选择 chatgpt
 description: 阿里云免费的午餐不要吃。  
 keywords: 大模型, Deepseek, RAG 
 tags: [大模型, Deepseek, RAG]  
-categories: [大模型]  
+categories: [AIGC]  
 updateDate: 2025-03-13 12:13:00
 published: true  
 ---

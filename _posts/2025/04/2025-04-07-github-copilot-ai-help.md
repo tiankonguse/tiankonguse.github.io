@@ -4,7 +4,7 @@ title: 编程助手 copilot 几分钟做一个网站真的可以吗？
 description: 清明三天研究了一下 copilot ，分享下使用经验。  
 keywords: 项目实践 
 tags: [项目实践]  
-categories: [项目实践]  
+categories: [AIGC]  
 updateDate: 2025-04-07 12:13:00
 published: true  
 ---
