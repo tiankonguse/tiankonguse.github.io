@@ -6,3 +6,4 @@ _drafts/
 *.swp
 *~
 .vscode/
+.claude/settings.local.json
