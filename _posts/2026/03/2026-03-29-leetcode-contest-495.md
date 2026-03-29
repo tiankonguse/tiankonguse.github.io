@@ -1,6 +1,6 @@
 ---
 layout: post
-title: leetcode 周赛 499
+title: leetcode 周赛 495
 description: 带权并查集
 keywords: 算法,leetcode,算法比赛
 tags: [算法, leetcode, 算法比赛]
