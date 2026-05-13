@@ -8,3 +8,5 @@ _drafts/
 .vscode/
 .claude/settings.local.json
 tmp.log
+.omc/
+.codebuddy
