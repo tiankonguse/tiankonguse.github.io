@@ -115,18 +115,18 @@ if (digitRange > maxValDigitRange) {
 
 
 ```cpp
-    for (const ll v : nums) {
-      if (flag[v]) continue; // 剪枝
-      ll V = v;
-      while (V > 1) {
-        int k = randFactor[V];
-        if (flag[k] == 0) {
-          flag[k] = 1; // 剪枝
-          Solver(k);
-        }
-        V /= k;
-      }
+for (const ll v : nums) {
+  if (flag[v]) continue; // 剪枝
+  ll V = v;
+  while (V > 1) {
+    int k = randFactor[V];
+    if (flag[k] == 0) {
+      flag[k] = 1; // 剪枝
+      Solver(k);
     }
+    V /= k;
+  }
+}
 ```
 
 
@@ -153,20 +153,6 @@ if (digitRange > maxValDigitRange) {
 
 这次比赛难度适中，没想到四道题都过的人挺多的。  
 第三题过的人那么多，那应该根号算法求因子没有被卡超时。  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
