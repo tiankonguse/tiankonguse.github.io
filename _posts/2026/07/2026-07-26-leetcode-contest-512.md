@@ -226,7 +226,7 @@ ll C(ll n, ll r, ll mod) {
 
 
 ```cpp
-int dir4[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+int dir4[4][2] = { {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
 dp.assign(m, vector<vector<ll>>(n, vector<ll>(2, -1)));
 min_queue<tuple<ll, int, int, int>> que;  // <cost, x, y, flag>
