@@ -347,7 +347,7 @@ class Solution {
 
 
 ```cpp
-unordered_map<char, char> nextColor = {{'R', 'B'}, {'B', 'W'}, {'W', 'R'}};
+unordered_map<char, char> nextColor = { {'R', 'B'}, {'B', 'W'}, {'W', 'R'} };
 int root = -1;
 for (int i = 0; i < n; i++) {
   if (degree[i] == 1) {
