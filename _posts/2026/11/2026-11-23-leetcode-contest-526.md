@@ -173,6 +173,11 @@ ll Merge(ll a, const ll B) {
 这个求出来了，就可以把 c3 作为根了。  
 
 
+
+![](https://res2026.tiankonguse.com/images/2026/11/23/005.png)
+
+
+
 显然，这里需要把 c3 排除在外，然后求其他所有到 u 的路径的 0/1 最小路径值。  
 
 
